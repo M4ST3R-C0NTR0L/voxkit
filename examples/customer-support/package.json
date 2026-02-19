@@ -1,1 +1,19 @@
-ewogICJuYW1lIjogImN1c3RvbWVyLXN1cHBvcnQtYWdlbnQiLAogICJ2ZXJzaW9uIjogIjEuMC4wIiwKICAiZGVzY3JpcHRpb24iOiAiQ3VzdG9tZXIgc3VwcG9ydCB2b2ljZSBhZ2VudCBwb3dlcmVkIGJ5IFZveEtpdCIsCiAgInR5cGUiOiAibW9kdWxlIiwKICAic2NyaXB0cyI6IHsKICAgICJkZXYiOiAidm94a2l0IGRldiIsCiAgICAic3RhcnQiOiAidHN4IHNyYy9hZ2VudC50cyIsCiAgICAiYnVpbGQiOiAidHNjIgogIH0sCiAgImRlcGVuZGVuY2llcyI6IHsKICAgICJ2b3hraXQiOiAiXjEuMC4wIgogIH0sCiAgImRldkRlcGVuZGVuY2llcyI6IHsKICAgICJAdHlwZXMvbm9kZSI6ICJeMjAuMC4wIiwKICAgICJ0c3giOiAiXjQuMC4wIiwKICAgICJ0eXBlc2NyaXB0IjogIl41LjAuMCIKICB9Cn0K
+{
+  "name": "customer-support-agent",
+  "version": "1.0.0",
+  "description": "Customer support voice agent powered by VoxKit",
+  "type": "module",
+  "scripts": {
+    "dev": "voxkit dev",
+    "start": "tsx src/agent.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "voxkit": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

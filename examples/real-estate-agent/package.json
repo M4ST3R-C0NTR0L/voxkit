@@ -1,1 +1,19 @@
-ewogICJuYW1lIjogInJlYWwtZXN0YXRlLWFnZW50IiwKICAidmVyc2lvbiI6ICIxLjAuMCIsCiAgImRlc2NyaXB0aW9uIjogIlJlYWwgZXN0YXRlIHZvaWNlIGFnZW50IHBvd2VyZWQgYnkgVm94S2l0IiwKICAidHlwZSI6ICJtb2R1bGUiLAogICJzY3JpcHRzIjogewogICAgImRldiI6ICJ2b3hraXQgZGV2IiwKICAgICJzdGFydCI6ICJ0c3ggc3JjL2FnZW50LnRzIiwKICAgICJidWlsZCI6ICJ0c2MiCiAgfSwKICAiZGVwZW5kZW5jaWVzIjogewogICAgInZveGtpdCI6ICJeMS4wLjAiCiAgfSwKICAiZGV2RGVwZW5kZW5jaWVzIjogewogICAgIkB0eXBlcy9ub2RlIjogIl4yMC4wLjAiLAogICAgInRzeCI6ICJeNC4wLjAiLAogICAgInR5cGVzY3JpcHQiOiAiXjUuMC4wIgogIH0KfQo=
+{
+  "name": "real-estate-agent",
+  "version": "1.0.0",
+  "description": "Real estate voice agent powered by VoxKit",
+  "type": "module",
+  "scripts": {
+    "dev": "voxkit dev",
+    "start": "tsx src/agent.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "voxkit": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

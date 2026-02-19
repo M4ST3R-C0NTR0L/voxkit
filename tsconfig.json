@@ -1,1 +1,28 @@
-ewogICJjb21waWxlck9wdGlvbnMiOiB7CiAgICAidGFyZ2V0IjogIkVTMjAyMiIsCiAgICAibW9kdWxlIjogIk5vZGVOZXh0IiwKICAgICJtb2R1bGVSZXNvbHV0aW9uIjogIk5vZGVOZXh0IiwKICAgICJsaWIiOiBbIkVTMjAyMiJdLAogICAgImRlY2xhcmF0aW9uIjogdHJ1ZSwKICAgICJkZWNsYXJhdGlvbk1hcCI6IHRydWUsCiAgICAic291cmNlTWFwIjogdHJ1ZSwKICAgICJzdHJpY3QiOiB0cnVlLAogICAgIm5vSW1wbGljaXRBbnkiOiB0cnVlLAogICAgInN0cmljdE51bGxDaGVja3MiOiB0cnVlLAogICAgIm5vSW1wbGljaXRUaGlzIjogdHJ1ZSwKICAgICJhbHdheXNTdHJpY3QiOiB0cnVlLAogICAgIm5vVW51c2VkTG9jYWxzIjogZmFsc2UsCiAgICAibm9VbnVzZWRQYXJhbWV0ZXJzIjogZmFsc2UsCiAgICAibm9JbXBsaWNpdFJldHVybnMiOiB0cnVlLAogICAgIm5vRmFsbHRocm91Z2hDYXNlc0luU3dpdGNoIjogdHJ1ZSwKICAgICJlc01vZHVsZUludGVyb3AiOiB0cnVlLAogICAgInNraXBMaWJDaGVjayI6IHRydWUsCiAgICAiZm9yY2VDb25zaXN0ZW50Q2FzaW5nSW5GaWxlTmFtZXMiOiB0cnVlLAogICAgInJlc29sdmVKc29uTW9kdWxlIjogdHJ1ZSwKICAgICJvdXREaXIiOiAiLi9kaXN0IiwKICAgICJyb290RGlyIjogIi4vc3JjIgogIH0sCiAgImluY2x1ZGUiOiBbInNyYy8qKi8qIl0sCiAgImV4Y2x1ZGUiOiBbIm5vZGVfbW9kdWxlcyIsICJkaXN0IiwgInRlc3RzIiwgImV4YW1wbGVzIl0KfQo=
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2022"],
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "rootDir": "./src"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "tests", "examples"]
+}

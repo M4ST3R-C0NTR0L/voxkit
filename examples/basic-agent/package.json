@@ -1,1 +1,18 @@
-ewogICJuYW1lIjogImJhc2ljLWFnZW50IiwKICAidmVyc2lvbiI6ICIxLjAuMCIsCiAgImRlc2NyaXB0aW9uIjogIkJhc2ljIFZveEtpdCB2b2ljZSBhZ2VudCBleGFtcGxlIiwKICAidHlwZSI6ICJtb2R1bGUiLAogICJzY3JpcHRzIjogewogICAgImRldiI6ICJ2b3hraXQgZGV2IiwKICAgICJzdGFydCI6ICJub2RlIGRpc3QvYWdlbnQuanMiLAogICAgImJ1aWxkIjogInRzYyIKICB9LAogICJkZXBlbmRlbmNpZXMiOiB7CiAgICAidm94a2l0IjogIl4xLjAuMCIKICB9LAogICJkZXZEZXBlbmRlbmNpZXMiOiB7CiAgICAiQHR5cGVzL25vZGUiOiAiXjIwLjAuMCIsCiAgICAidHlwZXNjcmlwdCI6ICJeNS4wLjAiCiAgfQp9Cg==
+{
+  "name": "basic-agent",
+  "version": "1.0.0",
+  "description": "Basic VoxKit voice agent example",
+  "type": "module",
+  "scripts": {
+    "dev": "voxkit dev",
+    "start": "node dist/agent.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "voxkit": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

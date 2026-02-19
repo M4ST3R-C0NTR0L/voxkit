@@ -1,1 +1,91 @@
-ewogICJuYW1lIjogInZveGtpdCIsCiAgInZlcnNpb24iOiAiMS4wLjAiLAogICJkZXNjcmlwdGlvbiI6ICJPcGVuIHNvdXJjZSB2b2ljZSBhZ2VudCBmcmFtZXdvcmsg4oCUIGJ1aWxkIEFJIHZvaWNlIGFnZW50cyBpbiB+MjAgbGluZXMgb2YgVHlwZVNjcmlwdCIsCiAgInR5cGUiOiAibW9kdWxlIiwKICAibWFpbiI6ICIuL2Rpc3QvaW5kZXguanMiLAogICJtb2R1bGUiOiAiLi9kaXN0L2luZGV4LmpzIiwKICAidHlwZXMiOiAiLi9kaXN0L2luZGV4LmQudHMiLAogICJleHBvcnRzIjogewogICAgIi4iOiB7CiAgICAgICJpbXBvcnQiOiAiLi9kaXN0L2luZGV4LmpzIiwKICAgICAgInR5cGVzIjogIi4vZGlzdC9pbmRleC5kLnRzIgogICAgfSwKICAgICIuL3Byb3ZpZGVycyI6IHsKICAgICAgImltcG9ydCI6ICIuL2Rpc3QvcHJvdmlkZXJzL2luZGV4LmpzIiwKICAgICAgInR5cGVzIjogIi4vZGlzdC9wcm92aWRlcnMvaW5kZXguZC50cyIKICAgIH0KICB9LAogICJmaWxlcyI6IFsKICAgICJkaXN0IiwKICAgICJleGFtcGxlcyIsCiAgICAiUkVBRE1FLm1kIiwKICAgICJMSUNFTlNFIgogIF0sCiAgImJpbiI6IHsKICAgICJ2b3hraXQiOiAiLi9kaXN0L2NsaS9pbmRleC5qcyIKICB9LAogICJzY3JpcHRzIjogewogICAgImJ1aWxkIjogInRzdXAiLAogICAgImRldiI6ICJ0c3VwIC0td2F0Y2giLAogICAgInRlc3QiOiAidml0ZXN0IHJ1biIsCiAgICAidGVzdDp3YXRjaCI6ICJ2aXRlc3QiLAogICAgInRlc3Q6Y292ZXJhZ2UiOiAidml0ZXN0IHJ1biAtLWNvdmVyYWdlIiwKICAgICJsaW50IjogImVzbGludCBzcmMgLS1leHQgLnRzIiwKICAgICJ0eXBlY2hlY2siOiAidHNjIC0tbm9FbWl0IiwKICAgICJwcmVwdWJsaXNoT25seSI6ICJucG0gcnVuIGJ1aWxkICYmIG5wbSB0ZXN0IgogIH0sCiAgImtleXdvcmRzIjogWwogICAgInZvaWNlIiwKICAgICJhaSIsCiAgICAiYWdlbnQiLAogICAgIm9wZW5haSIsCiAgICAic3BlZWNoLXRvLXRleHQiLAogICAgInN0dCIsCiAgICAidHRzIiwKICAgICJ0ZXh0LXRvLXNwZWVjaCIsCiAgICAid2Vic29ja2V0IiwKICAgICJyZWFsdGltZSIsCiAgICAiY29udmVyc2F0aW9uIiwKICAgICJmcmFtZXdvcmsiLAogICAgImdwdC00byIsCiAgICAiY2xhdWRlIiwKICAgICJncm9rIiwKICAgICJkZWVwZ3JhbSIsCiAgICAidm94a2l0IgogIF0sCiAgImF1dGhvciI6ICJWb3hLaXQgQ29udHJpYnV0b3JzIiwKICAibGljZW5zZSI6ICJNSVQiLAogICJyZXBvc2l0b3J5IjogewogICAgInR5cGUiOiAiZ2l0IiwKICAgICJ1cmwiOiAiaHR0cHM6Ly9naXRodWIuY29tL3ZveGtpdC92b3hraXQuZ2l0IgogIH0sCiAgImJ1Z3MiOiB7CiAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS92b3hraXQvdm94a2l0L2lzc3VlcyIKICB9LAogICJob21lcGFnZSI6ICJodHRwczovL2dpdGh1Yi5jb20vdm94a2l0L3ZveGtpdCNyZWFkbWUiLAogICJkZXBlbmRlbmNpZXMiOiB7CiAgICAid3MiOiAiXjguMTYuMCIsCiAgICAiY29tbWFuZGVyIjogIl4xMS4xLjAiLAogICAgImNoYWxrIjogIl41LjMuMCIsCiAgICAiaW5xdWlyZXIiOiAiXjkuMi4xMiIsCiAgICAiZnMtZXh0cmEiOiAiXjExLjIuMCIsCiAgICAiY2hva2lkYXIiOiAiXjMuNS4zIgogIH0sCiAgImRldkRlcGVuZGVuY2llcyI6IHsKICAgICJAdHlwZXMvd3MiOiAiXjguNS4xMCIsCiAgICAiQHR5cGVzL25vZGUiOiAiXjIwLjExLjAiLAogICAgIkB0eXBlcy9mcy1leHRyYSI6ICJeMTEuMC40IiwKICAgICJAdHlwZXMvaW5xdWlyZXIiOiAiXjkuMC43IiwKICAgICJAdHlwZXNjcmlwdC1lc2xpbnQvZXNsaW50LXBsdWdpbiI6ICJeNi4xNS4wIiwKICAgICJAdHlwZXNjcmlwdC1lc2xpbnQvcGFyc2VyIjogIl42LjE1LjAiLAogICAgIkB2aXRlc3QvY292ZXJhZ2UtdjgiOiAiXjEuMi4wIiwKICAgICJlc2xpbnQiOiAiXjguNTYuMCIsCiAgICAidHN1cCI6ICJeOC4wLjEiLAogICAgInR5cGVzY3JpcHQiOiAiXjUuMy4zIiwKICAgICJ2aXRlc3QiOiAiXjEuMi4wIgogIH0sCiAgImVuZ2luZXMiOiB7CiAgICAibm9kZSI6ICI+PTE4LjAuMCIKICB9Cn0K
+{
+  "name": "voxkit",
+  "version": "1.0.0",
+  "description": "Open source voice agent framework — build AI voice agents in ~20 lines of TypeScript",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./providers": {
+      "import": "./dist/providers/index.js",
+      "types": "./dist/providers/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "bin": {
+    "voxkit": "./dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "voice",
+    "ai",
+    "agent",
+    "openai",
+    "speech-to-text",
+    "stt",
+    "tts",
+    "text-to-speech",
+    "websocket",
+    "realtime",
+    "conversation",
+    "framework",
+    "gpt-4o",
+    "claude",
+    "grok",
+    "deepgram",
+    "voxkit"
+  ],
+  "author": "VoxKit Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/voxkit/voxkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/voxkit/voxkit/issues"
+  },
+  "homepage": "https://github.com/voxkit/voxkit#readme",
+  "dependencies": {
+    "ws": "^8.16.0",
+    "commander": "^11.1.0",
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.12",
+    "fs-extra": "^11.2.0",
+    "chokidar": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.10",
+    "@types/node": "^20.11.0",
+    "@types/fs-extra": "^11.0.4",
+    "@types/inquirer": "^9.0.7",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "@vitest/coverage-v8": "^1.2.0",
+    "eslint": "^8.56.0",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
