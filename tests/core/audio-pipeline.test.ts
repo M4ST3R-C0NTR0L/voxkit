@@ -1,1 +1,117 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QsIGJlZm9yZUVhY2gsIHZpIH0gZnJvbSAndml0ZXN0JwppbXBvcnQgeyBBdWRpb1BpcGVsaW5lIH0gZnJvbSAnLi4vLi4vc3JjL2NvcmUvYXVkaW8tcGlwZWxpbmUuanMnCgpkZXNjcmliZSgnQXVkaW9QaXBlbGluZScsICgpID0+IHsKICBsZXQgcGlwZWxpbmU6IEF1ZGlvUGlwZWxpbmUKCiAgYmVmb3JlRWFjaCgoKSA9PiB7CiAgICBwaXBlbGluZSA9IG5ldyBBdWRpb1BpcGVsaW5lKHsKICAgICAgc2FtcGxlUmF0ZTogMjQwMDAsCiAgICAgIGNoYW5uZWxzOiAxLAogICAgICBmb3JtYXQ6ICdwY20xNicsCiAgICAgIGJ1ZmZlckR1cmF0aW9uTXM6IDUwCiAgICB9KQogIH0pCgogIGl0KCdzdGFydHMgYW5kIHN0b3BzIGNvcnJlY3RseScsICgpID0+IHsKICAgIGV4cGVjdChwaXBlbGluZS5nZXRJc1N0cmVhbWluZygpKS50b0JlKGZhbHNlKQogICAgcGlwZWxpbmUuc3RhcnQoKQogICAgZXhwZWN0KHBpcGVsaW5lLmdldElzU3RyZWFtaW5nKCkpLnRvQmUodHJ1ZSkKICAgIHBpcGVsaW5lLnN0b3AoKQogICAgZXhwZWN0KHBpcGVsaW5lLmdldElzU3RyZWFtaW5nKCkpLnRvQmUoZmFsc2UpCiAgfSkKCiAgaXQoJ2VtaXRzIGEgc3RhcnRlZCBldmVudCB3aGVuIHN0YXJ0ZWQnLCAoKSA9PiB7CiAgICBjb25zdCBzcHkgPSB2aS5mbigpCiAgICBwaXBlbGluZS5vbignc3RhcnRlZCcsIHNweSkKICAgIHBpcGVsaW5lLnN0YXJ0KCkKICAgIGV4cGVjdChzcHkpLnRvSGF2ZUJlZW5DYWxsZWRPbmNlKCkKICB9KQoKICBpdCgnZW1pdHMgYSBzdG9wcGVkIGV2ZW50IHdoZW4gc3RvcHBlZCcsICgpID0+IHsKICAgIGNvbnN0IHNweSA9IHZpLmZuKCkKICAgIHBpcGVsaW5lLm9uKCdzdG9wcGVkJywgc3B5KQogICAgcGlwZWxpbmUuc3RhcnQoKQogICAgcGlwZWxpbmUuc3RvcCgpCiAgICBleHBlY3Qoc3B5KS50b0hhdmVCZWVuQ2FsbGVkT25jZSgpCiAgfSkKCiAgaXQoJ2Ryb3BzIGNodW5rcyB3aGVuIG5vdCBzdHJlYW1pbmcnLCAoKSA9PiB7CiAgICBjb25zdCBjaHVua1NweSA9IHZpLmZuKCkKICAgIHBpcGVsaW5lLm9uKCdjaHVuaycsIGNodW5rU3B5KQogICAgY29uc3QgY2h1bmsgPSBuZXcgVWludDhBcnJheSg1MTIpCiAgICBwaXBlbGluZS5wcm9jZXNzQXVkaW9DaHVuayhjaHVuaykgICAvLyBub3Qgc3RhcnRlZAogICAgZXhwZWN0KGNodW5rU3B5KS5ub3QudG9IYXZlQmVlbkNhbGxlZCgpCiAgfSkKCiAgaXQoJ2VtaXRzIGNodW5rIGV2ZW50cyB3aGlsZSBzdHJlYW1pbmcnLCAoKSA9PiB7CiAgICBjb25zdCBzcHkgPSB2aS5mbigpCiAgICBwaXBlbGluZS5vbignY2h1bmsnLCBzcHkpCiAgICBwaXBlbGluZS5zdGFydCgpCiAgICBwaXBlbGluZS5wcm9jZXNzQXVkaW9DaHVuayhuZXcgVWludDhBcnJheSg1MTIpKQogICAgZXhwZWN0KHNweSkudG9IYXZlQmVlbkNhbGxlZE9uY2UoKQogIH0pCgogIGl0KCdmbHVzaGVzIGJ1ZmZlciBhbmQgcmVzZXRzIG9uIHN0b3AnLCAoKSA9PiB7CiAgICBjb25zdCBidWZmZXJTcHkgPSB2aS5mbigpCiAgICBwaXBlbGluZS5vbignYnVmZmVyJywgYnVmZmVyU3B5KQogICAgcGlwZWxpbmUuc3RhcnQoKQogICAgcGlwZWxpbmUucHJvY2Vzc0F1ZGlvQ2h1bmsobmV3IFVpbnQ4QXJyYXkoMTAwKSkKICAgIHBpcGVsaW5lLnN0b3AoKQogICAgZXhwZWN0KGJ1ZmZlclNweSkudG9IYXZlQmVlbkNhbGxlZCgpCiAgfSkKCiAgaXQoJ21hbnVhbGx5IGZsdXNoaW5nIHJldHVybnMgY29tYmluZWQgVWludDhBcnJheScsICgpID0+IHsKICAgIHBpcGVsaW5lLnN0YXJ0KCkKICAgIGNvbnN0IGEgPSBuZXcgVWludDhBcnJheShbMSwgMiwgM10pCiAgICBjb25zdCBiID0gbmV3IFVpbnQ4QXJyYXkoWzQsIDUsIDZdKQogICAgcGlwZWxpbmUucHJvY2Vzc0F1ZGlvQ2h1bmsoYSkKICAgIHBpcGVsaW5lLnByb2Nlc3NBdWRpb0NodW5rKGIpCiAgICBjb25zdCBmbHVzaGVkID0gcGlwZWxpbmUuZmx1c2hCdWZmZXIoKQogICAgZXhwZWN0KGZsdXNoZWQpLnRvQmVJbnN0YW5jZU9mKFVpbnQ4QXJyYXkpCiAgICBleHBlY3QoZmx1c2hlZD8ubGVuZ3RoKS50b0JlKDYpCiAgICBleHBlY3QoQXJyYXkuZnJvbShmbHVzaGVkISkpLnRvRXF1YWwoWzEsIDIsIDMsIDQsIDUsIDZdKQogIH0pCgogIGl0KCdyZXR1cm5zIG51bGwgZnJvbSBmbHVzaEJ1ZmZlciB3aGVuIGVtcHR5JywgKCkgPT4gewogICAgY29uc3QgcmVzdWx0ID0gcGlwZWxpbmUuZmx1c2hCdWZmZXIoKQogICAgZXhwZWN0KHJlc3VsdCkudG9CZU51bGwoKQogIH0pCgogIGl0KCdjcmVhdGVzIGEgdmFsaWQgYmFzZTY0IGF1ZGlvIFdTTWVzc2FnZScsICgpID0+IHsKICAgIGNvbnN0IGF1ZGlvID0gbmV3IFVpbnQ4QXJyYXkoWzAsIDEsIDIsIDNdKQogICAgY29uc3QgbXNnID0gcGlwZWxpbmUuY3JlYXRlQXVkaW9NZXNzYWdlKGF1ZGlvKQogICAgZXhwZWN0KG1zZy50eXBlKS50b0JlKCdhdWRpbycpCiAgICBleHBlY3QodHlwZW9mIG1zZy5kYXRhKS50b0JlKCdzdHJpbmcnKQogICAgLy8gUm91bmQtdHJpcAogICAgY29uc3QgZGVjb2RlZCA9IEJ1ZmZlci5mcm9tKG1zZy5kYXRhIGFzIHN0cmluZywgJ2Jhc2U2NCcpCiAgICBleHBlY3QoQXJyYXkuZnJvbShkZWNvZGVkKSkudG9FcXVhbChbMCwgMSwgMiwgM10pCiAgfSkKCiAgaXQoJ3BhcnNlcyBhdWRpbyBmcm9tIGEgV1NNZXNzYWdlJywgKCkgPT4gewogICAgY29uc3QgYXVkaW8gPSBuZXcgVWludDhBcnJheShbNywgOCwgOV0pCiAgICBjb25zdCBtc2cgPSBwaXBlbGluZS5jcmVhdGVBdWRpb01lc3NhZ2UoYXVkaW8pCiAgICBjb25zdCBwYXJzZWQgPSBwaXBlbGluZS5wYXJzZUF1ZGlvTWVzc2FnZShtc2cpCiAgICBleHBlY3QocGFyc2VkKS50b0JlSW5zdGFuY2VPZihVaW50OEFycmF5KQogICAgZXhwZWN0KEFycmF5LmZyb20ocGFyc2VkISkpLnRvRXF1YWwoWzcsIDgsIDldKQogIH0pCgogIGl0KCdyZXR1cm5zIG51bGwgZm9yIG5vbi1hdWRpbyBXU01lc3NhZ2VzJywgKCkgPT4gewogICAgY29uc3QgcmVzdWx0ID0gcGlwZWxpbmUucGFyc2VBdWRpb01lc3NhZ2UoeyB0eXBlOiAndGV4dCcsIGRhdGE6ICdoZWxsbycgfSkKICAgIGV4cGVjdChyZXN1bHQpLnRvQmVOdWxsKCkKICB9KQoKICBpdCgnVkFEIHJldHVybnMgaGFzU3BlZWNoOiB0cnVlIHdoZW4gZGlzYWJsZWQnLCAoKSA9PiB7CiAgICBjb25zdCBwID0gbmV3IEF1ZGlvUGlwZWxpbmUoeyBzYW1wbGVSYXRlOiAyNDAwMCwgY2hhbm5lbHM6IDEsIGZvcm1hdDogJ3BjbTE2JywgZW5hYmxlVkFEOiBmYWxzZSB9KQogICAgY29uc3QgeyBoYXNTcGVlY2gsIGNvbmZpZGVuY2UgfSA9IHAuYXBwbHlWQUQobmV3IFVpbnQ4QXJyYXkoMTAwKSkKICAgIGV4cGVjdChoYXNTcGVlY2gpLnRvQmUodHJ1ZSkKICAgIGV4cGVjdChjb25maWRlbmNlKS50b0JlKDEuMCkKICB9KQoKICBpdCgncmV0dXJucyBjdXJyZW50IGNvbmZpZyB2aWEgZ2V0Q29uZmlnKCknLCAoKSA9PiB7CiAgICBjb25zdCBjb25maWcgPSBwaXBlbGluZS5nZXRDb25maWcoKQogICAgZXhwZWN0KGNvbmZpZy5zYW1wbGVSYXRlKS50b0JlKDI0MDAwKQogICAgZXhwZWN0KGNvbmZpZy5jaGFubmVscykudG9CZSgxKQogICAgZXhwZWN0KGNvbmZpZy5mb3JtYXQpLnRvQmUoJ3BjbTE2JykKICB9KQp9KQo=
+import { describe, it, expect, beforeEach, vi } from 'vitest'
+import { AudioPipeline } from '../../src/core/audio-pipeline.js'
+
+describe('AudioPipeline', () => {
+  let pipeline: AudioPipeline
+
+  beforeEach(() => {
+    pipeline = new AudioPipeline({
+      sampleRate: 24000,
+      channels: 1,
+      format: 'pcm16',
+      bufferDurationMs: 50
+    })
+  })
+
+  it('starts and stops correctly', () => {
+    expect(pipeline.getIsStreaming()).toBe(false)
+    pipeline.start()
+    expect(pipeline.getIsStreaming()).toBe(true)
+    pipeline.stop()
+    expect(pipeline.getIsStreaming()).toBe(false)
+  })
+
+  it('emits a started event when started', () => {
+    const spy = vi.fn()
+    pipeline.on('started', spy)
+    pipeline.start()
+    expect(spy).toHaveBeenCalledOnce()
+  })
+
+  it('emits a stopped event when stopped', () => {
+    const spy = vi.fn()
+    pipeline.on('stopped', spy)
+    pipeline.start()
+    pipeline.stop()
+    expect(spy).toHaveBeenCalledOnce()
+  })
+
+  it('drops chunks when not streaming', () => {
+    const chunkSpy = vi.fn()
+    pipeline.on('chunk', chunkSpy)
+    const chunk = new Uint8Array(512)
+    pipeline.processAudioChunk(chunk)   // not started
+    expect(chunkSpy).not.toHaveBeenCalled()
+  })
+
+  it('emits chunk events while streaming', () => {
+    const spy = vi.fn()
+    pipeline.on('chunk', spy)
+    pipeline.start()
+    pipeline.processAudioChunk(new Uint8Array(512))
+    expect(spy).toHaveBeenCalledOnce()
+  })
+
+  it('flushes buffer and resets on stop', () => {
+    const bufferSpy = vi.fn()
+    pipeline.on('buffer', bufferSpy)
+    pipeline.start()
+    pipeline.processAudioChunk(new Uint8Array(100))
+    pipeline.stop()
+    expect(bufferSpy).toHaveBeenCalled()
+  })
+
+  it('manually flushing returns combined Uint8Array', () => {
+    pipeline.start()
+    const a = new Uint8Array([1, 2, 3])
+    const b = new Uint8Array([4, 5, 6])
+    pipeline.processAudioChunk(a)
+    pipeline.processAudioChunk(b)
+    const flushed = pipeline.flushBuffer()
+    expect(flushed).toBeInstanceOf(Uint8Array)
+    expect(flushed?.length).toBe(6)
+    expect(Array.from(flushed!)).toEqual([1, 2, 3, 4, 5, 6])
+  })
+
+  it('returns null from flushBuffer when empty', () => {
+    const result = pipeline.flushBuffer()
+    expect(result).toBeNull()
+  })
+
+  it('creates a valid base64 audio WSMessage', () => {
+    const audio = new Uint8Array([0, 1, 2, 3])
+    const msg = pipeline.createAudioMessage(audio)
+    expect(msg.type).toBe('audio')
+    expect(typeof msg.data).toBe('string')
+    // Round-trip
+    const decoded = Buffer.from(msg.data as string, 'base64')
+    expect(Array.from(decoded)).toEqual([0, 1, 2, 3])
+  })
+
+  it('parses audio from a WSMessage', () => {
+    const audio = new Uint8Array([7, 8, 9])
+    const msg = pipeline.createAudioMessage(audio)
+    const parsed = pipeline.parseAudioMessage(msg)
+    expect(parsed).toBeInstanceOf(Uint8Array)
+    expect(Array.from(parsed!)).toEqual([7, 8, 9])
+  })
+
+  it('returns null for non-audio WSMessages', () => {
+    const result = pipeline.parseAudioMessage({ type: 'text', data: 'hello' })
+    expect(result).toBeNull()
+  })
+
+  it('VAD returns hasSpeech: true when disabled', () => {
+    const p = new AudioPipeline({ sampleRate: 24000, channels: 1, format: 'pcm16', enableVAD: false })
+    const { hasSpeech, confidence } = p.applyVAD(new Uint8Array(100))
+    expect(hasSpeech).toBe(true)
+    expect(confidence).toBe(1.0)
+  })
+
+  it('returns current config via getConfig()', () => {
+    const config = pipeline.getConfig()
+    expect(config.sampleRate).toBe(24000)
+    expect(config.channels).toBe(1)
+    expect(config.format).toBe('pcm16')
+  })
+})

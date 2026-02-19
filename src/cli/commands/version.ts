@@ -1,1 +1,25 @@
-LyoqCiAqIFZveEtpdCBDTEkgLSBWZXJzaW9uIENvbW1hbmQKICovCgppbXBvcnQgY2hhbGsgZnJvbSAnY2hhbGsnCmltcG9ydCB7IHJlYWRGaWxlU3luYyB9IGZyb20gJ2ZzJwppbXBvcnQgeyByZXNvbHZlLCBkaXJuYW1lIH0gZnJvbSAncGF0aCcKaW1wb3J0IHsgZmlsZVVSTFRvUGF0aCB9IGZyb20gJ3VybCcKCmV4cG9ydCBmdW5jdGlvbiB2ZXJzaW9uQ29tbWFuZCgpOiB2b2lkIHsKICB0cnkgewogICAgLy8gVHJ5IHRvIHJlYWQgcGFja2FnZS5qc29uCiAgICBjb25zdCBfX2Rpcm5hbWUgPSBkaXJuYW1lKGZpbGVVUkxUb1BhdGgoaW1wb3J0Lm1ldGEudXJsKSkKICAgIGNvbnN0IHBhY2thZ2VQYXRoID0gcmVzb2x2ZShfX2Rpcm5hbWUsICcuLicsICcuLicsICcuLicsICdwYWNrYWdlLmpzb24nKQogICAgY29uc3QgcGFja2FnZUpzb24gPSBKU09OLnBhcnNlKHJlYWRGaWxlU3luYyhwYWNrYWdlUGF0aCwgJ3V0Zi04JykpCiAgICAKICAgIGNvbnNvbGUubG9nKGNoYWxrLmJsdWUoYFxu8J+Ome+4jyAgVm94S2l0IHYke3BhY2thZ2VKc29uLnZlcnNpb259XG5gKSkKICAgIGNvbnNvbGUubG9nKGNoYWxrLndoaXRlKHBhY2thZ2VKc29uLmRlc2NyaXB0aW9uKSkKICAgIGNvbnNvbGUubG9nKGNoYWxrLmdyYXkoYFxuUmVwb3NpdG9yeTogJHtwYWNrYWdlSnNvbi5yZXBvc2l0b3J5LnVybH1gKSkKICAgIGNvbnNvbGUubG9nKGNoYWxrLmdyYXkoYExpY2Vuc2U6ICR7cGFja2FnZUpzb24ubGljZW5zZX1cbmApKQogIH0gY2F0Y2ggewogICAgY29uc29sZS5sb2coY2hhbGsuYmx1ZSgnXG7wn46Z77iPICBWb3hLaXQgdjEuMC4wXG4nKSkKICAgIGNvbnNvbGUubG9nKGNoYWxrLndoaXRlKCdPcGVuIFNvdXJjZSBWb2ljZSBBZ2VudCBGcmFtZXdvcmtcbicpKQogIH0KfQo=
+/**
+ * VoxKit CLI - Version Command
+ */
+
+import chalk from 'chalk'
+import { readFileSync } from 'fs'
+import { resolve, dirname } from 'path'
+import { fileURLToPath } from 'url'
+
+export function versionCommand(): void {
+  try {
+    // Try to read package.json
+    const __dirname = dirname(fileURLToPath(import.meta.url))
+    const packagePath = resolve(__dirname, '..', '..', '..', 'package.json')
+    const packageJson = JSON.parse(readFileSync(packagePath, 'utf-8'))
+    
+    console.log(chalk.blue(`\n🎙️  VoxKit v${packageJson.version}\n`))
+    console.log(chalk.white(packageJson.description))
+    console.log(chalk.gray(`\nRepository: ${packageJson.repository.url}`))
+    console.log(chalk.gray(`License: ${packageJson.license}\n`))
+  } catch {
+    console.log(chalk.blue('\n🎙️  VoxKit v1.0.0\n'))
+    console.log(chalk.white('Open Source Voice Agent Framework\n'))
+  }
+}

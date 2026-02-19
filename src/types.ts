@@ -1,1 +1,162 @@
-LyoqCiAqIENvcmUgdHlwZXMgYW5kIGludGVyZmFjZXMgZm9yIFZveEtpdAogKi8KCi8vIFZvaWNlIG9wdGlvbnMKZXhwb3J0IHR5cGUgVm9pY2UgPSAnYWxsb3knIHwgJ2VjaG8nIHwgJ2ZhYmxlJyB8ICdvbnl4JyB8ICdub3ZhJyB8ICdzaGltbWVyJyB8IHN0cmluZwoKLy8gQXVkaW8gZm9ybWF0IG9wdGlvbnMKZXhwb3J0IHR5cGUgQXVkaW9Gb3JtYXQgPSAncGNtMTYnIHwgJ2c3MTFfdWxhdycgfCAnZzcxMV9hbGF3JwoKLy8gVHJhbnNjcmlwdCBzZWdtZW50IGZyb20gU1RUCmV4cG9ydCBpbnRlcmZhY2UgVHJhbnNjcmlwdFNlZ21lbnQgewogIGlkOiBzdHJpbmcKICB0ZXh0OiBzdHJpbmcKICBpc0ZpbmFsOiBib29sZWFuCiAgdGltZXN0YW1wOiBudW1iZXIKICBzcGVha2VyPzogc3RyaW5nCiAgY29uZmlkZW5jZT86IG51bWJlcgp9CgovLyBDb252ZXJzYXRpb24gbWVzc2FnZQpleHBvcnQgaW50ZXJmYWNlIENvbnZlcnNhdGlvbk1lc3NhZ2UgewogIHJvbGU6ICdzeXN0ZW0nIHwgJ3VzZXInIHwgJ2Fzc2lzdGFudCcgfCAnZnVuY3Rpb24nCiAgY29udGVudDogc3RyaW5nCiAgdGltZXN0YW1wPzogbnVtYmVyCiAgbWV0YWRhdGE/OiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPgp9CgovLyBMZWFkIGluZm9ybWF0aW9uIGV4dHJhY3RlZCBmcm9tIGNvbnZlcnNhdGlvbgpleHBvcnQgaW50ZXJmYWNlIExlYWRJbmZvIHsKICBuYW1lPzogc3RyaW5nCiAgZW1haWw/OiBzdHJpbmcKICBwaG9uZT86IHN0cmluZwogIGNvbXBhbnk/OiBzdHJpbmcKICBub3Rlcz86IHN0cmluZwogIGNvbmZpZGVuY2U6IHsKICAgIG5hbWU/OiBudW1iZXIKICAgIGVtYWlsPzogbnVtYmVyCiAgICBwaG9uZT86IG51bWJlcgogIH0KfQoKLy8gQ29udmVyc2F0aW9uIHN0YXRlCmV4cG9ydCBpbnRlcmZhY2UgQ29udmVyc2F0aW9uU3RhdGUgewogIGlkOiBzdHJpbmcKICBtZXNzYWdlczogQ29udmVyc2F0aW9uTWVzc2FnZVtdCiAgaXNBY3RpdmU6IGJvb2xlYW4KICBzdGFydGVkQXQ6IG51bWJlcgogIGxhc3RBY3Rpdml0eUF0OiBudW1iZXIKICBtZXRhZGF0YT86IFJlY29yZDxzdHJpbmcsIHVua25vd24+Cn0KCi8vIEF1ZGlvIHN0cmVhbSBjb25maWd1cmF0aW9uCmV4cG9ydCBpbnRlcmZhY2UgQXVkaW9Db25maWcgewogIHNhbXBsZVJhdGU6IG51bWJlcgogIGNoYW5uZWxzOiBudW1iZXIKICBmb3JtYXQ6IEF1ZGlvRm9ybWF0CiAgYnVmZmVyU2l6ZT86IG51bWJlcgp9CgovLyBQcm92aWRlciByZXNwb25zZQpleHBvcnQgaW50ZXJmYWNlIFByb3ZpZGVyUmVzcG9uc2UgewogIHRleHQ6IHN0cmluZwogIGF1ZGlvPzogVWludDhBcnJheQogIGRvbmU6IGJvb2xlYW4KICBtZXRhZGF0YT86IFJlY29yZDxzdHJpbmcsIHVua25vd24+Cn0KCi8vIEV2ZW50IGNhbGxiYWNrcwpleHBvcnQgdHlwZSBUcmFuc2NyaXB0Q2FsbGJhY2sgPSAodGV4dDogc3RyaW5nLCBzZWdtZW50OiBUcmFuc2NyaXB0U2VnbWVudCkgPT4gdm9pZApleHBvcnQgdHlwZSBSZXNwb25zZUNhbGxiYWNrID0gKHRleHQ6IHN0cmluZywgcmVzcG9uc2U6IFByb3ZpZGVyUmVzcG9uc2UpID0+IHZvaWQKZXhwb3J0IHR5cGUgTGVhZENhbGxiYWNrID0gKGxlYWQ6IExlYWRJbmZvLCBjb252ZXJzYXRpb246IENvbnZlcnNhdGlvblN0YXRlKSA9PiB2b2lkCmV4cG9ydCB0eXBlIEVycm9yQ2FsbGJhY2sgPSAoZXJyb3I6IEVycm9yLCBjb250ZXh0Pzogc3RyaW5nKSA9PiB2b2lkCmV4cG9ydCB0eXBlIENvbm5lY3Rpb25DYWxsYmFjayA9IChjb25uZWN0ZWQ6IGJvb2xlYW4pID0+IHZvaWQKCi8vIFZveEFnZW50IGNvbmZpZ3VyYXRpb24KZXhwb3J0IGludGVyZmFjZSBWb3hBZ2VudENvbmZpZyB7CiAgcHJvdmlkZXI6IEFJUHJvdmlkZXIKICB2b2ljZT86IFZvaWNlCiAgc3lzdGVtUHJvbXB0Pzogc3RyaW5nCiAgYXVkaW9Db25maWc/OiBQYXJ0aWFsPEF1ZGlvQ29uZmlnPgogIG9uVHJhbnNjcmlwdD86IFRyYW5zY3JpcHRDYWxsYmFjawogIG9uUmVzcG9uc2U/OiBSZXNwb25zZUNhbGxiYWNrCiAgb25MZWFkPzogTGVhZENhbGxiYWNrCiAgb25FcnJvcj86IEVycm9yQ2FsbGJhY2sKICBvbkNvbm5lY3Q/OiBDb25uZWN0aW9uQ2FsbGJhY2sKICBlbmFibGVMZWFkRXh0cmFjdGlvbj86IGJvb2xlYW4KICBtYXhDb252ZXJzYXRpb25EdXJhdGlvbj86IG51bWJlcgogIHNpbGVuY2VUaW1lb3V0TXM/OiBudW1iZXIKfQoKLy8gQUkgUHJvdmlkZXIgaW50ZXJmYWNlCmV4cG9ydCBpbnRlcmZhY2UgQUlQcm92aWRlciB7CiAgbmFtZTogc3RyaW5nCiAgaW5pdGlhbGl6ZSgpOiBQcm9taXNlPHZvaWQ+CiAgY29ubmVjdCgpOiBQcm9taXNlPHZvaWQ+CiAgZGlzY29ubmVjdCgpOiBQcm9taXNlPHZvaWQ+CiAgc2VuZEF1ZGlvKGF1ZGlvRGF0YTogVWludDhBcnJheSk6IFByb21pc2U8dm9pZD4KICBzZW5kVGV4dCh0ZXh0OiBzdHJpbmcpOiBQcm9taXNlPHZvaWQ+CiAgb25SZXNwb25zZShjYWxsYmFjazogKHJlc3BvbnNlOiBQcm92aWRlclJlc3BvbnNlKSA9PiB2b2lkKTogdm9pZAogIG9uVHJhbnNjcmlwdChjYWxsYmFjazogKHNlZ21lbnQ6IFRyYW5zY3JpcHRTZWdtZW50KSA9PiB2b2lkKTogdm9pZAogIG9uRXJyb3IoY2FsbGJhY2s6IChlcnJvcjogRXJyb3IpID0+IHZvaWQpOiB2b2lkCiAgZ2V0U3VwcG9ydGVkVm9pY2VzKCk6IFZvaWNlW10KICBzZXRWb2ljZSh2b2ljZTogVm9pY2UpOiB2b2lkCn0KCi8vIFBsdWdpbiBpbnRlcmZhY2UgZm9yIGV4dGVuZGluZyBmdW5jdGlvbmFsaXR5CmV4cG9ydCBpbnRlcmZhY2UgVm94S2l0UGx1Z2luIHsKICBuYW1lOiBzdHJpbmcKICBpbml0aWFsaXplKGFnZW50OiBWb3hBZ2VudCk6IFByb21pc2U8dm9pZD4gfCB2b2lkCiAgb25NZXNzYWdlPyhtZXNzYWdlOiBDb252ZXJzYXRpb25NZXNzYWdlKTogdm9pZAogIG9uVHJhbnNjcmlwdD8oc2VnbWVudDogVHJhbnNjcmlwdFNlZ21lbnQpOiB2b2lkCiAgb25MZWFkPyhsZWFkOiBMZWFkSW5mbyk6IHZvaWQKICBkZXN0cm95PygpOiBQcm9taXNlPHZvaWQ+IHwgdm9pZAp9CgovLyBWb3hBZ2VudCBjbGFzcyBwbGFjZWhvbGRlciBmb3IgdHlwZSByZWZlcmVuY2UKZXhwb3J0IGludGVyZmFjZSBWb3hBZ2VudCB7CiAgY29uZmlnOiBWb3hBZ2VudENvbmZpZwogIGNvbnZlcnNhdGlvbjogQ29udmVyc2F0aW9uU3RhdGUKICBpc0Nvbm5lY3RlZDogYm9vbGVhbgogIGNvbm5lY3QoKTogUHJvbWlzZTx2b2lkPgogIGRpc2Nvbm5lY3QoKTogUHJvbWlzZTx2b2lkPgogIHNlbmRUZXh0KHRleHQ6IHN0cmluZyk6IFByb21pc2U8dm9pZD4KICBsaXN0ZW4ocG9ydDogbnVtYmVyLCBob3N0Pzogc3RyaW5nKTogUHJvbWlzZTx2b2lkPgogIHN0b3AoKTogUHJvbWlzZTx2b2lkPgogIHVzZShwbHVnaW46IFZveEtpdFBsdWdpbik6IHZvaWQKICAvLyBFdmVudEVtaXR0ZXIgbWV0aG9kcwogIG9uKGV2ZW50OiBzdHJpbmcsIGxpc3RlbmVyOiAoLi4uYXJnczogdW5rbm93bltdKSA9PiB2b2lkKTogdGhpcwogIG9mZihldmVudDogc3RyaW5nLCBsaXN0ZW5lcjogKC4uLmFyZ3M6IHVua25vd25bXSkgPT4gdm9pZCk6IHRoaXMKICBlbWl0KGV2ZW50OiBzdHJpbmcsIC4uLmFyZ3M6IHVua25vd25bXSk6IGJvb2xlYW4KfQoKLy8gV2ViU29ja2V0IG1lc3NhZ2UgdHlwZXMKZXhwb3J0IGludGVyZmFjZSBXU01lc3NhZ2UgewogIHR5cGU6ICdhdWRpbycgfCAndGV4dCcgfCAndHJhbnNjcmlwdCcgfCAncmVzcG9uc2UnIHwgJ2Vycm9yJyB8ICdwaW5nJyB8ICdwb25nJyB8ICdjb25maWcnCiAgZGF0YTogdW5rbm93bgogIHRpbWVzdGFtcD86IG51bWJlcgogIGlkPzogc3RyaW5nCn0KCi8vIFNlcnZlciBjb25maWd1cmF0aW9uCmV4cG9ydCBpbnRlcmZhY2UgU2VydmVyQ29uZmlnIHsKICBwb3J0OiBudW1iZXIKICBob3N0Pzogc3RyaW5nCiAgY29ycz86IHsKICAgIG9yaWdpbjogc3RyaW5nIHwgc3RyaW5nW10KICAgIG1ldGhvZHM/OiBzdHJpbmdbXQogIH0KICBzc2w/OiB7CiAgICBjZXJ0OiBzdHJpbmcKICAgIGtleTogc3RyaW5nCiAgfQp9CgovLyBMb2dnZXIgaW50ZXJmYWNlCmV4cG9ydCBpbnRlcmZhY2UgTG9nZ2VyIHsKICBkZWJ1ZyhtZXNzYWdlOiBzdHJpbmcsIC4uLmFyZ3M6IHVua25vd25bXSk6IHZvaWQKICBpbmZvKG1lc3NhZ2U6IHN0cmluZywgLi4uYXJnczogdW5rbm93bltdKTogdm9pZAogIHdhcm4obWVzc2FnZTogc3RyaW5nLCAuLi5hcmdzOiB1bmtub3duW10pOiB2b2lkCiAgZXJyb3IobWVzc2FnZTogc3RyaW5nLCAuLi5hcmdzOiB1bmtub3duW10pOiB2b2lkCn0K
+/**
+ * Core types and interfaces for VoxKit
+ */
+
+// Voice options
+export type Voice = 'alloy' | 'echo' | 'fable' | 'onyx' | 'nova' | 'shimmer' | string
+
+// Audio format options
+export type AudioFormat = 'pcm16' | 'g711_ulaw' | 'g711_alaw'
+
+// Transcript segment from STT
+export interface TranscriptSegment {
+  id: string
+  text: string
+  isFinal: boolean
+  timestamp: number
+  speaker?: string
+  confidence?: number
+}
+
+// Conversation message
+export interface ConversationMessage {
+  role: 'system' | 'user' | 'assistant' | 'function'
+  content: string
+  timestamp?: number
+  metadata?: Record<string, unknown>
+}
+
+// Lead information extracted from conversation
+export interface LeadInfo {
+  name?: string
+  email?: string
+  phone?: string
+  company?: string
+  notes?: string
+  confidence: {
+    name?: number
+    email?: number
+    phone?: number
+  }
+}
+
+// Conversation state
+export interface ConversationState {
+  id: string
+  messages: ConversationMessage[]
+  isActive: boolean
+  startedAt: number
+  lastActivityAt: number
+  metadata?: Record<string, unknown>
+}
+
+// Audio stream configuration
+export interface AudioConfig {
+  sampleRate: number
+  channels: number
+  format: AudioFormat
+  bufferSize?: number
+}
+
+// Provider response
+export interface ProviderResponse {
+  text: string
+  audio?: Uint8Array
+  done: boolean
+  metadata?: Record<string, unknown>
+}
+
+// Event callbacks
+export type TranscriptCallback = (text: string, segment: TranscriptSegment) => void
+export type ResponseCallback = (text: string, response: ProviderResponse) => void
+export type LeadCallback = (lead: LeadInfo, conversation: ConversationState) => void
+export type ErrorCallback = (error: Error, context?: string) => void
+export type ConnectionCallback = (connected: boolean) => void
+
+// VoxAgent configuration
+export interface VoxAgentConfig {
+  provider: AIProvider
+  voice?: Voice
+  systemPrompt?: string
+  audioConfig?: Partial<AudioConfig>
+  onTranscript?: TranscriptCallback
+  onResponse?: ResponseCallback
+  onLead?: LeadCallback
+  onError?: ErrorCallback
+  onConnect?: ConnectionCallback
+  enableLeadExtraction?: boolean
+  maxConversationDuration?: number
+  silenceTimeoutMs?: number
+}
+
+// AI Provider interface
+export interface AIProvider {
+  name: string
+  initialize(): Promise<void>
+  connect(): Promise<void>
+  disconnect(): Promise<void>
+  sendAudio(audioData: Uint8Array): Promise<void>
+  sendText(text: string): Promise<void>
+  onResponse(callback: (response: ProviderResponse) => void): void
+  onTranscript(callback: (segment: TranscriptSegment) => void): void
+  onError(callback: (error: Error) => void): void
+  getSupportedVoices(): Voice[]
+  setVoice(voice: Voice): void
+}
+
+// Plugin interface for extending functionality
+export interface VoxKitPlugin {
+  name: string
+  initialize(agent: VoxAgent): Promise<void> | void
+  onMessage?(message: ConversationMessage): void
+  onTranscript?(segment: TranscriptSegment): void
+  onLead?(lead: LeadInfo): void
+  destroy?(): Promise<void> | void
+}
+
+// VoxAgent class placeholder for type reference
+export interface VoxAgent {
+  config: VoxAgentConfig
+  conversation: ConversationState
+  isConnected: boolean
+  connect(): Promise<void>
+  disconnect(): Promise<void>
+  sendText(text: string): Promise<void>
+  listen(port: number, host?: string): Promise<void>
+  stop(): Promise<void>
+  use(plugin: VoxKitPlugin): void
+  // EventEmitter methods
+  on(event: string, listener: (...args: unknown[]) => void): this
+  off(event: string, listener: (...args: unknown[]) => void): this
+  emit(event: string, ...args: unknown[]): boolean
+}
+
+// WebSocket message types
+export interface WSMessage {
+  type: 'audio' | 'text' | 'transcript' | 'response' | 'error' | 'ping' | 'pong' | 'config'
+  data: unknown
+  timestamp?: number
+  id?: string
+}
+
+// Server configuration
+export interface ServerConfig {
+  port: number
+  host?: string
+  cors?: {
+    origin: string | string[]
+    methods?: string[]
+  }
+  ssl?: {
+    cert: string
+    key: string
+  }
+}
+
+// Logger interface
+export interface Logger {
+  debug(message: string, ...args: unknown[]): void
+  info(message: string, ...args: unknown[]): void
+  warn(message: string, ...args: unknown[]): void
+  error(message: string, ...args: unknown[]): void
+}

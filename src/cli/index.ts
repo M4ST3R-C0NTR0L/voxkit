@@ -1,1 +1,85 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQovKioKICogVm94S2l0IENMSQogKiAKICogQ29tbWFuZHM6CiAqICAgdm94a2l0IGluaXQgPG5hbWU+ICAgICAtIFNjYWZmb2xkIGEgbmV3IHZvaWNlIGFnZW50CiAqICAgdm94a2l0IGRldiAgICAgICAgICAgICAtIFJ1biBsb2NhbGx5IHdpdGggaG90IHJlbG9hZAogKiAgIHZveGtpdCBkZXBsb3kgICAgICAgICAgLSBTaG93IGRlcGxveW1lbnQgaW5zdHJ1Y3Rpb25zCiAqLwoKaW1wb3J0IHsgQ29tbWFuZCB9IGZyb20gJ2NvbW1hbmRlcicKaW1wb3J0IGNoYWxrIGZyb20gJ2NoYWxrJwppbXBvcnQgeyBpbml0Q29tbWFuZCB9IGZyb20gJy4vY29tbWFuZHMvaW5pdC5qcycKaW1wb3J0IHsgZGV2Q29tbWFuZCB9IGZyb20gJy4vY29tbWFuZHMvZGV2LmpzJwppbXBvcnQgeyBkZXBsb3lDb21tYW5kIH0gZnJvbSAnLi9jb21tYW5kcy9kZXBsb3kuanMnCmltcG9ydCB7IHZlcnNpb25Db21tYW5kIH0gZnJvbSAnLi9jb21tYW5kcy92ZXJzaW9uLmpzJwoKY29uc3QgcHJvZ3JhbSA9IG5ldyBDb21tYW5kKCkKCnByb2dyYW0KICAubmFtZSgndm94a2l0JykKICAuZGVzY3JpcHRpb24oJ1ZveEtpdCAtIE9wZW4gU291cmNlIFZvaWNlIEFnZW50IEZyYW1ld29yaycpCiAgLnZlcnNpb24oJzEuMC4wJywgJy12LCAtLXZlcnNpb24nLCAnU2hvdyB2ZXJzaW9uIG51bWJlcicpCgovLyBJbml0IGNvbW1hbmQKcHJvZ3JhbQogIC5jb21tYW5kKCdpbml0JykKICAuYXJndW1lbnQoJzxuYW1lPicsICdOYW1lIG9mIHlvdXIgdm9pY2UgYWdlbnQgcHJvamVjdCcpCiAgLmRlc2NyaXB0aW9uKCdTY2FmZm9sZCBhIG5ldyB2b2ljZSBhZ2VudCBwcm9qZWN0JykKICAub3B0aW9uKCctdCwgLS10ZW1wbGF0ZSA8dGVtcGxhdGU+JywgJ1RlbXBsYXRlIHRvIHVzZSAoYmFzaWMsIHJlYWwtZXN0YXRlLCBjdXN0b21lci1zdXBwb3J0KScsICdiYXNpYycpCiAgLm9wdGlvbignLXAsIC0tcHJvdmlkZXIgPHByb3ZpZGVyPicsICdBSSBwcm92aWRlciAob3BlbmFpLCB4YWksIGFudGhyb3BpYyknLCAnb3BlbmFpJykKICAuYWN0aW9uKGFzeW5jIChuYW1lLCBvcHRpb25zKSA9PiB7CiAgICB0cnkgewogICAgICBhd2FpdCBpbml0Q29tbWFuZChuYW1lLCBvcHRpb25zKQogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgY29uc29sZS5lcnJvcihjaGFsay5yZWQoJ0Vycm9yOicpLCBlcnJvciBpbnN0YW5jZW9mIEVycm9yID8gZXJyb3IubWVzc2FnZSA6IGVycm9yKQogICAgICBwcm9jZXNzLmV4aXQoMSkKICAgIH0KICB9KQoKLy8gRGV2IGNvbW1hbmQKcHJvZ3JhbQogIC5jb21tYW5kKCdkZXYnKQogIC5kZXNjcmlwdGlvbignUnVuIHRoZSB2b2ljZSBhZ2VudCBsb2NhbGx5IHdpdGggaG90IHJlbG9hZCcpCiAgLm9wdGlvbignLXAsIC0tcG9ydCA8cG9ydD4nLCAnUG9ydCB0byBsaXN0ZW4gb24nLCAnMzAwMCcpCiAgLm9wdGlvbignLWgsIC0taG9zdCA8aG9zdD4nLCAnSG9zdCB0byBiaW5kIHRvJywgJ2xvY2FsaG9zdCcpCiAgLm9wdGlvbignLS1uby1yZWxvYWQnLCAnRGlzYWJsZSBob3QgcmVsb2FkJykKICAuYWN0aW9uKGFzeW5jIChvcHRpb25zKSA9PiB7CiAgICB0cnkgewogICAgICBhd2FpdCBkZXZDb21tYW5kKG9wdGlvbnMpCiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBjb25zb2xlLmVycm9yKGNoYWxrLnJlZCgnRXJyb3I6JyksIGVycm9yIGluc3RhbmNlb2YgRXJyb3IgPyBlcnJvci5tZXNzYWdlIDogZXJyb3IpCiAgICAgIHByb2Nlc3MuZXhpdCgxKQogICAgfQogIH0pCgovLyBEZXBsb3kgY29tbWFuZApwcm9ncmFtCiAgLmNvbW1hbmQoJ2RlcGxveScpCiAgLmRlc2NyaXB0aW9uKCdTaG93IGRlcGxveW1lbnQgaW5zdHJ1Y3Rpb25zIGZvciB2YXJpb3VzIHBsYXRmb3JtcycpCiAgLm9wdGlvbignLXAsIC0tcGxhdGZvcm0gPHBsYXRmb3JtPicsICdQbGF0Zm9ybSAocmFpbHdheSwgcmVuZGVyLCBmbHksIGRvY2tlciknKQogIC5hY3Rpb24oYXN5bmMgKG9wdGlvbnMpID0+IHsKICAgIHRyeSB7CiAgICAgIGF3YWl0IGRlcGxveUNvbW1hbmQob3B0aW9ucykKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIGNvbnNvbGUuZXJyb3IoY2hhbGsucmVkKCdFcnJvcjonKSwgZXJyb3IgaW5zdGFuY2VvZiBFcnJvciA/IGVycm9yLm1lc3NhZ2UgOiBlcnJvcikKICAgICAgcHJvY2Vzcy5leGl0KDEpCiAgICB9CiAgfSkKCi8vIFZlcnNpb24gY29tbWFuZCAoZXhwbGljaXQpCnByb2dyYW0KICAuY29tbWFuZCgndmVyc2lvbicpCiAgLmRlc2NyaXB0aW9uKCdTaG93IHZlcnNpb24gaW5mb3JtYXRpb24nKQogIC5hY3Rpb24oKCkgPT4gewogICAgdmVyc2lvbkNvbW1hbmQoKQogIH0pCgovLyBQYXJzZSBDTEkgYXJndW1lbnRzCnByb2dyYW0ucGFyc2UoKQoKLy8gU2hvdyBoZWxwIGlmIG5vIGNvbW1hbmQgcHJvdmlkZWQKaWYgKCFwcm9jZXNzLmFyZ3Yuc2xpY2UoMikubGVuZ3RoKSB7CiAgcHJvZ3JhbS5vdXRwdXRIZWxwKCkKfQo=
+#!/usr/bin/env node
+/**
+ * VoxKit CLI
+ * 
+ * Commands:
+ *   voxkit init <name>     - Scaffold a new voice agent
+ *   voxkit dev             - Run locally with hot reload
+ *   voxkit deploy          - Show deployment instructions
+ */
+
+import { Command } from 'commander'
+import chalk from 'chalk'
+import { initCommand } from './commands/init.js'
+import { devCommand } from './commands/dev.js'
+import { deployCommand } from './commands/deploy.js'
+import { versionCommand } from './commands/version.js'
+
+const program = new Command()
+
+program
+  .name('voxkit')
+  .description('VoxKit - Open Source Voice Agent Framework')
+  .version('1.0.0', '-v, --version', 'Show version number')
+
+// Init command
+program
+  .command('init')
+  .argument('<name>', 'Name of your voice agent project')
+  .description('Scaffold a new voice agent project')
+  .option('-t, --template <template>', 'Template to use (basic, real-estate, customer-support)', 'basic')
+  .option('-p, --provider <provider>', 'AI provider (openai, xai, anthropic)', 'openai')
+  .action(async (name, options) => {
+    try {
+      await initCommand(name, options)
+    } catch (error) {
+      console.error(chalk.red('Error:'), error instanceof Error ? error.message : error)
+      process.exit(1)
+    }
+  })
+
+// Dev command
+program
+  .command('dev')
+  .description('Run the voice agent locally with hot reload')
+  .option('-p, --port <port>', 'Port to listen on', '3000')
+  .option('-h, --host <host>', 'Host to bind to', 'localhost')
+  .option('--no-reload', 'Disable hot reload')
+  .action(async (options) => {
+    try {
+      await devCommand(options)
+    } catch (error) {
+      console.error(chalk.red('Error:'), error instanceof Error ? error.message : error)
+      process.exit(1)
+    }
+  })
+
+// Deploy command
+program
+  .command('deploy')
+  .description('Show deployment instructions for various platforms')
+  .option('-p, --platform <platform>', 'Platform (railway, render, fly, docker)')
+  .action(async (options) => {
+    try {
+      await deployCommand(options)
+    } catch (error) {
+      console.error(chalk.red('Error:'), error instanceof Error ? error.message : error)
+      process.exit(1)
+    }
+  })
+
+// Version command (explicit)
+program
+  .command('version')
+  .description('Show version information')
+  .action(() => {
+    versionCommand()
+  })
+
+// Parse CLI arguments
+program.parse()
+
+// Show help if no command provided
+if (!process.argv.slice(2).length) {
+  program.outputHelp()
+}

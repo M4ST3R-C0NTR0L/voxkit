@@ -1,1 +1,58 @@
-LyoqCiAqIFRyYW5zY3JpcHRMb2dnZXJQbHVnaW4KICoKICogTG9ncyBldmVyeSBjb252ZXJzYXRpb24gdHVybiB0byBzdGRvdXQgYW5kIG9wdGlvbmFsbHkKICogYXBwZW5kcyBhIEpTT04tTCB0cmFuc2NyaXB0IGZpbGUgZm9yIGxhdGVyIHJldmlldy4KICovCgppbXBvcnQgeyBhcHBlbmRGaWxlU3luYyB9IGZyb20gJ2ZzJwppbXBvcnQgdHlwZSB7IFZveEtpdFBsdWdpbiwgVm94QWdlbnQsIENvbnZlcnNhdGlvbk1lc3NhZ2UsIFRyYW5zY3JpcHRTZWdtZW50IH0gZnJvbSAnLi4vdHlwZXMuanMnCgpleHBvcnQgaW50ZXJmYWNlIFRyYW5zY3JpcHRMb2dnZXJDb25maWcgewogIC8qKiBXcml0ZSB0cmFuc2NyaXB0cyB0byBhIGZpbGUgKEpTT04tTCBmb3JtYXQpLiBPbWl0IHRvIGxvZyB0byBjb25zb2xlIG9ubHkuICovCiAgZmlsZVBhdGg/OiBzdHJpbmcKICAvKiogU2hvdyB0aW1lc3RhbXBzIGluIGNvbnNvbGUgb3V0cHV0IChkZWZhdWx0OiB0cnVlKSAqLwogIHRpbWVzdGFtcHM/OiBib29sZWFuCiAgLyoqIFByZWZpeCBldmVyeSBsaW5lIHdpdGggYSB0YWcgKGRlZmF1bHQ6ICdbdHJhbnNjcmlwdF0nKSAqLwogIHRhZz86IHN0cmluZwp9CgpleHBvcnQgY2xhc3MgVHJhbnNjcmlwdExvZ2dlclBsdWdpbiBpbXBsZW1lbnRzIFZveEtpdFBsdWdpbiB7CiAgbmFtZSA9ICd0cmFuc2NyaXB0LWxvZ2dlcicKCiAgcHJpdmF0ZSBjb25maWc6IFJlcXVpcmVkPFRyYW5zY3JpcHRMb2dnZXJDb25maWc+CiAgcHJpdmF0ZSBhZ2VudCE6IFZveEFnZW50CgogIGNvbnN0cnVjdG9yKGNvbmZpZzogVHJhbnNjcmlwdExvZ2dlckNvbmZpZyA9IHt9KSB7CiAgICB0aGlzLmNvbmZpZyA9IHsKICAgICAgZmlsZVBhdGg6IGNvbmZpZy5maWxlUGF0aCA/PyAnJywKICAgICAgdGltZXN0YW1wczogY29uZmlnLnRpbWVzdGFtcHMgPz8gdHJ1ZSwKICAgICAgdGFnOiBjb25maWcudGFnID8/ICdbdHJhbnNjcmlwdF0nCiAgICB9CiAgfQoKICBpbml0aWFsaXplKGFnZW50OiBWb3hBZ2VudCk6IHZvaWQgewogICAgdGhpcy5hZ2VudCA9IGFnZW50CiAgfQoKICBvbk1lc3NhZ2UobWVzc2FnZTogQ29udmVyc2F0aW9uTWVzc2FnZSk6IHZvaWQgewogICAgY29uc3QgdHMgPSB0aGlzLmNvbmZpZy50aW1lc3RhbXBzID8gYFske25ldyBEYXRlKCkudG9JU09TdHJpbmcoKX1dIGAgOiAnJwogICAgY29uc3QgcHJlZml4ID0gYCR7dGhpcy5jb25maWcudGFnfSAke3RzfSR7bWVzc2FnZS5yb2xlLnBhZEVuZCg5KX1gCiAgICBjb25zb2xlLmxvZyhgJHtwcmVmaXh9OiAke21lc3NhZ2UuY29udGVudH1gKQoKICAgIGlmICh0aGlzLmNvbmZpZy5maWxlUGF0aCkgewogICAgICBjb25zdCBsaW5lID0gSlNPTi5zdHJpbmdpZnkoewogICAgICAgIHRzOiBEYXRlLm5vdygpLAogICAgICAgIHJvbGU6IG1lc3NhZ2Uucm9sZSwKICAgICAgICBjb250ZW50OiBtZXNzYWdlLmNvbnRlbnQKICAgICAgfSkKICAgICAgYXBwZW5kRmlsZVN5bmModGhpcy5jb25maWcuZmlsZVBhdGgsIGxpbmUgKyAnXG4nLCAndXRmOCcpCiAgICB9CiAgfQoKICBvblRyYW5zY3JpcHQoc2VnbWVudDogVHJhbnNjcmlwdFNlZ21lbnQpOiB2b2lkIHsKICAgIGlmICghc2VnbWVudC5pc0ZpbmFsKSB7CiAgICAgIHByb2Nlc3Muc3Rkb3V0LndyaXRlKGBcciR7dGhpcy5jb25maWcudGFnfSBpbnRlcmltOiAke3NlZ21lbnQudGV4dH1gKQogICAgfQogIH0KfQo=
+/**
+ * TranscriptLoggerPlugin
+ *
+ * Logs every conversation turn to stdout and optionally
+ * appends a JSON-L transcript file for later review.
+ */
+
+import { appendFileSync } from 'fs'
+import type { VoxKitPlugin, VoxAgent, ConversationMessage, TranscriptSegment } from '../types.js'
+
+export interface TranscriptLoggerConfig {
+  /** Write transcripts to a file (JSON-L format). Omit to log to console only. */
+  filePath?: string
+  /** Show timestamps in console output (default: true) */
+  timestamps?: boolean
+  /** Prefix every line with a tag (default: '[transcript]') */
+  tag?: string
+}
+
+export class TranscriptLoggerPlugin implements VoxKitPlugin {
+  name = 'transcript-logger'
+
+  private config: Required<TranscriptLoggerConfig>
+  private agent!: VoxAgent
+
+  constructor(config: TranscriptLoggerConfig = {}) {
+    this.config = {
+      filePath: config.filePath ?? '',
+      timestamps: config.timestamps ?? true,
+      tag: config.tag ?? '[transcript]'
+    }
+  }
+
+  initialize(agent: VoxAgent): void {
+    this.agent = agent
+  }
+
+  onMessage(message: ConversationMessage): void {
+    const ts = this.config.timestamps ? `[${new Date().toISOString()}] ` : ''
+    const prefix = `${this.config.tag} ${ts}${message.role.padEnd(9)}`
+    console.log(`${prefix}: ${message.content}`)
+
+    if (this.config.filePath) {
+      const line = JSON.stringify({
+        ts: Date.now(),
+        role: message.role,
+        content: message.content
+      })
+      appendFileSync(this.config.filePath, line + '\n', 'utf8')
+    }
+  }
+
+  onTranscript(segment: TranscriptSegment): void {
+    if (!segment.isFinal) {
+      process.stdout.write(`\r${this.config.tag} interim: ${segment.text}`)
+    }
+  }
+}

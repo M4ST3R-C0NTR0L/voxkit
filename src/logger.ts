@@ -1,1 +1,44 @@
-LyoqCiAqIExvZ2dlciB1dGlsaXR5IGZvciBWb3hLaXQKICovCgppbXBvcnQgdHlwZSB7IExvZ2dlciB9IGZyb20gJy4vdHlwZXMuanMnCgpleHBvcnQgY2xhc3MgVm94S2l0TG9nZ2VyIGltcGxlbWVudHMgTG9nZ2VyIHsKICBwcml2YXRlIG5hbWVzcGFjZTogc3RyaW5nCiAgcHJpdmF0ZSBkZWJ1Z0VuYWJsZWQ6IGJvb2xlYW4KCiAgY29uc3RydWN0b3IobmFtZXNwYWNlOiBzdHJpbmcgPSAndm94a2l0JywgZGVidWdFbmFibGVkID0gZmFsc2UpIHsKICAgIHRoaXMubmFtZXNwYWNlID0gbmFtZXNwYWNlCiAgICB0aGlzLmRlYnVnRW5hYmxlZCA9IGRlYnVnRW5hYmxlZCB8fCBwcm9jZXNzLmVudi5WT1hLSVRfREVCVUcgPT09ICd0cnVlJwogIH0KCiAgcHJpdmF0ZSBmb3JtYXRNZXNzYWdlKGxldmVsOiBzdHJpbmcsIG1lc3NhZ2U6IHN0cmluZyk6IHN0cmluZyB7CiAgICBjb25zdCB0aW1lc3RhbXAgPSBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCkKICAgIHJldHVybiBgWyR7dGltZXN0YW1wfV0gWyR7bGV2ZWwudG9VcHBlckNhc2UoKX1dIFske3RoaXMubmFtZXNwYWNlfV0gJHttZXNzYWdlfWAKICB9CgogIGRlYnVnKG1lc3NhZ2U6IHN0cmluZywgLi4uYXJnczogdW5rbm93bltdKTogdm9pZCB7CiAgICBpZiAodGhpcy5kZWJ1Z0VuYWJsZWQpIHsKICAgICAgY29uc29sZS5kZWJ1Zyh0aGlzLmZvcm1hdE1lc3NhZ2UoJ2RlYnVnJywgbWVzc2FnZSksIC4uLmFyZ3MpCiAgICB9CiAgfQoKICBpbmZvKG1lc3NhZ2U6IHN0cmluZywgLi4uYXJnczogdW5rbm93bltdKTogdm9pZCB7CiAgICBjb25zb2xlLmluZm8odGhpcy5mb3JtYXRNZXNzYWdlKCdpbmZvJywgbWVzc2FnZSksIC4uLmFyZ3MpCiAgfQoKICB3YXJuKG1lc3NhZ2U6IHN0cmluZywgLi4uYXJnczogdW5rbm93bltdKTogdm9pZCB7CiAgICBjb25zb2xlLndhcm4odGhpcy5mb3JtYXRNZXNzYWdlKCd3YXJuJywgbWVzc2FnZSksIC4uLmFyZ3MpCiAgfQoKICBlcnJvcihtZXNzYWdlOiBzdHJpbmcsIC4uLmFyZ3M6IHVua25vd25bXSk6IHZvaWQgewogICAgY29uc29sZS5lcnJvcih0aGlzLmZvcm1hdE1lc3NhZ2UoJ2Vycm9yJywgbWVzc2FnZSksIC4uLmFyZ3MpCiAgfQoKICBjaGlsZChuYW1lc3BhY2U6IHN0cmluZyk6IFZveEtpdExvZ2dlciB7CiAgICByZXR1cm4gbmV3IFZveEtpdExvZ2dlcihgJHt0aGlzLm5hbWVzcGFjZX06JHtuYW1lc3BhY2V9YCwgdGhpcy5kZWJ1Z0VuYWJsZWQpCiAgfQp9CgpleHBvcnQgY29uc3QgbG9nZ2VyID0gbmV3IFZveEtpdExvZ2dlcigndm94a2l0JykK
+/**
+ * Logger utility for VoxKit
+ */
+
+import type { Logger } from './types.js'
+
+export class VoxKitLogger implements Logger {
+  private namespace: string
+  private debugEnabled: boolean
+
+  constructor(namespace: string = 'voxkit', debugEnabled = false) {
+    this.namespace = namespace
+    this.debugEnabled = debugEnabled || process.env.VOXKIT_DEBUG === 'true'
+  }
+
+  private formatMessage(level: string, message: string): string {
+    const timestamp = new Date().toISOString()
+    return `[${timestamp}] [${level.toUpperCase()}] [${this.namespace}] ${message}`
+  }
+
+  debug(message: string, ...args: unknown[]): void {
+    if (this.debugEnabled) {
+      console.debug(this.formatMessage('debug', message), ...args)
+    }
+  }
+
+  info(message: string, ...args: unknown[]): void {
+    console.info(this.formatMessage('info', message), ...args)
+  }
+
+  warn(message: string, ...args: unknown[]): void {
+    console.warn(this.formatMessage('warn', message), ...args)
+  }
+
+  error(message: string, ...args: unknown[]): void {
+    console.error(this.formatMessage('error', message), ...args)
+  }
+
+  child(namespace: string): VoxKitLogger {
+    return new VoxKitLogger(`${this.namespace}:${namespace}`, this.debugEnabled)
+  }
+}
+
+export const logger = new VoxKitLogger('voxkit')

@@ -1,1 +1,126 @@
-LyoqCiAqIFZveEtpdCBDTEkgLSBEZXYgQ29tbWFuZAogKiBSdW4gdGhlIHZvaWNlIGFnZW50IGxvY2FsbHkgd2l0aCBob3QgcmVsb2FkCiAqLwoKaW1wb3J0IHsgc3Bhd24gfSBmcm9tICdjaGlsZF9wcm9jZXNzJwppbXBvcnQgeyB3YXRjaCB9IGZyb20gJ2Nob2tpZGFyJwppbXBvcnQgeyBleGlzdHNTeW5jIH0gZnJvbSAnZnMnCmltcG9ydCB7IHJlc29sdmUgfSBmcm9tICdwYXRoJwppbXBvcnQgY2hhbGsgZnJvbSAnY2hhbGsnCgppbnRlcmZhY2UgRGV2T3B0aW9ucyB7CiAgcG9ydDogc3RyaW5nCiAgaG9zdDogc3RyaW5nCiAgcmVsb2FkOiBib29sZWFuCn0KCmxldCBjaGlsZFByb2Nlc3M6IFJldHVyblR5cGU8dHlwZW9mIHNwYXduPiB8IG51bGwgPSBudWxsCgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZGV2Q29tbWFuZChvcHRpb25zOiBEZXZPcHRpb25zKTogUHJvbWlzZTx2b2lkPiB7CiAgY29uc3QgYWdlbnRQYXRoID0gcmVzb2x2ZShwcm9jZXNzLmN3ZCgpLCAnc3JjJywgJ2FnZW50LnRzJykKICAKICBpZiAoIWV4aXN0c1N5bmMoYWdlbnRQYXRoKSkgewogICAgdGhyb3cgbmV3IEVycm9yKCdObyBhZ2VudC50cyBmb3VuZCBpbiBzcmMvLiBSdW4gYHZveGtpdCBpbml0YCBmaXJzdC4nKQogIH0KCiAgY29uc29sZS5sb2coY2hhbGsuYmx1ZSgn8J+Ome+4jyAgU3RhcnRpbmcgVm94S2l0IGRldmVsb3BtZW50IHNlcnZlci4uLlxuJykpCiAgY29uc29sZS5sb2coY2hhbGsuZ3JheShgUG9ydDogJHtvcHRpb25zLnBvcnR9YCkpCiAgY29uc29sZS5sb2coY2hhbGsuZ3JheShgSG9zdDogJHtvcHRpb25zLmhvc3R9YCkpCiAgY29uc29sZS5sb2coY2hhbGsuZ3JheShgSG90IHJlbG9hZDogJHtvcHRpb25zLnJlbG9hZCA/ICdlbmFibGVkJyA6ICdkaXNhYmxlZCd9XG5gKSkKCiAgLy8gU3RhcnQgdGhlIGFnZW50CiAgYXdhaXQgc3RhcnRBZ2VudChhZ2VudFBhdGgsIG9wdGlvbnMpCgogIC8vIFNldCB1cCBmaWxlIHdhdGNoaW5nIGlmIGhvdCByZWxvYWQgaXMgZW5hYmxlZAogIGlmIChvcHRpb25zLnJlbG9hZCkgewogICAgY29uc3Qgd2F0Y2hlciA9IHdhdGNoKCdzcmMvKiovKi50cycsIHsKICAgICAgY3dkOiBwcm9jZXNzLmN3ZCgpLAogICAgICBpZ25vcmVJbml0aWFsOiB0cnVlCiAgICB9KQoKICAgIHdhdGNoZXIub24oJ2NoYW5nZScsIGFzeW5jIChwYXRoKSA9PiB7CiAgICAgIGNvbnNvbGUubG9nKGNoYWxrLnllbGxvdyhgXFxu8J+TnSBGaWxlIGNoYW5nZWQ6ICR7cGF0aH1gKSkKICAgICAgY29uc29sZS5sb2coY2hhbGsuYmx1ZSgn8J+UhCBSZXN0YXJ0aW5nIGFnZW50Li4uXFxuJykpCiAgICAgIAogICAgICBhd2FpdCBzdG9wQWdlbnQoKQogICAgICBhd2FpdCBzdGFydEFnZW50KGFnZW50UGF0aCwgb3B0aW9ucykKICAgIH0pCgogICAgY29uc29sZS5sb2coY2hhbGsuY3lhbign8J+RgCBXYXRjaGluZyBmb3IgZmlsZSBjaGFuZ2VzLi4uXG4nKSkKICB9CgogIC8vIEhhbmRsZSBncmFjZWZ1bCBzaHV0ZG93bgogIHByb2Nlc3Mub24oJ1NJR0lOVCcsIGFzeW5jICgpID0+IHsKICAgIGNvbnNvbGUubG9nKGNoYWxrLnllbGxvdygnXFxu8J+RiyBTaHV0dGluZyBkb3duIGRldmVsb3BtZW50IHNlcnZlci4uLicpKQogICAgYXdhaXQgc3RvcEFnZW50KCkKICAgIHByb2Nlc3MuZXhpdCgwKQogIH0pCgogIHByb2Nlc3Mub24oJ1NJR1RFUk0nLCBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBzdG9wQWdlbnQoKQogICAgcHJvY2Vzcy5leGl0KDApCiAgfSkKfQoKYXN5bmMgZnVuY3Rpb24gc3RhcnRBZ2VudChhZ2VudFBhdGg6IHN0cmluZywgb3B0aW9uczogRGV2T3B0aW9ucyk6IFByb21pc2U8dm9pZD4gewogIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CiAgICBjb25zdCBlbnYgPSB7CiAgICAgIC4uLnByb2Nlc3MuZW52LAogICAgICBQT1JUOiBvcHRpb25zLnBvcnQsCiAgICAgIEhPU1Q6IG9wdGlvbnMuaG9zdCwKICAgICAgTk9ERV9FTlY6ICdkZXZlbG9wbWVudCcKICAgIH0KCiAgICAvLyBVc2UgdHN4IG9yIHRzLW5vZGUgdG8gcnVuIFR5cGVTY3JpcHQgZGlyZWN0bHkKICAgIGNvbnN0IHRzeFBhdGggPSByZXNvbHZlKHByb2Nlc3MuY3dkKCksICdub2RlX21vZHVsZXMnLCAnLmJpbicsICd0c3gnKQogICAgY29uc3QgdHNOb2RlUGF0aCA9IHJlc29sdmUocHJvY2Vzcy5jd2QoKSwgJ25vZGVfbW9kdWxlcycsICcuYmluJywgJ3RzLW5vZGUnKQogICAgCiAgICBsZXQgcnVubmVyOiBzdHJpbmcKICAgIGlmIChleGlzdHNTeW5jKHRzeFBhdGgpKSB7CiAgICAgIHJ1bm5lciA9IHRzeFBhdGgKICAgIH0gZWxzZSBpZiAoZXhpc3RzU3luYyh0c05vZGVQYXRoKSkgewogICAgICBydW5uZXIgPSB0c05vZGVQYXRoCiAgICB9IGVsc2UgewogICAgICAvLyBGYWxsYmFjayB0byBub2RlIHdpdGggLS1sb2FkZXIKICAgICAgcnVubmVyID0gJ25vZGUnCiAgICB9CgogICAgY29uc3QgYXJncyA9IHJ1bm5lciA9PT0gJ25vZGUnIAogICAgICA/IFsnLS1sb2FkZXInLCAndHMtbm9kZS9lc20nLCBhZ2VudFBhdGhdCiAgICAgIDogW2FnZW50UGF0aF0KCiAgICBjaGlsZFByb2Nlc3MgPSBzcGF3bihydW5uZXIsIGFyZ3MsIHsKICAgICAgZW52LAogICAgICBzdGRpbzogJ2luaGVyaXQnLAogICAgICBzaGVsbDogdHJ1ZQogICAgfSkKCiAgICBjaGlsZFByb2Nlc3Mub24oJ2Vycm9yJywgKGVycm9yKSA9PiB7CiAgICAgIGNvbnNvbGUuZXJyb3IoY2hhbGsucmVkKCdGYWlsZWQgdG8gc3RhcnQgYWdlbnQ6JyksIGVycm9yLm1lc3NhZ2UpCiAgICAgIGlmIChlcnJvci5tZXNzYWdlLmluY2x1ZGVzKCdFTk9FTlQnKSkgewogICAgICAgIGNvbnNvbGUuZXJyb3IoY2hhbGsueWVsbG93KCdcXG7wn5KhIFRpcDogSW5zdGFsbCB0c3ggZm9yIGJldHRlciBUeXBlU2NyaXB0IHN1cHBvcnQ6JykpCiAgICAgICAgY29uc29sZS5lcnJvcihjaGFsay53aGl0ZSgnICAgbnBtIGluc3RhbGwgLS1zYXZlLWRldiB0c3hcbicpKQogICAgICB9CiAgICAgIHJlamVjdChlcnJvcikKICAgIH0pCgogICAgLy8gR2l2ZSBpdCBhIG1vbWVudCB0byBzdGFydAogICAgc2V0VGltZW91dChyZXNvbHZlLCAxMDAwKQogIH0pCn0KCmFzeW5jIGZ1bmN0aW9uIHN0b3BBZ2VudCgpOiBQcm9taXNlPHZvaWQ+IHsKICBpZiAoY2hpbGRQcm9jZXNzKSB7CiAgICBjaGlsZFByb2Nlc3Mua2lsbCgnU0lHVEVSTScpCiAgICAKICAgIC8vIEZvcmNlIGtpbGwgYWZ0ZXIgNSBzZWNvbmRzCiAgICBzZXRUaW1lb3V0KCgpID0+IHsKICAgICAgaWYgKGNoaWxkUHJvY2VzcykgewogICAgICAgIGNoaWxkUHJvY2Vzcy5raWxsKCdTSUdLSUxMJykKICAgICAgfQogICAgfSwgNTAwMCkKCiAgICBjaGlsZFByb2Nlc3MgPSBudWxsCiAgfQp9Cg==
+/**
+ * VoxKit CLI - Dev Command
+ * Run the voice agent locally with hot reload
+ */
+
+import { spawn } from 'child_process'
+import { watch } from 'chokidar'
+import { existsSync } from 'fs'
+import { resolve } from 'path'
+import chalk from 'chalk'
+
+interface DevOptions {
+  port: string
+  host: string
+  reload: boolean
+}
+
+let childProcess: ReturnType<typeof spawn> | null = null
+
+export async function devCommand(options: DevOptions): Promise<void> {
+  const agentPath = resolve(process.cwd(), 'src', 'agent.ts')
+  
+  if (!existsSync(agentPath)) {
+    throw new Error('No agent.ts found in src/. Run `voxkit init` first.')
+  }
+
+  console.log(chalk.blue('🎙️  Starting VoxKit development server...\n'))
+  console.log(chalk.gray(`Port: ${options.port}`))
+  console.log(chalk.gray(`Host: ${options.host}`))
+  console.log(chalk.gray(`Hot reload: ${options.reload ? 'enabled' : 'disabled'}\n`))
+
+  // Start the agent
+  await startAgent(agentPath, options)
+
+  // Set up file watching if hot reload is enabled
+  if (options.reload) {
+    const watcher = watch('src/**/*.ts', {
+      cwd: process.cwd(),
+      ignoreInitial: true
+    })
+
+    watcher.on('change', async (path) => {
+      console.log(chalk.yellow(`\\n📝 File changed: ${path}`))
+      console.log(chalk.blue('🔄 Restarting agent...\\n'))
+      
+      await stopAgent()
+      await startAgent(agentPath, options)
+    })
+
+    console.log(chalk.cyan('👀 Watching for file changes...\n'))
+  }
+
+  // Handle graceful shutdown
+  process.on('SIGINT', async () => {
+    console.log(chalk.yellow('\\n👋 Shutting down development server...'))
+    await stopAgent()
+    process.exit(0)
+  })
+
+  process.on('SIGTERM', async () => {
+    await stopAgent()
+    process.exit(0)
+  })
+}
+
+async function startAgent(agentPath: string, options: DevOptions): Promise<void> {
+  return new Promise((resolve, reject) => {
+    const env = {
+      ...process.env,
+      PORT: options.port,
+      HOST: options.host,
+      NODE_ENV: 'development'
+    }
+
+    // Use tsx or ts-node to run TypeScript directly
+    const tsxPath = resolve(process.cwd(), 'node_modules', '.bin', 'tsx')
+    const tsNodePath = resolve(process.cwd(), 'node_modules', '.bin', 'ts-node')
+    
+    let runner: string
+    if (existsSync(tsxPath)) {
+      runner = tsxPath
+    } else if (existsSync(tsNodePath)) {
+      runner = tsNodePath
+    } else {
+      // Fallback to node with --loader
+      runner = 'node'
+    }
+
+    const args = runner === 'node' 
+      ? ['--loader', 'ts-node/esm', agentPath]
+      : [agentPath]
+
+    childProcess = spawn(runner, args, {
+      env,
+      stdio: 'inherit',
+      shell: true
+    })
+
+    childProcess.on('error', (error) => {
+      console.error(chalk.red('Failed to start agent:'), error.message)
+      if (error.message.includes('ENOENT')) {
+        console.error(chalk.yellow('\\n💡 Tip: Install tsx for better TypeScript support:'))
+        console.error(chalk.white('   npm install --save-dev tsx\n'))
+      }
+      reject(error)
+    })
+
+    // Give it a moment to start
+    setTimeout(resolve, 1000)
+  })
+}
+
+async function stopAgent(): Promise<void> {
+  if (childProcess) {
+    childProcess.kill('SIGTERM')
+    
+    // Force kill after 5 seconds
+    setTimeout(() => {
+      if (childProcess) {
+        childProcess.kill('SIGKILL')
+      }
+    }, 5000)
+
+    childProcess = null
+  }
+}

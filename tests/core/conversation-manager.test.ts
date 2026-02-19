@@ -1,1 +1,134 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QsIGJlZm9yZUVhY2gsIHZpIH0gZnJvbSAndml0ZXN0JwppbXBvcnQgeyBDb252ZXJzYXRpb25NYW5hZ2VyIH0gZnJvbSAnLi4vLi4vc3JjL2NvcmUvY29udmVyc2F0aW9uLW1hbmFnZXIuanMnCgpkZXNjcmliZSgnQ29udmVyc2F0aW9uTWFuYWdlcicsICgpID0+IHsKICBsZXQgbWFuYWdlcjogQ29udmVyc2F0aW9uTWFuYWdlcgoKICBiZWZvcmVFYWNoKCgpID0+IHsKICAgIG1hbmFnZXIgPSBuZXcgQ29udmVyc2F0aW9uTWFuYWdlcih7CiAgICAgIG1heE1lc3NhZ2VzOiAxMCwKICAgICAgc2lsZW5jZVRpbWVvdXRNczogMCAgIC8vIGRpc2FibGUgdGltZW91dCBpbiB0ZXN0cwogICAgfSkKICB9KQoKICBpdCgnc3RhcnRzIGEgY29udmVyc2F0aW9uIHdpdGggYSB2YWxpZCBpZCcsICgpID0+IHsKICAgIGNvbnN0IHN0YXRlID0gbWFuYWdlci5zdGFydCgpCiAgICBleHBlY3Qoc3RhdGUuaWQpLnRvTWF0Y2goL15jb252LS8pCiAgICBleHBlY3Qoc3RhdGUuaXNBY3RpdmUpLnRvQmUodHJ1ZSkKICAgIGV4cGVjdChzdGF0ZS5tZXNzYWdlcykudG9IYXZlTGVuZ3RoKDApCiAgfSkKCiAgaXQoJ2FkZHMgbWVzc2FnZXMgYW5kIHRyYWNrcyB0aGVtJywgKCkgPT4gewogICAgbWFuYWdlci5zdGFydCgpCiAgICBtYW5hZ2VyLmFkZE1lc3NhZ2UoJ3VzZXInLCAnSGVsbG8nKQogICAgbWFuYWdlci5hZGRNZXNzYWdlKCdhc3Npc3RhbnQnLCAnSGkgdGhlcmUhJykKICAgIGNvbnN0IG1lc3NhZ2VzID0gbWFuYWdlci5nZXRNZXNzYWdlcygpCiAgICBleHBlY3QobWVzc2FnZXMpLnRvSGF2ZUxlbmd0aCgyKQogICAgZXhwZWN0KG1lc3NhZ2VzWzBdLnJvbGUpLnRvQmUoJ3VzZXInKQogICAgZXhwZWN0KG1lc3NhZ2VzWzFdLnJvbGUpLnRvQmUoJ2Fzc2lzdGFudCcpCiAgfSkKCiAgaXQoJ2VtaXRzIGEgbWVzc2FnZSBldmVudCBvbiBhZGRNZXNzYWdlJywgKCkgPT4gewogICAgY29uc3Qgc3B5ID0gdmkuZm4oKQogICAgbWFuYWdlci5vbignbWVzc2FnZScsIHNweSkKICAgIG1hbmFnZXIuc3RhcnQoKQogICAgbWFuYWdlci5hZGRNZXNzYWdlKCd1c2VyJywgJ3Rlc3QnKQogICAgZXhwZWN0KHNweSkudG9IYXZlQmVlbkNhbGxlZFdpdGgoZXhwZWN0Lm9iamVjdENvbnRhaW5pbmcoeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6ICd0ZXN0JyB9KSkKICB9KQoKICBpdCgnaWdub3JlcyBtZXNzYWdlcyB3aGVuIGNvbnZlcnNhdGlvbiBpcyBpbmFjdGl2ZScsICgpID0+IHsKICAgIG1hbmFnZXIuc3RhcnQoKQogICAgbWFuYWdlci5lbmQoKQogICAgbWFuYWdlci5hZGRNZXNzYWdlKCd1c2VyJywgJ1Nob3VsZCBiZSBpZ25vcmVkJykKICAgIGV4cGVjdChtYW5hZ2VyLmdldE1lc3NhZ2VzKCkpLnRvSGF2ZUxlbmd0aCgwKQogIH0pCgogIGl0KCd0cmltcyBtZXNzYWdlcyB3aGVuIG1heE1lc3NhZ2VzIGlzIGV4Y2VlZGVkJywgKCkgPT4gewogICAgbWFuYWdlci5zdGFydCgpCiAgICBmb3IgKGxldCBpID0gMDsgaSA8IDE1OyBpKyspIHsKICAgICAgbWFuYWdlci5hZGRNZXNzYWdlKCd1c2VyJywgYE1lc3NhZ2UgJHtpfWApCiAgICB9CiAgICBjb25zdCBtZXNzYWdlcyA9IG1hbmFnZXIuZ2V0TWVzc2FnZXMoKQogICAgZXhwZWN0KG1lc3NhZ2VzLmxlbmd0aCkudG9CZUxlc3NUaGFuT3JFcXVhbCgxMCkKICB9KQoKICBpdCgnZW5kcyBhIGNvbnZlcnNhdGlvbiBhbmQgbWFya3MgaXQgaW5hY3RpdmUnLCAoKSA9PiB7CiAgICBtYW5hZ2VyLnN0YXJ0KCkKICAgIGNvbnN0IHN0YXRlID0gbWFuYWdlci5lbmQoKQogICAgZXhwZWN0KHN0YXRlLmlzQWN0aXZlKS50b0JlKGZhbHNlKQogIH0pCgogIGl0KCdlbWl0cyBlbmRlZCBldmVudCBvbiBlbmQoKScsICgpID0+IHsKICAgIGNvbnN0IHNweSA9IHZpLmZuKCkKICAgIG1hbmFnZXIub24oJ2VuZGVkJywgc3B5KQogICAgbWFuYWdlci5zdGFydCgpCiAgICBtYW5hZ2VyLmVuZCgpCiAgICBleHBlY3Qoc3B5KS50b0hhdmVCZWVuQ2FsbGVkKCkKICB9KQoKICBpdCgncmV0dXJucyBjb250ZXh0IG1lc3NhZ2VzIGluY2x1ZGluZyBzeXN0ZW0gcHJvbXB0JywgKCkgPT4gewogICAgbWFuYWdlci5zdGFydCgpCiAgICBtYW5hZ2VyLmFkZE1lc3NhZ2UoJ3VzZXInLCAnaGknKQogICAgbWFuYWdlci5hZGRNZXNzYWdlKCdhc3Npc3RhbnQnLCAnaGVsbG8nKQogICAgY29uc3QgY3R4ID0gbWFuYWdlci5nZXRDb250ZXh0TWVzc2FnZXMoJ0JlIGhlbHBmdWwuJykKICAgIGV4cGVjdChjdHhbMF0pLnRvRXF1YWwoeyByb2xlOiAnc3lzdGVtJywgY29udGVudDogJ0JlIGhlbHBmdWwuJyB9KQogICAgZXhwZWN0KGN0eCkudG9IYXZlTGVuZ3RoKDMpCiAgfSkKCiAgaXQoJ2V4cG9ydHMgY29udmVyc2F0aW9uIGFzIHZhbGlkIEpTT04nLCAoKSA9PiB7CiAgICBtYW5hZ2VyLnN0YXJ0KCkKICAgIG1hbmFnZXIuYWRkTWVzc2FnZSgndXNlcicsICd0ZXN0IGV4cG9ydCcpCiAgICBjb25zdCBqc29uID0gbWFuYWdlci5leHBvcnQoKQogICAgY29uc3QgcGFyc2VkID0gSlNPTi5wYXJzZShqc29uKQogICAgZXhwZWN0KHBhcnNlZCkudG9IYXZlUHJvcGVydHkoJ2lkJykKICAgIGV4cGVjdChwYXJzZWQpLnRvSGF2ZVByb3BlcnR5KCdtZXNzYWdlcycpCiAgICBleHBlY3QoQXJyYXkuaXNBcnJheShwYXJzZWQubWVzc2FnZXMpKS50b0JlKHRydWUpCiAgfSkKCiAgaXQoJ2FkZHMgZmluYWwgdHJhbnNjcmlwdCBzZWdtZW50IGFzIGEgdXNlciBtZXNzYWdlJywgKCkgPT4gewogICAgbWFuYWdlci5zdGFydCgpCiAgICBtYW5hZ2VyLmFkZFRyYW5zY3JpcHQoewogICAgICBpZDogJ3NlZy0xJywKICAgICAgdGV4dDogJ0kgbmVlZCBoZWxwJywKICAgICAgaXNGaW5hbDogdHJ1ZSwKICAgICAgdGltZXN0YW1wOiBEYXRlLm5vdygpCiAgICB9KQogICAgZXhwZWN0KG1hbmFnZXIuZ2V0TWVzc2FnZXMoKSkudG9IYXZlTGVuZ3RoKDEpCiAgICBleHBlY3QobWFuYWdlci5nZXRNZXNzYWdlcygpWzBdLnJvbGUpLnRvQmUoJ3VzZXInKQogIH0pCgogIGl0KCdkb2VzIE5PVCBhZGQgbm9uLWZpbmFsIHRyYW5zY3JpcHQgc2VnbWVudHMgYXMgbWVzc2FnZXMnLCAoKSA9PiB7CiAgICBtYW5hZ2VyLnN0YXJ0KCkKICAgIG1hbmFnZXIuYWRkVHJhbnNjcmlwdCh7CiAgICAgIGlkOiAnc2VnLTInLAogICAgICB0ZXh0OiAnSSBuZWXigKYnLAogICAgICBpc0ZpbmFsOiBmYWxzZSwKICAgICAgdGltZXN0YW1wOiBEYXRlLm5vdygpCiAgICB9KQogICAgZXhwZWN0KG1hbmFnZXIuZ2V0TWVzc2FnZXMoKSkudG9IYXZlTGVuZ3RoKDApCiAgfSkKCiAgaXQoJ3VwZGF0ZXMgbWV0YWRhdGEnLCAoKSA9PiB7CiAgICBtYW5hZ2VyLnN0YXJ0KCkKICAgIG1hbmFnZXIudXBkYXRlTWV0YWRhdGEoeyBzb3VyY2U6ICdwaG9uZScsIGNhbGxlcjogJysxNTU1MTIzNDU2NycgfSkKICAgIGNvbnN0IHN0YXRlID0gbWFuYWdlci5nZXRTdGF0ZSgpCiAgICBleHBlY3Qoc3RhdGUubWV0YWRhdGE/LnNvdXJjZSkudG9CZSgncGhvbmUnKQogICAgZXhwZWN0KHN0YXRlLm1ldGFkYXRhPy5jYWxsZXIpLnRvQmUoJysxNTU1MTIzNDU2NycpCiAgfSkKCiAgaXQoJ2NsZWFycyBtZXNzYWdlcyBvbiBjbGVhcigpJywgKCkgPT4gewogICAgbWFuYWdlci5zdGFydCgpCiAgICBtYW5hZ2VyLmFkZE1lc3NhZ2UoJ3VzZXInLCAnYScpCiAgICBtYW5hZ2VyLmFkZE1lc3NhZ2UoJ2Fzc2lzdGFudCcsICdiJykKICAgIG1hbmFnZXIuY2xlYXIoKQogICAgZXhwZWN0KG1hbmFnZXIuZ2V0TWVzc2FnZXMoKSkudG9IYXZlTGVuZ3RoKDApCiAgfSkKCiAgaXQoJ2dldExhc3RNZXNzYWdlcyByZXR1cm5zIG9ubHkgTiBtZXNzYWdlcycsICgpID0+IHsKICAgIG1hbmFnZXIuc3RhcnQoKQogICAgZm9yIChsZXQgaSA9IDA7IGkgPCA1OyBpKyspIG1hbmFnZXIuYWRkTWVzc2FnZSgndXNlcicsIGBtc2cgJHtpfWApCiAgICBjb25zdCBsYXN0MyA9IG1hbmFnZXIuZ2V0TGFzdE1lc3NhZ2VzKDMpCiAgICBleHBlY3QobGFzdDMpLnRvSGF2ZUxlbmd0aCgzKQogICAgZXhwZWN0KGxhc3QzWzJdLmNvbnRlbnQpLnRvQmUoJ21zZyA0JykKICB9KQp9KQo=
+import { describe, it, expect, beforeEach, vi } from 'vitest'
+import { ConversationManager } from '../../src/core/conversation-manager.js'
+
+describe('ConversationManager', () => {
+  let manager: ConversationManager
+
+  beforeEach(() => {
+    manager = new ConversationManager({
+      maxMessages: 10,
+      silenceTimeoutMs: 0   // disable timeout in tests
+    })
+  })
+
+  it('starts a conversation with a valid id', () => {
+    const state = manager.start()
+    expect(state.id).toMatch(/^conv-/)
+    expect(state.isActive).toBe(true)
+    expect(state.messages).toHaveLength(0)
+  })
+
+  it('adds messages and tracks them', () => {
+    manager.start()
+    manager.addMessage('user', 'Hello')
+    manager.addMessage('assistant', 'Hi there!')
+    const messages = manager.getMessages()
+    expect(messages).toHaveLength(2)
+    expect(messages[0].role).toBe('user')
+    expect(messages[1].role).toBe('assistant')
+  })
+
+  it('emits a message event on addMessage', () => {
+    const spy = vi.fn()
+    manager.on('message', spy)
+    manager.start()
+    manager.addMessage('user', 'test')
+    expect(spy).toHaveBeenCalledWith(expect.objectContaining({ role: 'user', content: 'test' }))
+  })
+
+  it('ignores messages when conversation is inactive', () => {
+    manager.start()
+    manager.end()
+    manager.addMessage('user', 'Should be ignored')
+    expect(manager.getMessages()).toHaveLength(0)
+  })
+
+  it('trims messages when maxMessages is exceeded', () => {
+    manager.start()
+    for (let i = 0; i < 15; i++) {
+      manager.addMessage('user', `Message ${i}`)
+    }
+    const messages = manager.getMessages()
+    expect(messages.length).toBeLessThanOrEqual(10)
+  })
+
+  it('ends a conversation and marks it inactive', () => {
+    manager.start()
+    const state = manager.end()
+    expect(state.isActive).toBe(false)
+  })
+
+  it('emits ended event on end()', () => {
+    const spy = vi.fn()
+    manager.on('ended', spy)
+    manager.start()
+    manager.end()
+    expect(spy).toHaveBeenCalled()
+  })
+
+  it('returns context messages including system prompt', () => {
+    manager.start()
+    manager.addMessage('user', 'hi')
+    manager.addMessage('assistant', 'hello')
+    const ctx = manager.getContextMessages('Be helpful.')
+    expect(ctx[0]).toEqual({ role: 'system', content: 'Be helpful.' })
+    expect(ctx).toHaveLength(3)
+  })
+
+  it('exports conversation as valid JSON', () => {
+    manager.start()
+    manager.addMessage('user', 'test export')
+    const json = manager.export()
+    const parsed = JSON.parse(json)
+    expect(parsed).toHaveProperty('id')
+    expect(parsed).toHaveProperty('messages')
+    expect(Array.isArray(parsed.messages)).toBe(true)
+  })
+
+  it('adds final transcript segment as a user message', () => {
+    manager.start()
+    manager.addTranscript({
+      id: 'seg-1',
+      text: 'I need help',
+      isFinal: true,
+      timestamp: Date.now()
+    })
+    expect(manager.getMessages()).toHaveLength(1)
+    expect(manager.getMessages()[0].role).toBe('user')
+  })
+
+  it('does NOT add non-final transcript segments as messages', () => {
+    manager.start()
+    manager.addTranscript({
+      id: 'seg-2',
+      text: 'I nee…',
+      isFinal: false,
+      timestamp: Date.now()
+    })
+    expect(manager.getMessages()).toHaveLength(0)
+  })
+
+  it('updates metadata', () => {
+    manager.start()
+    manager.updateMetadata({ source: 'phone', caller: '+15551234567' })
+    const state = manager.getState()
+    expect(state.metadata?.source).toBe('phone')
+    expect(state.metadata?.caller).toBe('+15551234567')
+  })
+
+  it('clears messages on clear()', () => {
+    manager.start()
+    manager.addMessage('user', 'a')
+    manager.addMessage('assistant', 'b')
+    manager.clear()
+    expect(manager.getMessages()).toHaveLength(0)
+  })
+
+  it('getLastMessages returns only N messages', () => {
+    manager.start()
+    for (let i = 0; i < 5; i++) manager.addMessage('user', `msg ${i}`)
+    const last3 = manager.getLastMessages(3)
+    expect(last3).toHaveLength(3)
+    expect(last3[2].content).toBe('msg 4')
+  })
+})

@@ -1,1 +1,314 @@
-LyoqCiAqIE1haW4gVm94QWdlbnQgY2xhc3MgZm9yIFZveEtpdAogKiBPcmNoZXN0cmF0ZXMgYXVkaW8gcGlwZWxpbmUsIGNvbnZlcnNhdGlvbiBtYW5hZ2VtZW50LCBhbmQgQUkgcHJvdmlkZXJzCiAqLwoKaW1wb3J0IEV2ZW50RW1pdHRlciBmcm9tICdldmVudHMnCmltcG9ydCB0eXBlIHsgCiAgVm94QWdlbnRDb25maWcsIAogIFZveEFnZW50IGFzIElWb3hBZ2VudCwKICBWb3hLaXRQbHVnaW4sCiAgQ29udmVyc2F0aW9uU3RhdGUsCiAgTGVhZEluZm8sCiAgU2VydmVyQ29uZmlnCn0gZnJvbSAnLi90eXBlcy5qcycKaW1wb3J0IHsgQXVkaW9QaXBlbGluZSB9IGZyb20gJy4vY29yZS9hdWRpby1waXBlbGluZS5qcycKaW1wb3J0IHsgQ29udmVyc2F0aW9uTWFuYWdlciB9IGZyb20gJy4vY29yZS9jb252ZXJzYXRpb24tbWFuYWdlci5qcycKaW1wb3J0IHsgTGVhZEV4dHJhY3RvciB9IGZyb20gJy4vY29yZS9sZWFkLWV4dHJhY3Rvci5qcycKaW1wb3J0IHsgVm94S2l0V1NTZXJ2ZXIsIHR5cGUgV1NDbGllbnQgfSBmcm9tICcuL2NvcmUvd2Vic29ja2V0LXNlcnZlci5qcycKaW1wb3J0IHsgbG9nZ2VyIH0gZnJvbSAnLi9sb2dnZXIuanMnCgpleHBvcnQgY2xhc3MgVm94QWdlbnQgZXh0ZW5kcyBFdmVudEVtaXR0ZXIgaW1wbGVtZW50cyBJVm94QWdlbnQgewogIHB1YmxpYyBjb25maWc6IFZveEFnZW50Q29uZmlnCiAgcHVibGljIGNvbnZlcnNhdGlvbjogQ29udmVyc2F0aW9uU3RhdGUKICBwdWJsaWMgaXNDb25uZWN0ZWQgPSBmYWxzZQoKICBwcml2YXRlIGF1ZGlvUGlwZWxpbmU6IEF1ZGlvUGlwZWxpbmUKICBwcml2YXRlIGNvbnZlcnNhdGlvbk1hbmFnZXI6IENvbnZlcnNhdGlvbk1hbmFnZXIKICBwcml2YXRlIGxlYWRFeHRyYWN0b3I6IExlYWRFeHRyYWN0b3IKICBwcml2YXRlIHdzU2VydmVyOiBWb3hLaXRXU1NlcnZlciB8IG51bGwgPSBudWxsCiAgcHJpdmF0ZSBwbHVnaW5zOiBWb3hLaXRQbHVnaW5bXSA9IFtdCiAgcHJpdmF0ZSBsb2dnZXIgPSBsb2dnZXIuY2hpbGQoJ3ZveGFnZW50JykKICBwcml2YXRlIHJlY29ubmVjdEF0dGVtcHRzID0gMAogIHByaXZhdGUgbWF4UmVjb25uZWN0QXR0ZW1wdHMgPSA1CiAgcHJpdmF0ZSByZWNvbm5lY3REZWxheSA9IDEwMDAKCiAgY29uc3RydWN0b3IoY29uZmlnOiBWb3hBZ2VudENvbmZpZykgewogICAgc3VwZXIoKQogICAgdGhpcy5jb25maWcgPSB7CiAgICAgIHZvaWNlOiAnYWxsb3knLAogICAgICBlbmFibGVMZWFkRXh0cmFjdGlvbjogdHJ1ZSwKICAgICAgbWF4Q29udmVyc2F0aW9uRHVyYXRpb246IDM2MDAsCiAgICAgIHNpbGVuY2VUaW1lb3V0TXM6IDMwMDAwLAogICAgICAuLi5jb25maWcKICAgIH0KCiAgICAvLyBJbml0aWFsaXplIGNvbXBvbmVudHMKICAgIHRoaXMuYXVkaW9QaXBlbGluZSA9IG5ldyBBdWRpb1BpcGVsaW5lKHRoaXMuY29uZmlnLmF1ZGlvQ29uZmlnKQogICAgdGhpcy5jb252ZXJzYXRpb25NYW5hZ2VyID0gbmV3IENvbnZlcnNhdGlvbk1hbmFnZXIoewogICAgICBtYXhDb252ZXJzYXRpb25EdXJhdGlvbjogdGhpcy5jb25maWcubWF4Q29udmVyc2F0aW9uRHVyYXRpb24sCiAgICAgIHNpbGVuY2VUaW1lb3V0TXM6IHRoaXMuY29uZmlnLnNpbGVuY2VUaW1lb3V0TXMKICAgIH0pCiAgICB0aGlzLmxlYWRFeHRyYWN0b3IgPSBuZXcgTGVhZEV4dHJhY3RvcigpCiAgICB0aGlzLmNvbnZlcnNhdGlvbiA9IHRoaXMuY29udmVyc2F0aW9uTWFuYWdlci5nZXRTdGF0ZSgpCgogICAgdGhpcy5zZXR1cEV2ZW50SGFuZGxlcnMoKQogIH0KCiAgLyoqCiAgICogU2V0IHVwIGludGVybmFsIGV2ZW50IGhhbmRsZXJzCiAgICovCiAgcHJpdmF0ZSBzZXR1cEV2ZW50SGFuZGxlcnMoKTogdm9pZCB7CiAgICAvLyBQcm92aWRlciBjYWxsYmFja3MKICAgIHRoaXMuY29uZmlnLnByb3ZpZGVyLm9uVHJhbnNjcmlwdCgoc2VnbWVudCkgPT4gewogICAgICB0aGlzLmNvbnZlcnNhdGlvbk1hbmFnZXIuYWRkVHJhbnNjcmlwdChzZWdtZW50KQogICAgICB0aGlzLmVtaXQoJ3RyYW5zY3JpcHQnLCBzZWdtZW50LnRleHQsIHNlZ21lbnQpCiAgICAgIHRoaXMuY29uZmlnLm9uVHJhbnNjcmlwdD8uKHNlZ21lbnQudGV4dCwgc2VnbWVudCkKICAgIH0pCgogICAgdGhpcy5jb25maWcucHJvdmlkZXIub25SZXNwb25zZSgocmVzcG9uc2UpID0+IHsKICAgICAgdGhpcy5jb252ZXJzYXRpb25NYW5hZ2VyLmFkZE1lc3NhZ2UoJ2Fzc2lzdGFudCcsIHJlc3BvbnNlLnRleHQpCiAgICAgIHRoaXMuZW1pdCgncmVzcG9uc2UnLCByZXNwb25zZS50ZXh0LCByZXNwb25zZSkKICAgICAgdGhpcy5jb25maWcub25SZXNwb25zZT8uKHJlc3BvbnNlLnRleHQsIHJlc3BvbnNlKQogICAgfSkKCiAgICB0aGlzLmNvbmZpZy5wcm92aWRlci5vbkVycm9yKChlcnJvcikgPT4gewogICAgICB0aGlzLmhhbmRsZUVycm9yKGVycm9yLCAncHJvdmlkZXInKQogICAgfSkKCiAgICAvLyBDb252ZXJzYXRpb24gZXZlbnRzCiAgICB0aGlzLmNvbnZlcnNhdGlvbk1hbmFnZXIub24oJ21lc3NhZ2UnLCAobWVzc2FnZSkgPT4gewogICAgICBpZiAodGhpcy5jb25maWcuZW5hYmxlTGVhZEV4dHJhY3Rpb24gJiYgbWVzc2FnZS5yb2xlID09PSAndXNlcicpIHsKICAgICAgICBjb25zdCBsZWFkID0gdGhpcy5sZWFkRXh0cmFjdG9yLnByb2Nlc3NNZXNzYWdlKG1lc3NhZ2UpCiAgICAgICAgaWYgKGxlYWQpIHsKICAgICAgICAgIHRoaXMuZW1pdCgnbGVhZCcsIGxlYWQsIHRoaXMuY29udmVyc2F0aW9uKQogICAgICAgICAgdGhpcy5jb25maWcub25MZWFkPy4obGVhZCwgdGhpcy5jb252ZXJzYXRpb24pCiAgICAgICAgfQogICAgICB9CgogICAgICAvLyBOb3RpZnkgcGx1Z2lucwogICAgICBmb3IgKGNvbnN0IHBsdWdpbiBvZiB0aGlzLnBsdWdpbnMpIHsKICAgICAgICBwbHVnaW4ub25NZXNzYWdlPy4obWVzc2FnZSkKICAgICAgfQogICAgfSkKCiAgICB0aGlzLmNvbnZlcnNhdGlvbk1hbmFnZXIub24oJ3NpbGVuY2VUaW1lb3V0JywgKCkgPT4gewogICAgICB0aGlzLmVtaXQoJ3NpbGVuY2VUaW1lb3V0JywgdGhpcy5jb252ZXJzYXRpb24pCiAgICAgIHRoaXMubG9nZ2VyLndhcm4oJ0NvbnZlcnNhdGlvbiBzaWxlbmNlIHRpbWVvdXQnKQogICAgfSkKCiAgICAvLyBBdWRpbyBwaXBlbGluZSBldmVudHMKICAgIHRoaXMuYXVkaW9QaXBlbGluZS5vbignYnVmZmVyJywgKGF1ZGlvRGF0YSkgPT4gewogICAgICBpZiAodGhpcy5pc0Nvbm5lY3RlZCkgewogICAgICAgIHRoaXMuY29uZmlnLnByb3ZpZGVyLnNlbmRBdWRpbyhhdWRpb0RhdGEpLmNhdGNoKChlcnJvcikgPT4gewogICAgICAgICAgdGhpcy5oYW5kbGVFcnJvcihlcnJvciwgJ2F1ZGlvLXNlbmQnKQogICAgICAgIH0pCiAgICAgIH0KICAgIH0pCgogICAgLy8gTGVhZCBleHRyYWN0aW9uCiAgICB0aGlzLmxlYWRFeHRyYWN0b3Iub24oJ2xlYWQnLCAobGVhZCkgPT4gewogICAgICB0aGlzLmVtaXQoJ2xlYWQnLCBsZWFkLCB0aGlzLmNvbnZlcnNhdGlvbikKICAgICAgdGhpcy5jb25maWcub25MZWFkPy4obGVhZCwgdGhpcy5jb252ZXJzYXRpb24pCgogICAgICAvLyBOb3RpZnkgcGx1Z2lucwogICAgICBmb3IgKGNvbnN0IHBsdWdpbiBvZiB0aGlzLnBsdWdpbnMpIHsKICAgICAgICBwbHVnaW4ub25MZWFkPy4obGVhZCkKICAgICAgfQogICAgfSkKICB9CgogIC8qKgogICAqIENvbm5lY3QgdG8gQUkgcHJvdmlkZXIKICAgKi8KICBhc3luYyBjb25uZWN0KCk6IFByb21pc2U8dm9pZD4gewogICAgdHJ5IHsKICAgICAgdGhpcy5sb2dnZXIuaW5mbygnSW5pdGlhbGl6aW5nIEFJIHByb3ZpZGVyLi4uJykKICAgICAgYXdhaXQgdGhpcy5jb25maWcucHJvdmlkZXIuaW5pdGlhbGl6ZSgpCiAgICAgIAogICAgICB0aGlzLmxvZ2dlci5pbmZvKCdDb25uZWN0aW5nIHRvIEFJIHByb3ZpZGVyLi4uJykKICAgICAgYXdhaXQgdGhpcy5jb25maWcucHJvdmlkZXIuY29ubmVjdCgpCiAgICAgIAogICAgICB0aGlzLmlzQ29ubmVjdGVkID0gdHJ1ZQogICAgICB0aGlzLnJlY29ubmVjdEF0dGVtcHRzID0gMAogICAgICAKICAgICAgdGhpcy5jb252ZXJzYXRpb25NYW5hZ2VyLnN0YXJ0KCkKICAgICAgdGhpcy5jb252ZXJzYXRpb24gPSB0aGlzLmNvbnZlcnNhdGlvbk1hbmFnZXIuZ2V0U3RhdGUoKQogICAgICAKICAgICAgLy8gU2VuZCBzeXN0ZW0gcHJvbXB0IGlmIHByb3ZpZGVkCiAgICAgIGlmICh0aGlzLmNvbmZpZy5zeXN0ZW1Qcm9tcHQpIHsKICAgICAgICB0aGlzLmNvbnZlcnNhdGlvbk1hbmFnZXIuYWRkTWVzc2FnZSgnc3lzdGVtJywgdGhpcy5jb25maWcuc3lzdGVtUHJvbXB0KQogICAgICB9CgogICAgICB0aGlzLmNvbmZpZy5vbkNvbm5lY3Q/Lih0cnVlKQogICAgICB0aGlzLmVtaXQoJ2Nvbm5lY3QnLCB0cnVlKQogICAgICAKICAgICAgdGhpcy5sb2dnZXIuaW5mbygnQ29ubmVjdGVkIHRvIEFJIHByb3ZpZGVyJykKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIHRoaXMuaGFuZGxlRXJyb3IoZXJyb3IgYXMgRXJyb3IsICdjb25uZWN0JykKICAgICAgdGhyb3cgZXJyb3IKICAgIH0KICB9CgogIC8qKgogICAqIERpc2Nvbm5lY3QgZnJvbSBBSSBwcm92aWRlcgogICAqLwogIGFzeW5jIGRpc2Nvbm5lY3QoKTogUHJvbWlzZTx2b2lkPiB7CiAgICB0cnkgewogICAgICAvLyBFeHRyYWN0IGZpbmFsIGxlYWQgYmVmb3JlIGRpc2Nvbm5lY3RpbmcKICAgICAgaWYgKHRoaXMuY29uZmlnLmVuYWJsZUxlYWRFeHRyYWN0aW9uKSB7CiAgICAgICAgY29uc3QgZmluYWxMZWFkID0gdGhpcy5sZWFkRXh0cmFjdG9yLnByb2Nlc3NDb252ZXJzYXRpb24odGhpcy5jb252ZXJzYXRpb25NYW5hZ2VyLmdldFN0YXRlKCkpCiAgICAgICAgaWYgKGZpbmFsTGVhZCkgewogICAgICAgICAgdGhpcy5lbWl0KCdsZWFkJywgZmluYWxMZWFkLCB0aGlzLmNvbnZlcnNhdGlvbikKICAgICAgICAgIHRoaXMuY29uZmlnLm9uTGVhZD8uKGZpbmFsTGVhZCwgdGhpcy5jb252ZXJzYXRpb24pCiAgICAgICAgfQogICAgICB9CgogICAgICBhd2FpdCB0aGlzLmNvbmZpZy5wcm92aWRlci5kaXNjb25uZWN0KCkKICAgICAgdGhpcy5jb252ZXJzYXRpb25NYW5hZ2VyLmVuZCgpCiAgICAgIAogICAgICB0aGlzLmlzQ29ubmVjdGVkID0gZmFsc2UKICAgICAgdGhpcy5jb25maWcub25Db25uZWN0Py4oZmFsc2UpCiAgICAgIHRoaXMuZW1pdCgnZGlzY29ubmVjdCcpCiAgICAgIAogICAgICB0aGlzLmxvZ2dlci5pbmZvKCdEaXNjb25uZWN0ZWQgZnJvbSBBSSBwcm92aWRlcicpCiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICB0aGlzLmhhbmRsZUVycm9yKGVycm9yIGFzIEVycm9yLCAnZGlzY29ubmVjdCcpCiAgICAgIHRocm93IGVycm9yCiAgICB9CiAgfQoKICAvKioKICAgKiBTZW5kIHRleHQgbWVzc2FnZSB0byB0aGUgYWdlbnQKICAgKi8KICBhc3luYyBzZW5kVGV4dCh0ZXh0OiBzdHJpbmcpOiBQcm9taXNlPHZvaWQ+IHsKICAgIGlmICghdGhpcy5pc0Nvbm5lY3RlZCkgewogICAgICB0aHJvdyBuZXcgRXJyb3IoJ0FnZW50IG5vdCBjb25uZWN0ZWQnKQogICAgfQoKICAgIHRoaXMuY29udmVyc2F0aW9uTWFuYWdlci5hZGRNZXNzYWdlKCd1c2VyJywgdGV4dCkKICAgIGF3YWl0IHRoaXMuY29uZmlnLnByb3ZpZGVyLnNlbmRUZXh0KHRleHQpCiAgfQoKICAvKioKICAgKiBTdGFydCBsaXN0ZW5pbmcgZm9yIFdlYlNvY2tldCBjb25uZWN0aW9ucwogICAqLwogIGFzeW5jIGxpc3Rlbihwb3J0OiBudW1iZXIsIGhvc3Q/OiBzdHJpbmcpOiBQcm9taXNlPHZvaWQ+IHsKICAgIGNvbnN0IHNlcnZlckNvbmZpZzogU2VydmVyQ29uZmlnID0gewogICAgICBwb3J0LAogICAgICBob3N0OiBob3N0ID8/ICcwLjAuMC4wJwogICAgfQoKICAgIHRoaXMud3NTZXJ2ZXIgPSBuZXcgVm94S2l0V1NTZXJ2ZXIoewogICAgICBzZXJ2ZXJDb25maWcsCiAgICAgIGF1ZGlvQ29uZmlnOiB0aGlzLmF1ZGlvUGlwZWxpbmUuZ2V0Q29uZmlnKCksCiAgICAgIAogICAgICBvbkNvbm5lY3Q6IChjbGllbnQpID0+IHsKICAgICAgICB0aGlzLmxvZ2dlci5pbmZvKGBXZWJTb2NrZXQgY2xpZW50IGNvbm5lY3RlZDogJHtjbGllbnQuaWR9YCkKICAgICAgICB0aGlzLmVtaXQoJ2NsaWVudENvbm5lY3QnLCBjbGllbnQpCiAgICAgICAgCiAgICAgICAgLy8gU3RhcnQgbmV3IGNvbnZlcnNhdGlvbiBmb3IgdGhpcyBjbGllbnQKICAgICAgICB0aGlzLmNvbnZlcnNhdGlvbk1hbmFnZXIuc3RhcnQoKQogICAgICAgIHRoaXMuY29udmVyc2F0aW9uID0gdGhpcy5jb252ZXJzYXRpb25NYW5hZ2VyLmdldFN0YXRlKCkKICAgICAgICAKICAgICAgICBpZiAodGhpcy5jb25maWcuc3lzdGVtUHJvbXB0KSB7CiAgICAgICAgICB0aGlzLmNvbnZlcnNhdGlvbk1hbmFnZXIuYWRkTWVzc2FnZSgnc3lzdGVtJywgdGhpcy5jb25maWcuc3lzdGVtUHJvbXB0KQogICAgICAgIH0KICAgICAgfSwKCiAgICAgIG9uRGlzY29ubmVjdDogKGNsaWVudCkgPT4gewogICAgICAgIHRoaXMubG9nZ2VyLmluZm8oYFdlYlNvY2tldCBjbGllbnQgZGlzY29ubmVjdGVkOiAke2NsaWVudC5pZH1gKQogICAgICAgIHRoaXMuZW1pdCgnY2xpZW50RGlzY29ubmVjdCcsIGNsaWVudCkKICAgICAgICAKICAgICAgICAvLyBFeHRyYWN0IGxlYWQgb24gZGlzY29ubmVjdAogICAgICAgIGlmICh0aGlzLmNvbmZpZy5lbmFibGVMZWFkRXh0cmFjdGlvbikgewogICAgICAgICAgY29uc3QgbGVhZCA9IHRoaXMubGVhZEV4dHJhY3Rvci5wcm9jZXNzQ29udmVyc2F0aW9uKHRoaXMuY29udmVyc2F0aW9uTWFuYWdlci5nZXRTdGF0ZSgpKQogICAgICAgICAgaWYgKGxlYWQpIHsKICAgICAgICAgICAgdGhpcy5lbWl0KCdsZWFkJywgbGVhZCwgdGhpcy5jb252ZXJzYXRpb24pCiAgICAgICAgICAgIHRoaXMuY29uZmlnLm9uTGVhZD8uKGxlYWQsIHRoaXMuY29udmVyc2F0aW9uKQogICAgICAgICAgfQogICAgICAgIH0KICAgICAgfSwKCiAgICAgIG9uQXVkaW86IChjbGllbnQsIGF1ZGlvRGF0YSkgPT4gewogICAgICAgIHRoaXMuYXVkaW9QaXBlbGluZS5wcm9jZXNzQXVkaW9DaHVuayhhdWRpb0RhdGEpCiAgICAgIH0sCgogICAgICBvbkVycm9yOiAoY2xpZW50LCBlcnJvcikgPT4gewogICAgICAgIHRoaXMuaGFuZGxlRXJyb3IoZXJyb3IsIGB3ZWJzb2NrZXQtY2xpZW50LSR7Y2xpZW50LmlkfWApCiAgICAgIH0KICAgIH0pCgogICAgLy8gQ29ubmVjdCB0byBBSSBwcm92aWRlcgogICAgYXdhaXQgdGhpcy5jb25uZWN0KCkKCiAgICAvLyBTdGFydCBXZWJTb2NrZXQgc2VydmVyCiAgICBhd2FpdCB0aGlzLndzU2VydmVyLnN0YXJ0KCkKICAgIAogICAgdGhpcy5sb2dnZXIuaW5mbyhgVm94QWdlbnQgbGlzdGVuaW5nIG9uICR7c2VydmVyQ29uZmlnLmhvc3R9OiR7cG9ydH1gKQogIH0KCiAgLyoqCiAgICogU3RvcCB0aGUgV2ViU29ja2V0IHNlcnZlcgogICAqLwogIGFzeW5jIHN0b3AoKTogUHJvbWlzZTx2b2lkPiB7CiAgICBpZiAodGhpcy53c1NlcnZlcikgewogICAgICBhd2FpdCB0aGlzLndzU2VydmVyLnN0b3AoKQogICAgICB0aGlzLndzU2VydmVyID0gbnVsbAogICAgfQogICAgYXdhaXQgdGhpcy5kaXNjb25uZWN0KCkKICB9CgogIC8qKgogICAqIEFkZCBhIHBsdWdpbgogICAqLwogIHVzZShwbHVnaW46IFZveEtpdFBsdWdpbik6IHZvaWQgewogICAgdGhpcy5wbHVnaW5zLnB1c2gocGx1Z2luKQogICAgcGx1Z2luLmluaXRpYWxpemUodGhpcykKICAgIHRoaXMubG9nZ2VyLmluZm8oYFBsdWdpbiBsb2FkZWQ6ICR7cGx1Z2luLm5hbWV9YCkKICB9CgogIC8qKgogICAqIEdldCBjb252ZXJzYXRpb24gdHJhbnNjcmlwdAogICAqLwogIGdldFRyYW5zY3JpcHQoKTogc3RyaW5nIHsKICAgIHJldHVybiB0aGlzLmNvbnZlcnNhdGlvbk1hbmFnZXIuZ2V0TWVzc2FnZXMoKQogICAgICAubWFwKG0gPT4gYCR7bS5yb2xlfTogJHttLmNvbnRlbnR9YCkKICAgICAgLmpvaW4oJ1xuJykKICB9CgogIC8qKgogICAqIEV4cG9ydCBjb252ZXJzYXRpb24gYXMgSlNPTgogICAqLwogIGV4cG9ydENvbnZlcnNhdGlvbigpOiBzdHJpbmcgewogICAgcmV0dXJuIHRoaXMuY29udmVyc2F0aW9uTWFuYWdlci5leHBvcnQoKQogIH0KCiAgLyoqCiAgICogR2V0IGN1cnJlbnQgbGVhZCBpbmZvcm1hdGlvbgogICAqLwogIGdldEN1cnJlbnRMZWFkKCk6IExlYWRJbmZvIHwgbnVsbCB7CiAgICByZXR1cm4gdGhpcy5sZWFkRXh0cmFjdG9yLmdldEN1cnJlbnRMZWFkKCkKICB9CgogIC8qKgogICAqIEhhbmRsZSBlcnJvcnMgd2l0aCBvcHRpb25hbCByZWNvbm5lY3Rpb24KICAgKi8KICBwcml2YXRlIGhhbmRsZUVycm9yKGVycm9yOiBFcnJvciwgY29udGV4dDogc3RyaW5nKTogdm9pZCB7CiAgICB0aGlzLmxvZ2dlci5lcnJvcihgRXJyb3IgaW4gJHtjb250ZXh0fTpgLCBlcnJvcikKICAgIHRoaXMuZW1pdCgnZXJyb3InLCBlcnJvciwgY29udGV4dCkKICAgIHRoaXMuY29uZmlnLm9uRXJyb3I/LihlcnJvciwgY29udGV4dCkKCiAgICAvLyBBdHRlbXB0IHJlY29ubmVjdGlvbiBpZiBhcHByb3ByaWF0ZQogICAgaWYgKHRoaXMuaXNDb25uZWN0ZWQgJiYgdGhpcy5yZWNvbm5lY3RBdHRlbXB0cyA8IHRoaXMubWF4UmVjb25uZWN0QXR0ZW1wdHMpIHsKICAgICAgdGhpcy5yZWNvbm5lY3RBdHRlbXB0cysrCiAgICAgIHRoaXMubG9nZ2VyLmluZm8oYEF0dGVtcHRpbmcgcmVjb25uZWN0aW9uICR7dGhpcy5yZWNvbm5lY3RBdHRlbXB0c30vJHt0aGlzLm1heFJlY29ubmVjdEF0dGVtcHRzfWApCiAgICAgIAogICAgICBzZXRUaW1lb3V0KCgpID0+IHsKICAgICAgICB0aGlzLmNvbm5lY3QoKS5jYXRjaCgoZXJyKSA9PiB7CiAgICAgICAgICB0aGlzLmxvZ2dlci5lcnJvcignUmVjb25uZWN0aW9uIGZhaWxlZCcsIGVycikKICAgICAgICB9KQogICAgICB9LCB0aGlzLnJlY29ubmVjdERlbGF5ICogdGhpcy5yZWNvbm5lY3RBdHRlbXB0cykKICAgIH0KICB9Cn0K
+/**
+ * Main VoxAgent class for VoxKit
+ * Orchestrates audio pipeline, conversation management, and AI providers
+ */
+
+import EventEmitter from 'events'
+import type { 
+  VoxAgentConfig, 
+  VoxAgent as IVoxAgent,
+  VoxKitPlugin,
+  ConversationState,
+  LeadInfo,
+  ServerConfig
+} from './types.js'
+import { AudioPipeline } from './core/audio-pipeline.js'
+import { ConversationManager } from './core/conversation-manager.js'
+import { LeadExtractor } from './core/lead-extractor.js'
+import { VoxKitWSServer, type WSClient } from './core/websocket-server.js'
+import { logger } from './logger.js'
+
+export class VoxAgent extends EventEmitter implements IVoxAgent {
+  public config: VoxAgentConfig
+  public conversation: ConversationState
+  public isConnected = false
+
+  private audioPipeline: AudioPipeline
+  private conversationManager: ConversationManager
+  private leadExtractor: LeadExtractor
+  private wsServer: VoxKitWSServer | null = null
+  private plugins: VoxKitPlugin[] = []
+  private logger = logger.child('voxagent')
+  private reconnectAttempts = 0
+  private maxReconnectAttempts = 5
+  private reconnectDelay = 1000
+
+  constructor(config: VoxAgentConfig) {
+    super()
+    this.config = {
+      voice: 'alloy',
+      enableLeadExtraction: true,
+      maxConversationDuration: 3600,
+      silenceTimeoutMs: 30000,
+      ...config
+    }
+
+    // Initialize components
+    this.audioPipeline = new AudioPipeline(this.config.audioConfig)
+    this.conversationManager = new ConversationManager({
+      maxConversationDuration: this.config.maxConversationDuration,
+      silenceTimeoutMs: this.config.silenceTimeoutMs
+    })
+    this.leadExtractor = new LeadExtractor()
+    this.conversation = this.conversationManager.getState()
+
+    this.setupEventHandlers()
+  }
+
+  /**
+   * Set up internal event handlers
+   */
+  private setupEventHandlers(): void {
+    // Provider callbacks
+    this.config.provider.onTranscript((segment) => {
+      this.conversationManager.addTranscript(segment)
+      this.emit('transcript', segment.text, segment)
+      this.config.onTranscript?.(segment.text, segment)
+    })
+
+    this.config.provider.onResponse((response) => {
+      this.conversationManager.addMessage('assistant', response.text)
+      this.emit('response', response.text, response)
+      this.config.onResponse?.(response.text, response)
+    })
+
+    this.config.provider.onError((error) => {
+      this.handleError(error, 'provider')
+    })
+
+    // Conversation events
+    this.conversationManager.on('message', (message) => {
+      if (this.config.enableLeadExtraction && message.role === 'user') {
+        const lead = this.leadExtractor.processMessage(message)
+        if (lead) {
+          this.emit('lead', lead, this.conversation)
+          this.config.onLead?.(lead, this.conversation)
+        }
+      }
+
+      // Notify plugins
+      for (const plugin of this.plugins) {
+        plugin.onMessage?.(message)
+      }
+    })
+
+    this.conversationManager.on('silenceTimeout', () => {
+      this.emit('silenceTimeout', this.conversation)
+      this.logger.warn('Conversation silence timeout')
+    })
+
+    // Audio pipeline events
+    this.audioPipeline.on('buffer', (audioData) => {
+      if (this.isConnected) {
+        this.config.provider.sendAudio(audioData).catch((error) => {
+          this.handleError(error, 'audio-send')
+        })
+      }
+    })
+
+    // Lead extraction
+    this.leadExtractor.on('lead', (lead) => {
+      this.emit('lead', lead, this.conversation)
+      this.config.onLead?.(lead, this.conversation)
+
+      // Notify plugins
+      for (const plugin of this.plugins) {
+        plugin.onLead?.(lead)
+      }
+    })
+  }
+
+  /**
+   * Connect to AI provider
+   */
+  async connect(): Promise<void> {
+    try {
+      this.logger.info('Initializing AI provider...')
+      await this.config.provider.initialize()
+      
+      this.logger.info('Connecting to AI provider...')
+      await this.config.provider.connect()
+      
+      this.isConnected = true
+      this.reconnectAttempts = 0
+      
+      this.conversationManager.start()
+      this.conversation = this.conversationManager.getState()
+      
+      // Send system prompt if provided
+      if (this.config.systemPrompt) {
+        this.conversationManager.addMessage('system', this.config.systemPrompt)
+      }
+
+      this.config.onConnect?.(true)
+      this.emit('connect', true)
+      
+      this.logger.info('Connected to AI provider')
+    } catch (error) {
+      this.handleError(error as Error, 'connect')
+      throw error
+    }
+  }
+
+  /**
+   * Disconnect from AI provider
+   */
+  async disconnect(): Promise<void> {
+    try {
+      // Extract final lead before disconnecting
+      if (this.config.enableLeadExtraction) {
+        const finalLead = this.leadExtractor.processConversation(this.conversationManager.getState())
+        if (finalLead) {
+          this.emit('lead', finalLead, this.conversation)
+          this.config.onLead?.(finalLead, this.conversation)
+        }
+      }
+
+      await this.config.provider.disconnect()
+      this.conversationManager.end()
+      
+      this.isConnected = false
+      this.config.onConnect?.(false)
+      this.emit('disconnect')
+      
+      this.logger.info('Disconnected from AI provider')
+    } catch (error) {
+      this.handleError(error as Error, 'disconnect')
+      throw error
+    }
+  }
+
+  /**
+   * Send text message to the agent
+   */
+  async sendText(text: string): Promise<void> {
+    if (!this.isConnected) {
+      throw new Error('Agent not connected')
+    }
+
+    this.conversationManager.addMessage('user', text)
+    await this.config.provider.sendText(text)
+  }
+
+  /**
+   * Start listening for WebSocket connections
+   */
+  async listen(port: number, host?: string): Promise<void> {
+    const serverConfig: ServerConfig = {
+      port,
+      host: host ?? '0.0.0.0'
+    }
+
+    this.wsServer = new VoxKitWSServer({
+      serverConfig,
+      audioConfig: this.audioPipeline.getConfig(),
+      
+      onConnect: (client) => {
+        this.logger.info(`WebSocket client connected: ${client.id}`)
+        this.emit('clientConnect', client)
+        
+        // Start new conversation for this client
+        this.conversationManager.start()
+        this.conversation = this.conversationManager.getState()
+        
+        if (this.config.systemPrompt) {
+          this.conversationManager.addMessage('system', this.config.systemPrompt)
+        }
+      },
+
+      onDisconnect: (client) => {
+        this.logger.info(`WebSocket client disconnected: ${client.id}`)
+        this.emit('clientDisconnect', client)
+        
+        // Extract lead on disconnect
+        if (this.config.enableLeadExtraction) {
+          const lead = this.leadExtractor.processConversation(this.conversationManager.getState())
+          if (lead) {
+            this.emit('lead', lead, this.conversation)
+            this.config.onLead?.(lead, this.conversation)
+          }
+        }
+      },
+
+      onAudio: (client, audioData) => {
+        this.audioPipeline.processAudioChunk(audioData)
+      },
+
+      onError: (client, error) => {
+        this.handleError(error, `websocket-client-${client.id}`)
+      }
+    })
+
+    // Connect to AI provider
+    await this.connect()
+
+    // Start WebSocket server
+    await this.wsServer.start()
+    
+    this.logger.info(`VoxAgent listening on ${serverConfig.host}:${port}`)
+  }
+
+  /**
+   * Stop the WebSocket server
+   */
+  async stop(): Promise<void> {
+    if (this.wsServer) {
+      await this.wsServer.stop()
+      this.wsServer = null
+    }
+    await this.disconnect()
+  }
+
+  /**
+   * Add a plugin
+   */
+  use(plugin: VoxKitPlugin): void {
+    this.plugins.push(plugin)
+    plugin.initialize(this)
+    this.logger.info(`Plugin loaded: ${plugin.name}`)
+  }
+
+  /**
+   * Get conversation transcript
+   */
+  getTranscript(): string {
+    return this.conversationManager.getMessages()
+      .map(m => `${m.role}: ${m.content}`)
+      .join('\n')
+  }
+
+  /**
+   * Export conversation as JSON
+   */
+  exportConversation(): string {
+    return this.conversationManager.export()
+  }
+
+  /**
+   * Get current lead information
+   */
+  getCurrentLead(): LeadInfo | null {
+    return this.leadExtractor.getCurrentLead()
+  }
+
+  /**
+   * Handle errors with optional reconnection
+   */
+  private handleError(error: Error, context: string): void {
+    this.logger.error(`Error in ${context}:`, error)
+    this.emit('error', error, context)
+    this.config.onError?.(error, context)
+
+    // Attempt reconnection if appropriate
+    if (this.isConnected && this.reconnectAttempts < this.maxReconnectAttempts) {
+      this.reconnectAttempts++
+      this.logger.info(`Attempting reconnection ${this.reconnectAttempts}/${this.maxReconnectAttempts}`)
+      
+      setTimeout(() => {
+        this.connect().catch((err) => {
+          this.logger.error('Reconnection failed', err)
+        })
+      }, this.reconnectDelay * this.reconnectAttempts)
+    }
+  }
+}

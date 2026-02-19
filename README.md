@@ -1,1 +1,639 @@
-PGRpdiBhbGlnbj0iY2VudGVyIj4KCiMg8J+Ome+4jyBWb3hLaXQKCioqVGhlIG9wZW4tc291cmNlIHZvaWNlIGFnZW50IGZyYW1ld29yay4qKiAgCkJ1aWxkIEFJLXBvd2VyZWQgdm9pY2UgYWdlbnRzIGluIH4yMCBsaW5lcyBvZiBUeXBlU2NyaXB0LgoKWyFbbnBtIHZlcnNpb25dKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vbnBtL3Yvdm94a2l0LnN2Zz9zdHlsZT1mbGF0LXNxdWFyZSldKGh0dHBzOi8vd3d3Lm5wbWpzLmNvbS9wYWNrYWdlL3ZveGtpdCkKWyFbVHlwZVNjcmlwdF0oaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9UeXBlU2NyaXB0LTUuMCstYmx1ZT9zdHlsZT1mbGF0LXNxdWFyZSZsb2dvPXR5cGVzY3JpcHQpXShodHRwczovL3d3dy50eXBlc2NyaXB0bGFuZy5vcmcvKQpbIVtMaWNlbnNlOiBNSVRdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvTGljZW5zZS1NSVQtZ3JlZW4/c3R5bGU9ZmxhdC1zcXVhcmUpXShMSUNFTlNFKQpbIVtUZXN0c10oaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS90ZXN0cy1wYXNzaW5nLWJyaWdodGdyZWVuP3N0eWxlPWZsYXQtc3F1YXJlKV0oI3Rlc3RzKQpbIVtOb2RlXShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL25vZGUtJTNFJTNEMTgtYnJpZ2h0Z3JlZW4/c3R5bGU9ZmxhdC1zcXVhcmUmbG9nbz1ub2RlLmpzKV0oaHR0cHM6Ly9ub2RlanMub3JnLykKWyFbUFJzIFdlbGNvbWVdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvUFJzLXdlbGNvbWUtb3JhbmdlP3N0eWxlPWZsYXQtc3F1YXJlKV0oQ09OVFJJQlVUSU5HLm1kKQoKW1F1aWNrIFN0YXJ0XSgjcXVpY2stc3RhcnQpIMK3IFtFeGFtcGxlc10oI2V4YW1wbGVzKSDCtyBbQVBJIFJlZmVyZW5jZV0oI2FwaS1yZWZlcmVuY2UpIMK3IFtQcm92aWRlcnNdKCNwcm92aWRlcnMpIMK3IFtQbHVnaW5zXSgjcGx1Z2lucykgwrcgW0NvbnRyaWJ1dGluZ10oI2NvbnRyaWJ1dGluZykKCjwvZGl2PgoKLS0tCgojIyBXaGF0IGlzIFZveEtpdD8KClZveEtpdCBpcyBhIFR5cGVTY3JpcHQtZmlyc3QgZnJhbWV3b3JrIGZvciBidWlsZGluZyBwcm9kdWN0aW9uLXJlYWR5IEFJIHZvaWNlIGFnZW50cy4gSXQgaGFuZGxlcyBhbGwgdGhlIGhhcmQgcGFydHMg4oCUIFdlYlNvY2tldCBhdWRpbyBzdHJlYW1pbmcsIHNwZWVjaC10by10ZXh0LCB0ZXh0LXRvLXNwZWVjaCwgY29udmVyc2F0aW9uIHN0YXRlLCBsZWFkIGV4dHJhY3Rpb24sIGFuZCByZWNvbm5lY3Rpb24g4oCUIHNvIHlvdSBjYW4gZm9jdXMgb24gd2hhdCB5b3VyIGFnZW50ICpkb2VzKi4KCiMjIyBXaHkgVm94S2l0PwoKfCBXaXRob3V0IFZveEtpdCB8IFdpdGggVm94S2l0IHwKfC0tLXwtLS18Cnwg4p2MIFdpcmUgdXAgV2ViU29ja2V0IHNlcnZlcnMgbWFudWFsbHkgfCDinIUgYGFnZW50Lmxpc3RlbigzMDAwKWAgfAp8IOKdjCBIYW5kbGUgYXVkaW8gYnVmZmVyaW5nICYgVkFEIHlvdXJzZWxmIHwg4pyFIEF1ZGlvUGlwZWxpbmUgaGFuZGxlcyBpdCB8Cnwg4p2MIEJ1aWxkIGNvbnZlcnNhdGlvbiBjb250ZXh0IGZyb20gc2NyYXRjaCB8IOKchSBDb252ZXJzYXRpb25NYW5hZ2VyIGJ1aWx0LWluIHwKfCDinYwgV3JpdGUgcmVnZXggZm9yIGxlYWQgZXh0cmFjdGlvbiB8IOKchSBMZWFkRXh0cmFjdG9yIGF1dG8tcnVucyB8Cnwg4p2MIEltcGxlbWVudCByZWNvbm5lY3Rpb24gbG9naWMgfCDinIUgQXV0b21hdGljIHdpdGggZXhwb25lbnRpYWwgYmFja29mZiB8Cnwg4p2MIExlYXJuIDQgZGlmZmVyZW50IHByb3ZpZGVyIEFQSXMgfCDinIUgT25lIHVuaWZpZWQgaW50ZXJmYWNlIHwKCi0tLQoKIyMgQXJjaGl0ZWN0dXJlCgpgYGAK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiAgICAgICAgICAgICAgICAgICAgICAgICBWb3hLaXQgRnJhbWV3b3JrICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUgiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUgiAg4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQICAg4pSCCuKUgiAg4pSCICAgICAgICAgICAgICAgICAgICAgICBWb3hBZ2VudCAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCICAg4pSCCuKUgiAg4pSCICAg4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQICDilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAgIOKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkCAg4pSCICAg4pSCCuKUgiAg4pSCICAg4pSCICAgV2ViU29ja2V0IOKUgiAg4pSCIENvbnZlcnNhdGlvbiDilIIgIOKUgiAgICBMZWFkICAgICAg4pSCICDilIIgICDilIIK4pSCICDilIIgICDilIIgICBTZXJ2ZXIgICAg4pSCICDilIIgICBNYW5hZ2VyICAg4pSCICDilIIgIEV4dHJhY3RvciAgIOKUgiAg4pSCICAg4pSCCuKUgiAg4pSCICAg4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSs4pSA4pSA4pSA4pSA4pSA4pSA4pSYICDilJTilIDilIDilIDilIDilIDilIDilKzilIDilIDilIDilIDilIDilIDilIDilJggIOKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUrOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmCAg4pSCICAg4pSCCuKUgiAg4pSCICAgICAgICAgIOKUgiAgICAgICAgICAgICAgICDilIIgICAgICAgICAgICAgICAgICDilIIgICAgICAgICAgIOKUgiAgIOKUggrilIIgIOKUgiAgIOKUjOKUgOKUgOKUgOKUgOKUgOKUgOKWvOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKWvOKUgOKUgOKUgOKUgOKUgOKUgOKUkCAgICDilIIgICDilIIK4pSCICDilIIgICDilIIgICAgICAgICAgICAgIEF1ZGlvIFBpcGVsaW5lICAgICAgICAgICAgICAgICAgICAg4pSCICAgIOKUgiAgIOKUggrilIIgIOKUgiAgIOKUgiAgIFtCdWZmZXJdIOKGkiBbVkFEXSDihpIgW0Zvcm1hdCBDb252ZXJzaW9uXSAgICAgICDilIIgICAg4pSCICAg4pSCCuKUgiAg4pSCICAg4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSs4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYICAgIOKUgiAgIOKUggrilIIgIOKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUvOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmCAgIOKUggrilIIgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUgiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUgiAg4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pa84pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQICDilIIK4pSCICDilIIgICAgICAgICAgICAgICAgICAgIFByb3ZpZGVyIExheWVyICAgICAgICAgICAgICAgICAgICAgICAgIOKUgiAg4pSCCuKUgiAg4pSCICDilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAgIOKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkCAg4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQICDilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAgIOKUgiAg4pSCCuKUgiAg4pSCICDilIIgIE9wZW5BSSAgIOKUgiAg4pSCICB4QUkgIOKUgiAg4pSCIEFudGhyb3BpYyDilIIgIOKUgiBEZWVwZ3JhbSDilIIgIOKUgiAg4pSCCuKUgiAg4pSCICDilIIgUmVhbHRpbWUgIOKUgiAg4pSCICBHcm9rICDilIIgIOKUgiAgQ2xhdWRlICAg4pSCICDilIIgIE5vdmEtMiAg4pSCICDilIIgIOKUggrilIIgIOKUgiAg4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYICDilJTilIDilIDilIDilIDilIDilIDilIDilIDilJggIOKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmCAg4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYICDilIIgIOKUggrilIIgIOKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmCAg4pSCCuKUgiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUgiAg4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQICDilIIK4pSCICDilIIgICAgICAgICAgICAgICAgICAgIFBsdWdpbiBTeXN0ZW0gICAgICAgICAgICAgICAgICAgICAgICAgIOKUgiAg4pSCCuKUgiAg4pSCICBbVHJhbnNjcmlwdExvZ2dlcl0gW0xlYWRXZWJob29rXSBbU2xhY2tdIFtNZXRyaWNzXSAuLi4gICDilIIgIOKUggrilIIgIOKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmCAg4pSCCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAoKQ2xpZW50IChCcm93c2VyIC8gVHdpbGlvIC8gU0lQKQogICAg4pSCCiAgICDilIIgIFdlYlNvY2tldCAod3M6Ly8pCiAgICDilIIgIEJpbmFyeSBhdWRpbyBmcmFtZXMgKFBDTTE2KQogICAg4pa8ClZveEtpdCBTZXJ2ZXIKYGBgCgotLS0KCiMjIFF1aWNrIFN0YXJ0CgojIyMgSW5zdGFsbGF0aW9uCgpgYGBiYXNoCm5wbSBpbnN0YWxsIHZveGtpdAojIG9yCnlhcm4gYWRkIHZveGtpdAojIG9yCnBucG0gYWRkIHZveGtpdApgYGAKCiMjIyBZb3VyIGZpcnN0IHZvaWNlIGFnZW50ICgyMCBsaW5lcykKCmBgYHR5cGVzY3JpcHQKaW1wb3J0IHsgVm94QWdlbnQsIE9wZW5BSVByb3ZpZGVyIH0gZnJvbSAndm94a2l0JwoKY29uc3QgYWdlbnQgPSBuZXcgVm94QWdlbnQoewogIHByb3ZpZGVyOiBuZXcgT3BlbkFJUHJvdmlkZXIoeyBtb2RlbDogJ2dwdC00bycgfSksCiAgdm9pY2U6ICdhbGxveScsCiAgc3lzdGVtUHJvbXB0OiAnWW91IGFyZSBhIGhlbHBmdWwgYXNzaXN0YW50IGZvciBhIHJlYWwgZXN0YXRlIGNvbXBhbnkuJywKICBvblRyYW5zY3JpcHQ6ICh0ZXh0KSA9PiBjb25zb2xlLmxvZygnVXNlciBzYWlkOicsIHRleHQpLAogIG9uTGVhZDogICAgICAgKGRhdGEpID0+IHNhdmVMZWFkKGRhdGEpLAp9KQoKYWdlbnQubGlzdGVuKDMwMDApCmBgYAoKVGhhdCdzIGl0LiBZb3VyIGFnZW50IGlzIG5vdzoKLSBBY2NlcHRpbmcgV2ViU29ja2V0IGF1ZGlvIGNvbm5lY3Rpb25zIG9uIHBvcnQgMzAwMAotIFRyYW5zY3JpYmluZyBzcGVlY2ggd2l0aCBXaGlzcGVyCi0gR2VuZXJhdGluZyByZXNwb25zZXMgd2l0aCBHUFQtNG8KLSBTcGVha2luZyBiYWNrIHdpdGggbmV1cmFsIFRUUwotIEF1dG9tYXRpY2FsbHkgZXh0cmFjdGluZyBuYW1lLCBlbWFpbCwgYW5kIHBob25lIGZyb20gdGhlIGNvbnZlcnNhdGlvbgoKLS0tCgojIyBDTEkKClNjYWZmb2xkLCBkZXZlbG9wLCBhbmQgZGVwbG95IHdpdGggdGhlIGB2b3hraXRgIENMSS4KCmBgYGJhc2gKIyBDcmVhdGUgYSBuZXcgYWdlbnQgZnJvbSBhIHRlbXBsYXRlCm5weCB2b3hraXQgaW5pdCBteS1hZ2VudApucHggdm94a2l0IGluaXQgbXktYWdlbnQgLS10ZW1wbGF0ZSByZWFsLWVzdGF0ZSAtLXByb3ZpZGVyIG9wZW5haQpucHggdm94a2l0IGluaXQgbXktYWdlbnQgLS10ZW1wbGF0ZSBjdXN0b21lci1zdXBwb3J0IC0tcHJvdmlkZXIgYW50aHJvcGljCgojIFJ1biB3aXRoIGhvdCByZWxvYWQgKHdhdGNoZXMgc3JjLyBmb3IgY2hhbmdlcykKbnB4IHZveGtpdCBkZXYKbnB4IHZveGtpdCBkZXYgLS1wb3J0IDgwODAKCiMgRGVwbG95bWVudCBndWlkZQpucHggdm94a2l0IGRlcGxveQpucHggdm94a2l0IGRlcGxveSAtLXBsYXRmb3JtIHJhaWx3YXkKbnB4IHZveGtpdCBkZXBsb3kgLS1wbGF0Zm9ybSByZW5kZXIKbnB4IHZveGtpdCBkZXBsb3kgLS1wbGF0Zm9ybSBmbHkKbnB4IHZveGtpdCBkZXBsb3kgLS1wbGF0Zm9ybSBkb2NrZXIKYGBgCgpBdmFpbGFibGUgdGVtcGxhdGVzOiBgYmFzaWNgIMK3IGByZWFsLWVzdGF0ZWAgwrcgYGN1c3RvbWVyLXN1cHBvcnRgCgotLS0KCiMjIEV4YW1wbGVzCgp8IEV4YW1wbGUgfCBXaGF0IGl0IGRlbW9uc3RyYXRlcyB8CnwtLS18LS0tfAp8IFtgZXhhbXBsZXMvYmFzaWMtYWdlbnRgXShleGFtcGxlcy9iYXNpYy1hZ2VudCkgfCBNaW5pbWFsIHNldHVwLCBvbmUgcHJvdmlkZXIgfAp8IFtgZXhhbXBsZXMvcmVhbC1lc3RhdGUtYWdlbnRgXShleGFtcGxlcy9yZWFsLWVzdGF0ZS1hZ2VudCkgfCBMZWFkIGNhcHR1cmUsIENSTSB3ZWJob29rLCBTbGFjayBub3RpZmljYXRpb25zIHwKfCBbYGV4YW1wbGVzL2N1c3RvbWVyLXN1cHBvcnRgXShleGFtcGxlcy9jdXN0b21lci1zdXBwb3J0KSB8IFRpY2tldCBjcmVhdGlvbiwgUUEgdHJhbnNjcmlwdHMsIHN1cHBvcnQgbWV0cmljcyB8CgpgYGBiYXNoCmNkIGV4YW1wbGVzL3JlYWwtZXN0YXRlLWFnZW50Cm5wbSBpbnN0YWxsCmNwIC5lbnYuZXhhbXBsZSAuZW52ICAgIyBhZGQgeW91ciBPcGVuQUkga2V5Cm5wbSBydW4gZGV2CmBgYAoKLS0tCgojIyBBUEkgUmVmZXJlbmNlCgojIyMgYG5ldyBWb3hBZ2VudChjb25maWcpYAoKVGhlIG1haW4gY2xhc3MuIENyZWF0ZXMgYSBmdWxseSBjb25maWd1cmVkIHZvaWNlIGFnZW50LgoKYGBgdHlwZXNjcmlwdApjb25zdCBhZ2VudCA9IG5ldyBWb3hBZ2VudCh7CiAgLy8gUmVxdWlyZWQKICBwcm92aWRlcjogbmV3IE9wZW5BSVByb3ZpZGVyKHsgbW9kZWw6ICdncHQtNG8nIH0pLAoKICAvLyBWb2ljZSAmIHBlcnNvbmEKICB2b2ljZTogJ2FsbG95JywgICAgICAgICAgICAgIC8vICdhbGxveScgfCAnZWNobycgfCAnZmFibGUnIHwgJ29ueXgnIHwgJ25vdmEnIHwgJ3NoaW1tZXInCiAgc3lzdGVtUHJvbXB0OiAnWW91IGFyZeKApicsICAgLy8gTExNIHN5c3RlbSBwcm9tcHQKCiAgLy8gRmVhdHVyZXMKICBlbmFibGVMZWFkRXh0cmFjdGlvbjogdHJ1ZSwgICAgICAgICAvLyBBdXRvLWV4dHJhY3QgbmFtZS9lbWFpbC9waG9uZSAoZGVmYXVsdDogdHJ1ZSkKICBtYXhDb252ZXJzYXRpb25EdXJhdGlvbjogMzYwMCwgICAgICAvLyBNYXggY2FsbCBkdXJhdGlvbiBpbiBzZWNvbmRzIChkZWZhdWx0OiAzNjAwKQogIHNpbGVuY2VUaW1lb3V0TXM6IDMwXzAwMCwgICAgICAgICAgIC8vIEVuZCBjYWxsIGFmdGVyIE4gbXMgb2Ygc2lsZW5jZSAoZGVmYXVsdDogMzAwMDApCgogIC8vIEF1ZGlvCiAgYXVkaW9Db25maWc6IHsKICAgIHNhbXBsZVJhdGU6IDI0MDAwLCAgICAvLyBEZWZhdWx0OiAyNDAwMAogICAgY2hhbm5lbHM6IDEsICAgICAgICAgIC8vIERlZmF1bHQ6IDEgKG1vbm8pCiAgICBmb3JtYXQ6ICdwY20xNicsICAgICAgLy8gJ3BjbTE2JyB8ICdnNzExX3VsYXcnIHwgJ2c3MTFfYWxhdycKICB9LAoKICAvLyBFdmVudCBjYWxsYmFja3MKICBvblRyYW5zY3JpcHQ6ICh0ZXh0LCBzZWdtZW50KSAgICAgICAgPT4geyAvKiB1c2VyIHNwb2tlICovIH0sCiAgb25SZXNwb25zZTogICAodGV4dCwgcmVzcG9uc2UpICAgICAgID0+IHsgLyogYWdlbnQgcmVwbGllZCAqLyB9LAogIG9uTGVhZDogICAgICAgKGxlYWQsIGNvbnZlcnNhdGlvbikgICA9PiB7IC8qIGNvbnRhY3QgaW5mbyBjYXB0dXJlZCAqLyB9LAogIG9uRXJyb3I6ICAgICAgKGVycm9yLCBjb250ZXh0KSAgICAgICA9PiB7IC8qIHNvbWV0aGluZyB3ZW50IHdyb25nICovIH0sCiAgb25Db25uZWN0OiAgICAoY29ubmVjdGVkKSAgICAgICAgICAgID0+IHsgLyogY29ubmVjdGlvbiBzdGF0ZSBjaGFuZ2VkICovIH0sCn0pCmBgYAoKIyMjIEluc3RhbmNlIG1ldGhvZHMKCmBgYHR5cGVzY3JpcHQKLy8gU3RhcnQgdGhlIFdlYlNvY2tldCBzZXJ2ZXIgKG1vc3QgY29tbW9uIHVzYWdlKQphd2FpdCBhZ2VudC5saXN0ZW4oMzAwMCkKYXdhaXQgYWdlbnQubGlzdGVuKDMwMDAsICcwLjAuMC4wJykKCi8vIFN0b3AgZ3JhY2VmdWxseSAoZHJhaW5zIGNvbm5lY3Rpb25zLCBleHRyYWN0cyBmaW5hbCBsZWFkKQphd2FpdCBhZ2VudC5zdG9wKCkKCi8vIENvbm5lY3QvZGlzY29ubmVjdCB0aGUgQUkgcHJvdmlkZXIgZGlyZWN0bHkgKG5vIFdTIHNlcnZlcikKYXdhaXQgYWdlbnQuY29ubmVjdCgpCmF3YWl0IGFnZW50LmRpc2Nvbm5lY3QoKQoKLy8gU2VuZCB0ZXh0IHdpdGhvdXQgYXVkaW8gKHVzZWZ1bCBmb3IgdGVzdGluZyBvciB0ZXh0LW9ubHkgY2xpZW50cykKYXdhaXQgYWdlbnQuc2VuZFRleHQoJ0hlbGxvLCBjYW4geW91IGhlbHAgbWU/JykKCi8vIFBsdWdpbiBzeXN0ZW0KYWdlbnQudXNlKG5ldyBUcmFuc2NyaXB0TG9nZ2VyUGx1Z2luKCkpCgovLyBSZXRyaWV2ZSBzdGF0ZQphZ2VudC5nZXRUcmFuc2NyaXB0KCkgICAgICAgICAgLy8gRnVsbCBjb252ZXJzYXRpb24gYXMgcGxhaW4gdGV4dAphZ2VudC5leHBvcnRDb252ZXJzYXRpb24oKSAgICAgLy8gRnVsbCBjb252ZXJzYXRpb24gYXMgSlNPTgphZ2VudC5nZXRDdXJyZW50TGVhZCgpICAgICAgICAgLy8gQmVzdCBsZWFkIGNhcHR1cmVkIHNvIGZhcgphZ2VudC5jb252ZXJzYXRpb24gICAgICAgICAgICAgLy8gQ29udmVyc2F0aW9uU3RhdGUgb2JqZWN0CmFnZW50LmlzQ29ubmVjdGVkICAgICAgICAgICAgICAvLyBib29sZWFuCmBgYAoKIyMjIEV2ZW50cwoKYGBgdHlwZXNjcmlwdAphZ2VudC5vbigndHJhbnNjcmlwdCcsICAgICAgKHRleHQsIHNlZ21lbnQpICAgICAgPT4ge30pCmFnZW50Lm9uKCdyZXNwb25zZScsICAgICAgICAodGV4dCwgcmVzcG9uc2UpICAgICA9PiB7fSkKYWdlbnQub24oJ2xlYWQnLCAgICAgICAgICAgIChsZWFkLCBjb252ZXJzYXRpb24pID0+IHt9KQphZ2VudC5vbignZXJyb3InLCAgICAgICAgICAgKGVycm9yLCBjb250ZXh0KSAgICAgPT4ge30pCmFnZW50Lm9uKCdjb25uZWN0JywgICAgICAgICAoY29ubmVjdGVkKSAgICAgICAgICA9PiB7fSkKYWdlbnQub24oJ2Rpc2Nvbm5lY3QnLCAgICAgICgpICAgICAgICAgICAgICAgICAgID0+IHt9KQphZ2VudC5vbignc2lsZW5jZVRpbWVvdXQnLCAgKGNvbnZlcnNhdGlvbikgICAgICAgPT4ge30pCmFnZW50Lm9uKCdjbGllbnRDb25uZWN0JywgICAod3NDbGllbnQpICAgICAgICAgICA9PiB7fSkKYWdlbnQub24oJ2NsaWVudERpc2Nvbm5lY3QnLCh3c0NsaWVudCkgICAgICAgICAgID0+IHt9KQpgYGAKCi0tLQoKIyMgUHJvdmlkZXJzCgpBbGwgcHJvdmlkZXJzIGltcGxlbWVudCB0aGUgYEFJUHJvdmlkZXJgIGludGVyZmFjZS4gU3dhcCB0aGVtIHdpdGggemVybyBjaGFuZ2VzIHRvIHlvdXIgYWdlbnQgY29kZS4KCiMjIyBPcGVuQUkgKFJlYWx0aW1lIEFQSSkg4oCUIGJlc3QgZm9yIHZvaWNlCgpgYGB0eXBlc2NyaXB0CmltcG9ydCB7IE9wZW5BSVByb3ZpZGVyIH0gZnJvbSAndm94a2l0JwoKbmV3IE9wZW5BSVByb3ZpZGVyKHsKICBhcGlLZXk6IHByb2Nlc3MuZW52Lk9QRU5BSV9BUElfS0VZLCAgIC8vIG9yIHNldCBPUEVOQUlfQVBJX0tFWSBlbnYgdmFyCiAgbW9kZWw6ICAnZ3B0LTRvLXJlYWx0aW1lLXByZXZpZXctMjAyNC0xMi0xNycsCiAgdm9pY2U6ICAnYWxsb3knLAogIHRlbXBlcmF0dXJlOiAwLjgsCiAgbWF4UmVzcG9uc2VPdXRwdXRUb2tlbnM6IDQwOTYsCn0pCmBgYAoKU3VwcG9ydGVkIHZvaWNlczogYGFsbG95YCBgZWNob2AgYGZhYmxlYCBgb255eGAgYG5vdmFgIGBzaGltbWVyYCBgYXNoYCBgYmFsbGFkYCBgY29yYWxgIGBzYWdlYCBgdmVyc2VgCgojIyMgeEFJIC8gR3JvawoKYGBgdHlwZXNjcmlwdAppbXBvcnQgeyBYQUlQcm92aWRlciB9IGZyb20gJ3ZveGtpdC9wcm92aWRlcnMnCgpuZXcgWEFJUHJvdmlkZXIoewogIGFwaUtleTogcHJvY2Vzcy5lbnYuWEFJX0FQSV9LRVksCiAgbW9kZWw6ICdncm9rLTItMTIxMicsCiAgc3RyZWFtaW5nOiB0cnVlLAp9KQpgYGAKCiMjIyBBbnRocm9waWMgLyBDbGF1ZGUKCmBgYHR5cGVzY3JpcHQKaW1wb3J0IHsgQW50aHJvcGljUHJvdmlkZXIgfSBmcm9tICd2b3hraXQvcHJvdmlkZXJzJwoKbmV3IEFudGhyb3BpY1Byb3ZpZGVyKHsKICBhcGlLZXk6IHByb2Nlc3MuZW52LkFOVEhST1BJQ19BUElfS0VZLAogIG1vZGVsOiAnY2xhdWRlLTMtNS1zb25uZXQtMjAyNDEwMjInLAogIG1heFRva2VuczogNDA5NiwKICBzdHJlYW1pbmc6IHRydWUsCn0pCmBgYAoKIyMjIERlZXBncmFtIChTVFQtb25seSkKCmBgYHR5cGVzY3JpcHQKaW1wb3J0IHsgRGVlcGdyYW1Qcm92aWRlciB9IGZyb20gJ3ZveGtpdC9wcm92aWRlcnMnCgpuZXcgRGVlcGdyYW1Qcm92aWRlcih7CiAgYXBpS2V5OiBwcm9jZXNzLmVudi5ERUVQR1JBTV9BUElfS0VZLAogIG1vZGVsOiAnbm92YS0yJywKICBsYW5ndWFnZTogJ2VuLVVTJywKICBzbWFydEZvcm1hdDogdHJ1ZSwKICBwdW5jdHVhdGU6IHRydWUsCn0pCmBgYAoKIyMjIEJ1aWxkIHlvdXIgb3duIHByb3ZpZGVyCgpgYGB0eXBlc2NyaXB0CmltcG9ydCB0eXBlIHsgQUlQcm92aWRlciwgVm9pY2UsIFRyYW5zY3JpcHRTZWdtZW50LCBQcm92aWRlclJlc3BvbnNlIH0gZnJvbSAndm94a2l0JwoKY2xhc3MgTXlDdXN0b21Qcm92aWRlciBpbXBsZW1lbnRzIEFJUHJvdmlkZXIgewogIG5hbWUgPSAnbXktcHJvdmlkZXInCgogIGFzeW5jIGluaXRpYWxpemUoKTogUHJvbWlzZTx2b2lkPiB7IC8qIHNldCB1cCAqLyB9CiAgYXN5bmMgY29ubmVjdCgpOiAgICBQcm9taXNlPHZvaWQ+IHsgLyogb3BlbiBjb25uZWN0aW9uICovIH0KICBhc3luYyBkaXNjb25uZWN0KCk6IFByb21pc2U8dm9pZD4geyAvKiBjbG9zZSBjb25uZWN0aW9uICovIH0KCiAgYXN5bmMgc2VuZEF1ZGlvKGF1ZGlvOiBVaW50OEFycmF5KTogUHJvbWlzZTx2b2lkPiB7IC8qIHN0cmVhbSBhdWRpbyAqLyB9CiAgYXN5bmMgc2VuZFRleHQodGV4dDogc3RyaW5nKTogICAgICAgUHJvbWlzZTx2b2lkPiB7IC8qIHNlbmQgdGV4dCAqLyB9CgogIG9uUmVzcG9uc2UoY2I6IChyOiBQcm92aWRlclJlc3BvbnNlKSA9PiB2b2lkKTogICB2b2lkIHsgLyogcmVnaXN0ZXIgKi8gfQogIG9uVHJhbnNjcmlwdChjYjogKHM6IFRyYW5zY3JpcHRTZWdtZW50KSA9PiB2b2lkKTogdm9pZCB7IC8qIHJlZ2lzdGVyICovIH0KICBvbkVycm9yKGNiOiAoZTogRXJyb3IpID0+IHZvaWQpOiAgICAgICAgICAgICAgICAgdm9pZCB7IC8qIHJlZ2lzdGVyICovIH0KCiAgZ2V0U3VwcG9ydGVkVm9pY2VzKCk6IFZvaWNlW10geyByZXR1cm4gWydhbGxveSddIH0KICBzZXRWb2ljZSh2b2ljZTogVm9pY2UpOiB2b2lkICB7IC8qIHVwZGF0ZSAqLyB9Cn0KCi8vIFVzZSBpdCBqdXN0IGxpa2UgYW55IGJ1aWx0LWluIHByb3ZpZGVyOgpjb25zdCBhZ2VudCA9IG5ldyBWb3hBZ2VudCh7IHByb3ZpZGVyOiBuZXcgTXlDdXN0b21Qcm92aWRlcigpIH0pCmBgYAoKLS0tCgojIyBQbHVnaW5zCgpQbHVnaW5zIGV4dGVuZCBWb3hBZ2VudCdzIGNhcGFiaWxpdGllcyB2aWEgbGlmZWN5Y2xlIGhvb2tzLgoKIyMjIEJ1aWx0LWluIHBsdWdpbnMKCmBgYHR5cGVzY3JpcHQKaW1wb3J0IHsKICBUcmFuc2NyaXB0TG9nZ2VyUGx1Z2luLAogIExlYWRXZWJob29rUGx1Z2luLAogIFNsYWNrTm90aWZpZXJQbHVnaW4sCiAgTWV0cmljc1BsdWdpbgp9IGZyb20gJ3ZveGtpdCcKCi8vIFNhdmUgZnVsbCB0cmFuc2NyaXB0cyB0byBkaXNrIChKU09OTCkKYWdlbnQudXNlKG5ldyBUcmFuc2NyaXB0TG9nZ2VyUGx1Z2luKHsKICBmaWxlUGF0aDogJy4vdHJhbnNjcmlwdHMuanNvbmwnLAogIHRpbWVzdGFtcHM6IHRydWUsCiAgdGFnOiAnW2NhbGxdJwp9KSkKCi8vIFBPU1QgbGVhZHMgdG8gYW55IEhUVFAgZW5kcG9pbnQKYWdlbnQudXNlKG5ldyBMZWFkV2ViaG9va1BsdWdpbih7CiAgdXJsOiAgICAgJ2h0dHBzOi8veW91ci1jcm0uY29tL2FwaS9sZWFkcycsCiAgc2VjcmV0OiAgcHJvY2Vzcy5lbnYuQ1JNX1NFQ1JFVCwKICByZXRyaWVzOiAzCn0pKQoKLy8gUGluZyBTbGFjayBvbiBldmVyeSBjYXB0dXJlZCBsZWFkCmFnZW50LnVzZShuZXcgU2xhY2tOb3RpZmllclBsdWdpbih7CiAgd2ViaG9va1VybDogcHJvY2Vzcy5lbnYuU0xBQ0tfV0VCSE9PS19VUkwsCiAgZW1vamk6ICc6dGVsZXBob25lX3JlY2VpdmVyOicKfSkpCgovLyBUcmFjayBzZXNzaW9uIG1ldHJpY3MKY29uc3QgbWV0cmljcyA9IG5ldyBNZXRyaWNzUGx1Z2luKHsgcHJpbnRTdW1tYXJ5OiB0cnVlIH0pCmFnZW50LnVzZShtZXRyaWNzKQovLyBMYXRlcjogbWV0cmljcy5nZXRNZXRyaWNzKCkg4oaSIHsgdHVybkNvdW50LCBkdXJhdGlvbk1zLCBsZWFkQ2FwdHVyZWQsIC4uLiB9CmBgYAoKIyMjIFdyaXRlIHlvdXIgb3duIHBsdWdpbgoKYGBgdHlwZXNjcmlwdAppbXBvcnQgdHlwZSB7IFZveEtpdFBsdWdpbiwgVm94QWdlbnQsIENvbnZlcnNhdGlvbk1lc3NhZ2UsIExlYWRJbmZvIH0gZnJvbSAndm94a2l0JwoKY2xhc3MgTXlDUk1QbHVnaW4gaW1wbGVtZW50cyBWb3hLaXRQbHVnaW4gewogIG5hbWUgPSAnbXktY3JtJwoKICBpbml0aWFsaXplKGFnZW50OiBWb3hBZ2VudCk6IHZvaWQgewogICAgY29uc29sZS5sb2coJ0NSTSBwbHVnaW4gcmVhZHknKQogIH0KCiAgb25NZXNzYWdlKG1lc3NhZ2U6IENvbnZlcnNhdGlvbk1lc3NhZ2UpOiB2b2lkIHsKICAgIC8vIHJ1bnMgb24gZXZlcnkgY29udmVyc2F0aW9uIHR1cm4KICB9CgogIG9uTGVhZChsZWFkOiBMZWFkSW5mbyk6IHZvaWQgewogICAgLy8gcnVucyB3aGVuIGNvbnRhY3QgaW5mbyBpcyBjYXB0dXJlZAogICAgbXlDUk0uY3JlYXRlQ29udGFjdChsZWFkKQogIH0KCiAgYXN5bmMgZGVzdHJveSgpOiBQcm9taXNlPHZvaWQ+IHsKICAgIC8vIGNsZWFudXAgb24gYWdlbnQuc3RvcCgpCiAgfQp9CgphZ2VudC51c2UobmV3IE15Q1JNUGx1Z2luKCkpCmBgYAoKLS0tCgojIyBMZWFkIEV4dHJhY3Rpb24KClZveEtpdCBhdXRvbWF0aWNhbGx5IGV4dHJhY3RzIGNvbnRhY3QgaW5mb3JtYXRpb24gZnJvbSBuYXR1cmFsIHNwZWVjaCDigJQgbm8gcmVnZXggd29yayByZXF1aXJlZC4KCmBgYHR5cGVzY3JpcHQKLy8gQXV0b21hdGljYWxseSBkZXRlY3RlZCBwYXR0ZXJuczoKLy8gIk15IG5hbWUgaXMgU2FyYWggSm9obnNvbiIgICAgIOKGkiB7IG5hbWU6ICdTYXJhaCBKb2huc29uJyB9Ci8vICJFbWFpbCBtZSBhdCBoZWxsb0BleGFtcGxlLmNvbSIg4oaSIHsgZW1haWw6ICdoZWxsb0BleGFtcGxlLmNvbScgfQovLyAiQ2FsbCBtZSBhdCA0MTUtNTU1LTEyMzQiICAgICAgIOKGkiB7IHBob25lOiAnKzE0MTU1NTUxMjM0JyB9Ci8vICJJIHdvcmsgYXQgQWNtZSBDb3JwIiAgICAgICAgICAg4oaSIHsgY29tcGFueTogJ0FjbWUgQ29ycCcgfQoKYWdlbnQub24oJ2xlYWQnLCAobGVhZCkgPT4gewogIGNvbnNvbGUubG9nKGxlYWQpCiAgLy8gewogIC8vICAgbmFtZTogICAgJ1NhcmFoIEpvaG5zb24nLAogIC8vICAgZW1haWw6ICAgJ3NhcmFoQGV4YW1wbGUuY29tJywKICAvLyAgIHBob25lOiAgICcrMTQxNTU1NTEyMzQnLAogIC8vICAgY29tcGFueTogJ0FjbWUgQ29ycCcsCiAgLy8gICBjb25maWRlbmNlOiB7IG5hbWU6IDAuODUsIGVtYWlsOiAxLjAsIHBob25lOiAxLjAgfQogIC8vIH0KfSkKYGBgCgpMZWFkIGV4dHJhY3Rpb24gaXMgYWRkaXRpdmUg4oCUIGl0IGJ1aWxkcyB1cCBhY3Jvc3MgbXVsdGlwbGUgdHVybnMgYW5kIGZpcmVzIGBvbkxlYWRgIGFzIG5ldyBpbmZvIGFycml2ZXMuIFlvdSBjYW4gYWxzbyBjYWxsIGBhZ2VudC5nZXRDdXJyZW50TGVhZCgpYCBhdCBhbnkgdGltZS4KCi0tLQoKIyMgVHlwZXMKClZveEtpdCBpcyBmdWxseSB0eXBlZC4gS2V5IGludGVyZmFjZXM6CgpgYGB0eXBlc2NyaXB0CmludGVyZmFjZSBMZWFkSW5mbyB7CiAgbmFtZT86ICAgIHN0cmluZwogIGVtYWlsPzogICBzdHJpbmcKICBwaG9uZT86ICAgc3RyaW5nCiAgY29tcGFueT86IHN0cmluZwogIG5vdGVzPzogICBzdHJpbmcKICBjb25maWRlbmNlOiB7IG5hbWU/OiBudW1iZXI7IGVtYWlsPzogbnVtYmVyOyBwaG9uZT86IG51bWJlciB9Cn0KCmludGVyZmFjZSBDb252ZXJzYXRpb25TdGF0ZSB7CiAgaWQ6ICAgICAgICAgICAgIHN0cmluZwogIG1lc3NhZ2VzOiAgICAgICBDb252ZXJzYXRpb25NZXNzYWdlW10KICBpc0FjdGl2ZTogICAgICAgYm9vbGVhbgogIHN0YXJ0ZWRBdDogICAgICBudW1iZXIKICBsYXN0QWN0aXZpdHlBdDogbnVtYmVyCiAgbWV0YWRhdGE/OiAgICAgIFJlY29yZDxzdHJpbmcsIHVua25vd24+Cn0KCmludGVyZmFjZSBDb252ZXJzYXRpb25NZXNzYWdlIHsKICByb2xlOiAgICAgICdzeXN0ZW0nIHwgJ3VzZXInIHwgJ2Fzc2lzdGFudCcgfCAnZnVuY3Rpb24nCiAgY29udGVudDogICBzdHJpbmcKICB0aW1lc3RhbXA/OiBudW1iZXIKICBtZXRhZGF0YT86ICBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPgp9CgppbnRlcmZhY2UgVHJhbnNjcmlwdFNlZ21lbnQgewogIGlkOiAgICAgICAgIHN0cmluZwogIHRleHQ6ICAgICAgIHN0cmluZwogIGlzRmluYWw6ICAgIGJvb2xlYW4KICB0aW1lc3RhbXA6ICBudW1iZXIKICBzcGVha2VyPzogICBzdHJpbmcKICBjb25maWRlbmNlPzogbnVtYmVyCn0KYGBgCgotLS0KCiMjIEVudmlyb25tZW50IFZhcmlhYmxlcwoKfCBWYXJpYWJsZSB8IFJlcXVpcmVkIHwgRGVzY3JpcHRpb24gfAp8LS0tfC0tLXwtLS18CnwgYE9QRU5BSV9BUElfS0VZYCB8IEZvciBPcGVuQUkgcHJvdmlkZXIgfCBZb3VyIE9wZW5BSSBBUEkga2V5IHwKfCBgWEFJX0FQSV9LRVlgIHwgRm9yIHhBSSBwcm92aWRlciB8IFlvdXIgeEFJIEFQSSBrZXkgfAp8IGBBTlRIUk9QSUNfQVBJX0tFWWAgfCBGb3IgQW50aHJvcGljIHByb3ZpZGVyIHwgWW91ciBBbnRocm9waWMgQVBJIGtleSB8CnwgYERFRVBHUkFNX0FQSV9LRVlgIHwgRm9yIERlZXBncmFtIHByb3ZpZGVyIHwgWW91ciBEZWVwZ3JhbSBBUEkga2V5IHwKfCBgUE9SVGAgfCBObyB8IFNlcnZlciBwb3J0IChkZWZhdWx0OiAzMDAwKSB8CnwgYFZPWEtJVF9ERUJVR2AgfCBObyB8IEVuYWJsZSBkZWJ1ZyBsb2dnaW5nIChgdHJ1ZWAvYGZhbHNlYCkgfAoKLS0tCgojIyBUZXN0cwoKYGBgYmFzaAojIFJ1biBhbGwgdGVzdHMKbnBtIHRlc3QKCiMgV2F0Y2ggbW9kZQpucG0gdGVzdCAtLSAtLXdhdGNoCgojIENvdmVyYWdlIHJlcG9ydApucG0gcnVuIHRlc3Q6Y292ZXJhZ2UKYGBgCgpWb3hLaXQgdXNlcyBbVml0ZXN0XShodHRwczovL3ZpdGVzdC5kZXYvKSBhbmQgdGFyZ2V0cyA+OTAlIGNvdmVyYWdlIG9mIGNvcmUgbW9kdWxlcy4KCi0tLQoKIyMgRGVwbG95bWVudAoKIyMjIFJhaWx3YXkgKHJlY29tbWVuZGVkKQoKYGBgYmFzaApucG0gaW5zdGFsbCAtZyBAcmFpbHdheS9jbGkKcmFpbHdheSBsb2dpbgpyYWlsd2F5IGluaXQKcmFpbHdheSB2YXJpYWJsZXMgc2V0IE9QRU5BSV9BUElfS0VZPXNrLS4uLgpyYWlsd2F5IHVwCmBgYAoKIyMjIERvY2tlcgoKYGBgZG9ja2VyZmlsZQpGUk9NIG5vZGU6MjAtYWxwaW5lCldPUktESVIgL2FwcApDT1BZIHBhY2thZ2UqLmpzb24gLi8KUlVOIG5wbSBjaQpDT1BZIC4gLgpSVU4gbnBtIHJ1biBidWlsZApFWFBPU0UgMzAwMApDTUQgWyJub2RlIiwgImRpc3QvYWdlbnQuanMiXQpgYGAKCmBgYGJhc2gKZG9ja2VyIGJ1aWxkIC10IG15LXZvaWNlLWFnZW50IC4KZG9ja2VyIHJ1biAtcCAzMDAwOjMwMDAgLWUgT1BFTkFJX0FQSV9LRVk9c2stLi4uIG15LXZvaWNlLWFnZW50CmBgYAoKIyMjIFJlbmRlciAvIEZseS5pbwoKYGBgYmFzaApucHggdm94a2l0IGRlcGxveSAtLXBsYXRmb3JtIHJlbmRlcgpucHggdm94a2l0IGRlcGxveSAtLXBsYXRmb3JtIGZseQpgYGAKCi0tLQoKIyMgUHJvamVjdCBTdHJ1Y3R1cmUKCmBgYAp2b3hraXQvCuKUnOKUgOKUgCBzcmMvCuKUgiAgIOKUnOKUgOKUgCBpbmRleC50cyAgICAgICAgICAgICAgICAgICMgTWFpbiBleHBvcnRzCuKUgiAgIOKUnOKUgOKUgCB2b3hhZ2VudC50cyAgICAgICAgICAgICAgICMgVm94QWdlbnQgY2xhc3MK4pSCICAg4pSc4pSA4pSAIHR5cGVzLnRzICAgICAgICAgICAgICAgICAgIyBBbGwgVHlwZVNjcmlwdCB0eXBlcwrilIIgICDilJzilIDilIAgbG9nZ2VyLnRzICAgICAgICAgICAgICAgICAjIEludGVybmFsIGxvZ2dlcgrilIIgICDilJzilIDilIAgY29yZS8K4pSCICAg4pSCICAg4pSc4pSA4pSAIGF1ZGlvLXBpcGVsaW5lLnRzICAgICAjIEF1ZGlvIHN0cmVhbWluZyAmIGJ1ZmZlcmluZwrilIIgICDilIIgICDilJzilIDilIAgY29udmVyc2F0aW9uLW1hbmFnZXIudHMgIyBDb252ZXJzYXRpb24gc3RhdGUK4pSCICAg4pSCICAg4pSc4pSA4pSAIGxlYWQtZXh0cmFjdG9yLnRzICAgICAjIENvbnRhY3QgaW5mbyBleHRyYWN0aW9uCuKUgiAgIOKUgiAgIOKUlOKUgOKUgCB3ZWJzb2NrZXQtc2VydmVyLnRzICAgIyBXUyBzZXJ2ZXIgd2l0aCBoZWFydGJlYXRzCuKUgiAgIOKUnOKUgOKUgCBwcm92aWRlcnMvCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBvcGVuYWkudHMgICAgICAgICAgICAgIyBPcGVuQUkgUmVhbHRpbWUgQVBJCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCB4YWkudHMgICAgICAgICAgICAgICAgIyB4QUkgLyBHcm9rCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBhbnRocm9waWMudHMgICAgICAgICAgIyBBbnRocm9waWMgQ2xhdWRlCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBkZWVwZ3JhbS50cyAgICAgICAgICAgIyBEZWVwZ3JhbSBTVFQK4pSCICAg4pSCICAg4pSU4pSA4pSAIGluZGV4LnRzCuKUgiAgIOKUnOKUgOKUgCBwbHVnaW5zLwrilIIgICDilIIgICDilJzilIDilIAgdHJhbnNjcmlwdC1sb2dnZXIudHMgICMgSlNPTkwgdHJhbnNjcmlwdCBsb2dnaW5nCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBsZWFkLXdlYmhvb2sudHMgICAgICAgIyBIVFRQIGxlYWQgZGVsaXZlcnkK4pSCICAg4pSCICAg4pSc4pSA4pSAIHNsYWNrLW5vdGlmaWVyLnRzICAgICAjIFNsYWNrIGxlYWQgbm90aWZpY2F0aW9ucwrilIIgICDilIIgICDilJzilIDilIAgbWV0cmljcy50cyAgICAgICAgICAgICMgU2Vzc2lvbiBtZXRyaWNzCuKUgiAgIOKUgiAgIOKUlOKUgOKUgCBpbmRleC50cwrilIIgICDilJTilIDilIAgY2xpLwrilIIgICAgICAg4pSc4pSA4pSAIGluZGV4LnRzICAgICAgICAgICAgICAjIENMSSBlbnRyeSBwb2ludArilIIgICAgICAg4pSU4pSA4pSAIGNvbW1hbmRzLwrilIIgICAgICAgICAgIOKUnOKUgOKUgCBpbml0LnRzICAgICAgICAgICAjIHZveGtpdCBpbml0CuKUgiAgICAgICAgICAg4pSc4pSA4pSAIGRldi50cyAgICAgICAgICAgICMgdm94a2l0IGRldgrilIIgICAgICAgICAgIOKUnOKUgOKUgCBkZXBsb3kudHMgICAgICAgICAjIHZveGtpdCBkZXBsb3kK4pSCICAgICAgICAgICDilJTilIDilIAgdmVyc2lvbi50cyAgICAgICAgIyB2b3hraXQgdmVyc2lvbgrilJzilIDilIAgdGVzdHMvCuKUgiAgIOKUnOKUgOKUgCBjb3JlLwrilIIgICDilIIgICDilJzilIDilIAgYXVkaW8tcGlwZWxpbmUudGVzdC50cwrilIIgICDilIIgICDilJzilIDilIAgY29udmVyc2F0aW9uLW1hbmFnZXIudGVzdC50cwrilIIgICDilIIgICDilJTilIDilIAgbGVhZC1leHRyYWN0b3IudGVzdC50cwrilIIgICDilJzilIDilIAgcGx1Z2lucy8K4pSCICAg4pSCICAg4pSc4pSA4pSAIG1ldHJpY3MudGVzdC50cwrilIIgICDilIIgICDilJTilIDilIAgdHJhbnNjcmlwdC1sb2dnZXIudGVzdC50cwrilIIgICDilJTilIDilIAgcHJvdmlkZXJzLwrilIIgICAgICAg4pSU4pSA4pSAIGxlYWQtZXh0cmFjdG9yLWVkZ2UtY2FzZXMudGVzdC50cwrilJzilIDilIAgZXhhbXBsZXMvCuKUgiAgIOKUnOKUgOKUgCBiYXNpYy1hZ2VudC8gICAgICAgICAgICAgICMgTWluaW1hbCBleGFtcGxlCuKUgiAgIOKUnOKUgOKUgCByZWFsLWVzdGF0ZS1hZ2VudC8gICAgICAgICMgTGVhZCBjYXB0dXJlICsgQ1JNCuKUgiAgIOKUlOKUgOKUgCBjdXN0b21lci1zdXBwb3J0LyAgICAgICAgICMgVGlja2V0aW5nICsgUUEK4pSc4pSA4pSAIHBhY2thZ2UuanNvbgrilJzilIDilIAgdHNjb25maWcuanNvbgrilJzilIDilIAgdHN1cC5jb25maWcudHMK4pSc4pSA4pSAIHZpdGVzdC5jb25maWcudHMK4pSU4pSA4pSAIFJFQURNRS5tZApgYGAKCi0tLQoKIyMgQ29udHJpYnV0aW5nCgpDb250cmlidXRpb25zIGFyZSB3ZWxjb21lISBIZXJlJ3MgaG93IHRvIGdldCBzdGFydGVkOgoKYGBgYmFzaApnaXQgY2xvbmUgaHR0cHM6Ly9naXRodWIuY29tL3ZveGtpdC92b3hraXQuZ2l0CmNkIHZveGtpdApucG0gaW5zdGFsbApucG0gcnVuIGRldiAgICAgICAgICAjIHdhdGNoIG1vZGUgYnVpbGQKbnBtIHRlc3QgICAgICAgICAgICAgIyBydW4gdGVzdHMKYGBgCgoqKkdvb2QgZmlyc3QgaXNzdWVzOioqCi0gQWRkIGEgbmV3IHByb3ZpZGVyIChFbGV2ZW5MYWJzLCBUd2lsaW8sIEdyb3HigKYpCi0gQWRkIGEgbmV3IHBsdWdpbiAoSHViU3BvdCwgU2FsZXNmb3JjZSwgRGlzY29yZOKApikKLSBJbXByb3ZlIFZBRCBhY2N1cmFjeSBpbiBBdWRpb1BpcGVsaW5lCi0gQWRkIFdlYlJUQyBzdXBwb3J0CgpQbGVhc2UgcmVhZCBbQ09OVFJJQlVUSU5HLm1kXShDT05UUklCVVRJTkcubWQpIGJlZm9yZSBzdWJtaXR0aW5nIGEgUFIuCgotLS0KCiMjIFJvYWRtYXAKCi0gWyBdIFdlYlJUQyBzdXBwb3J0IChicm93c2VyIOKGlCBhZ2VudCBkaXJlY3RseSkKLSBbIF0gVHdpbGlvIE1lZGlhIFN0cmVhbXMgaW50ZWdyYXRpb24KLSBbIF0gRWxldmVuTGFicyBUVFMgcHJvdmlkZXIKLSBbIF0gR3JvcSBXaGlzcGVyIFNUVCBwcm92aWRlcgotIFsgXSBNdWx0aS1sYW5ndWFnZSBzdXBwb3J0Ci0gWyBdIENhbGwgcmVjb3JkaW5nICYgcGxheWJhY2sKLSBbIF0gQnVpbHQtaW4gcGhvbmUgbnVtYmVyIHByb3Zpc2lvbmluZwotIFsgXSBEYXNoYm9hcmQgVUkgZm9yIG1vbml0b3JpbmcgbGl2ZSBjYWxscwotIFsgXSBNdWx0aS1hZ2VudCBvcmNoZXN0cmF0aW9uCgotLS0KCiMjIExpY2Vuc2UKCk1JVCDCqSBbVm94S2l0XShodHRwczovL2dpdGh1Yi5jb20vdm94a2l0L3ZveGtpdCkKCi0tLQoKPGRpdiBhbGlnbj0iY2VudGVyIj4KICA8c3Ryb25nPkJ1aWx0IHdpdGgg4p2k77iPIGZvciB0aGUgb3Blbi1zb3VyY2UgY29tbXVuaXR5Ljwvc3Ryb25nPjxici8+CiAgPHN1Yj5TdGFyIOKtkCB0aGlzIHJlcG8gaWYgVm94S2l0IHNhdmVkIHlvdSB0aW1lITwvc3ViPgo8L2Rpdj4K
+<div align="center">
+
+# 🎙️ VoxKit
+
+**The open-source voice agent framework.**  
+Build AI-powered voice agents in ~20 lines of TypeScript.
+
+[![npm version](https://img.shields.io/npm/v/voxkit.svg?style=flat-square)](https://www.npmjs.com/package/voxkit)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+[![Tests](https://img.shields.io/badge/tests-passing-brightgreen?style=flat-square)](#tests)
+[![Node](https://img.shields.io/badge/node-%3E%3D18-brightgreen?style=flat-square&logo=node.js)](https://nodejs.org/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange?style=flat-square)](CONTRIBUTING.md)
+
+[Quick Start](#quick-start) · [Examples](#examples) · [API Reference](#api-reference) · [Providers](#providers) · [Plugins](#plugins) · [Contributing](#contributing)
+
+</div>
+
+---
+
+## What is VoxKit?
+
+VoxKit is a TypeScript-first framework for building production-ready AI voice agents. It handles all the hard parts — WebSocket audio streaming, speech-to-text, text-to-speech, conversation state, lead extraction, and reconnection — so you can focus on what your agent *does*.
+
+### Why VoxKit?
+
+| Without VoxKit | With VoxKit |
+|---|---|
+| ❌ Wire up WebSocket servers manually | ✅ `agent.listen(3000)` |
+| ❌ Handle audio buffering & VAD yourself | ✅ AudioPipeline handles it |
+| ❌ Build conversation context from scratch | ✅ ConversationManager built-in |
+| ❌ Write regex for lead extraction | ✅ LeadExtractor auto-runs |
+| ❌ Implement reconnection logic | ✅ Automatic with exponential backoff |
+| ❌ Learn 4 different provider APIs | ✅ One unified interface |
+
+---
+
+## Architecture
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                         VoxKit Framework                        │
+│                                                                 │
+│  ┌──────────────────────────────────────────────────────────┐   │
+│  │                       VoxAgent                          │   │
+│  │   ┌─────────────┐  ┌──────────────┐  ┌──────────────┐  │   │
+│  │   │   WebSocket │  │ Conversation │  │    Lead      │  │   │
+│  │   │   Server    │  │   Manager   │  │  Extractor   │  │   │
+│  │   └──────┬──────┘  └──────┬───────┘  └──────┬───────┘  │   │
+│  │          │                │                  │           │   │
+│  │   ┌──────▼──────────────────────────────────▼──────┐    │   │
+│  │   │              Audio Pipeline                     │    │   │
+│  │   │   [Buffer] → [VAD] → [Format Conversion]       │    │   │
+│  │   └──────────────────────┬──────────────────────────┘    │   │
+│  └─────────────────────────┼────────────────────────────────┘   │
+│                             │                                   │
+│  ┌──────────────────────────▼────────────────────────────────┐  │
+│  │                    Provider Layer                         │  │
+│  │  ┌───────────┐  ┌────────┐  ┌───────────┐  ┌──────────┐  │  │
+│  │  │  OpenAI   │  │  xAI  │  │ Anthropic │  │ Deepgram │  │  │
+│  │  │ Realtime  │  │  Grok  │  │  Claude   │  │  Nova-2  │  │  │
+│  │  └───────────┘  └────────┘  └───────────┘  └──────────┘  │  │
+│  └───────────────────────────────────────────────────────────┘  │
+│                                                                 │
+│  ┌───────────────────────────────────────────────────────────┐  │
+│  │                    Plugin System                          │  │
+│  │  [TranscriptLogger] [LeadWebhook] [Slack] [Metrics] ...   │  │
+│  └───────────────────────────────────────────────────────────┘  │
+└─────────────────────────────────────────────────────────────────┘
+
+Client (Browser / Twilio / SIP)
+    │
+    │  WebSocket (ws://)
+    │  Binary audio frames (PCM16)
+    ▼
+VoxKit Server
+```
+
+---
+
+## Quick Start
+
+### Installation
+
+```bash
+npm install voxkit
+# or
+yarn add voxkit
+# or
+pnpm add voxkit
+```
+
+### Your first voice agent (20 lines)
+
+```typescript
+import { VoxAgent, OpenAIProvider } from 'voxkit'
+
+const agent = new VoxAgent({
+  provider: new OpenAIProvider({ model: 'gpt-4o' }),
+  voice: 'alloy',
+  systemPrompt: 'You are a helpful assistant for a real estate company.',
+  onTranscript: (text) => console.log('User said:', text),
+  onLead:       (data) => saveLead(data),
+})
+
+agent.listen(3000)
+```
+
+That's it. Your agent is now:
+- Accepting WebSocket audio connections on port 3000
+- Transcribing speech with Whisper
+- Generating responses with GPT-4o
+- Speaking back with neural TTS
+- Automatically extracting name, email, and phone from the conversation
+
+---
+
+## CLI
+
+Scaffold, develop, and deploy with the `voxkit` CLI.
+
+```bash
+# Create a new agent from a template
+npx voxkit init my-agent
+npx voxkit init my-agent --template real-estate --provider openai
+npx voxkit init my-agent --template customer-support --provider anthropic
+
+# Run with hot reload (watches src/ for changes)
+npx voxkit dev
+npx voxkit dev --port 8080
+
+# Deployment guide
+npx voxkit deploy
+npx voxkit deploy --platform railway
+npx voxkit deploy --platform render
+npx voxkit deploy --platform fly
+npx voxkit deploy --platform docker
+```
+
+Available templates: `basic` · `real-estate` · `customer-support`
+
+---
+
+## Examples
+
+| Example | What it demonstrates |
+|---|---|
+| [`examples/basic-agent`](examples/basic-agent) | Minimal setup, one provider |
+| [`examples/real-estate-agent`](examples/real-estate-agent) | Lead capture, CRM webhook, Slack notifications |
+| [`examples/customer-support`](examples/customer-support) | Ticket creation, QA transcripts, support metrics |
+
+```bash
+cd examples/real-estate-agent
+npm install
+cp .env.example .env   # add your OpenAI key
+npm run dev
+```
+
+---
+
+## API Reference
+
+### `new VoxAgent(config)`
+
+The main class. Creates a fully configured voice agent.
+
+```typescript
+const agent = new VoxAgent({
+  // Required
+  provider: new OpenAIProvider({ model: 'gpt-4o' }),
+
+  // Voice & persona
+  voice: 'alloy',              // 'alloy' | 'echo' | 'fable' | 'onyx' | 'nova' | 'shimmer'
+  systemPrompt: 'You are…',   // LLM system prompt
+
+  // Features
+  enableLeadExtraction: true,         // Auto-extract name/email/phone (default: true)
+  maxConversationDuration: 3600,      // Max call duration in seconds (default: 3600)
+  silenceTimeoutMs: 30_000,           // End call after N ms of silence (default: 30000)
+
+  // Audio
+  audioConfig: {
+    sampleRate: 24000,    // Default: 24000
+    channels: 1,          // Default: 1 (mono)
+    format: 'pcm16',      // 'pcm16' | 'g711_ulaw' | 'g711_alaw'
+  },
+
+  // Event callbacks
+  onTranscript: (text, segment)        => { /* user spoke */ },
+  onResponse:   (text, response)       => { /* agent replied */ },
+  onLead:       (lead, conversation)   => { /* contact info captured */ },
+  onError:      (error, context)       => { /* something went wrong */ },
+  onConnect:    (connected)            => { /* connection state changed */ },
+})
+```
+
+### Instance methods
+
+```typescript
+// Start the WebSocket server (most common usage)
+await agent.listen(3000)
+await agent.listen(3000, '0.0.0.0')
+
+// Stop gracefully (drains connections, extracts final lead)
+await agent.stop()
+
+// Connect/disconnect the AI provider directly (no WS server)
+await agent.connect()
+await agent.disconnect()
+
+// Send text without audio (useful for testing or text-only clients)
+await agent.sendText('Hello, can you help me?')
+
+// Plugin system
+agent.use(new TranscriptLoggerPlugin())
+
+// Retrieve state
+agent.getTranscript()          // Full conversation as plain text
+agent.exportConversation()     // Full conversation as JSON
+agent.getCurrentLead()         // Best lead captured so far
+agent.conversation             // ConversationState object
+agent.isConnected              // boolean
+```
+
+### Events
+
+```typescript
+agent.on('transcript',      (text, segment)      => {})
+agent.on('response',        (text, response)     => {})
+agent.on('lead',            (lead, conversation) => {})
+agent.on('error',           (error, context)     => {})
+agent.on('connect',         (connected)          => {})
+agent.on('disconnect',      ()                   => {})
+agent.on('silenceTimeout',  (conversation)       => {})
+agent.on('clientConnect',   (wsClient)           => {})
+agent.on('clientDisconnect',(wsClient)           => {})
+```
+
+---
+
+## Providers
+
+All providers implement the `AIProvider` interface. Swap them with zero changes to your agent code.
+
+### OpenAI (Realtime API) — best for voice
+
+```typescript
+import { OpenAIProvider } from 'voxkit'
+
+new OpenAIProvider({
+  apiKey: process.env.OPENAI_API_KEY,   // or set OPENAI_API_KEY env var
+  model:  'gpt-4o-realtime-preview-2024-12-17',
+  voice:  'alloy',
+  temperature: 0.8,
+  maxResponseOutputTokens: 4096,
+})
+```
+
+Supported voices: `alloy` `echo` `fable` `onyx` `nova` `shimmer` `ash` `ballad` `coral` `sage` `verse`
+
+### xAI / Grok
+
+```typescript
+import { XAIProvider } from 'voxkit/providers'
+
+new XAIProvider({
+  apiKey: process.env.XAI_API_KEY,
+  model: 'grok-2-1212',
+  streaming: true,
+})
+```
+
+### Anthropic / Claude
+
+```typescript
+import { AnthropicProvider } from 'voxkit/providers'
+
+new AnthropicProvider({
+  apiKey: process.env.ANTHROPIC_API_KEY,
+  model: 'claude-3-5-sonnet-20241022',
+  maxTokens: 4096,
+  streaming: true,
+})
+```
+
+### Deepgram (STT-only)
+
+```typescript
+import { DeepgramProvider } from 'voxkit/providers'
+
+new DeepgramProvider({
+  apiKey: process.env.DEEPGRAM_API_KEY,
+  model: 'nova-2',
+  language: 'en-US',
+  smartFormat: true,
+  punctuate: true,
+})
+```
+
+### Build your own provider
+
+```typescript
+import type { AIProvider, Voice, TranscriptSegment, ProviderResponse } from 'voxkit'
+
+class MyCustomProvider implements AIProvider {
+  name = 'my-provider'
+
+  async initialize(): Promise<void> { /* set up */ }
+  async connect():    Promise<void> { /* open connection */ }
+  async disconnect(): Promise<void> { /* close connection */ }
+
+  async sendAudio(audio: Uint8Array): Promise<void> { /* stream audio */ }
+  async sendText(text: string):       Promise<void> { /* send text */ }
+
+  onResponse(cb: (r: ProviderResponse) => void):   void { /* register */ }
+  onTranscript(cb: (s: TranscriptSegment) => void): void { /* register */ }
+  onError(cb: (e: Error) => void):                 void { /* register */ }
+
+  getSupportedVoices(): Voice[] { return ['alloy'] }
+  setVoice(voice: Voice): void  { /* update */ }
+}
+
+// Use it just like any built-in provider:
+const agent = new VoxAgent({ provider: new MyCustomProvider() })
+```
+
+---
+
+## Plugins
+
+Plugins extend VoxAgent's capabilities via lifecycle hooks.
+
+### Built-in plugins
+
+```typescript
+import {
+  TranscriptLoggerPlugin,
+  LeadWebhookPlugin,
+  SlackNotifierPlugin,
+  MetricsPlugin
+} from 'voxkit'
+
+// Save full transcripts to disk (JSONL)
+agent.use(new TranscriptLoggerPlugin({
+  filePath: './transcripts.jsonl',
+  timestamps: true,
+  tag: '[call]'
+}))
+
+// POST leads to any HTTP endpoint
+agent.use(new LeadWebhookPlugin({
+  url:     'https://your-crm.com/api/leads',
+  secret:  process.env.CRM_SECRET,
+  retries: 3
+}))
+
+// Ping Slack on every captured lead
+agent.use(new SlackNotifierPlugin({
+  webhookUrl: process.env.SLACK_WEBHOOK_URL,
+  emoji: ':telephone_receiver:'
+}))
+
+// Track session metrics
+const metrics = new MetricsPlugin({ printSummary: true })
+agent.use(metrics)
+// Later: metrics.getMetrics() → { turnCount, durationMs, leadCaptured, ... }
+```
+
+### Write your own plugin
+
+```typescript
+import type { VoxKitPlugin, VoxAgent, ConversationMessage, LeadInfo } from 'voxkit'
+
+class MyCRMPlugin implements VoxKitPlugin {
+  name = 'my-crm'
+
+  initialize(agent: VoxAgent): void {
+    console.log('CRM plugin ready')
+  }
+
+  onMessage(message: ConversationMessage): void {
+    // runs on every conversation turn
+  }
+
+  onLead(lead: LeadInfo): void {
+    // runs when contact info is captured
+    myCRM.createContact(lead)
+  }
+
+  async destroy(): Promise<void> {
+    // cleanup on agent.stop()
+  }
+}
+
+agent.use(new MyCRMPlugin())
+```
+
+---
+
+## Lead Extraction
+
+VoxKit automatically extracts contact information from natural speech — no regex work required.
+
+```typescript
+// Automatically detected patterns:
+// "My name is Sarah Johnson"     → { name: 'Sarah Johnson' }
+// "Email me at hello@example.com" → { email: 'hello@example.com' }
+// "Call me at 415-555-1234"       → { phone: '+14155551234' }
+// "I work at Acme Corp"           → { company: 'Acme Corp' }
+
+agent.on('lead', (lead) => {
+  console.log(lead)
+  // {
+  //   name:    'Sarah Johnson',
+  //   email:   'sarah@example.com',
+  //   phone:   '+14155551234',
+  //   company: 'Acme Corp',
+  //   confidence: { name: 0.85, email: 1.0, phone: 1.0 }
+  // }
+})
+```
+
+Lead extraction is additive — it builds up across multiple turns and fires `onLead` as new info arrives. You can also call `agent.getCurrentLead()` at any time.
+
+---
+
+## Types
+
+VoxKit is fully typed. Key interfaces:
+
+```typescript
+interface LeadInfo {
+  name?:    string
+  email?:   string
+  phone?:   string
+  company?: string
+  notes?:   string
+  confidence: { name?: number; email?: number; phone?: number }
+}
+
+interface ConversationState {
+  id:             string
+  messages:       ConversationMessage[]
+  isActive:       boolean
+  startedAt:      number
+  lastActivityAt: number
+  metadata?:      Record<string, unknown>
+}
+
+interface ConversationMessage {
+  role:      'system' | 'user' | 'assistant' | 'function'
+  content:   string
+  timestamp?: number
+  metadata?:  Record<string, unknown>
+}
+
+interface TranscriptSegment {
+  id:         string
+  text:       string
+  isFinal:    boolean
+  timestamp:  number
+  speaker?:   string
+  confidence?: number
+}
+```
+
+---
+
+## Environment Variables
+
+| Variable | Required | Description |
+|---|---|---|
+| `OPENAI_API_KEY` | For OpenAI provider | Your OpenAI API key |
+| `XAI_API_KEY` | For xAI provider | Your xAI API key |
+| `ANTHROPIC_API_KEY` | For Anthropic provider | Your Anthropic API key |
+| `DEEPGRAM_API_KEY` | For Deepgram provider | Your Deepgram API key |
+| `PORT` | No | Server port (default: 3000) |
+| `VOXKIT_DEBUG` | No | Enable debug logging (`true`/`false`) |
+
+---
+
+## Tests
+
+```bash
+# Run all tests
+npm test
+
+# Watch mode
+npm test -- --watch
+
+# Coverage report
+npm run test:coverage
+```
+
+VoxKit uses [Vitest](https://vitest.dev/) and targets >90% coverage of core modules.
+
+---
+
+## Deployment
+
+### Railway (recommended)
+
+```bash
+npm install -g @railway/cli
+railway login
+railway init
+railway variables set OPENAI_API_KEY=sk-...
+railway up
+```
+
+### Docker
+
+```dockerfile
+FROM node:20-alpine
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci
+COPY . .
+RUN npm run build
+EXPOSE 3000
+CMD ["node", "dist/agent.js"]
+```
+
+```bash
+docker build -t my-voice-agent .
+docker run -p 3000:3000 -e OPENAI_API_KEY=sk-... my-voice-agent
+```
+
+### Render / Fly.io
+
+```bash
+npx voxkit deploy --platform render
+npx voxkit deploy --platform fly
+```
+
+---
+
+## Project Structure
+
+```
+voxkit/
+├── src/
+│   ├── index.ts                  # Main exports
+│   ├── voxagent.ts               # VoxAgent class
+│   ├── types.ts                  # All TypeScript types
+│   ├── logger.ts                 # Internal logger
+│   ├── core/
+│   │   ├── audio-pipeline.ts     # Audio streaming & buffering
+│   │   ├── conversation-manager.ts # Conversation state
+│   │   ├── lead-extractor.ts     # Contact info extraction
+│   │   └── websocket-server.ts   # WS server with heartbeats
+│   ├── providers/
+│   │   ├── openai.ts             # OpenAI Realtime API
+│   │   ├── xai.ts                # xAI / Grok
+│   │   ├── anthropic.ts          # Anthropic Claude
+│   │   ├── deepgram.ts           # Deepgram STT
+│   │   └── index.ts
+│   ├── plugins/
+│   │   ├── transcript-logger.ts  # JSONL transcript logging
+│   │   ├── lead-webhook.ts       # HTTP lead delivery
+│   │   ├── slack-notifier.ts     # Slack lead notifications
+│   │   ├── metrics.ts            # Session metrics
+│   │   └── index.ts
+│   └── cli/
+│       ├── index.ts              # CLI entry point
+│       └── commands/
+│           ├── init.ts           # voxkit init
+│           ├── dev.ts            # voxkit dev
+│           ├── deploy.ts         # voxkit deploy
+│           └── version.ts        # voxkit version
+├── tests/
+│   ├── core/
+│   │   ├── audio-pipeline.test.ts
+│   │   ├── conversation-manager.test.ts
+│   │   └── lead-extractor.test.ts
+│   ├── plugins/
+│   │   ├── metrics.test.ts
+│   │   └── transcript-logger.test.ts
+│   └── providers/
+│       └── lead-extractor-edge-cases.test.ts
+├── examples/
+│   ├── basic-agent/              # Minimal example
+│   ├── real-estate-agent/        # Lead capture + CRM
+│   └── customer-support/         # Ticketing + QA
+├── package.json
+├── tsconfig.json
+├── tsup.config.ts
+├── vitest.config.ts
+└── README.md
+```
+
+---
+
+## Contributing
+
+Contributions are welcome! Here's how to get started:
+
+```bash
+git clone https://github.com/voxkit/voxkit.git
+cd voxkit
+npm install
+npm run dev          # watch mode build
+npm test             # run tests
+```
+
+**Good first issues:**
+- Add a new provider (ElevenLabs, Twilio, Groq…)
+- Add a new plugin (HubSpot, Salesforce, Discord…)
+- Improve VAD accuracy in AudioPipeline
+- Add WebRTC support
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a PR.
+
+---
+
+## Roadmap
+
+- [ ] WebRTC support (browser ↔ agent directly)
+- [ ] Twilio Media Streams integration
+- [ ] ElevenLabs TTS provider
+- [ ] Groq Whisper STT provider
+- [ ] Multi-language support
+- [ ] Call recording & playback
+- [ ] Built-in phone number provisioning
+- [ ] Dashboard UI for monitoring live calls
+- [ ] Multi-agent orchestration
+
+---
+
+## License
+
+MIT © [VoxKit](https://github.com/voxkit/voxkit)
+
+---
+
+<div align="center">
+  <strong>Built with ❤️ for the open-source community.</strong><br/>
+  <sub>Star ⭐ this repo if VoxKit saved you time!</sub>
+</div>

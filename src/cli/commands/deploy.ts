@@ -1,1 +1,203 @@
-LyoqCiAqIFZveEtpdCBDTEkgLSBEZXBsb3kgQ29tbWFuZAogKiBTaG93IGRlcGxveW1lbnQgaW5zdHJ1Y3Rpb25zIGZvciB2YXJpb3VzIHBsYXRmb3JtcwogKi8KCmltcG9ydCBjaGFsayBmcm9tICdjaGFsaycKCmludGVyZmFjZSBEZXBsb3lPcHRpb25zIHsKICBwbGF0Zm9ybT86IHN0cmluZwp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZGVwbG95Q29tbWFuZChvcHRpb25zOiBEZXBsb3lPcHRpb25zKTogUHJvbWlzZTx2b2lkPiB7CiAgaWYgKG9wdGlvbnMucGxhdGZvcm0pIHsKICAgIHNob3dQbGF0Zm9ybUluc3RydWN0aW9ucyhvcHRpb25zLnBsYXRmb3JtKQogIH0gZWxzZSB7CiAgICBzaG93QWxsSW5zdHJ1Y3Rpb25zKCkKICB9Cn0KCmZ1bmN0aW9uIHNob3dBbGxJbnN0cnVjdGlvbnMoKTogdm9pZCB7CiAgY29uc29sZS5sb2coY2hhbGsuYmx1ZSgnXG7wn5qAIFZveEtpdCBEZXBsb3ltZW50IE9wdGlvbnNcbicpKQogIAogIGNvbnNvbGUubG9nKGNoYWxrLmN5YW4oJ0F2YWlsYWJsZSBwbGF0Zm9ybXM6XG4nKSkKICAKICBjb25zb2xlLmxvZyhjaGFsay53aGl0ZSgnMS4gUmFpbHdheSAoUmVjb21tZW5kZWQpJykpCiAgY29uc29sZS5sb2coY2hhbGsuZ3JheSgnICAgRWFzeSBkZXBsb3ltZW50IHdpdGggYXV0b21hdGljIFNTTFxuJykpCiAgCiAgY29uc29sZS5sb2coY2hhbGsud2hpdGUoJzIuIFJlbmRlcicpKQogIGNvbnNvbGUubG9nKGNoYWxrLmdyYXkoJyAgIEZyZWUgdGllciBhdmFpbGFibGUgd2l0aCBXZWJTb2NrZXQgc3VwcG9ydFxuJykpCiAgCiAgY29uc29sZS5sb2coY2hhbGsud2hpdGUoJzMuIEZseS5pbycpKQogIGNvbnNvbGUubG9nKGNoYWxrLmdyYXkoJyAgIEVkZ2UgZGVwbG95bWVudCB3aXRoIGdsb2JhbCBkaXN0cmlidXRpb25cbicpKQogIAogIGNvbnNvbGUubG9nKGNoYWxrLndoaXRlKCc0LiBEb2NrZXInKSkKICBjb25zb2xlLmxvZyhjaGFsay5ncmF5KCcgICBTZWxmLWhvc3QgYW55d2hlcmVcbicpKQoKICBjb25zb2xlLmxvZyhjaGFsay5jeWFuKCdSdW4gb25lIG9mIHRoZSBmb2xsb3dpbmcgZm9yIHNwZWNpZmljIGluc3RydWN0aW9uczpcbicpKQogIGNvbnNvbGUubG9nKGNoYWxrLndoaXRlKCcgIHZveGtpdCBkZXBsb3kgLXAgcmFpbHdheScpKQogIGNvbnNvbGUubG9nKGNoYWxrLndoaXRlKCcgIHZveGtpdCBkZXBsb3kgLXAgcmVuZGVyJykpCiAgY29uc29sZS5sb2coY2hhbGsud2hpdGUoJyAgdm94a2l0IGRlcGxveSAtcCBmbHknKSkKICBjb25zb2xlLmxvZyhjaGFsay53aGl0ZSgnICB2b3hraXQgZGVwbG95IC1wIGRvY2tlclxuJykpCn0KCmZ1bmN0aW9uIHNob3dQbGF0Zm9ybUluc3RydWN0aW9ucyhwbGF0Zm9ybTogc3RyaW5nKTogdm9pZCB7CiAgc3dpdGNoIChwbGF0Zm9ybS50b0xvd2VyQ2FzZSgpKSB7CiAgICBjYXNlICdyYWlsd2F5JzoKICAgICAgc2hvd1JhaWx3YXlJbnN0cnVjdGlvbnMoKQogICAgICBicmVhawogICAgY2FzZSAncmVuZGVyJzoKICAgICAgc2hvd1JlbmRlckluc3RydWN0aW9ucygpCiAgICAgIGJyZWFrCiAgICBjYXNlICdmbHknOgogICAgY2FzZSAnZmx5LmlvJzoKICAgICAgc2hvd0ZseUluc3RydWN0aW9ucygpCiAgICAgIGJyZWFrCiAgICBjYXNlICdkb2NrZXInOgogICAgICBzaG93RG9ja2VySW5zdHJ1Y3Rpb25zKCkKICAgICAgYnJlYWsKICAgIGRlZmF1bHQ6CiAgICAgIGNvbnNvbGUubG9nKGNoYWxrLnJlZChgVW5rbm93biBwbGF0Zm9ybTogJHtwbGF0Zm9ybX1gKSkKICAgICAgY29uc29sZS5sb2coY2hhbGsueWVsbG93KCdBdmFpbGFibGUgcGxhdGZvcm1zOiByYWlsd2F5LCByZW5kZXIsIGZseSwgZG9ja2VyJykpCiAgfQp9CgpmdW5jdGlvbiBzaG93UmFpbHdheUluc3RydWN0aW9ucygpOiB2b2lkIHsKICBjb25zb2xlLmxvZyhjaGFsay5ibHVlKCdcbvCfmoIgRGVwbG95IHRvIFJhaWx3YXlcbicpKQogIAogIGNvbnNvbGUubG9nKGNoYWxrLmN5YW4oJ1ByZXJlcXVpc2l0ZXM6JykpCiAgY29uc29sZS5sb2coY2hhbGsud2hpdGUoJyAg4oCiIFJhaWx3YXkgQ0xJOiBucG0gaW5zdGFsbCAtZyBAcmFpbHdheS9jbGknKSkKICBjb25zb2xlLmxvZyhjaGFsay53aGl0ZSgnICDigKIgUmFpbHdheSBhY2NvdW50OiBodHRwczovL3JhaWx3YXkuYXBwXG4nKSkKCiAgY29uc29sZS5sb2coY2hhbGsuY3lhbignU3RlcHM6XG4nKSkKICAKICBjb25zb2xlLmxvZyhjaGFsay53aGl0ZSgnMS4gTG9naW4gdG8gUmFpbHdheTonKSkKICBjb25zb2xlLmxvZyhjaGFsay5ncmF5KCcgICByYWlsd2F5IGxvZ2luXG4nKSkKICAKICBjb25zb2xlLmxvZyhjaGFsay53aGl0ZSgnMi4gSW5pdGlhbGl6ZSBwcm9qZWN0OicpKQogIGNvbnNvbGUubG9nKGNoYWxrLmdyYXkoJyAgIHJhaWx3YXkgaW5pdFxuJykpCiAgCiAgY29uc29sZS5sb2coY2hhbGsud2hpdGUoJzMuIEFkZCBlbnZpcm9ubWVudCB2YXJpYWJsZXM6JykpCiAgY29uc29sZS5sb2coY2hhbGsuZ3JheSgnICAgcmFpbHdheSB2YXJpYWJsZXMgc2V0IE9QRU5BSV9BUElfS0VZPXlvdXJfa2V5X2hlcmUnKSkKICBjb25zb2xlLmxvZyhjaGFsay5ncmF5KCcgICByYWlsd2F5IHZhcmlhYmxlcyBzZXQgUE9SVD0zMDAwXG4nKSkKICAKICBjb25zb2xlLmxvZyhjaGFsay53aGl0ZSgnNC4gRGVwbG95OicpKQogIGNvbnNvbGUubG9nKGNoYWxrLmdyYXkoJyAgIHJhaWx3YXkgdXBcbicpKQoKICBjb25zb2xlLmxvZyhjaGFsay5ncmVlbignWW91ciB2b2ljZSBhZ2VudCB3aWxsIGJlIGF2YWlsYWJsZSBhdCB0aGUgUmFpbHdheSBVUkwhXG4nKSkKfQoKZnVuY3Rpb24gc2hvd1JlbmRlckluc3RydWN0aW9ucygpOiB2b2lkIHsKICBjb25zb2xlLmxvZyhjaGFsay5ibHVlKCdcbvCfjqggRGVwbG95IHRvIFJlbmRlclxuJykpCiAgCiAgY29uc29sZS5sb2coY2hhbGsuY3lhbignU3RlcHM6XG4nKSkKICAKICBjb25zb2xlLmxvZyhjaGFsay53aGl0ZSgnMS4gUHVzaCB5b3VyIGNvZGUgdG8gR2l0SHViJykpCiAgY29uc29sZS5sb2coY2hhbGsuZ3JheSgnICAgZ2l0IGFkZCAuJykpCiAgY29uc29sZS5sb2coY2hhbGsuZ3JheSgnICAgZ2l0IGNvbW1pdCAtbSAiSW5pdGlhbCBjb21taXQiJykpCiAgY29uc29sZS5sb2coY2hhbGsuZ3JheSgnICAgZ2l0IHB1c2ggb3JpZ2luIG1haW5cbicpKQogIAogIGNvbnNvbGUubG9nKGNoYWxrLndoaXRlKCcyLiBDcmVhdGUgYSBuZXcgV2ViIFNlcnZpY2Ugb24gUmVuZGVyJykpCiAgY29uc29sZS5sb2coY2hhbGsuZ3JheSgnICAgR28gdG8gaHR0cHM6Ly9kYXNoYm9hcmQucmVuZGVyLmNvbVxuJykpCiAgCiAgY29uc29sZS5sb2coY2hhbGsud2hpdGUoJzMuIENvbmZpZ3VyZSB0aGUgc2VydmljZTonKSkKICBjb25zb2xlLmxvZyhjaGFsay5ncmF5KCcgICDigKIgQnVpbGQgQ29tbWFuZDogbnBtIGluc3RhbGwgJiYgbnBtIHJ1biBidWlsZCcpKQogIGNvbnNvbGUubG9nKGNoYWxrLmdyYXkoJyAgIOKAoiBTdGFydCBDb21tYW5kOiBucG0gc3RhcnQnKSkKICBjb25zb2xlLmxvZyhjaGFsay5ncmF5KCcgICDigKIgRW52aXJvbm1lbnQ6IE5vZGUnKSkKICBjb25zb2xlLmxvZyhjaGFsay5ncmF5KCcgICDigKIgUGxhbjogU3RhcnRlciAoV2ViU29ja2V0IHN1cHBvcnQgcmVxdWlyZWQpXG4nKSkKICAKICBjb25zb2xlLmxvZyhjaGFsay53aGl0ZSgnNC4gQWRkIGVudmlyb25tZW50IHZhcmlhYmxlczonKSkKICBjb25zb2xlLmxvZyhjaGFsay5ncmF5KCcgICDigKIgT1BFTkFJX0FQSV9LRVknKSkKICBjb25zb2xlLmxvZyhjaGFsay5ncmF5KCcgICDigKIgUE9SVD0zMDAwXG4nKSkKCiAgY29uc29sZS5sb2coY2hhbGsuZ3JlZW4oJ1JlbmRlciB3aWxsIGF1dG8tZGVwbG95IG9uIGV2ZXJ5IHB1c2ggdG8gR2l0SHViIVxuJykpCn0KCmZ1bmN0aW9uIHNob3dGbHlJbnN0cnVjdGlvbnMoKTogdm9pZCB7CiAgY29uc29sZS5sb2coY2hhbGsuYmx1ZSgnXG7wn5qAIERlcGxveSB0byBGbHkuaW9cbicpKQogIAogIGNvbnNvbGUubG9nKGNoYWxrLmN5YW4oJ1ByZXJlcXVpc2l0ZXM6JykpCiAgY29uc29sZS5sb2coY2hhbGsud2hpdGUoJyAg4oCiIEZseSBDTEk6IGJyZXcgaW5zdGFsbCBmbHljdGwnKSkKICBjb25zb2xlLmxvZyhjaGFsay53aGl0ZSgnICDigKIgRmx5IGFjY291bnQ6IGh0dHBzOi8vZmx5LmlvXG4nKSkKCiAgY29uc29sZS5sb2coY2hhbGsuY3lhbignU3RlcHM6XG4nKSkKICAKICBjb25zb2xlLmxvZyhjaGFsay53aGl0ZSgnMS4gTG9naW4gdG8gRmx5OicpKQogIGNvbnNvbGUubG9nKGNoYWxrLmdyYXkoJyAgIGZseSBhdXRoIGxvZ2luXG4nKSkKICAKICBjb25zb2xlLmxvZyhjaGFsay53aGl0ZSgnMi4gQ3JlYXRlIGFwcDonKSkKICBjb25zb2xlLmxvZyhjaGFsay5ncmF5KCcgICBmbHkgbGF1bmNoIC0tbmFtZSBteS12b2ljZS1hZ2VudFxuJykpCiAgCiAgY29uc29sZS5sb2coY2hhbGsud2hpdGUoJzMuIFNldCBzZWNyZXRzOicpKQogIGNvbnNvbGUubG9nKGNoYWxrLmdyYXkoJyAgIGZseSBzZWNyZXRzIHNldCBPUEVOQUlfQVBJX0tFWT15b3VyX2tleV9oZXJlXG4nKSkKICAKICBjb25zb2xlLmxvZyhjaGFsay53aGl0ZSgnNC4gRGVwbG95OicpKQogIGNvbnNvbGUubG9nKGNoYWxrLmdyYXkoJyAgIGZseSBkZXBsb3lcbicpKQoKICBjb25zb2xlLmxvZyhjaGFsay5ncmVlbignWW91ciB2b2ljZSBhZ2VudCB3aWxsIGJlIGF2YWlsYWJsZSBnbG9iYWxseSBvbiBGbHkuaW8hXG4nKSkKICAKICBjb25zb2xlLmxvZyhjaGFsay5jeWFuKCdDcmVhdGUgYSBmbHkudG9tbCBmaWxlOlxuJykpCiAgY29uc29sZS5sb2coY2hhbGsuZ3JheShgYXBwID0gIm15LXZvaWNlLWFnZW50IgpwcmltYXJ5X3JlZ2lvbiA9ICJpYWQiCgpbYnVpbGRdCgpbZW52XQogIFBPUlQgPSAiODA4MCIKCltodHRwX3NlcnZpY2VdCiAgaW50ZXJuYWxfcG9ydCA9IDgwODAKICBmb3JjZV9odHRwcyA9IHRydWUKICBhdXRvX3N0b3BfbWFjaGluZXMgPSB0cnVlCiAgYXV0b19zdGFydF9tYWNoaW5lcyA9IHRydWUKICBtaW5fbWFjaGluZXNfcnVubmluZyA9IDAKICBwcm9jZXNzZXMgPSBbImFwcCJdCgpbW3ZtXV0KICBjcHVfa2luZCA9ICJzaGFyZWQiCiAgY3B1cyA9IDEKICBtZW1vcnlfbWIgPSAxMDI0CmApKQp9CgpmdW5jdGlvbiBzaG93RG9ja2VySW5zdHJ1Y3Rpb25zKCk6IHZvaWQgewogIGNvbnNvbGUubG9nKGNoYWxrLmJsdWUoJ1xu8J+QsyBEZXBsb3kgd2l0aCBEb2NrZXJcbicpKQoKICBjb25zb2xlLmxvZyhjaGFsay5jeWFuKCdDcmVhdGUgYSBEb2NrZXJmaWxlOlxuJykpCiAgY29uc29sZS5sb2coY2hhbGsuZ3JheShgRlJPTSBub2RlOjIwLWFscGluZQoKV09SS0RJUiAvYXBwCgpDT1BZIHBhY2thZ2UqLmpzb24gLi8KUlVOIG5wbSBjaSAtLW9ubHk9cHJvZHVjdGlvbgoKQ09QWSAuIC4KUlVOIG5wbSBydW4gYnVpbGQKCkVYUE9TRSAzMDAwCgpDTUQgWyJucG0iLCAic3RhcnQiXQpgKSkKCiAgY29uc29sZS5sb2coY2hhbGsuY3lhbignXG5DcmVhdGUgZG9ja2VyLWNvbXBvc2UueW1sIChvcHRpb25hbCk6XG4nKSkKICBjb25zb2xlLmxvZyhjaGFsay5ncmF5KGB2ZXJzaW9uOiAnMy44JwoKc2VydmljZXM6CiAgdm9pY2UtYWdlbnQ6CiAgICBidWlsZDogLgogICAgcG9ydHM6CiAgICAgIC0gIjMwMDA6MzAwMCIKICAgIGVudmlyb25tZW50OgogICAgICAtIE9QRU5BSV9BUElfS0VZPVwke09QRU5BSV9BUElfS0VZfQogICAgICAtIFBPUlQ9MzAwMAogICAgcmVzdGFydDogdW5sZXNzLXN0b3BwZWQKYCkpCgogIGNvbnNvbGUubG9nKGNoYWxrLmN5YW4oJ1xuQnVpbGQgYW5kIHJ1bjpcbicpKQogIGNvbnNvbGUubG9nKGNoYWxrLmdyYXkoJyAgZG9ja2VyIGJ1aWxkIC10IG15LXZvaWNlLWFnZW50IC4nKSkKICBjb25zb2xlLmxvZyhjaGFsay5ncmF5KCcgIGRvY2tlciBydW4gLXAgMzAwMDozMDAwIC1lIE9QRU5BSV9BUElfS0VZPXlvdXJfa2V5IG15LXZvaWNlLWFnZW50XG4nKSkKICBjb25zb2xlLmxvZyhjaGFsay5ncmF5KCcgICMgT3Igd2l0aCBkb2NrZXItY29tcG9zZTonKSkKICBjb25zb2xlLmxvZyhjaGFsay5ncmF5KCcgIGRvY2tlci1jb21wb3NlIHVwIC1kXG4nKSkKCiAgY29uc29sZS5sb2coY2hhbGsuZ3JlZW4oJ1lvdXIgdm9pY2UgYWdlbnQgaXMgcnVubmluZyBpbiBEb2NrZXIhXG4nKSkKfQo=
+/**
+ * VoxKit CLI - Deploy Command
+ * Show deployment instructions for various platforms
+ */
+
+import chalk from 'chalk'
+
+interface DeployOptions {
+  platform?: string
+}
+
+export async function deployCommand(options: DeployOptions): Promise<void> {
+  if (options.platform) {
+    showPlatformInstructions(options.platform)
+  } else {
+    showAllInstructions()
+  }
+}
+
+function showAllInstructions(): void {
+  console.log(chalk.blue('\n🚀 VoxKit Deployment Options\n'))
+  
+  console.log(chalk.cyan('Available platforms:\n'))
+  
+  console.log(chalk.white('1. Railway (Recommended)'))
+  console.log(chalk.gray('   Easy deployment with automatic SSL\n'))
+  
+  console.log(chalk.white('2. Render'))
+  console.log(chalk.gray('   Free tier available with WebSocket support\n'))
+  
+  console.log(chalk.white('3. Fly.io'))
+  console.log(chalk.gray('   Edge deployment with global distribution\n'))
+  
+  console.log(chalk.white('4. Docker'))
+  console.log(chalk.gray('   Self-host anywhere\n'))
+
+  console.log(chalk.cyan('Run one of the following for specific instructions:\n'))
+  console.log(chalk.white('  voxkit deploy -p railway'))
+  console.log(chalk.white('  voxkit deploy -p render'))
+  console.log(chalk.white('  voxkit deploy -p fly'))
+  console.log(chalk.white('  voxkit deploy -p docker\n'))
+}
+
+function showPlatformInstructions(platform: string): void {
+  switch (platform.toLowerCase()) {
+    case 'railway':
+      showRailwayInstructions()
+      break
+    case 'render':
+      showRenderInstructions()
+      break
+    case 'fly':
+    case 'fly.io':
+      showFlyInstructions()
+      break
+    case 'docker':
+      showDockerInstructions()
+      break
+    default:
+      console.log(chalk.red(`Unknown platform: ${platform}`))
+      console.log(chalk.yellow('Available platforms: railway, render, fly, docker'))
+  }
+}
+
+function showRailwayInstructions(): void {
+  console.log(chalk.blue('\n🚂 Deploy to Railway\n'))
+  
+  console.log(chalk.cyan('Prerequisites:'))
+  console.log(chalk.white('  • Railway CLI: npm install -g @railway/cli'))
+  console.log(chalk.white('  • Railway account: https://railway.app\n'))
+
+  console.log(chalk.cyan('Steps:\n'))
+  
+  console.log(chalk.white('1. Login to Railway:'))
+  console.log(chalk.gray('   railway login\n'))
+  
+  console.log(chalk.white('2. Initialize project:'))
+  console.log(chalk.gray('   railway init\n'))
+  
+  console.log(chalk.white('3. Add environment variables:'))
+  console.log(chalk.gray('   railway variables set OPENAI_API_KEY=your_key_here'))
+  console.log(chalk.gray('   railway variables set PORT=3000\n'))
+  
+  console.log(chalk.white('4. Deploy:'))
+  console.log(chalk.gray('   railway up\n'))
+
+  console.log(chalk.green('Your voice agent will be available at the Railway URL!\n'))
+}
+
+function showRenderInstructions(): void {
+  console.log(chalk.blue('\n🎨 Deploy to Render\n'))
+  
+  console.log(chalk.cyan('Steps:\n'))
+  
+  console.log(chalk.white('1. Push your code to GitHub'))
+  console.log(chalk.gray('   git add .'))
+  console.log(chalk.gray('   git commit -m "Initial commit"'))
+  console.log(chalk.gray('   git push origin main\n'))
+  
+  console.log(chalk.white('2. Create a new Web Service on Render'))
+  console.log(chalk.gray('   Go to https://dashboard.render.com\n'))
+  
+  console.log(chalk.white('3. Configure the service:'))
+  console.log(chalk.gray('   • Build Command: npm install && npm run build'))
+  console.log(chalk.gray('   • Start Command: npm start'))
+  console.log(chalk.gray('   • Environment: Node'))
+  console.log(chalk.gray('   • Plan: Starter (WebSocket support required)\n'))
+  
+  console.log(chalk.white('4. Add environment variables:'))
+  console.log(chalk.gray('   • OPENAI_API_KEY'))
+  console.log(chalk.gray('   • PORT=3000\n'))
+
+  console.log(chalk.green('Render will auto-deploy on every push to GitHub!\n'))
+}
+
+function showFlyInstructions(): void {
+  console.log(chalk.blue('\n🚀 Deploy to Fly.io\n'))
+  
+  console.log(chalk.cyan('Prerequisites:'))
+  console.log(chalk.white('  • Fly CLI: brew install flyctl'))
+  console.log(chalk.white('  • Fly account: https://fly.io\n'))
+
+  console.log(chalk.cyan('Steps:\n'))
+  
+  console.log(chalk.white('1. Login to Fly:'))
+  console.log(chalk.gray('   fly auth login\n'))
+  
+  console.log(chalk.white('2. Create app:'))
+  console.log(chalk.gray('   fly launch --name my-voice-agent\n'))
+  
+  console.log(chalk.white('3. Set secrets:'))
+  console.log(chalk.gray('   fly secrets set OPENAI_API_KEY=your_key_here\n'))
+  
+  console.log(chalk.white('4. Deploy:'))
+  console.log(chalk.gray('   fly deploy\n'))
+
+  console.log(chalk.green('Your voice agent will be available globally on Fly.io!\n'))
+  
+  console.log(chalk.cyan('Create a fly.toml file:\n'))
+  console.log(chalk.gray(`app = "my-voice-agent"
+primary_region = "iad"
+
+[build]
+
+[env]
+  PORT = "8080"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]
+
+[[vm]]
+  cpu_kind = "shared"
+  cpus = 1
+  memory_mb = 1024
+`))
+}
+
+function showDockerInstructions(): void {
+  console.log(chalk.blue('\n🐳 Deploy with Docker\n'))
+
+  console.log(chalk.cyan('Create a Dockerfile:\n'))
+  console.log(chalk.gray(`FROM node:20-alpine
+
+WORKDIR /app
+
+COPY package*.json ./
+RUN npm ci --only=production
+
+COPY . .
+RUN npm run build
+
+EXPOSE 3000
+
+CMD ["npm", "start"]
+`))
+
+  console.log(chalk.cyan('\nCreate docker-compose.yml (optional):\n'))
+  console.log(chalk.gray(`version: '3.8'
+
+services:
+  voice-agent:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - OPENAI_API_KEY=\${OPENAI_API_KEY}
+      - PORT=3000
+    restart: unless-stopped
+`))
+
+  console.log(chalk.cyan('\nBuild and run:\n'))
+  console.log(chalk.gray('  docker build -t my-voice-agent .'))
+  console.log(chalk.gray('  docker run -p 3000:3000 -e OPENAI_API_KEY=your_key my-voice-agent\n'))
+  console.log(chalk.gray('  # Or with docker-compose:'))
+  console.log(chalk.gray('  docker-compose up -d\n'))
+
+  console.log(chalk.green('Your voice agent is running in Docker!\n'))
+}

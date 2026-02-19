@@ -1,1 +1,192 @@
-LyoqCiAqIEF1ZGlvIFBpcGVsaW5lIGZvciBWb3hLaXQKICogSGFuZGxlcyBhdWRpbyBzdHJlYW1pbmcsIGJ1ZmZlcmluZywgYW5kIGZvcm1hdCBjb252ZXJzaW9uCiAqLwoKaW1wb3J0IEV2ZW50RW1pdHRlciBmcm9tICdldmVudHMnCmltcG9ydCB0eXBlIHsgQXVkaW9Db25maWcsIFdTTWVzc2FnZSB9IGZyb20gJy4uL3R5cGVzLmpzJwppbXBvcnQgeyBsb2dnZXIgfSBmcm9tICcuLi9sb2dnZXIuanMnCgpleHBvcnQgaW50ZXJmYWNlIEF1ZGlvUGlwZWxpbmVDb25maWcgZXh0ZW5kcyBBdWRpb0NvbmZpZyB7CiAgZW5hYmxlVkFEPzogYm9vbGVhbgogIHZhZFRocmVzaG9sZD86IG51bWJlcgogIGJ1ZmZlckR1cmF0aW9uTXM/OiBudW1iZXIKfQoKZXhwb3J0IGNsYXNzIEF1ZGlvUGlwZWxpbmUgZXh0ZW5kcyBFdmVudEVtaXR0ZXIgewogIHByaXZhdGUgY29uZmlnOiBBdWRpb1BpcGVsaW5lQ29uZmlnCiAgcHJpdmF0ZSBhdWRpb0J1ZmZlcjogVWludDhBcnJheVtdID0gW10KICBwcml2YXRlIGlzU3RyZWFtaW5nID0gZmFsc2UKICBwcml2YXRlIHNhbXBsZUNvdW50ID0gMAogIHByaXZhdGUgbG9nZ2VyID0gbG9nZ2VyLmNoaWxkKCdhdWRpby1waXBlbGluZScpCgogIGNvbnN0cnVjdG9yKGNvbmZpZzogUGFydGlhbDxBdWRpb1BpcGVsaW5lQ29uZmlnPiA9IHt9KSB7CiAgICBzdXBlcigpCiAgICB0aGlzLmNvbmZpZyA9IHsKICAgICAgc2FtcGxlUmF0ZTogY29uZmlnLnNhbXBsZVJhdGUgPz8gMjQwMDAsCiAgICAgIGNoYW5uZWxzOiBjb25maWcuY2hhbm5lbHMgPz8gMSwKICAgICAgZm9ybWF0OiBjb25maWcuZm9ybWF0ID8/ICdwY20xNicsCiAgICAgIGJ1ZmZlclNpemU6IGNvbmZpZy5idWZmZXJTaXplID8/IDQwOTYsCiAgICAgIGVuYWJsZVZBRDogY29uZmlnLmVuYWJsZVZBRCA/PyB0cnVlLAogICAgICB2YWRUaHJlc2hvbGQ6IGNvbmZpZy52YWRUaHJlc2hvbGQgPz8gMC4wMSwKICAgICAgYnVmZmVyRHVyYXRpb25NczogY29uZmlnLmJ1ZmZlckR1cmF0aW9uTXMgPz8gMTAwCiAgICB9CiAgfQoKICAvKioKICAgKiBQcm9jZXNzIGluY29taW5nIGF1ZGlvIGNodW5rCiAgICovCiAgcHJvY2Vzc0F1ZGlvQ2h1bmsoY2h1bms6IFVpbnQ4QXJyYXkpOiB2b2lkIHsKICAgIGlmICghdGhpcy5pc1N0cmVhbWluZykgewogICAgICByZXR1cm4KICAgIH0KCiAgICB0aGlzLmF1ZGlvQnVmZmVyLnB1c2goY2h1bmspCiAgICB0aGlzLnNhbXBsZUNvdW50ICs9IGNodW5rLmxlbmd0aAoKICAgIC8vIEVtaXQgY2h1bmsgZm9yIHJlYWwtdGltZSBwcm9jZXNzaW5nCiAgICB0aGlzLmVtaXQoJ2NodW5rJywgY2h1bmspCgogICAgLy8gQ2hlY2sgaWYgd2Ugc2hvdWxkIGZsdXNoIGJ1ZmZlcgogICAgY29uc3QgYnVmZmVyRHVyYXRpb24gPSB0aGlzLmNhbGN1bGF0ZUJ1ZmZlckR1cmF0aW9uKCkKICAgIGlmIChidWZmZXJEdXJhdGlvbiA+PSB0aGlzLmNvbmZpZy5idWZmZXJEdXJhdGlvbk1zISkgewogICAgICB0aGlzLmZsdXNoQnVmZmVyKCkKICAgIH0KICB9CgogIC8qKgogICAqIFN0YXJ0IGF1ZGlvIHN0cmVhbWluZwogICAqLwogIHN0YXJ0KCk6IHZvaWQgewogICAgdGhpcy5pc1N0cmVhbWluZyA9IHRydWUKICAgIHRoaXMuYXVkaW9CdWZmZXIgPSBbXQogICAgdGhpcy5zYW1wbGVDb3VudCA9IDAKICAgIHRoaXMubG9nZ2VyLmluZm8oJ0F1ZGlvIHBpcGVsaW5lIHN0YXJ0ZWQnKQogICAgdGhpcy5lbWl0KCdzdGFydGVkJykKICB9CgogIC8qKgogICAqIFN0b3AgYXVkaW8gc3RyZWFtaW5nCiAgICovCiAgc3RvcCgpOiB2b2lkIHsKICAgIHRoaXMuaXNTdHJlYW1pbmcgPSBmYWxzZQogICAgaWYgKHRoaXMuYXVkaW9CdWZmZXIubGVuZ3RoID4gMCkgewogICAgICB0aGlzLmZsdXNoQnVmZmVyKCkKICAgIH0KICAgIHRoaXMubG9nZ2VyLmluZm8oJ0F1ZGlvIHBpcGVsaW5lIHN0b3BwZWQnKQogICAgdGhpcy5lbWl0KCdzdG9wcGVkJykKICB9CgogIC8qKgogICAqIEZsdXNoIGN1cnJlbnQgYXVkaW8gYnVmZmVyCiAgICovCiAgZmx1c2hCdWZmZXIoKTogVWludDhBcnJheSB8IG51bGwgewogICAgaWYgKHRoaXMuYXVkaW9CdWZmZXIubGVuZ3RoID09PSAwKSB7CiAgICAgIHJldHVybiBudWxsCiAgICB9CgogICAgY29uc3QgdG90YWxMZW5ndGggPSB0aGlzLmF1ZGlvQnVmZmVyLnJlZHVjZSgoc3VtLCBjaHVuaykgPT4gc3VtICsgY2h1bmsubGVuZ3RoLCAwKQogICAgY29uc3QgY29tYmluZWQgPSBuZXcgVWludDhBcnJheSh0b3RhbExlbmd0aCkKICAgIAogICAgbGV0IG9mZnNldCA9IDAKICAgIGZvciAoY29uc3QgY2h1bmsgb2YgdGhpcy5hdWRpb0J1ZmZlcikgewogICAgICBjb21iaW5lZC5zZXQoY2h1bmssIG9mZnNldCkKICAgICAgb2Zmc2V0ICs9IGNodW5rLmxlbmd0aAogICAgfQoKICAgIHRoaXMuYXVkaW9CdWZmZXIgPSBbXQogICAgdGhpcy5zYW1wbGVDb3VudCA9IDAKCiAgICB0aGlzLmVtaXQoJ2J1ZmZlcicsIGNvbWJpbmVkKQogICAgcmV0dXJuIGNvbWJpbmVkCiAgfQoKICAvKioKICAgKiBDb252ZXJ0IGF1ZGlvIGZvcm1hdAogICAqLwogIGNvbnZlcnRGb3JtYXQoZGF0YTogVWludDhBcnJheSwgdGFyZ2V0Rm9ybWF0OiBzdHJpbmcpOiBVaW50OEFycmF5IHsKICAgIC8vIFBsYWNlaG9sZGVyIGZvciBmb3JtYXQgY29udmVyc2lvbiBsb2dpYwogICAgLy8gSW4gYSByZWFsIGltcGxlbWVudGF0aW9uLCB0aGlzIHdvdWxkIGhhbmRsZSBQQ00sIM68LWxhdywgQS1sYXcgY29udmVyc2lvbnMKICAgIHRoaXMubG9nZ2VyLmRlYnVnKGBDb252ZXJ0aW5nIGF1ZGlvIHRvIGZvcm1hdDogJHt0YXJnZXRGb3JtYXR9YCkKICAgIHJldHVybiBkYXRhCiAgfQoKICAvKioKICAgKiBBcHBseSB2b2ljZSBhY3Rpdml0eSBkZXRlY3Rpb24KICAgKi8KICBhcHBseVZBRChhdWRpb0RhdGE6IFVpbnQ4QXJyYXkpOiB7IGhhc1NwZWVjaDogYm9vbGVhbjsgY29uZmlkZW5jZTogbnVtYmVyIH0gewogICAgaWYgKCF0aGlzLmNvbmZpZy5lbmFibGVWQUQpIHsKICAgICAgcmV0dXJuIHsgaGFzU3BlZWNoOiB0cnVlLCBjb25maWRlbmNlOiAxLjAgfQogICAgfQoKICAgIC8vIFNpbXBsZSBlbmVyZ3ktYmFzZWQgVkFECiAgICBsZXQgZW5lcmd5ID0gMAogICAgY29uc3QgdmlldyA9IG5ldyBEYXRhVmlldyhhdWRpb0RhdGEuYnVmZmVyKQogICAgCiAgICBmb3IgKGxldCBpID0gMDsgaSA8IGF1ZGlvRGF0YS5sZW5ndGg7IGkgKz0gMikgewogICAgICBjb25zdCBzYW1wbGUgPSB2aWV3LmdldEludDE2KGksIHRydWUpCiAgICAgIGVuZXJneSArPSBzYW1wbGUgKiBzYW1wbGUKICAgIH0KICAgIAogICAgZW5lcmd5ID0gTWF0aC5zcXJ0KGVuZXJneSAvIChhdWRpb0RhdGEubGVuZ3RoIC8gMikpCiAgICBjb25zdCBub3JtYWxpemVkRW5lcmd5ID0gZW5lcmd5IC8gMzI3NjguMAogICAgY29uc3QgaGFzU3BlZWNoID0gbm9ybWFsaXplZEVuZXJneSA+IHRoaXMuY29uZmlnLnZhZFRocmVzaG9sZCEKCiAgICByZXR1cm4gewogICAgICBoYXNTcGVlY2gsCiAgICAgIGNvbmZpZGVuY2U6IE1hdGgubWluKG5vcm1hbGl6ZWRFbmVyZ3kgLyAodGhpcy5jb25maWcudmFkVGhyZXNob2xkISAqIDIpLCAxLjApCiAgICB9CiAgfQoKICAvKioKICAgKiBDcmVhdGUgV2ViU29ja2V0IG1lc3NhZ2UgZm9yIGF1ZGlvIGRhdGEKICAgKi8KICBjcmVhdGVBdWRpb01lc3NhZ2UoYXVkaW9EYXRhOiBVaW50OEFycmF5KTogV1NNZXNzYWdlIHsKICAgIHJldHVybiB7CiAgICAgIHR5cGU6ICdhdWRpbycsCiAgICAgIGRhdGE6IEJ1ZmZlci5mcm9tKGF1ZGlvRGF0YSkudG9TdHJpbmcoJ2Jhc2U2NCcpLAogICAgICB0aW1lc3RhbXA6IERhdGUubm93KCksCiAgICAgIGlkOiB0aGlzLmdlbmVyYXRlSWQoKQogICAgfQogIH0KCiAgLyoqCiAgICogUGFyc2UgYXVkaW8gZnJvbSBXZWJTb2NrZXQgbWVzc2FnZQogICAqLwogIHBhcnNlQXVkaW9NZXNzYWdlKG1lc3NhZ2U6IFdTTWVzc2FnZSk6IFVpbnQ4QXJyYXkgfCBudWxsIHsKICAgIGlmIChtZXNzYWdlLnR5cGUgIT09ICdhdWRpbycgfHwgdHlwZW9mIG1lc3NhZ2UuZGF0YSAhPT0gJ3N0cmluZycpIHsKICAgICAgcmV0dXJuIG51bGwKICAgIH0KICAgIAogICAgdHJ5IHsKICAgICAgcmV0dXJuIG5ldyBVaW50OEFycmF5KEJ1ZmZlci5mcm9tKG1lc3NhZ2UuZGF0YSwgJ2Jhc2U2NCcpKQogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgdGhpcy5sb2dnZXIuZXJyb3IoJ0ZhaWxlZCB0byBwYXJzZSBhdWRpbyBtZXNzYWdlJywgZXJyb3IpCiAgICAgIHJldHVybiBudWxsCiAgICB9CiAgfQoKICBwcml2YXRlIGNhbGN1bGF0ZUJ1ZmZlckR1cmF0aW9uKCk6IG51bWJlciB7CiAgICBjb25zdCBieXRlc1BlclNhbXBsZSA9IDIgLy8gMTYtYml0IFBDTQogICAgY29uc3Qgc2FtcGxlcyA9IHRoaXMuc2FtcGxlQ291bnQgLyBieXRlc1BlclNhbXBsZQogICAgcmV0dXJuIChzYW1wbGVzIC8gdGhpcy5jb25maWcuc2FtcGxlUmF0ZSkgKiAxMDAwCiAgfQoKICBwcml2YXRlIGdlbmVyYXRlSWQoKTogc3RyaW5nIHsKICAgIHJldHVybiBgJHtEYXRlLm5vdygpfS0ke01hdGgucmFuZG9tKCkudG9TdHJpbmcoMzYpLnN1YnN0cigyLCA5KX1gCiAgfQoKICAvKioKICAgKiBHZXQgY3VycmVudCBjb25maWd1cmF0aW9uCiAgICovCiAgZ2V0Q29uZmlnKCk6IEF1ZGlvUGlwZWxpbmVDb25maWcgewogICAgcmV0dXJuIHsgLi4udGhpcy5jb25maWcgfQogIH0KCiAgLyoqCiAgICogQ2hlY2sgaWYgcGlwZWxpbmUgaXMgYWN0aXZlCiAgICovCiAgZ2V0SXNTdHJlYW1pbmcoKTogYm9vbGVhbiB7CiAgICByZXR1cm4gdGhpcy5pc1N0cmVhbWluZwogIH0KfQo=
+/**
+ * Audio Pipeline for VoxKit
+ * Handles audio streaming, buffering, and format conversion
+ */
+
+import EventEmitter from 'events'
+import type { AudioConfig, WSMessage } from '../types.js'
+import { logger } from '../logger.js'
+
+export interface AudioPipelineConfig extends AudioConfig {
+  enableVAD?: boolean
+  vadThreshold?: number
+  bufferDurationMs?: number
+}
+
+export class AudioPipeline extends EventEmitter {
+  private config: AudioPipelineConfig
+  private audioBuffer: Uint8Array[] = []
+  private isStreaming = false
+  private sampleCount = 0
+  private logger = logger.child('audio-pipeline')
+
+  constructor(config: Partial<AudioPipelineConfig> = {}) {
+    super()
+    this.config = {
+      sampleRate: config.sampleRate ?? 24000,
+      channels: config.channels ?? 1,
+      format: config.format ?? 'pcm16',
+      bufferSize: config.bufferSize ?? 4096,
+      enableVAD: config.enableVAD ?? true,
+      vadThreshold: config.vadThreshold ?? 0.01,
+      bufferDurationMs: config.bufferDurationMs ?? 100
+    }
+  }
+
+  /**
+   * Process incoming audio chunk
+   */
+  processAudioChunk(chunk: Uint8Array): void {
+    if (!this.isStreaming) {
+      return
+    }
+
+    this.audioBuffer.push(chunk)
+    this.sampleCount += chunk.length
+
+    // Emit chunk for real-time processing
+    this.emit('chunk', chunk)
+
+    // Check if we should flush buffer
+    const bufferDuration = this.calculateBufferDuration()
+    if (bufferDuration >= this.config.bufferDurationMs!) {
+      this.flushBuffer()
+    }
+  }
+
+  /**
+   * Start audio streaming
+   */
+  start(): void {
+    this.isStreaming = true
+    this.audioBuffer = []
+    this.sampleCount = 0
+    this.logger.info('Audio pipeline started')
+    this.emit('started')
+  }
+
+  /**
+   * Stop audio streaming
+   */
+  stop(): void {
+    this.isStreaming = false
+    if (this.audioBuffer.length > 0) {
+      this.flushBuffer()
+    }
+    this.logger.info('Audio pipeline stopped')
+    this.emit('stopped')
+  }
+
+  /**
+   * Flush current audio buffer
+   */
+  flushBuffer(): Uint8Array | null {
+    if (this.audioBuffer.length === 0) {
+      return null
+    }
+
+    const totalLength = this.audioBuffer.reduce((sum, chunk) => sum + chunk.length, 0)
+    const combined = new Uint8Array(totalLength)
+    
+    let offset = 0
+    for (const chunk of this.audioBuffer) {
+      combined.set(chunk, offset)
+      offset += chunk.length
+    }
+
+    this.audioBuffer = []
+    this.sampleCount = 0
+
+    this.emit('buffer', combined)
+    return combined
+  }
+
+  /**
+   * Convert audio format
+   */
+  convertFormat(data: Uint8Array, targetFormat: string): Uint8Array {
+    // Placeholder for format conversion logic
+    // In a real implementation, this would handle PCM, μ-law, A-law conversions
+    this.logger.debug(`Converting audio to format: ${targetFormat}`)
+    return data
+  }
+
+  /**
+   * Apply voice activity detection
+   */
+  applyVAD(audioData: Uint8Array): { hasSpeech: boolean; confidence: number } {
+    if (!this.config.enableVAD) {
+      return { hasSpeech: true, confidence: 1.0 }
+    }
+
+    // Simple energy-based VAD
+    let energy = 0
+    const view = new DataView(audioData.buffer)
+    
+    for (let i = 0; i < audioData.length; i += 2) {
+      const sample = view.getInt16(i, true)
+      energy += sample * sample
+    }
+    
+    energy = Math.sqrt(energy / (audioData.length / 2))
+    const normalizedEnergy = energy / 32768.0
+    const hasSpeech = normalizedEnergy > this.config.vadThreshold!
+
+    return {
+      hasSpeech,
+      confidence: Math.min(normalizedEnergy / (this.config.vadThreshold! * 2), 1.0)
+    }
+  }
+
+  /**
+   * Create WebSocket message for audio data
+   */
+  createAudioMessage(audioData: Uint8Array): WSMessage {
+    return {
+      type: 'audio',
+      data: Buffer.from(audioData).toString('base64'),
+      timestamp: Date.now(),
+      id: this.generateId()
+    }
+  }
+
+  /**
+   * Parse audio from WebSocket message
+   */
+  parseAudioMessage(message: WSMessage): Uint8Array | null {
+    if (message.type !== 'audio' || typeof message.data !== 'string') {
+      return null
+    }
+    
+    try {
+      return new Uint8Array(Buffer.from(message.data, 'base64'))
+    } catch (error) {
+      this.logger.error('Failed to parse audio message', error)
+      return null
+    }
+  }
+
+  private calculateBufferDuration(): number {
+    const bytesPerSample = 2 // 16-bit PCM
+    const samples = this.sampleCount / bytesPerSample
+    return (samples / this.config.sampleRate) * 1000
+  }
+
+  private generateId(): string {
+    return `${Date.now()}-${Math.random().toString(36).substr(2, 9)}`
+  }
+
+  /**
+   * Get current configuration
+   */
+  getConfig(): AudioPipelineConfig {
+    return { ...this.config }
+  }
+
+  /**
+   * Check if pipeline is active
+   */
+  getIsStreaming(): boolean {
+    return this.isStreaming
+  }
+}

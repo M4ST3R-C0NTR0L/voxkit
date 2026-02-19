@@ -1,1 +1,306 @@
-LyoqCiAqIFdlYlNvY2tldCBTZXJ2ZXIgZm9yIFZveEtpdAogKiBIYW5kbGVzIGNsaWVudCBjb25uZWN0aW9ucyBhbmQgYXVkaW8gc3RyZWFtaW5nCiAqLwoKaW1wb3J0IHsgV2ViU29ja2V0U2VydmVyLCBXZWJTb2NrZXQgfSBmcm9tICd3cycKaW1wb3J0IHsgY3JlYXRlU2VydmVyLCBTZXJ2ZXIgYXMgSFRUUFNlcnZlciB9IGZyb20gJ2h0dHAnCmltcG9ydCB7IHJlYWRGaWxlU3luYyB9IGZyb20gJ2ZzJwppbXBvcnQgdHlwZSB7IFNlcnZlckNvbmZpZywgV1NNZXNzYWdlLCBBdWRpb0NvbmZpZyB9IGZyb20gJy4uL3R5cGVzLmpzJwppbXBvcnQgeyBsb2dnZXIgfSBmcm9tICcuLi9sb2dnZXIuanMnCgpleHBvcnQgaW50ZXJmYWNlIFdTQ2xpZW50IHsKICBpZDogc3RyaW5nCiAgd3M6IFdlYlNvY2tldAogIGlzQWxpdmU6IGJvb2xlYW4KICBjb25uZWN0ZWRBdDogbnVtYmVyCiAgYXVkaW9Db25maWc/OiBBdWRpb0NvbmZpZwp9CgpleHBvcnQgaW50ZXJmYWNlIFZveEtpdFdTU2VydmVyT3B0aW9ucyB7CiAgc2VydmVyQ29uZmlnOiBTZXJ2ZXJDb25maWcKICBhdWRpb0NvbmZpZz86IFBhcnRpYWw8QXVkaW9Db25maWc+CiAgb25Db25uZWN0PzogKGNsaWVudDogV1NDbGllbnQpID0+IHZvaWQKICBvbkRpc2Nvbm5lY3Q/OiAoY2xpZW50OiBXU0NsaWVudCkgPT4gdm9pZAogIG9uTWVzc2FnZT86IChjbGllbnQ6IFdTQ2xpZW50LCBtZXNzYWdlOiBXU01lc3NhZ2UpID0+IHZvaWQKICBvbkF1ZGlvPzogKGNsaWVudDogV1NDbGllbnQsIGF1ZGlvRGF0YTogVWludDhBcnJheSkgPT4gdm9pZAogIG9uRXJyb3I/OiAoY2xpZW50OiBXU0NsaWVudCwgZXJyb3I6IEVycm9yKSA9PiB2b2lkCn0KCmV4cG9ydCBjbGFzcyBWb3hLaXRXU1NlcnZlciB7CiAgcHJpdmF0ZSB3c3M6IFdlYlNvY2tldFNlcnZlciB8IG51bGwgPSBudWxsCiAgcHJpdmF0ZSBodHRwU2VydmVyOiBIVFRQU2VydmVyIHwgbnVsbCA9IG51bGwKICBwcml2YXRlIGNsaWVudHMgPSBuZXcgTWFwPHN0cmluZywgV1NDbGllbnQ+KCkKICBwcml2YXRlIG9wdGlvbnM6IFZveEtpdFdTU2VydmVyT3B0aW9ucwogIHByaXZhdGUgbG9nZ2VyID0gbG9nZ2VyLmNoaWxkKCd3ZWJzb2NrZXQtc2VydmVyJykKICBwcml2YXRlIGhlYXJ0YmVhdEludGVydmFsOiBOb2RlSlMuVGltZW91dCB8IG51bGwgPSBudWxsCgogIGNvbnN0cnVjdG9yKG9wdGlvbnM6IFZveEtpdFdTU2VydmVyT3B0aW9ucykgewogICAgdGhpcy5vcHRpb25zID0gb3B0aW9ucwogIH0KCiAgLyoqCiAgICogU3RhcnQgdGhlIFdlYlNvY2tldCBzZXJ2ZXIKICAgKi8KICBhc3luYyBzdGFydCgpOiBQcm9taXNlPHZvaWQ+IHsKICAgIGNvbnN0IHsgc2VydmVyQ29uZmlnIH0gPSB0aGlzLm9wdGlvbnMKCiAgICAvLyBDcmVhdGUgSFRUUCBzZXJ2ZXIKICAgIGlmIChzZXJ2ZXJDb25maWcuc3NsKSB7CiAgICAgIGNvbnN0IGh0dHBzID0gYXdhaXQgaW1wb3J0KCdodHRwcycpCiAgICAgIHRoaXMuaHR0cFNlcnZlciA9IGh0dHBzLmNyZWF0ZVNlcnZlcih7CiAgICAgICAgY2VydDogcmVhZEZpbGVTeW5jKHNlcnZlckNvbmZpZy5zc2wuY2VydCksCiAgICAgICAga2V5OiByZWFkRmlsZVN5bmMoc2VydmVyQ29uZmlnLnNzbC5rZXkpCiAgICAgIH0pCiAgICB9IGVsc2UgewogICAgICB0aGlzLmh0dHBTZXJ2ZXIgPSBjcmVhdGVTZXJ2ZXIoKQogICAgfQoKICAgIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CiAgICAgIHRyeSB7CgogICAgICAgIC8vIENyZWF0ZSBXZWJTb2NrZXQgc2VydmVyCiAgICAgICAgdGhpcy53c3MgPSBuZXcgV2ViU29ja2V0U2VydmVyKHsgCiAgICAgICAgICBzZXJ2ZXI6IHRoaXMuaHR0cFNlcnZlciEsCiAgICAgICAgICBwZXJNZXNzYWdlRGVmbGF0ZTogZmFsc2UKICAgICAgICB9KQoKICAgICAgICB0aGlzLnNldHVwV2ViU29ja2V0SGFuZGxlcnMoKQoKICAgICAgICAvLyBTdGFydCBsaXN0ZW5pbmcKICAgICAgICB0aGlzLmh0dHBTZXJ2ZXIhLmxpc3RlbihzZXJ2ZXJDb25maWcucG9ydCwgc2VydmVyQ29uZmlnLmhvc3QgPz8gJzAuMC4wLjAnLCAoKSA9PiB7CiAgICAgICAgICB0aGlzLmxvZ2dlci5pbmZvKGBXZWJTb2NrZXQgc2VydmVyIGxpc3RlbmluZyBvbiAke3NlcnZlckNvbmZpZy5ob3N0ID8/ICcwLjAuMC4wJ306JHtzZXJ2ZXJDb25maWcucG9ydH1gKQogICAgICAgICAgdGhpcy5zdGFydEhlYXJ0YmVhdCgpCiAgICAgICAgICByZXNvbHZlKCkKICAgICAgICB9KQoKICAgICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgICByZWplY3QoZXJyb3IpCiAgICAgIH0KICAgIH0pCiAgfQoKICAvKioKICAgKiBTdG9wIHRoZSBXZWJTb2NrZXQgc2VydmVyCiAgICovCiAgYXN5bmMgc3RvcCgpOiBQcm9taXNlPHZvaWQ+IHsKICAgIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSkgPT4gewogICAgICB0aGlzLnN0b3BIZWFydGJlYXQoKQoKICAgICAgLy8gQ2xvc2UgYWxsIGNsaWVudCBjb25uZWN0aW9ucwogICAgICBmb3IgKGNvbnN0IFtpZCwgY2xpZW50XSBvZiB0aGlzLmNsaWVudHMpIHsKICAgICAgICB0aGlzLmNsb3NlQ2xpZW50KGlkLCAxMDAwLCAnU2VydmVyIHNodXR0aW5nIGRvd24nKQogICAgICB9CgogICAgICAvLyBDbG9zZSBXZWJTb2NrZXQgc2VydmVyCiAgICAgIGlmICh0aGlzLndzcykgewogICAgICAgIHRoaXMud3NzLmNsb3NlKCgpID0+IHsKICAgICAgICAgIHRoaXMubG9nZ2VyLmluZm8oJ1dlYlNvY2tldCBzZXJ2ZXIgY2xvc2VkJykKICAgICAgICB9KQogICAgICB9CgogICAgICAvLyBDbG9zZSBIVFRQIHNlcnZlcgogICAgICBpZiAodGhpcy5odHRwU2VydmVyKSB7CiAgICAgICAgdGhpcy5odHRwU2VydmVyLmNsb3NlKCgpID0+IHsKICAgICAgICAgIHRoaXMubG9nZ2VyLmluZm8oJ0hUVFAgc2VydmVyIGNsb3NlZCcpCiAgICAgICAgICByZXNvbHZlKCkKICAgICAgICB9KQogICAgICB9IGVsc2UgewogICAgICAgIHJlc29sdmUoKQogICAgICB9CiAgICB9KQogIH0KCiAgLyoqCiAgICogU2VuZCBtZXNzYWdlIHRvIGEgc3BlY2lmaWMgY2xpZW50CiAgICovCiAgc2VuZFRvQ2xpZW50KGNsaWVudElkOiBzdHJpbmcsIG1lc3NhZ2U6IFdTTWVzc2FnZSk6IGJvb2xlYW4gewogICAgY29uc3QgY2xpZW50ID0gdGhpcy5jbGllbnRzLmdldChjbGllbnRJZCkKICAgIGlmICghY2xpZW50IHx8IGNsaWVudC53cy5yZWFkeVN0YXRlICE9PSBXZWJTb2NrZXQuT1BFTikgewogICAgICByZXR1cm4gZmFsc2UKICAgIH0KCiAgICB0cnkgewogICAgICBjbGllbnQud3Muc2VuZChKU09OLnN0cmluZ2lmeShtZXNzYWdlKSkKICAgICAgcmV0dXJuIHRydWUKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIHRoaXMubG9nZ2VyLmVycm9yKGBGYWlsZWQgdG8gc2VuZCBtZXNzYWdlIHRvIGNsaWVudCAke2NsaWVudElkfWAsIGVycm9yKQogICAgICByZXR1cm4gZmFsc2UKICAgIH0KICB9CgogIC8qKgogICAqIEJyb2FkY2FzdCBtZXNzYWdlIHRvIGFsbCBjbGllbnRzCiAgICovCiAgYnJvYWRjYXN0KG1lc3NhZ2U6IFdTTWVzc2FnZSwgZXhjbHVkZUNsaWVudElkPzogc3RyaW5nKTogdm9pZCB7CiAgICBjb25zdCBtZXNzYWdlU3RyID0gSlNPTi5zdHJpbmdpZnkobWVzc2FnZSkKICAgIAogICAgZm9yIChjb25zdCBbaWQsIGNsaWVudF0gb2YgdGhpcy5jbGllbnRzKSB7CiAgICAgIGlmIChpZCAhPT0gZXhjbHVkZUNsaWVudElkICYmIGNsaWVudC53cy5yZWFkeVN0YXRlID09PSBXZWJTb2NrZXQuT1BFTikgewogICAgICAgIHRyeSB7CiAgICAgICAgICBjbGllbnQud3Muc2VuZChtZXNzYWdlU3RyKQogICAgICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgICAgICB0aGlzLmxvZ2dlci5lcnJvcihgRmFpbGVkIHRvIGJyb2FkY2FzdCB0byBjbGllbnQgJHtpZH1gLCBlcnJvcikKICAgICAgICB9CiAgICAgIH0KICAgIH0KICB9CgogIC8qKgogICAqIENsb3NlIGEgc3BlY2lmaWMgY2xpZW50IGNvbm5lY3Rpb24KICAgKi8KICBjbG9zZUNsaWVudChjbGllbnRJZDogc3RyaW5nLCBjb2RlPzogbnVtYmVyLCByZWFzb24/OiBzdHJpbmcpOiBib29sZWFuIHsKICAgIGNvbnN0IGNsaWVudCA9IHRoaXMuY2xpZW50cy5nZXQoY2xpZW50SWQpCiAgICBpZiAoIWNsaWVudCkgewogICAgICByZXR1cm4gZmFsc2UKICAgIH0KCiAgICB0cnkgewogICAgICBjbGllbnQud3MuY2xvc2UoY29kZSwgcmVhc29uKQogICAgICB0aGlzLmNsaWVudHMuZGVsZXRlKGNsaWVudElkKQogICAgICB0aGlzLm9wdGlvbnMub25EaXNjb25uZWN0Py4oY2xpZW50KQogICAgICByZXR1cm4gdHJ1ZQogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgdGhpcy5sb2dnZXIuZXJyb3IoYEZhaWxlZCB0byBjbG9zZSBjbGllbnQgJHtjbGllbnRJZH1gLCBlcnJvcikKICAgICAgcmV0dXJuIGZhbHNlCiAgICB9CiAgfQoKICAvKioKICAgKiBHZXQgYWxsIGNvbm5lY3RlZCBjbGllbnRzCiAgICovCiAgZ2V0Q2xpZW50cygpOiBNYXA8c3RyaW5nLCBXU0NsaWVudD4gewogICAgcmV0dXJuIG5ldyBNYXAodGhpcy5jbGllbnRzKQogIH0KCiAgLyoqCiAgICogR2V0IGNsaWVudCBjb3VudAogICAqLwogIGdldENsaWVudENvdW50KCk6IG51bWJlciB7CiAgICByZXR1cm4gdGhpcy5jbGllbnRzLnNpemUKICB9CgogIC8qKgogICAqIENoZWNrIGlmIHNlcnZlciBpcyBydW5uaW5nCiAgICovCiAgaXNSdW5uaW5nKCk6IGJvb2xlYW4gewogICAgcmV0dXJuIHRoaXMud3NzICE9PSBudWxsICYmIHRoaXMuaHR0cFNlcnZlciAhPT0gbnVsbAogIH0KCiAgcHJpdmF0ZSBzZXR1cFdlYlNvY2tldEhhbmRsZXJzKCk6IHZvaWQgewogICAgaWYgKCF0aGlzLndzcykgcmV0dXJuCgogICAgdGhpcy53c3Mub24oJ2Nvbm5lY3Rpb24nLCAod3MsIHJlcSkgPT4gewogICAgICBjb25zdCBjbGllbnRJZCA9IHRoaXMuZ2VuZXJhdGVDbGllbnRJZCgpCiAgICAgIGNvbnN0IGNsaWVudDogV1NDbGllbnQgPSB7CiAgICAgICAgaWQ6IGNsaWVudElkLAogICAgICAgIHdzLAogICAgICAgIGlzQWxpdmU6IHRydWUsCiAgICAgICAgY29ubmVjdGVkQXQ6IERhdGUubm93KCkKICAgICAgfQoKICAgICAgdGhpcy5jbGllbnRzLnNldChjbGllbnRJZCwgY2xpZW50KQogICAgICB0aGlzLmxvZ2dlci5pbmZvKGBDbGllbnQgY29ubmVjdGVkOiAke2NsaWVudElkfSBmcm9tICR7cmVxLnNvY2tldC5yZW1vdGVBZGRyZXNzfWApCgogICAgICAvLyBTZW5kIHdlbGNvbWUgbWVzc2FnZQogICAgICB0aGlzLnNlbmRUb0NsaWVudChjbGllbnRJZCwgewogICAgICAgIHR5cGU6ICdjb25maWcnLAogICAgICAgIGRhdGE6IHsgCiAgICAgICAgICBjbGllbnRJZCwKICAgICAgICAgIGF1ZGlvQ29uZmlnOiB0aGlzLm9wdGlvbnMuYXVkaW9Db25maWcgCiAgICAgICAgfQogICAgICB9KQoKICAgICAgdGhpcy5vcHRpb25zLm9uQ29ubmVjdD8uKGNsaWVudCkKCiAgICAgIC8vIEhhbmRsZSBtZXNzYWdlcwogICAgICB3cy5vbignbWVzc2FnZScsIChkYXRhKSA9PiB7CiAgICAgICAgdGhpcy5oYW5kbGVNZXNzYWdlKGNsaWVudCwgZGF0YSkKICAgICAgfSkKCiAgICAgIC8vIEhhbmRsZSBwb25nCiAgICAgIHdzLm9uKCdwb25nJywgKCkgPT4gewogICAgICAgIGNsaWVudC5pc0FsaXZlID0gdHJ1ZQogICAgICB9KQoKICAgICAgLy8gSGFuZGxlIGNsb3NlCiAgICAgIHdzLm9uKCdjbG9zZScsIChjb2RlLCByZWFzb24pID0+IHsKICAgICAgICB0aGlzLmxvZ2dlci5pbmZvKGBDbGllbnQgZGlzY29ubmVjdGVkOiAke2NsaWVudElkfSwgY29kZTogJHtjb2RlfSwgcmVhc29uOiAke3JlYXNvbn1gKQogICAgICAgIHRoaXMuY2xpZW50cy5kZWxldGUoY2xpZW50SWQpCiAgICAgICAgdGhpcy5vcHRpb25zLm9uRGlzY29ubmVjdD8uKGNsaWVudCkKICAgICAgfSkKCiAgICAgIC8vIEhhbmRsZSBlcnJvcnMKICAgICAgd3Mub24oJ2Vycm9yJywgKGVycm9yKSA9PiB7CiAgICAgICAgdGhpcy5sb2dnZXIuZXJyb3IoYFdlYlNvY2tldCBlcnJvciBmb3IgY2xpZW50ICR7Y2xpZW50SWR9YCwgZXJyb3IpCiAgICAgICAgdGhpcy5vcHRpb25zLm9uRXJyb3I/LihjbGllbnQsIGVycm9yKQogICAgICB9KQogICAgfSkKCiAgICB0aGlzLndzcy5vbignZXJyb3InLCAoZXJyb3IpID0+IHsKICAgICAgdGhpcy5sb2dnZXIuZXJyb3IoJ1dlYlNvY2tldCBzZXJ2ZXIgZXJyb3InLCBlcnJvcikKICAgIH0pCiAgfQoKICBwcml2YXRlIGhhbmRsZU1lc3NhZ2UoY2xpZW50OiBXU0NsaWVudCwgZGF0YTogQnVmZmVyIHwgQXJyYXlCdWZmZXIgfCBCdWZmZXJbXSk6IHZvaWQgewogICAgdHJ5IHsKICAgICAgY29uc3QgbWVzc2FnZSA9IEpTT04ucGFyc2UoZGF0YS50b1N0cmluZygpKSBhcyBXU01lc3NhZ2UKCiAgICAgIHN3aXRjaCAobWVzc2FnZS50eXBlKSB7CiAgICAgICAgY2FzZSAnYXVkaW8nOgogICAgICAgICAgLy8gUGFyc2UgYmFzZTY0IGF1ZGlvCiAgICAgICAgICBpZiAodHlwZW9mIG1lc3NhZ2UuZGF0YSA9PT0gJ3N0cmluZycpIHsKICAgICAgICAgICAgY29uc3QgYXVkaW9EYXRhID0gbmV3IFVpbnQ4QXJyYXkoQnVmZmVyLmZyb20obWVzc2FnZS5kYXRhLCAnYmFzZTY0JykpCiAgICAgICAgICAgIHRoaXMub3B0aW9ucy5vbkF1ZGlvPy4oY2xpZW50LCBhdWRpb0RhdGEpCiAgICAgICAgICB9CiAgICAgICAgICBicmVhawoKICAgICAgICBjYXNlICdwaW5nJzoKICAgICAgICAgIHRoaXMuc2VuZFRvQ2xpZW50KGNsaWVudC5pZCwgeyB0eXBlOiAncG9uZycsIGRhdGE6IG51bGwgfSkKICAgICAgICAgIGJyZWFrCgogICAgICAgIGNhc2UgJ2NvbmZpZyc6CiAgICAgICAgICAvLyBVcGRhdGUgY2xpZW50IGF1ZGlvIGNvbmZpZwogICAgICAgICAgaWYgKG1lc3NhZ2UuZGF0YSAmJiB0eXBlb2YgbWVzc2FnZS5kYXRhID09PSAnb2JqZWN0JykgewogICAgICAgICAgICBjbGllbnQuYXVkaW9Db25maWcgPSB7IC4uLmNsaWVudC5hdWRpb0NvbmZpZywgLi4ubWVzc2FnZS5kYXRhIGFzIEF1ZGlvQ29uZmlnIH0KICAgICAgICAgIH0KICAgICAgICAgIGJyZWFrCgogICAgICAgIGRlZmF1bHQ6CiAgICAgICAgICB0aGlzLm9wdGlvbnMub25NZXNzYWdlPy4oY2xpZW50LCBtZXNzYWdlKQogICAgICB9CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICB0aGlzLmxvZ2dlci5lcnJvcihgRmFpbGVkIHRvIHBhcnNlIG1lc3NhZ2UgZnJvbSBjbGllbnQgJHtjbGllbnQuaWR9YCwgZXJyb3IpCiAgICAgIHRoaXMuc2VuZFRvQ2xpZW50KGNsaWVudC5pZCwgewogICAgICAgIHR5cGU6ICdlcnJvcicsCiAgICAgICAgZGF0YTogJ0ludmFsaWQgbWVzc2FnZSBmb3JtYXQnCiAgICAgIH0pCiAgICB9CiAgfQoKICBwcml2YXRlIHN0YXJ0SGVhcnRiZWF0KCk6IHZvaWQgewogICAgdGhpcy5oZWFydGJlYXRJbnRlcnZhbCA9IHNldEludGVydmFsKCgpID0+IHsKICAgICAgZm9yIChjb25zdCBbaWQsIGNsaWVudF0gb2YgdGhpcy5jbGllbnRzKSB7CiAgICAgICAgaWYgKCFjbGllbnQuaXNBbGl2ZSkgewogICAgICAgICAgdGhpcy5sb2dnZXIud2FybihgQ2xpZW50ICR7aWR9IGhlYXJ0YmVhdCB0aW1lb3V0YCkKICAgICAgICAgIHRoaXMuY2xvc2VDbGllbnQoaWQsIDEwMDEsICdIZWFydGJlYXQgdGltZW91dCcpCiAgICAgICAgICBjb250aW51ZQogICAgICAgIH0KCiAgICAgICAgY2xpZW50LmlzQWxpdmUgPSBmYWxzZQogICAgICAgIGNsaWVudC53cy5waW5nKCkKICAgICAgfQogICAgfSwgMzAwMDApIC8vIDMwIHNlY29uZHMKICB9CgogIHByaXZhdGUgc3RvcEhlYXJ0YmVhdCgpOiB2b2lkIHsKICAgIGlmICh0aGlzLmhlYXJ0YmVhdEludGVydmFsKSB7CiAgICAgIGNsZWFySW50ZXJ2YWwodGhpcy5oZWFydGJlYXRJbnRlcnZhbCkKICAgICAgdGhpcy5oZWFydGJlYXRJbnRlcnZhbCA9IG51bGwKICAgIH0KICB9CgogIHByaXZhdGUgZ2VuZXJhdGVDbGllbnRJZCgpOiBzdHJpbmcgewogICAgcmV0dXJuIGBjbGllbnQtJHtEYXRlLm5vdygpfS0ke01hdGgucmFuZG9tKCkudG9TdHJpbmcoMzYpLnN1YnN0cigyLCA5KX1gCiAgfQp9Cg==
+/**
+ * WebSocket Server for VoxKit
+ * Handles client connections and audio streaming
+ */
+
+import { WebSocketServer, WebSocket } from 'ws'
+import { createServer, Server as HTTPServer } from 'http'
+import { readFileSync } from 'fs'
+import type { ServerConfig, WSMessage, AudioConfig } from '../types.js'
+import { logger } from '../logger.js'
+
+export interface WSClient {
+  id: string
+  ws: WebSocket
+  isAlive: boolean
+  connectedAt: number
+  audioConfig?: AudioConfig
+}
+
+export interface VoxKitWSServerOptions {
+  serverConfig: ServerConfig
+  audioConfig?: Partial<AudioConfig>
+  onConnect?: (client: WSClient) => void
+  onDisconnect?: (client: WSClient) => void
+  onMessage?: (client: WSClient, message: WSMessage) => void
+  onAudio?: (client: WSClient, audioData: Uint8Array) => void
+  onError?: (client: WSClient, error: Error) => void
+}
+
+export class VoxKitWSServer {
+  private wss: WebSocketServer | null = null
+  private httpServer: HTTPServer | null = null
+  private clients = new Map<string, WSClient>()
+  private options: VoxKitWSServerOptions
+  private logger = logger.child('websocket-server')
+  private heartbeatInterval: NodeJS.Timeout | null = null
+
+  constructor(options: VoxKitWSServerOptions) {
+    this.options = options
+  }
+
+  /**
+   * Start the WebSocket server
+   */
+  async start(): Promise<void> {
+    const { serverConfig } = this.options
+
+    // Create HTTP server
+    if (serverConfig.ssl) {
+      const https = await import('https')
+      this.httpServer = https.createServer({
+        cert: readFileSync(serverConfig.ssl.cert),
+        key: readFileSync(serverConfig.ssl.key)
+      })
+    } else {
+      this.httpServer = createServer()
+    }
+
+    return new Promise((resolve, reject) => {
+      try {
+
+        // Create WebSocket server
+        this.wss = new WebSocketServer({ 
+          server: this.httpServer!,
+          perMessageDeflate: false
+        })
+
+        this.setupWebSocketHandlers()
+
+        // Start listening
+        this.httpServer!.listen(serverConfig.port, serverConfig.host ?? '0.0.0.0', () => {
+          this.logger.info(`WebSocket server listening on ${serverConfig.host ?? '0.0.0.0'}:${serverConfig.port}`)
+          this.startHeartbeat()
+          resolve()
+        })
+
+      } catch (error) {
+        reject(error)
+      }
+    })
+  }
+
+  /**
+   * Stop the WebSocket server
+   */
+  async stop(): Promise<void> {
+    return new Promise((resolve) => {
+      this.stopHeartbeat()
+
+      // Close all client connections
+      for (const [id, client] of this.clients) {
+        this.closeClient(id, 1000, 'Server shutting down')
+      }
+
+      // Close WebSocket server
+      if (this.wss) {
+        this.wss.close(() => {
+          this.logger.info('WebSocket server closed')
+        })
+      }
+
+      // Close HTTP server
+      if (this.httpServer) {
+        this.httpServer.close(() => {
+          this.logger.info('HTTP server closed')
+          resolve()
+        })
+      } else {
+        resolve()
+      }
+    })
+  }
+
+  /**
+   * Send message to a specific client
+   */
+  sendToClient(clientId: string, message: WSMessage): boolean {
+    const client = this.clients.get(clientId)
+    if (!client || client.ws.readyState !== WebSocket.OPEN) {
+      return false
+    }
+
+    try {
+      client.ws.send(JSON.stringify(message))
+      return true
+    } catch (error) {
+      this.logger.error(`Failed to send message to client ${clientId}`, error)
+      return false
+    }
+  }
+
+  /**
+   * Broadcast message to all clients
+   */
+  broadcast(message: WSMessage, excludeClientId?: string): void {
+    const messageStr = JSON.stringify(message)
+    
+    for (const [id, client] of this.clients) {
+      if (id !== excludeClientId && client.ws.readyState === WebSocket.OPEN) {
+        try {
+          client.ws.send(messageStr)
+        } catch (error) {
+          this.logger.error(`Failed to broadcast to client ${id}`, error)
+        }
+      }
+    }
+  }
+
+  /**
+   * Close a specific client connection
+   */
+  closeClient(clientId: string, code?: number, reason?: string): boolean {
+    const client = this.clients.get(clientId)
+    if (!client) {
+      return false
+    }
+
+    try {
+      client.ws.close(code, reason)
+      this.clients.delete(clientId)
+      this.options.onDisconnect?.(client)
+      return true
+    } catch (error) {
+      this.logger.error(`Failed to close client ${clientId}`, error)
+      return false
+    }
+  }
+
+  /**
+   * Get all connected clients
+   */
+  getClients(): Map<string, WSClient> {
+    return new Map(this.clients)
+  }
+
+  /**
+   * Get client count
+   */
+  getClientCount(): number {
+    return this.clients.size
+  }
+
+  /**
+   * Check if server is running
+   */
+  isRunning(): boolean {
+    return this.wss !== null && this.httpServer !== null
+  }
+
+  private setupWebSocketHandlers(): void {
+    if (!this.wss) return
+
+    this.wss.on('connection', (ws, req) => {
+      const clientId = this.generateClientId()
+      const client: WSClient = {
+        id: clientId,
+        ws,
+        isAlive: true,
+        connectedAt: Date.now()
+      }
+
+      this.clients.set(clientId, client)
+      this.logger.info(`Client connected: ${clientId} from ${req.socket.remoteAddress}`)
+
+      // Send welcome message
+      this.sendToClient(clientId, {
+        type: 'config',
+        data: { 
+          clientId,
+          audioConfig: this.options.audioConfig 
+        }
+      })
+
+      this.options.onConnect?.(client)
+
+      // Handle messages
+      ws.on('message', (data) => {
+        this.handleMessage(client, data)
+      })
+
+      // Handle pong
+      ws.on('pong', () => {
+        client.isAlive = true
+      })
+
+      // Handle close
+      ws.on('close', (code, reason) => {
+        this.logger.info(`Client disconnected: ${clientId}, code: ${code}, reason: ${reason}`)
+        this.clients.delete(clientId)
+        this.options.onDisconnect?.(client)
+      })
+
+      // Handle errors
+      ws.on('error', (error) => {
+        this.logger.error(`WebSocket error for client ${clientId}`, error)
+        this.options.onError?.(client, error)
+      })
+    })
+
+    this.wss.on('error', (error) => {
+      this.logger.error('WebSocket server error', error)
+    })
+  }
+
+  private handleMessage(client: WSClient, data: Buffer | ArrayBuffer | Buffer[]): void {
+    try {
+      const message = JSON.parse(data.toString()) as WSMessage
+
+      switch (message.type) {
+        case 'audio':
+          // Parse base64 audio
+          if (typeof message.data === 'string') {
+            const audioData = new Uint8Array(Buffer.from(message.data, 'base64'))
+            this.options.onAudio?.(client, audioData)
+          }
+          break
+
+        case 'ping':
+          this.sendToClient(client.id, { type: 'pong', data: null })
+          break
+
+        case 'config':
+          // Update client audio config
+          if (message.data && typeof message.data === 'object') {
+            client.audioConfig = { ...client.audioConfig, ...message.data as AudioConfig }
+          }
+          break
+
+        default:
+          this.options.onMessage?.(client, message)
+      }
+    } catch (error) {
+      this.logger.error(`Failed to parse message from client ${client.id}`, error)
+      this.sendToClient(client.id, {
+        type: 'error',
+        data: 'Invalid message format'
+      })
+    }
+  }
+
+  private startHeartbeat(): void {
+    this.heartbeatInterval = setInterval(() => {
+      for (const [id, client] of this.clients) {
+        if (!client.isAlive) {
+          this.logger.warn(`Client ${id} heartbeat timeout`)
+          this.closeClient(id, 1001, 'Heartbeat timeout')
+          continue
+        }
+
+        client.isAlive = false
+        client.ws.ping()
+      }
+    }, 30000) // 30 seconds
+  }
+
+  private stopHeartbeat(): void {
+    if (this.heartbeatInterval) {
+      clearInterval(this.heartbeatInterval)
+      this.heartbeatInterval = null
+    }
+  }
+
+  private generateClientId(): string {
+    return `client-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`
+  }
+}

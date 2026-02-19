@@ -1,1 +1,233 @@
-LyoqCiAqIExlYWQgRXh0cmFjdG9yIGZvciBWb3hLaXQKICogQXV0b21hdGljYWxseSBleHRyYWN0cyBjb250YWN0IGluZm9ybWF0aW9uIGZyb20gY29udmVyc2F0aW9ucwogKi8KCmltcG9ydCBFdmVudEVtaXR0ZXIgZnJvbSAnZXZlbnRzJwppbXBvcnQgdHlwZSB7IExlYWRJbmZvLCBDb252ZXJzYXRpb25NZXNzYWdlLCBDb252ZXJzYXRpb25TdGF0ZSB9IGZyb20gJy4uL3R5cGVzLmpzJwppbXBvcnQgeyBsb2dnZXIgfSBmcm9tICcuLi9sb2dnZXIuanMnCgpleHBvcnQgaW50ZXJmYWNlIExlYWRFeHRyYWN0b3JDb25maWcgewogIG1pbkNvbmZpZGVuY2U/OiBudW1iZXIKICBleHRyYWN0T25FdmVyeU1lc3NhZ2U/OiBib29sZWFuCiAgZXh0cmFjdE9uQ29udmVyc2F0aW9uRW5kPzogYm9vbGVhbgogIGN1c3RvbUV4dHJhY3RvcnM/OiBBcnJheTwodGV4dDogc3RyaW5nKSA9PiBQYXJ0aWFsPExlYWRJbmZvPj4KfQoKZXhwb3J0IGNsYXNzIExlYWRFeHRyYWN0b3IgZXh0ZW5kcyBFdmVudEVtaXR0ZXIgewogIHByaXZhdGUgY29uZmlnOiBSZXF1aXJlZDxMZWFkRXh0cmFjdG9yQ29uZmlnPgogIHByaXZhdGUgY3VycmVudExlYWQ6IFBhcnRpYWw8TGVhZEluZm8+ID0ge30KICBwcml2YXRlIGxvZ2dlciA9IGxvZ2dlci5jaGlsZCgnbGVhZC1leHRyYWN0b3InKQoKICAvLyBSZWdleCBwYXR0ZXJucyBmb3IgaW5mb3JtYXRpb24gZXh0cmFjdGlvbgogIHByaXZhdGUgcGF0dGVybnMgPSB7CiAgICBlbWFpbDogL1xiW0EtWmEtejAtOS5fJSstXStAW0EtWmEtejAtOS4tXStcLltBLVp8YS16XXsyLH1cYi9nLAogICAgcGhvbmU6IC8oXCs/MT9bXHMuLV0/XCg/XGR7M31cKT9bXHMuLV0/XGR7M31bXHMuLV0/XGR7NH0pL2csCiAgICBuYW1lSW5kaWNhdG9yczogWwogICAgICAvbXkgbmFtZSg/OidzfCBpcylccysoW0EtWl1bYS16XSsoPzpccytbQS1aXVthLXpdKyk/KS9pLAogICAgICAvaSg/OidtfCBhbSlccysoW0EtWl1bYS16XSsoPzpccytbQS1aXVthLXpdKyk/KS9pLAogICAgICAvdGhpcyBpc1xzKyhbQS1aXVthLXpdKyg/OlxzK1tBLVpdW2Etel0rKT8pL2ksCiAgICAgIC9jYWxsIG1lXHMrKFtBLVpdW2Etel0rKD86XHMrW0EtWl1bYS16XSspPykvaSwKICAgICAgL2koPzonbXwgYW0pIGNhbGxlZFxzKyhbQS1aXVthLXpdKyg/OlxzK1tBLVpdW2Etel0rKT8pL2kKICAgIF0sCiAgICBjb21wYW55SW5kaWNhdG9yczogWwogICAgICAvd29yayAoPzphdHxmb3IpXHMrKFtBLVpdW14sLl0rKS9pLAogICAgICAvY29tcGFueSBpc1xzKyhbQS1aXVteLC5dKykvaSwKICAgICAgL2Zyb21ccysoW0EtWl1bXiwuXSsoPzppbmN8bGxjfGNvcnB8Y29tcGFueXxjb1wufGx0ZClcLj8pL2kKICAgIF0KICB9CgogIGNvbnN0cnVjdG9yKGNvbmZpZzogTGVhZEV4dHJhY3RvckNvbmZpZyA9IHt9KSB7CiAgICBzdXBlcigpCiAgICB0aGlzLmNvbmZpZyA9IHsKICAgICAgbWluQ29uZmlkZW5jZTogY29uZmlnLm1pbkNvbmZpZGVuY2UgPz8gMC43LAogICAgICBleHRyYWN0T25FdmVyeU1lc3NhZ2U6IGNvbmZpZy5leHRyYWN0T25FdmVyeU1lc3NhZ2UgPz8gdHJ1ZSwKICAgICAgZXh0cmFjdE9uQ29udmVyc2F0aW9uRW5kOiBjb25maWcuZXh0cmFjdE9uQ29udmVyc2F0aW9uRW5kID8/IHRydWUsCiAgICAgIGN1c3RvbUV4dHJhY3RvcnM6IGNvbmZpZy5jdXN0b21FeHRyYWN0b3JzID8/IFtdCiAgICB9CiAgfQoKICAvKioKICAgKiBQcm9jZXNzIGEgc2luZ2xlIG1lc3NhZ2UgZm9yIGxlYWQgaW5mb3JtYXRpb24KICAgKi8KICBwcm9jZXNzTWVzc2FnZShtZXNzYWdlOiBDb252ZXJzYXRpb25NZXNzYWdlKTogTGVhZEluZm8gfCBudWxsIHsKICAgIGlmIChtZXNzYWdlLnJvbGUgIT09ICd1c2VyJykgewogICAgICByZXR1cm4gbnVsbAogICAgfQoKICAgIGNvbnN0IHRleHQgPSBtZXNzYWdlLmNvbnRlbnQKICAgIGNvbnN0IHVwZGF0ZXM6IFBhcnRpYWw8TGVhZEluZm8+ID0ge30KCiAgICAvLyBFeHRyYWN0IGVtYWlsCiAgICBjb25zdCBlbWFpbHMgPSB0ZXh0Lm1hdGNoKHRoaXMucGF0dGVybnMuZW1haWwpCiAgICBpZiAoZW1haWxzICYmIGVtYWlscy5sZW5ndGggPiAwKSB7CiAgICAgIHVwZGF0ZXMuZW1haWwgPSBlbWFpbHNbMF0KICAgICAgdGhpcy5sb2dnZXIuZGVidWcoYEV4dHJhY3RlZCBlbWFpbDogJHt1cGRhdGVzLmVtYWlsfWApCiAgICB9CgogICAgLy8gRXh0cmFjdCBwaG9uZQogICAgY29uc3QgcGhvbmVzID0gdGV4dC5tYXRjaCh0aGlzLnBhdHRlcm5zLnBob25lKQogICAgaWYgKHBob25lcyAmJiBwaG9uZXMubGVuZ3RoID4gMCkgewogICAgICB1cGRhdGVzLnBob25lID0gdGhpcy5ub3JtYWxpemVQaG9uZShwaG9uZXNbMF0pCiAgICAgIHRoaXMubG9nZ2VyLmRlYnVnKGBFeHRyYWN0ZWQgcGhvbmU6ICR7dXBkYXRlcy5waG9uZX1gKQogICAgfQoKICAgIC8vIEV4dHJhY3QgbmFtZQogICAgY29uc3QgbmFtZSA9IHRoaXMuZXh0cmFjdE5hbWUodGV4dCkKICAgIGlmIChuYW1lKSB7CiAgICAgIHVwZGF0ZXMubmFtZSA9IG5hbWUKICAgICAgdGhpcy5sb2dnZXIuZGVidWcoYEV4dHJhY3RlZCBuYW1lOiAke3VwZGF0ZXMubmFtZX1gKQogICAgfQoKICAgIC8vIEV4dHJhY3QgY29tcGFueQogICAgY29uc3QgY29tcGFueSA9IHRoaXMuZXh0cmFjdENvbXBhbnkodGV4dCkKICAgIGlmIChjb21wYW55KSB7CiAgICAgIHVwZGF0ZXMuY29tcGFueSA9IGNvbXBhbnkKICAgICAgdGhpcy5sb2dnZXIuZGVidWcoYEV4dHJhY3RlZCBjb21wYW55OiAke3VwZGF0ZXMuY29tcGFueX1gKQogICAgfQoKICAgIC8vIEFwcGx5IGN1c3RvbSBleHRyYWN0b3JzCiAgICBmb3IgKGNvbnN0IGV4dHJhY3RvciBvZiB0aGlzLmNvbmZpZy5jdXN0b21FeHRyYWN0b3JzKSB7CiAgICAgIGNvbnN0IGN1c3RvbURhdGEgPSBleHRyYWN0b3IodGV4dCkKICAgICAgT2JqZWN0LmFzc2lnbih1cGRhdGVzLCBjdXN0b21EYXRhKQogICAgfQoKICAgIC8vIE1lcmdlIHVwZGF0ZXMKICAgIHRoaXMuY3VycmVudExlYWQgPSB7IC4uLnRoaXMuY3VycmVudExlYWQsIC4uLnVwZGF0ZXMgfQoKICAgIC8vIEJ1aWxkIHJlc3VsdCBpZiB3ZSBoYXZlIHZhbGlkIGRhdGEKICAgIGNvbnN0IGxlYWQgPSB0aGlzLmJ1aWxkTGVhZEluZm8oKQogICAgCiAgICBpZiAodGhpcy5oYXNNaW5pbXVtSW5mbyhsZWFkKSAmJiB0aGlzLmNvbmZpZy5leHRyYWN0T25FdmVyeU1lc3NhZ2UpIHsKICAgICAgdGhpcy5lbWl0KCdsZWFkJywgbGVhZCkKICAgICAgcmV0dXJuIGxlYWQKICAgIH0KCiAgICByZXR1cm4gbnVsbAogIH0KCiAgLyoqCiAgICogUHJvY2VzcyBlbnRpcmUgY29udmVyc2F0aW9uIGhpc3RvcnkKICAgKi8KICBwcm9jZXNzQ29udmVyc2F0aW9uKHN0YXRlOiBDb252ZXJzYXRpb25TdGF0ZSk6IExlYWRJbmZvIHwgbnVsbCB7CiAgICB0aGlzLnJlc2V0KCkKCiAgICBmb3IgKGNvbnN0IG1lc3NhZ2Ugb2Ygc3RhdGUubWVzc2FnZXMpIHsKICAgICAgdGhpcy5wcm9jZXNzTWVzc2FnZShtZXNzYWdlKQogICAgfQoKICAgIGNvbnN0IGxlYWQgPSB0aGlzLmJ1aWxkTGVhZEluZm8oKQogICAgCiAgICBpZiAodGhpcy5oYXNNaW5pbXVtSW5mbyhsZWFkKSkgewogICAgICB0aGlzLmVtaXQoJ2xlYWQnLCBsZWFkKQogICAgICByZXR1cm4gbGVhZAogICAgfQoKICAgIHJldHVybiBudWxsCiAgfQoKICAvKioKICAgKiBHZXQgY3VycmVudCBsZWFkIGluZm9ybWF0aW9uCiAgICovCiAgZ2V0Q3VycmVudExlYWQoKTogTGVhZEluZm8gfCBudWxsIHsKICAgIHJldHVybiB0aGlzLmJ1aWxkTGVhZEluZm8oKQogIH0KCiAgLyoqCiAgICogUmVzZXQgZXh0cmFjdG9yIHN0YXRlCiAgICovCiAgcmVzZXQoKTogdm9pZCB7CiAgICB0aGlzLmN1cnJlbnRMZWFkID0ge30KICAgIHRoaXMubG9nZ2VyLmRlYnVnKCdMZWFkIGV4dHJhY3RvciByZXNldCcpCiAgfQoKICAvKioKICAgKiBDaGVjayBpZiB3ZSBoYXZlIGEgY29tcGxldGUgbGVhZAogICAqLwogIGhhc0NvbXBsZXRlTGVhZCgpOiBib29sZWFuIHsKICAgIGNvbnN0IGxlYWQgPSB0aGlzLmJ1aWxkTGVhZEluZm8oKQogICAgcmV0dXJuICEhKGxlYWQubmFtZSAmJiBsZWFkLmVtYWlsICYmIGxlYWQucGhvbmUpCiAgfQoKICBwcml2YXRlIGV4dHJhY3ROYW1lKHRleHQ6IHN0cmluZyk6IHN0cmluZyB8IHVuZGVmaW5lZCB7CiAgICBmb3IgKGNvbnN0IHBhdHRlcm4gb2YgdGhpcy5wYXR0ZXJucy5uYW1lSW5kaWNhdG9ycykgewogICAgICBjb25zdCBtYXRjaCA9IHRleHQubWF0Y2gocGF0dGVybikKICAgICAgaWYgKG1hdGNoKSB7CiAgICAgICAgcmV0dXJuIG1hdGNoWzFdLnRyaW0oKQogICAgICB9CiAgICB9CgogICAgLy8gVHJ5IHRvIGV4dHJhY3QgbmFtZSBmcm9tIGdyZWV0aW5nIHBhdHRlcm5zCiAgICBjb25zdCBncmVldGluZ01hdGNoID0gdGV4dC5tYXRjaCgvXig/OmhpfGhlbGxvfGhleSlccysoW0EtWl1bYS16XSspL2kpCiAgICBpZiAoZ3JlZXRpbmdNYXRjaCkgewogICAgICByZXR1cm4gZ3JlZXRpbmdNYXRjaFsxXS50cmltKCkKICAgIH0KCiAgICByZXR1cm4gdW5kZWZpbmVkCiAgfQoKICBwcml2YXRlIGV4dHJhY3RDb21wYW55KHRleHQ6IHN0cmluZyk6IHN0cmluZyB8IHVuZGVmaW5lZCB7CiAgICBmb3IgKGNvbnN0IHBhdHRlcm4gb2YgdGhpcy5wYXR0ZXJucy5jb21wYW55SW5kaWNhdG9ycykgewogICAgICBjb25zdCBtYXRjaCA9IHRleHQubWF0Y2gocGF0dGVybikKICAgICAgaWYgKG1hdGNoKSB7CiAgICAgICAgcmV0dXJuIG1hdGNoWzFdLnRyaW0oKQogICAgICB9CiAgICB9CiAgICByZXR1cm4gdW5kZWZpbmVkCiAgfQoKICBwcml2YXRlIG5vcm1hbGl6ZVBob25lKHBob25lOiBzdHJpbmcpOiBzdHJpbmcgewogICAgLy8gUmVtb3ZlIG5vbi1udW1lcmljIGNoYXJhY3RlcnMgZXhjZXB0ICsKICAgIGNvbnN0IGRpZ2l0cyA9IHBob25lLnJlcGxhY2UoL1teXGQrXS9nLCAnJykKICAgIAogICAgLy8gRm9ybWF0IGFzICsxWFhYWFhYWFhYWCBpZiBzdGFydHMgd2l0aCAxCiAgICBpZiAoZGlnaXRzLmxlbmd0aCA9PT0gMTEgJiYgZGlnaXRzLnN0YXJ0c1dpdGgoJzEnKSkgewogICAgICByZXR1cm4gYCske2RpZ2l0c31gCiAgICB9CiAgICAKICAgIC8vIEFkZCArMSBpZiAxMCBkaWdpdHMKICAgIGlmIChkaWdpdHMubGVuZ3RoID09PSAxMCkgewogICAgICByZXR1cm4gYCsxJHtkaWdpdHN9YAogICAgfQogICAgCiAgICByZXR1cm4gZGlnaXRzCiAgfQoKICBwcml2YXRlIGJ1aWxkTGVhZEluZm8oKTogTGVhZEluZm8gewogICAgY29uc3QgY29uZmlkZW5jZTogTGVhZEluZm9bJ2NvbmZpZGVuY2UnXSA9IHt9CgogICAgLy8gQ2FsY3VsYXRlIGNvbmZpZGVuY2Ugc2NvcmVzCiAgICBpZiAodGhpcy5jdXJyZW50TGVhZC5uYW1lKSB7CiAgICAgIGNvbmZpZGVuY2UubmFtZSA9IDAuODUgLy8gSGlnaCBjb25maWRlbmNlIGZvciBleHBsaWNpdCBuYW1lIGV4dHJhY3Rpb24KICAgIH0KICAgIGlmICh0aGlzLmN1cnJlbnRMZWFkLmVtYWlsKSB7CiAgICAgIGNvbmZpZGVuY2UuZW1haWwgPSB0aGlzLnZhbGlkYXRlRW1haWwodGhpcy5jdXJyZW50TGVhZC5lbWFpbCkgPyAxLjAgOiAwLjUKICAgIH0KICAgIGlmICh0aGlzLmN1cnJlbnRMZWFkLnBob25lKSB7CiAgICAgIGNvbmZpZGVuY2UucGhvbmUgPSB0aGlzLnZhbGlkYXRlUGhvbmUodGhpcy5jdXJyZW50TGVhZC5waG9uZSkgPyAxLjAgOiAwLjUKICAgIH0KCiAgICByZXR1cm4gewogICAgICBuYW1lOiB0aGlzLmN1cnJlbnRMZWFkLm5hbWUsCiAgICAgIGVtYWlsOiB0aGlzLmN1cnJlbnRMZWFkLmVtYWlsLAogICAgICBwaG9uZTogdGhpcy5jdXJyZW50TGVhZC5waG9uZSwKICAgICAgY29tcGFueTogdGhpcy5jdXJyZW50TGVhZC5jb21wYW55LAogICAgICBub3RlczogdGhpcy5jdXJyZW50TGVhZC5ub3RlcywKICAgICAgY29uZmlkZW5jZQogICAgfQogIH0KCiAgcHJpdmF0ZSB2YWxpZGF0ZUVtYWlsKGVtYWlsOiBzdHJpbmcpOiBib29sZWFuIHsKICAgIHJldHVybiB0aGlzLnBhdHRlcm5zLmVtYWlsLnRlc3QoZW1haWwpCiAgfQoKICBwcml2YXRlIHZhbGlkYXRlUGhvbmUocGhvbmU6IHN0cmluZyk6IGJvb2xlYW4gewogICAgY29uc3QgZGlnaXRzID0gcGhvbmUucmVwbGFjZSgvXEQvZywgJycpCiAgICByZXR1cm4gZGlnaXRzLmxlbmd0aCA+PSAxMCAmJiBkaWdpdHMubGVuZ3RoIDw9IDE1CiAgfQoKICBwcml2YXRlIGhhc01pbmltdW1JbmZvKGxlYWQ6IExlYWRJbmZvKTogYm9vbGVhbiB7CiAgICBjb25zdCBzY29yZSA9IChsZWFkLm5hbWUgPyAxIDogMCkgKyAobGVhZC5lbWFpbCA/IDEgOiAwKSArIChsZWFkLnBob25lID8gMSA6IDApCiAgICByZXR1cm4gc2NvcmUgPj0gMSAvLyBBdCBsZWFzdCBvbmUgcGllY2Ugb2YgY29udGFjdCBpbmZvCiAgfQp9Cg==
+/**
+ * Lead Extractor for VoxKit
+ * Automatically extracts contact information from conversations
+ */
+
+import EventEmitter from 'events'
+import type { LeadInfo, ConversationMessage, ConversationState } from '../types.js'
+import { logger } from '../logger.js'
+
+export interface LeadExtractorConfig {
+  minConfidence?: number
+  extractOnEveryMessage?: boolean
+  extractOnConversationEnd?: boolean
+  customExtractors?: Array<(text: string) => Partial<LeadInfo>>
+}
+
+export class LeadExtractor extends EventEmitter {
+  private config: Required<LeadExtractorConfig>
+  private currentLead: Partial<LeadInfo> = {}
+  private logger = logger.child('lead-extractor')
+
+  // Regex patterns for information extraction
+  private patterns = {
+    email: /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b/g,
+    phone: /(\+?1?[\s.-]?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4})/g,
+    nameIndicators: [
+      /my name(?:'s| is)\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)/i,
+      /i(?:'m| am)\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)/i,
+      /this is\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)/i,
+      /call me\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)/i,
+      /i(?:'m| am) called\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)/i
+    ],
+    companyIndicators: [
+      /work (?:at|for)\s+([A-Z][^,.]+)/i,
+      /company is\s+([A-Z][^,.]+)/i,
+      /from\s+([A-Z][^,.]+(?:inc|llc|corp|company|co\.|ltd)\.?)/i
+    ]
+  }
+
+  constructor(config: LeadExtractorConfig = {}) {
+    super()
+    this.config = {
+      minConfidence: config.minConfidence ?? 0.7,
+      extractOnEveryMessage: config.extractOnEveryMessage ?? true,
+      extractOnConversationEnd: config.extractOnConversationEnd ?? true,
+      customExtractors: config.customExtractors ?? []
+    }
+  }
+
+  /**
+   * Process a single message for lead information
+   */
+  processMessage(message: ConversationMessage): LeadInfo | null {
+    if (message.role !== 'user') {
+      return null
+    }
+
+    const text = message.content
+    const updates: Partial<LeadInfo> = {}
+
+    // Extract email
+    const emails = text.match(this.patterns.email)
+    if (emails && emails.length > 0) {
+      updates.email = emails[0]
+      this.logger.debug(`Extracted email: ${updates.email}`)
+    }
+
+    // Extract phone
+    const phones = text.match(this.patterns.phone)
+    if (phones && phones.length > 0) {
+      updates.phone = this.normalizePhone(phones[0])
+      this.logger.debug(`Extracted phone: ${updates.phone}`)
+    }
+
+    // Extract name
+    const name = this.extractName(text)
+    if (name) {
+      updates.name = name
+      this.logger.debug(`Extracted name: ${updates.name}`)
+    }
+
+    // Extract company
+    const company = this.extractCompany(text)
+    if (company) {
+      updates.company = company
+      this.logger.debug(`Extracted company: ${updates.company}`)
+    }
+
+    // Apply custom extractors
+    for (const extractor of this.config.customExtractors) {
+      const customData = extractor(text)
+      Object.assign(updates, customData)
+    }
+
+    // Merge updates
+    this.currentLead = { ...this.currentLead, ...updates }
+
+    // Build result if we have valid data
+    const lead = this.buildLeadInfo()
+    
+    if (this.hasMinimumInfo(lead) && this.config.extractOnEveryMessage) {
+      this.emit('lead', lead)
+      return lead
+    }
+
+    return null
+  }
+
+  /**
+   * Process entire conversation history
+   */
+  processConversation(state: ConversationState): LeadInfo | null {
+    this.reset()
+
+    for (const message of state.messages) {
+      this.processMessage(message)
+    }
+
+    const lead = this.buildLeadInfo()
+    
+    if (this.hasMinimumInfo(lead)) {
+      this.emit('lead', lead)
+      return lead
+    }
+
+    return null
+  }
+
+  /**
+   * Get current lead information
+   */
+  getCurrentLead(): LeadInfo | null {
+    return this.buildLeadInfo()
+  }
+
+  /**
+   * Reset extractor state
+   */
+  reset(): void {
+    this.currentLead = {}
+    this.logger.debug('Lead extractor reset')
+  }
+
+  /**
+   * Check if we have a complete lead
+   */
+  hasCompleteLead(): boolean {
+    const lead = this.buildLeadInfo()
+    return !!(lead.name && lead.email && lead.phone)
+  }
+
+  private extractName(text: string): string | undefined {
+    for (const pattern of this.patterns.nameIndicators) {
+      const match = text.match(pattern)
+      if (match) {
+        return match[1].trim()
+      }
+    }
+
+    // Try to extract name from greeting patterns
+    const greetingMatch = text.match(/^(?:hi|hello|hey)\s+([A-Z][a-z]+)/i)
+    if (greetingMatch) {
+      return greetingMatch[1].trim()
+    }
+
+    return undefined
+  }
+
+  private extractCompany(text: string): string | undefined {
+    for (const pattern of this.patterns.companyIndicators) {
+      const match = text.match(pattern)
+      if (match) {
+        return match[1].trim()
+      }
+    }
+    return undefined
+  }
+
+  private normalizePhone(phone: string): string {
+    // Remove non-numeric characters except +
+    const digits = phone.replace(/[^\d+]/g, '')
+    
+    // Format as +1XXXXXXXXXX if starts with 1
+    if (digits.length === 11 && digits.startsWith('1')) {
+      return `+${digits}`
+    }
+    
+    // Add +1 if 10 digits
+    if (digits.length === 10) {
+      return `+1${digits}`
+    }
+    
+    return digits
+  }
+
+  private buildLeadInfo(): LeadInfo {
+    const confidence: LeadInfo['confidence'] = {}
+
+    // Calculate confidence scores
+    if (this.currentLead.name) {
+      confidence.name = 0.85 // High confidence for explicit name extraction
+    }
+    if (this.currentLead.email) {
+      confidence.email = this.validateEmail(this.currentLead.email) ? 1.0 : 0.5
+    }
+    if (this.currentLead.phone) {
+      confidence.phone = this.validatePhone(this.currentLead.phone) ? 1.0 : 0.5
+    }
+
+    return {
+      name: this.currentLead.name,
+      email: this.currentLead.email,
+      phone: this.currentLead.phone,
+      company: this.currentLead.company,
+      notes: this.currentLead.notes,
+      confidence
+    }
+  }
+
+  private validateEmail(email: string): boolean {
+    return this.patterns.email.test(email)
+  }
+
+  private validatePhone(phone: string): boolean {
+    const digits = phone.replace(/\D/g, '')
+    return digits.length >= 10 && digits.length <= 15
+  }
+
+  private hasMinimumInfo(lead: LeadInfo): boolean {
+    const score = (lead.name ? 1 : 0) + (lead.email ? 1 : 0) + (lead.phone ? 1 : 0)
+    return score >= 1 // At least one piece of contact info
+  }
+}

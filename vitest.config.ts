@@ -1,1 +1,15 @@
-aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAndml0ZXN0L2NvbmZpZycKCmV4cG9ydCBkZWZhdWx0IGRlZmluZUNvbmZpZyh7CiAgdGVzdDogewogICAgZ2xvYmFsczogdHJ1ZSwKICAgIGVudmlyb25tZW50OiAnbm9kZScsCiAgICBpbmNsdWRlOiBbJ3Rlc3RzLyoqLyoudGVzdC50cyddLAogICAgY292ZXJhZ2U6IHsKICAgICAgcHJvdmlkZXI6ICd2OCcsCiAgICAgIHJlcG9ydGVyOiBbJ3RleHQnLCAnbGNvdicsICdodG1sJ10sCiAgICAgIGluY2x1ZGU6IFsnc3JjLyoqLyoudHMnXSwKICAgICAgZXhjbHVkZTogWydzcmMvY2xpLyoqJywgJ3NyYy8qKi8qLmQudHMnXQogICAgfQogIH0KfSkK
+import { defineConfig } from 'vitest/config'
+
+export default defineConfig({
+  test: {
+    globals: true,
+    environment: 'node',
+    include: ['tests/**/*.test.ts'],
+    coverage: {
+      provider: 'v8',
+      reporter: ['text', 'lcov', 'html'],
+      include: ['src/**/*.ts'],
+      exclude: ['src/cli/**', 'src/**/*.d.ts']
+    }
+  }
+})

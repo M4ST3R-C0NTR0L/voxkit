@@ -1,1 +1,169 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QsIGJlZm9yZUVhY2ggfSBmcm9tICd2aXRlc3QnCmltcG9ydCB7IExlYWRFeHRyYWN0b3IgfSBmcm9tICcuLi8uLi9zcmMvY29yZS9sZWFkLWV4dHJhY3Rvci5qcycKaW1wb3J0IHR5cGUgeyBDb252ZXJzYXRpb25NZXNzYWdlIH0gZnJvbSAnLi4vLi4vc3JjL3R5cGVzLmpzJwoKY29uc3QgbXNnID0gKGNvbnRlbnQ6IHN0cmluZyk6IENvbnZlcnNhdGlvbk1lc3NhZ2UgPT4gKHsKICByb2xlOiAndXNlcicsCiAgY29udGVudCwKICB0aW1lc3RhbXA6IERhdGUubm93KCkKfSkKCmRlc2NyaWJlKCdMZWFkRXh0cmFjdG9yJywgKCkgPT4gewogIGxldCBleHRyYWN0b3I6IExlYWRFeHRyYWN0b3IKCiAgYmVmb3JlRWFjaCgoKSA9PiB7CiAgICBleHRyYWN0b3IgPSBuZXcgTGVhZEV4dHJhY3RvcigpCiAgfSkKCiAgLy8g4pSA4pSAIEVtYWlsIGV4dHJhY3Rpb24g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgogIGl0KCdleHRyYWN0cyBhIHBsYWluIGVtYWlsIGFkZHJlc3MnLCAoKSA9PiB7CiAgICBleHRyYWN0b3IucHJvY2Vzc01lc3NhZ2UobXNnKCdNeSBlbWFpbCBpcyBqb2huLmRvZUBleGFtcGxlLmNvbScpKQogICAgZXhwZWN0KGV4dHJhY3Rvci5nZXRDdXJyZW50TGVhZCgpPy5lbWFpbCkudG9CZSgnam9obi5kb2VAZXhhbXBsZS5jb20nKQogIH0pCgogIGl0KCdleHRyYWN0cyBlbWFpbCB3aXRoIHN1YmRvbWFpbnMnLCAoKSA9PiB7CiAgICBleHRyYWN0b3IucHJvY2Vzc01lc3NhZ2UobXNnKCdjb250YWN0IG1lIGF0IGFsZXhAbWFpbC5jb21wYW55LmlvJykpCiAgICBleHBlY3QoZXh0cmFjdG9yLmdldEN1cnJlbnRMZWFkKCk/LmVtYWlsKS50b0JlKCdhbGV4QG1haWwuY29tcGFueS5pbycpCiAgfSkKCiAgaXQoJ2lnbm9yZXMgYXNzaXN0YW50IG1lc3NhZ2VzJywgKCkgPT4gewogICAgZXh0cmFjdG9yLnByb2Nlc3NNZXNzYWdlKHsgcm9sZTogJ2Fzc2lzdGFudCcsIGNvbnRlbnQ6ICdZb3VyIGVtYWlsIGlzIHRlc3RAdGVzdC5jb20/JyB9KQogICAgZXhwZWN0KGV4dHJhY3Rvci5nZXRDdXJyZW50TGVhZCgpPy5lbWFpbCkudG9CZVVuZGVmaW5lZCgpCiAgfSkKCiAgLy8g4pSA4pSAIFBob25lIGV4dHJhY3Rpb24g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgogIGl0KCdleHRyYWN0cyBhIFVTIHBob25lIG51bWJlciAoZGFzaGVzKScsICgpID0+IHsKICAgIGV4dHJhY3Rvci5wcm9jZXNzTWVzc2FnZShtc2coJ0NhbGwgbWUgYXQgNTU1LTg2Ny01MzA5JykpCiAgICBleHBlY3QoZXh0cmFjdG9yLmdldEN1cnJlbnRMZWFkKCk/LnBob25lKS50b0JlVHJ1dGh5KCkKICB9KQoKICBpdCgnZXh0cmFjdHMgYSBVUyBwaG9uZSB3aXRoIGNvdW50cnkgY29kZScsICgpID0+IHsKICAgIGV4dHJhY3Rvci5wcm9jZXNzTWVzc2FnZShtc2coJ1JlYWNoIG1lIGF0ICsxICg0MTUpIDU1NS0xMjM0JykpCiAgICBjb25zdCBwaG9uZSA9IGV4dHJhY3Rvci5nZXRDdXJyZW50TGVhZCgpPy5waG9uZQogICAgZXhwZWN0KHBob25lKS50b0JlVHJ1dGh5KCkKICAgIGV4cGVjdChwaG9uZT8ucmVwbGFjZSgvXEQvZywgJycpKS50b01hdGNoKC8xPzQxNTU1NTEyMzQvKQogIH0pCgogIGl0KCdleHRyYWN0cyBhIDEwLWRpZ2l0IGNvbXBhY3QgcGhvbmUnLCAoKSA9PiB7CiAgICBleHRyYWN0b3IucHJvY2Vzc01lc3NhZ2UobXNnKCdNeSBudW1iZXIgaXMgNDE1NTU1MTIzNCcpKQogICAgY29uc3QgbGVhZCA9IGV4dHJhY3Rvci5nZXRDdXJyZW50TGVhZCgpCiAgICBleHBlY3QobGVhZD8ucGhvbmUpLnRvQmVUcnV0aHkoKQogIH0pCgogIC8vIOKUgOKUgCBOYW1lIGV4dHJhY3Rpb24g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgogIGl0KCdleHRyYWN0cyBuYW1lIGZyb20gIk15IG5hbWUgaXMgLi4uIicsICgpID0+IHsKICAgIGV4dHJhY3Rvci5wcm9jZXNzTWVzc2FnZShtc2coJ0hpLCBteSBuYW1lIGlzIFNhcmFoIEpvaG5zb24nKSkKICAgIGV4cGVjdChleHRyYWN0b3IuZ2V0Q3VycmVudExlYWQoKT8ubmFtZSkudG9CZSgnU2FyYWggSm9obnNvbicpCiAgfSkKCiAgaXQoJ2V4dHJhY3RzIG5hbWUgZnJvbSAiSSBhbSAuLi4iJywgKCkgPT4gewogICAgZXh0cmFjdG9yLnByb2Nlc3NNZXNzYWdlKG1zZygnSSBhbSBSb2JlcnQgQ2hlbicpKQogICAgZXhwZWN0KGV4dHJhY3Rvci5nZXRDdXJyZW50TGVhZCgpPy5uYW1lKS50b0JlKCdSb2JlcnQgQ2hlbicpCiAgfSkKCiAgaXQoJ2V4dHJhY3RzIG5hbWUgZnJvbSAiVGhpcyBpcyAuLi4iJywgKCkgPT4gewogICAgZXh0cmFjdG9yLnByb2Nlc3NNZXNzYWdlKG1zZygnVGhpcyBpcyBNYXJpYSBMb3BleiBjYWxsaW5nJykpCiAgICBleHBlY3QoZXh0cmFjdG9yLmdldEN1cnJlbnRMZWFkKCk/Lm5hbWUpLnRvQmUoJ01hcmlhIExvcGV6JykKICB9KQoKICBpdCgnZXh0cmFjdHMgbmFtZSBmcm9tICJDYWxsIG1lIC4uLiInLCAoKSA9PiB7CiAgICBleHRyYWN0b3IucHJvY2Vzc01lc3NhZ2UobXNnKCdDYWxsIG1lIE1pa2UnKSkKICAgIGV4cGVjdChleHRyYWN0b3IuZ2V0Q3VycmVudExlYWQoKT8ubmFtZSkudG9CZSgnTWlrZScpCiAgfSkKCiAgLy8g4pSA4pSAIENvbXBhbnkgZXh0cmFjdGlvbiDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCiAgaXQoJ2V4dHJhY3RzIGNvbXBhbnkgZnJvbSAid29yayBhdCAuLi4iJywgKCkgPT4gewogICAgZXh0cmFjdG9yLnByb2Nlc3NNZXNzYWdlKG1zZygnSSB3b3JrIGF0IEFjbWUgQ29ycCcpKQogICAgZXhwZWN0KGV4dHJhY3Rvci5nZXRDdXJyZW50TGVhZCgpPy5jb21wYW55KS50b0JlVHJ1dGh5KCkKICB9KQoKICAvLyDilIDilIAgTXVsdGktZmllbGQgaW4gb25lIG1lc3NhZ2Ug4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgogIGl0KCdleHRyYWN0cyBtdWx0aXBsZSBmaWVsZHMgZnJvbSBvbmUgbWVzc2FnZScsICgpID0+IHsKICAgIGV4dHJhY3Rvci5wcm9jZXNzTWVzc2FnZSgKICAgICAgbXNnKCdIaSwgbXkgbmFtZSBpcyBKYW5lIFNtaXRoLiBZb3UgY2FuIGVtYWlsIG1lIGF0IGphbmVAY29tcGFueS5jb20gb3IgY2FsbCA0MTUtNTU1LTk4NzYnKQogICAgKQogICAgY29uc3QgbGVhZCA9IGV4dHJhY3Rvci5nZXRDdXJyZW50TGVhZCgpCiAgICBleHBlY3QobGVhZD8ubmFtZSkudG9CZSgnSmFuZSBTbWl0aCcpCiAgICBleHBlY3QobGVhZD8uZW1haWwpLnRvQmUoJ2phbmVAY29tcGFueS5jb20nKQogICAgZXhwZWN0KGxlYWQ/LnBob25lKS50b0JlVHJ1dGh5KCkKICB9KQoKICAvLyDilIDilIAgQWNjdW11bGF0aW9uIGFjcm9zcyBtZXNzYWdlcyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCiAgaXQoJ2FjY3VtdWxhdGVzIGluZm8gYWNyb3NzIG11bHRpcGxlIG1lc3NhZ2VzJywgKCkgPT4gewogICAgZXh0cmFjdG9yLnByb2Nlc3NNZXNzYWdlKG1zZygnTXkgbmFtZSBpcyBDYXJsb3MgUnVpeicpKQogICAgZXh0cmFjdG9yLnByb2Nlc3NNZXNzYWdlKG1zZygnTXkgZW1haWwgaXMgY2FybG9zQHN0YXJ0dXAuaW8nKSkKICAgIGV4dHJhY3Rvci5wcm9jZXNzTWVzc2FnZShtc2coJ1Bob25lIGlzIDY1MC01NTUtMDAwMScpKQogICAgY29uc3QgbGVhZCA9IGV4dHJhY3Rvci5nZXRDdXJyZW50TGVhZCgpCiAgICBleHBlY3QobGVhZD8ubmFtZSkudG9CZSgnQ2FybG9zIFJ1aXonKQogICAgZXhwZWN0KGxlYWQ/LmVtYWlsKS50b0JlKCdjYXJsb3NAc3RhcnR1cC5pbycpCiAgICBleHBlY3QobGVhZD8ucGhvbmUpLnRvQmVUcnV0aHkoKQogIH0pCgogIC8vIOKUgOKUgCBSZXNldCDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCiAgaXQoJ3Jlc2V0cyBzdGF0ZSBjb3JyZWN0bHknLCAoKSA9PiB7CiAgICBleHRyYWN0b3IucHJvY2Vzc01lc3NhZ2UobXNnKCdNeSBlbWFpbCBpcyBvbGRAdGVzdC5jb20nKSkKICAgIGV4dHJhY3Rvci5yZXNldCgpCiAgICBjb25zdCBsZWFkID0gZXh0cmFjdG9yLmdldEN1cnJlbnRMZWFkKCkKICAgIGV4cGVjdChsZWFkPy5lbWFpbCkudG9CZVVuZGVmaW5lZCgpCiAgfSkKCiAgLy8g4pSA4pSAIGhhc0NvbXBsZXRlTGVhZCDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCiAgaXQoJ3JlcG9ydHMgaGFzQ29tcGxldGVMZWFkIGNvcnJlY3RseScsICgpID0+IHsKICAgIGV4cGVjdChleHRyYWN0b3IuaGFzQ29tcGxldGVMZWFkKCkpLnRvQmUoZmFsc2UpCiAgICBleHRyYWN0b3IucHJvY2Vzc01lc3NhZ2UobXNnKCdNeSBuYW1lIGlzIEZ1bGwgTGVhZCcpKQogICAgZXh0cmFjdG9yLnByb2Nlc3NNZXNzYWdlKG1zZygnRW1haWw6IGZ1bGxAbGVhZC5jb20nKSkKICAgIGV4dHJhY3Rvci5wcm9jZXNzTWVzc2FnZShtc2coJ1Bob25lOiA1NTUtMTIzLTQ1NjcnKSkKICAgIGV4cGVjdChleHRyYWN0b3IuaGFzQ29tcGxldGVMZWFkKCkpLnRvQmUodHJ1ZSkKICB9KQoKICAvLyDilIDilIAgQ29uZmlkZW5jZSBzY29yZXMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgogIGl0KCdzZXRzIGNvbmZpZGVuY2UgZm9yIGV4dHJhY3RlZCBlbWFpbCcsICgpID0+IHsKICAgIGV4dHJhY3Rvci5wcm9jZXNzTWVzc2FnZShtc2coJ0VtYWlsIG1lIGF0IHZhbGlkQGVtYWlsLmNvbScpKQogICAgY29uc3QgbGVhZCA9IGV4dHJhY3Rvci5nZXRDdXJyZW50TGVhZCgpCiAgICBleHBlY3QobGVhZD8uY29uZmlkZW5jZS5lbWFpbCkudG9CZUdyZWF0ZXJUaGFuKDApCiAgfSkKCiAgLy8g4pSA4pSAIHByb2Nlc3NDb252ZXJzYXRpb24g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgogIGl0KCdwcm9jZXNzQ29udmVyc2F0aW9uIGV4dHJhY3RzIGZyb20gZnVsbCBoaXN0b3J5JywgKCkgPT4gewogICAgY29uc3Qgc3RhdGUgPSB7CiAgICAgIGlkOiAndGVzdC1jb252JywKICAgICAgbWVzc2FnZXM6IFsKICAgICAgICB7IHJvbGU6ICd1c2VyJyBhcyBjb25zdCwgY29udGVudDogJ015IG5hbWUgaXMgQWxleCBUZXN0JywgdGltZXN0YW1wOiBEYXRlLm5vdygpIH0sCiAgICAgICAgeyByb2xlOiAnYXNzaXN0YW50JyBhcyBjb25zdCwgY29udGVudDogJ0dyZWF0LCB3aGF0IGlzIHlvdXIgZW1haWw/JywgdGltZXN0YW1wOiBEYXRlLm5vdygpIH0sCiAgICAgICAgeyByb2xlOiAndXNlcicgYXMgY29uc3QsIGNvbnRlbnQ6ICdJdCBpcyBhbGV4QHRlc3QuY29tJywgdGltZXN0YW1wOiBEYXRlLm5vdygpIH0KICAgICAgXSwKICAgICAgaXNBY3RpdmU6IGZhbHNlLAogICAgICBzdGFydGVkQXQ6IERhdGUubm93KCkgLSA1MDAwLAogICAgICBsYXN0QWN0aXZpdHlBdDogRGF0ZS5ub3coKQogICAgfQogICAgY29uc3QgbGVhZCA9IGV4dHJhY3Rvci5wcm9jZXNzQ29udmVyc2F0aW9uKHN0YXRlKQogICAgZXhwZWN0KGxlYWQ/Lm5hbWUpLnRvQmUoJ0FsZXggVGVzdCcpCiAgICBleHBlY3QobGVhZD8uZW1haWwpLnRvQmUoJ2FsZXhAdGVzdC5jb20nKQogIH0pCgogIC8vIOKUgOKUgCBDdXN0b20gZXh0cmFjdG9ycyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCiAgaXQoJ3N1cHBvcnRzIGN1c3RvbSBleHRyYWN0b3IgZnVuY3Rpb25zJywgKCkgPT4gewogICAgY29uc3QgY3VzdG9tRXh0cmFjdG9yID0gbmV3IExlYWRFeHRyYWN0b3IoewogICAgICBjdXN0b21FeHRyYWN0b3JzOiBbCiAgICAgICAgKHRleHQpID0+IHsKICAgICAgICAgIGNvbnN0IG1hdGNoID0gdGV4dC5tYXRjaCgvb3JkZXIgIyhcZCspL2kpCiAgICAgICAgICByZXR1cm4gbWF0Y2ggPyB7IG5vdGVzOiBgT3JkZXI6ICR7bWF0Y2hbMV19YCB9IDoge30KICAgICAgICB9CiAgICAgIF0KICAgIH0pCiAgICBjdXN0b21FeHRyYWN0b3IucHJvY2Vzc01lc3NhZ2UobXNnKCdJIGFtIGNhbGxpbmcgYWJvdXQgb3JkZXIgIzk5ODg3JykpCiAgICAvLyBDdXN0b20gZGF0YSBlbmRzIHVwIGluIGxlYWQgbm90ZXMKICAgIGV4cGVjdChjdXN0b21FeHRyYWN0b3IuZ2V0Q3VycmVudExlYWQoKT8ubm90ZXMpLnRvQmUoJ09yZGVyOiA5OTg4NycpCiAgfSkKfSkK
+import { describe, it, expect, beforeEach } from 'vitest'
+import { LeadExtractor } from '../../src/core/lead-extractor.js'
+import type { ConversationMessage } from '../../src/types.js'
+
+const msg = (content: string): ConversationMessage => ({
+  role: 'user',
+  content,
+  timestamp: Date.now()
+})
+
+describe('LeadExtractor', () => {
+  let extractor: LeadExtractor
+
+  beforeEach(() => {
+    extractor = new LeadExtractor()
+  })
+
+  // ── Email extraction ──────────────────────────────────────────────────────
+
+  it('extracts a plain email address', () => {
+    extractor.processMessage(msg('My email is john.doe@example.com'))
+    expect(extractor.getCurrentLead()?.email).toBe('john.doe@example.com')
+  })
+
+  it('extracts email with subdomains', () => {
+    extractor.processMessage(msg('contact me at alex@mail.company.io'))
+    expect(extractor.getCurrentLead()?.email).toBe('alex@mail.company.io')
+  })
+
+  it('ignores assistant messages', () => {
+    extractor.processMessage({ role: 'assistant', content: 'Your email is test@test.com?' })
+    expect(extractor.getCurrentLead()?.email).toBeUndefined()
+  })
+
+  // ── Phone extraction ──────────────────────────────────────────────────────
+
+  it('extracts a US phone number (dashes)', () => {
+    extractor.processMessage(msg('Call me at 555-867-5309'))
+    expect(extractor.getCurrentLead()?.phone).toBeTruthy()
+  })
+
+  it('extracts a US phone with country code', () => {
+    extractor.processMessage(msg('Reach me at +1 (415) 555-1234'))
+    const phone = extractor.getCurrentLead()?.phone
+    expect(phone).toBeTruthy()
+    expect(phone?.replace(/\D/g, '')).toMatch(/1?4155551234/)
+  })
+
+  it('extracts a 10-digit compact phone', () => {
+    extractor.processMessage(msg('My number is 4155551234'))
+    const lead = extractor.getCurrentLead()
+    expect(lead?.phone).toBeTruthy()
+  })
+
+  // ── Name extraction ───────────────────────────────────────────────────────
+
+  it('extracts name from "My name is ..."', () => {
+    extractor.processMessage(msg('Hi, my name is Sarah Johnson'))
+    expect(extractor.getCurrentLead()?.name).toBe('Sarah Johnson')
+  })
+
+  it('extracts name from "I am ..."', () => {
+    extractor.processMessage(msg('I am Robert Chen'))
+    expect(extractor.getCurrentLead()?.name).toBe('Robert Chen')
+  })
+
+  it('extracts name from "This is ..."', () => {
+    extractor.processMessage(msg('This is Maria Lopez calling'))
+    expect(extractor.getCurrentLead()?.name).toBe('Maria Lopez')
+  })
+
+  it('extracts name from "Call me ..."', () => {
+    extractor.processMessage(msg('Call me Mike'))
+    expect(extractor.getCurrentLead()?.name).toBe('Mike')
+  })
+
+  // ── Company extraction ────────────────────────────────────────────────────
+
+  it('extracts company from "work at ..."', () => {
+    extractor.processMessage(msg('I work at Acme Corp'))
+    expect(extractor.getCurrentLead()?.company).toBeTruthy()
+  })
+
+  // ── Multi-field in one message ────────────────────────────────────────────
+
+  it('extracts multiple fields from one message', () => {
+    extractor.processMessage(
+      msg('Hi, my name is Jane Smith. You can email me at jane@company.com or call 415-555-9876')
+    )
+    const lead = extractor.getCurrentLead()
+    expect(lead?.name).toBe('Jane Smith')
+    expect(lead?.email).toBe('jane@company.com')
+    expect(lead?.phone).toBeTruthy()
+  })
+
+  // ── Accumulation across messages ──────────────────────────────────────────
+
+  it('accumulates info across multiple messages', () => {
+    extractor.processMessage(msg('My name is Carlos Ruiz'))
+    extractor.processMessage(msg('My email is carlos@startup.io'))
+    extractor.processMessage(msg('Phone is 650-555-0001'))
+    const lead = extractor.getCurrentLead()
+    expect(lead?.name).toBe('Carlos Ruiz')
+    expect(lead?.email).toBe('carlos@startup.io')
+    expect(lead?.phone).toBeTruthy()
+  })
+
+  // ── Reset ─────────────────────────────────────────────────────────────────
+
+  it('resets state correctly', () => {
+    extractor.processMessage(msg('My email is old@test.com'))
+    extractor.reset()
+    const lead = extractor.getCurrentLead()
+    expect(lead?.email).toBeUndefined()
+  })
+
+  // ── hasCompleteLead ───────────────────────────────────────────────────────
+
+  it('reports hasCompleteLead correctly', () => {
+    expect(extractor.hasCompleteLead()).toBe(false)
+    extractor.processMessage(msg('My name is Full Lead'))
+    extractor.processMessage(msg('Email: full@lead.com'))
+    extractor.processMessage(msg('Phone: 555-123-4567'))
+    expect(extractor.hasCompleteLead()).toBe(true)
+  })
+
+  // ── Confidence scores ─────────────────────────────────────────────────────
+
+  it('sets confidence for extracted email', () => {
+    extractor.processMessage(msg('Email me at valid@email.com'))
+    const lead = extractor.getCurrentLead()
+    expect(lead?.confidence.email).toBeGreaterThan(0)
+  })
+
+  // ── processConversation ───────────────────────────────────────────────────
+
+  it('processConversation extracts from full history', () => {
+    const state = {
+      id: 'test-conv',
+      messages: [
+        { role: 'user' as const, content: 'My name is Alex Test', timestamp: Date.now() },
+        { role: 'assistant' as const, content: 'Great, what is your email?', timestamp: Date.now() },
+        { role: 'user' as const, content: 'It is alex@test.com', timestamp: Date.now() }
+      ],
+      isActive: false,
+      startedAt: Date.now() - 5000,
+      lastActivityAt: Date.now()
+    }
+    const lead = extractor.processConversation(state)
+    expect(lead?.name).toBe('Alex Test')
+    expect(lead?.email).toBe('alex@test.com')
+  })
+
+  // ── Custom extractors ─────────────────────────────────────────────────────
+
+  it('supports custom extractor functions', () => {
+    const customExtractor = new LeadExtractor({
+      customExtractors: [
+        (text) => {
+          const match = text.match(/order #(\d+)/i)
+          return match ? { notes: `Order: ${match[1]}` } : {}
+        }
+      ]
+    })
+    customExtractor.processMessage(msg('I am calling about order #99887'))
+    // Custom data ends up in lead notes
+    expect(customExtractor.getCurrentLead()?.notes).toBe('Order: 99887')
+  })
+})

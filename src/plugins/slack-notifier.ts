@@ -1,1 +1,63 @@
-LyoqCiAqIFNsYWNrTm90aWZpZXJQbHVnaW4KICoKICogU2VuZHMgYSBTbGFjayBtZXNzYWdlICh2aWEgSW5jb21pbmcgV2ViaG9vaykgd2hlbmV2ZXIKICogYSBuZXcgbGVhZCBpcyBjYXB0dXJlZCBvciBhIGNvbnZlcnNhdGlvbiBlbmRzLgogKi8KCmltcG9ydCB0eXBlIHsgVm94S2l0UGx1Z2luLCBWb3hBZ2VudCwgTGVhZEluZm8gfSBmcm9tICcuLi90eXBlcy5qcycKaW1wb3J0IHsgbG9nZ2VyIH0gZnJvbSAnLi4vbG9nZ2VyLmpzJwoKZXhwb3J0IGludGVyZmFjZSBTbGFja05vdGlmaWVyQ29uZmlnIHsKICAvKiogU2xhY2sgSW5jb21pbmcgV2ViaG9vayBVUkwgKi8KICB3ZWJob29rVXJsOiBzdHJpbmcKICAvKiogTm90aWZ5IG9uIG5ldyBsZWFkIChkZWZhdWx0OiB0cnVlKSAqLwogIG5vdGlmeU9uTGVhZD86IGJvb2xlYW4KICAvKiogRW1vamkgcHJlZml4IGZvciBsZWFkIG1lc3NhZ2VzIChkZWZhdWx0OiAnOnRlbGVwaG9uZV9yZWNlaXZlcjonKSAqLwogIGVtb2ppPzogc3RyaW5nCn0KCmV4cG9ydCBjbGFzcyBTbGFja05vdGlmaWVyUGx1Z2luIGltcGxlbWVudHMgVm94S2l0UGx1Z2luIHsKICBuYW1lID0gJ3NsYWNrLW5vdGlmaWVyJwoKICBwcml2YXRlIGNvbmZpZzogUmVxdWlyZWQ8U2xhY2tOb3RpZmllckNvbmZpZz4KICBwcml2YXRlIGxvZyA9IGxvZ2dlci5jaGlsZCgnc2xhY2stbm90aWZpZXInKQoKICBjb25zdHJ1Y3Rvcihjb25maWc6IFNsYWNrTm90aWZpZXJDb25maWcpIHsKICAgIHRoaXMuY29uZmlnID0gewogICAgICB3ZWJob29rVXJsOiBjb25maWcud2ViaG9va1VybCwKICAgICAgbm90aWZ5T25MZWFkOiBjb25maWcubm90aWZ5T25MZWFkID8/IHRydWUsCiAgICAgIGVtb2ppOiBjb25maWcuZW1vamkgPz8gJzp0ZWxlcGhvbmVfcmVjZWl2ZXI6JwogICAgfQogIH0KCiAgaW5pdGlhbGl6ZShfYWdlbnQ6IFZveEFnZW50KTogdm9pZCB7CiAgICB0aGlzLmxvZy5pbmZvKCdTbGFja05vdGlmaWVyUGx1Z2luIGluaXRpYWxpemVkJykKICB9CgogIG9uTGVhZChsZWFkOiBMZWFkSW5mbyk6IHZvaWQgewogICAgaWYgKCF0aGlzLmNvbmZpZy5ub3RpZnlPbkxlYWQpIHJldHVybgoKICAgIGNvbnN0IGxpbmVzOiBzdHJpbmdbXSA9IFtgJHt0aGlzLmNvbmZpZy5lbW9qaX0gKk5ldyBMZWFkIENhcHR1cmVkKmBdCiAgICBpZiAobGVhZC5uYW1lKSAgICBsaW5lcy5wdXNoKGDigKIgKk5hbWU6KiAke2xlYWQubmFtZX1gKQogICAgaWYgKGxlYWQuZW1haWwpICAgbGluZXMucHVzaChg4oCiICpFbWFpbDoqICR7bGVhZC5lbWFpbH1gKQogICAgaWYgKGxlYWQucGhvbmUpICAgbGluZXMucHVzaChg4oCiICpQaG9uZToqICR7bGVhZC5waG9uZX1gKQogICAgaWYgKGxlYWQuY29tcGFueSkgbGluZXMucHVzaChg4oCiICpDb21wYW55OiogJHtsZWFkLmNvbXBhbnl9YCkKCiAgICB0aGlzLnBvc3RUb1NsYWNrKGxpbmVzLmpvaW4oJ1xuJykpCiAgfQoKICBwcml2YXRlIGFzeW5jIHBvc3RUb1NsYWNrKHRleHQ6IHN0cmluZyk6IFByb21pc2U8dm9pZD4gewogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2godGhpcy5jb25maWcud2ViaG9va1VybCwgewogICAgICAgIG1ldGhvZDogJ1BPU1QnLAogICAgICAgIGhlYWRlcnM6IHsgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJyB9LAogICAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgdGV4dCB9KQogICAgICB9KQogICAgICBpZiAoIXJlcy5vaykgdGhyb3cgbmV3IEVycm9yKGBIVFRQICR7cmVzLnN0YXR1c31gKQogICAgICB0aGlzLmxvZy5pbmZvKCdTbGFjayBub3RpZmljYXRpb24gc2VudCcpCiAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgdGhpcy5sb2cuZXJyb3IoJ1NsYWNrIG5vdGlmaWNhdGlvbiBmYWlsZWQ6JywgZXJyKQogICAgfQogIH0KfQo=
+/**
+ * SlackNotifierPlugin
+ *
+ * Sends a Slack message (via Incoming Webhook) whenever
+ * a new lead is captured or a conversation ends.
+ */
+
+import type { VoxKitPlugin, VoxAgent, LeadInfo } from '../types.js'
+import { logger } from '../logger.js'
+
+export interface SlackNotifierConfig {
+  /** Slack Incoming Webhook URL */
+  webhookUrl: string
+  /** Notify on new lead (default: true) */
+  notifyOnLead?: boolean
+  /** Emoji prefix for lead messages (default: ':telephone_receiver:') */
+  emoji?: string
+}
+
+export class SlackNotifierPlugin implements VoxKitPlugin {
+  name = 'slack-notifier'
+
+  private config: Required<SlackNotifierConfig>
+  private log = logger.child('slack-notifier')
+
+  constructor(config: SlackNotifierConfig) {
+    this.config = {
+      webhookUrl: config.webhookUrl,
+      notifyOnLead: config.notifyOnLead ?? true,
+      emoji: config.emoji ?? ':telephone_receiver:'
+    }
+  }
+
+  initialize(_agent: VoxAgent): void {
+    this.log.info('SlackNotifierPlugin initialized')
+  }
+
+  onLead(lead: LeadInfo): void {
+    if (!this.config.notifyOnLead) return
+
+    const lines: string[] = [`${this.config.emoji} *New Lead Captured*`]
+    if (lead.name)    lines.push(`• *Name:* ${lead.name}`)
+    if (lead.email)   lines.push(`• *Email:* ${lead.email}`)
+    if (lead.phone)   lines.push(`• *Phone:* ${lead.phone}`)
+    if (lead.company) lines.push(`• *Company:* ${lead.company}`)
+
+    this.postToSlack(lines.join('\n'))
+  }
+
+  private async postToSlack(text: string): Promise<void> {
+    try {
+      const res = await fetch(this.config.webhookUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text })
+      })
+      if (!res.ok) throw new Error(`HTTP ${res.status}`)
+      this.log.info('Slack notification sent')
+    } catch (err) {
+      this.log.error('Slack notification failed:', err)
+    }
+  }
+}

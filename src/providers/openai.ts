@@ -1,1 +1,352 @@
-LyoqCiAqIE9wZW5BSSBSZWFsdGltZSBBUEkgUHJvdmlkZXIgZm9yIFZveEtpdAogKiBJbXBsZW1lbnRzIHRoZSBBSVByb3ZpZGVyIGludGVyZmFjZSBmb3IgT3BlbkFJJ3MgUmVhbHRpbWUgQVBJCiAqLwoKaW1wb3J0IHR5cGUgeyBXZWJTb2NrZXQgYXMgV3NXZWJTb2NrZXQgfSBmcm9tICd3cycKaW1wb3J0IHR5cGUgeyAKICBBSVByb3ZpZGVyLCAKICBWb2ljZSwgCiAgVHJhbnNjcmlwdFNlZ21lbnQsIAogIFByb3ZpZGVyUmVzcG9uc2UgCn0gZnJvbSAnLi4vdHlwZXMuanMnCmltcG9ydCB7IGxvZ2dlciB9IGZyb20gJy4uL2xvZ2dlci5qcycKCmV4cG9ydCBpbnRlcmZhY2UgT3BlbkFJUHJvdmlkZXJDb25maWcgewogIGFwaUtleT86IHN0cmluZwogIG1vZGVsPzogc3RyaW5nCiAgdm9pY2U/OiBWb2ljZQogIHRlbXBlcmF0dXJlPzogbnVtYmVyCiAgbWF4UmVzcG9uc2VPdXRwdXRUb2tlbnM/OiBudW1iZXIgfCAnaW5mJwp9CgpleHBvcnQgY2xhc3MgT3BlbkFJUHJvdmlkZXIgaW1wbGVtZW50cyBBSVByb3ZpZGVyIHsKICBuYW1lID0gJ29wZW5haScKICAKICBwcml2YXRlIGNvbmZpZzogUmVxdWlyZWQ8T3BlbkFJUHJvdmlkZXJDb25maWc+CiAgcHJpdmF0ZSB3czogV3NXZWJTb2NrZXQgfCBudWxsID0gbnVsbAogIHByaXZhdGUgbWVzc2FnZUNhbGxiYWNrczogQXJyYXk8KHJlc3BvbnNlOiBQcm92aWRlclJlc3BvbnNlKSA9PiB2b2lkPiA9IFtdCiAgcHJpdmF0ZSB0cmFuc2NyaXB0Q2FsbGJhY2tzOiBBcnJheTwoc2VnbWVudDogVHJhbnNjcmlwdFNlZ21lbnQpID0+IHZvaWQ+ID0gW10KICBwcml2YXRlIGVycm9yQ2FsbGJhY2tzOiBBcnJheTwoZXJyb3I6IEVycm9yKSA9PiB2b2lkPiA9IFtdCiAgcHJpdmF0ZSBsb2dnZXIgPSBsb2dnZXIuY2hpbGQoJ29wZW5haS1wcm92aWRlcicpCiAgcHJpdmF0ZSBjdXJyZW50Vm9pY2U6IFZvaWNlCiAgcHJpdmF0ZSBzZXNzaW9uQ3JlYXRlZCA9IGZhbHNlCgogIHByaXZhdGUgcmVhZG9ubHkgc3VwcG9ydGVkVm9pY2VzOiBWb2ljZVtdID0gWwogICAgJ2FsbG95JywgJ2VjaG8nLCAnZmFibGUnLCAnb255eCcsICdub3ZhJywgJ3NoaW1tZXInLCAnYXNoJywgJ2JhbGxhZCcsICdjb3JhbCcsICdzYWdlJywgJ3ZlcnNlJwogIF0KCiAgY29uc3RydWN0b3IoY29uZmlnOiBPcGVuQUlQcm92aWRlckNvbmZpZyA9IHt9KSB7CiAgICB0aGlzLmNvbmZpZyA9IHsKICAgICAgYXBpS2V5OiBjb25maWcuYXBpS2V5ID8/IHByb2Nlc3MuZW52Lk9QRU5BSV9BUElfS0VZID8/ICcnLAogICAgICBtb2RlbDogY29uZmlnLm1vZGVsID8/ICdncHQtNG8tcmVhbHRpbWUtcHJldmlldy0yMDI0LTEyLTE3JywKICAgICAgdm9pY2U6IGNvbmZpZy52b2ljZSA/PyAnYWxsb3knLAogICAgICB0ZW1wZXJhdHVyZTogY29uZmlnLnRlbXBlcmF0dXJlID8/IDAuOCwKICAgICAgbWF4UmVzcG9uc2VPdXRwdXRUb2tlbnM6IGNvbmZpZy5tYXhSZXNwb25zZU91dHB1dFRva2VucyA/PyA0MDk2CiAgICB9CiAgICB0aGlzLmN1cnJlbnRWb2ljZSA9IHRoaXMuY29uZmlnLnZvaWNlCiAgfQoKICAvKioKICAgKiBJbml0aWFsaXplIHRoZSBwcm92aWRlcgogICAqLwogIGFzeW5jIGluaXRpYWxpemUoKTogUHJvbWlzZTx2b2lkPiB7CiAgICBpZiAoIXRoaXMuY29uZmlnLmFwaUtleSkgewogICAgICB0aHJvdyBuZXcgRXJyb3IoJ09wZW5BSSBBUEkga2V5IGlzIHJlcXVpcmVkLiBTZXQgT1BFTkFJX0FQSV9LRVkgZW52aXJvbm1lbnQgdmFyaWFibGUgb3IgcGFzcyBpdCBpbiBjb25maWcuJykKICAgIH0KICAgIHRoaXMubG9nZ2VyLmluZm8oJ09wZW5BSSBwcm92aWRlciBpbml0aWFsaXplZCcpCiAgfQoKICAvKioKICAgKiBDb25uZWN0IHRvIE9wZW5BSSBSZWFsdGltZSBBUEkKICAgKi8KICBhc3luYyBjb25uZWN0KCk6IFByb21pc2U8dm9pZD4gewogICAgY29uc3QgdXJsID0gYHdzczovL2FwaS5vcGVuYWkuY29tL3YxL3JlYWx0aW1lP21vZGVsPSR7dGhpcy5jb25maWcubW9kZWx9YAogICAgCiAgICB0aGlzLmxvZ2dlci5pbmZvKGBDb25uZWN0aW5nIHRvIE9wZW5BSSBSZWFsdGltZSBBUEk6ICR7dGhpcy5jb25maWcubW9kZWx9YCkKCiAgICB0cnkgewogICAgICBjb25zdCB3c01vZHVsZSA9IGF3YWl0IGltcG9ydCgnd3MnKQogICAgICB0aGlzLndzID0gbmV3IHdzTW9kdWxlLldlYlNvY2tldCh1cmwsIHsKICAgICAgICBoZWFkZXJzOiB7CiAgICAgICAgICAnQXV0aG9yaXphdGlvbic6IGBCZWFyZXIgJHt0aGlzLmNvbmZpZy5hcGlLZXl9YCwKICAgICAgICAgICdPcGVuQUktQmV0YSc6ICdyZWFsdGltZT12MScKICAgICAgICB9CiAgICAgIH0pCgogICAgICByZXR1cm4gbmV3IFByb21pc2UoKHJlc29sdmUsIHJlamVjdCkgPT4gewogICAgICAgIGNvbnN0IGNvbm5lY3Rpb25UaW1lb3V0ID0gc2V0VGltZW91dCgoKSA9PiB7CiAgICAgICAgICByZWplY3QobmV3IEVycm9yKCdDb25uZWN0aW9uIHRpbWVvdXQnKSkKICAgICAgICB9LCAzMDAwMCkKCiAgICAgICAgdGhpcy53cyEub25vcGVuID0gKCkgPT4gewogICAgICAgICAgY2xlYXJUaW1lb3V0KGNvbm5lY3Rpb25UaW1lb3V0KQogICAgICAgICAgdGhpcy5sb2dnZXIuaW5mbygnQ29ubmVjdGVkIHRvIE9wZW5BSSBSZWFsdGltZSBBUEknKQogICAgICAgICAgdGhpcy5zZXR1cEV2ZW50SGFuZGxlcnMoKQogICAgICAgICAgdGhpcy5jcmVhdGVTZXNzaW9uKCkudGhlbigoKSA9PiB7CiAgICAgICAgICAgIHJlc29sdmUoKQogICAgICAgICAgfSkuY2F0Y2gocmVqZWN0KQogICAgICAgIH0KCiAgICAgICAgdGhpcy53cyEub25lcnJvciA9IChlcnJvcjogdW5rbm93bikgPT4gewogICAgICAgICAgY2xlYXJUaW1lb3V0KGNvbm5lY3Rpb25UaW1lb3V0KQogICAgICAgICAgcmVqZWN0KGVycm9yKQogICAgICAgIH0KICAgICAgfSkKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIHRoaXMubG9nZ2VyLmVycm9yKCdGYWlsZWQgdG8gY29ubmVjdCB0byBPcGVuQUknLCBlcnJvcikKICAgICAgdGhyb3cgZXJyb3IKICAgIH0KICB9CgogIC8qKgogICAqIERpc2Nvbm5lY3QgZnJvbSBPcGVuQUkKICAgKi8KICBhc3luYyBkaXNjb25uZWN0KCk6IFByb21pc2U8dm9pZD4gewogICAgaWYgKHRoaXMud3MpIHsKICAgICAgdGhpcy53cy5jbG9zZSgpCiAgICAgIHRoaXMud3MgPSBudWxsCiAgICAgIHRoaXMuc2Vzc2lvbkNyZWF0ZWQgPSBmYWxzZQogICAgfQogICAgdGhpcy5sb2dnZXIuaW5mbygnRGlzY29ubmVjdGVkIGZyb20gT3BlbkFJJykKICB9CgogIC8qKgogICAqIFNlbmQgYXVkaW8gZGF0YSB0byBPcGVuQUkKICAgKi8KICBhc3luYyBzZW5kQXVkaW8oYXVkaW9EYXRhOiBVaW50OEFycmF5KTogUHJvbWlzZTx2b2lkPiB7CiAgICBpZiAoIXRoaXMud3MgfHwgdGhpcy53cy5yZWFkeVN0YXRlICE9PSAxKSB7CiAgICAgIHRocm93IG5ldyBFcnJvcignV2ViU29ja2V0IG5vdCBjb25uZWN0ZWQnKQogICAgfQoKICAgIGNvbnN0IGJhc2U2NEF1ZGlvID0gQnVmZmVyLmZyb20oYXVkaW9EYXRhKS50b1N0cmluZygnYmFzZTY0JykKICAgIAogICAgdGhpcy53cy5zZW5kKEpTT04uc3RyaW5naWZ5KHsKICAgICAgdHlwZTogJ2lucHV0X2F1ZGlvX2J1ZmZlci5hcHBlbmQnLAogICAgICBhdWRpbzogYmFzZTY0QXVkaW8KICAgIH0pKQogIH0KCiAgLyoqCiAgICogU2VuZCB0ZXh0IHRvIE9wZW5BSQogICAqLwogIGFzeW5jIHNlbmRUZXh0KHRleHQ6IHN0cmluZyk6IFByb21pc2U8dm9pZD4gewogICAgaWYgKCF0aGlzLndzIHx8IHRoaXMud3MucmVhZHlTdGF0ZSAhPT0gMSkgewogICAgICB0aHJvdyBuZXcgRXJyb3IoJ1dlYlNvY2tldCBub3QgY29ubmVjdGVkJykKICAgIH0KCiAgICB0aGlzLndzLnNlbmQoSlNPTi5zdHJpbmdpZnkoewogICAgICB0eXBlOiAnY29udmVyc2F0aW9uLml0ZW0uY3JlYXRlJywKICAgICAgaXRlbTogewogICAgICAgIHR5cGU6ICdtZXNzYWdlJywKICAgICAgICByb2xlOiAndXNlcicsCiAgICAgICAgY29udGVudDogWwogICAgICAgICAgewogICAgICAgICAgICB0eXBlOiAnaW5wdXRfdGV4dCcsCiAgICAgICAgICAgIHRleHQ6IHRleHQKICAgICAgICAgIH0KICAgICAgICBdCiAgICAgIH0KICAgIH0pKQoKICAgIC8vIFJlcXVlc3QgYSByZXNwb25zZQogICAgdGhpcy53cy5zZW5kKEpTT04uc3RyaW5naWZ5KHsKICAgICAgdHlwZTogJ3Jlc3BvbnNlLmNyZWF0ZScKICAgIH0pKQogIH0KCiAgLyoqCiAgICogUmVnaXN0ZXIgcmVzcG9uc2UgY2FsbGJhY2sKICAgKi8KICBvblJlc3BvbnNlKGNhbGxiYWNrOiAocmVzcG9uc2U6IFByb3ZpZGVyUmVzcG9uc2UpID0+IHZvaWQpOiB2b2lkIHsKICAgIHRoaXMubWVzc2FnZUNhbGxiYWNrcy5wdXNoKGNhbGxiYWNrKQogIH0KCiAgLyoqCiAgICogUmVnaXN0ZXIgdHJhbnNjcmlwdCBjYWxsYmFjawogICAqLwogIG9uVHJhbnNjcmlwdChjYWxsYmFjazogKHNlZ21lbnQ6IFRyYW5zY3JpcHRTZWdtZW50KSA9PiB2b2lkKTogdm9pZCB7CiAgICB0aGlzLnRyYW5zY3JpcHRDYWxsYmFja3MucHVzaChjYWxsYmFjaykKICB9CgogIC8qKgogICAqIFJlZ2lzdGVyIGVycm9yIGNhbGxiYWNrCiAgICovCiAgb25FcnJvcihjYWxsYmFjazogKGVycm9yOiBFcnJvcikgPT4gdm9pZCk6IHZvaWQgewogICAgdGhpcy5lcnJvckNhbGxiYWNrcy5wdXNoKGNhbGxiYWNrKQogIH0KCiAgLyoqCiAgICogR2V0IHN1cHBvcnRlZCB2b2ljZXMKICAgKi8KICBnZXRTdXBwb3J0ZWRWb2ljZXMoKTogVm9pY2VbXSB7CiAgICByZXR1cm4gWy4uLnRoaXMuc3VwcG9ydGVkVm9pY2VzXQogIH0KCiAgLyoqCiAgICogU2V0IHZvaWNlCiAgICovCiAgc2V0Vm9pY2Uodm9pY2U6IFZvaWNlKTogdm9pZCB7CiAgICBpZiAoIXRoaXMuc3VwcG9ydGVkVm9pY2VzLmluY2x1ZGVzKHZvaWNlKSkgewogICAgICB0aHJvdyBuZXcgRXJyb3IoYFZvaWNlICcke3ZvaWNlfScgaXMgbm90IHN1cHBvcnRlZCBieSBPcGVuQUlgKQogICAgfQogICAgdGhpcy5jdXJyZW50Vm9pY2UgPSB2b2ljZQogICAgdGhpcy51cGRhdGVTZXNzaW9uKHsgdm9pY2UgfSkKICB9CgogIC8qKgogICAqIENyZWF0ZSBhIHNlc3Npb24gd2l0aCBPcGVuQUkKICAgKi8KICBwcml2YXRlIGFzeW5jIGNyZWF0ZVNlc3Npb24oKTogUHJvbWlzZTx2b2lkPiB7CiAgICBpZiAoIXRoaXMud3MpIHJldHVybgoKICAgIHRoaXMud3Muc2VuZChKU09OLnN0cmluZ2lmeSh7CiAgICAgIHR5cGU6ICdzZXNzaW9uLnVwZGF0ZScsCiAgICAgIHNlc3Npb246IHsKICAgICAgICBtb2RhbGl0aWVzOiBbJ3RleHQnLCAnYXVkaW8nXSwKICAgICAgICBpbnN0cnVjdGlvbnM6ICcnLAogICAgICAgIHZvaWNlOiB0aGlzLmN1cnJlbnRWb2ljZSwKICAgICAgICBpbnB1dF9hdWRpb19mb3JtYXQ6ICdwY20xNicsCiAgICAgICAgb3V0cHV0X2F1ZGlvX2Zvcm1hdDogJ3BjbTE2JywKICAgICAgICBpbnB1dF9hdWRpb190cmFuc2NyaXB0aW9uOiB7CiAgICAgICAgICBtb2RlbDogJ3doaXNwZXItMScKICAgICAgICB9LAogICAgICAgIHR1cm5fZGV0ZWN0aW9uOiB7CiAgICAgICAgICB0eXBlOiAnc2VydmVyX3ZhZCcsCiAgICAgICAgICB0aHJlc2hvbGQ6IDAuNSwKICAgICAgICAgIHByZWZpeF9wYWRkaW5nX21zOiAzMDAsCiAgICAgICAgICBzaWxlbmNlX2R1cmF0aW9uX21zOiA1MDAKICAgICAgICB9LAogICAgICAgIHRlbXBlcmF0dXJlOiB0aGlzLmNvbmZpZy50ZW1wZXJhdHVyZSwKICAgICAgICBtYXhfcmVzcG9uc2Vfb3V0cHV0X3Rva2VuczogdGhpcy5jb25maWcubWF4UmVzcG9uc2VPdXRwdXRUb2tlbnMKICAgICAgfQogICAgfSkpCiAgfQoKICAvKioKICAgKiBVcGRhdGUgc2Vzc2lvbiBjb25maWd1cmF0aW9uCiAgICovCiAgcHJpdmF0ZSB1cGRhdGVTZXNzaW9uKHVwZGF0ZXM6IFJlY29yZDxzdHJpbmcsIHVua25vd24+KTogdm9pZCB7CiAgICBpZiAoIXRoaXMud3MpIHJldHVybgoKICAgIHRoaXMud3Muc2VuZChKU09OLnN0cmluZ2lmeSh7CiAgICAgIHR5cGU6ICdzZXNzaW9uLnVwZGF0ZScsCiAgICAgIHNlc3Npb246IHVwZGF0ZXMKICAgIH0pKQogIH0KCiAgLyoqCiAgICogU2V0IHVwIFdlYlNvY2tldCBldmVudCBoYW5kbGVycwogICAqLwogIHByaXZhdGUgc2V0dXBFdmVudEhhbmRsZXJzKCk6IHZvaWQgewogICAgaWYgKCF0aGlzLndzKSByZXR1cm4KCiAgICB0aGlzLndzLm9ubWVzc2FnZSA9IChldmVudCkgPT4gewogICAgICB0cnkgewogICAgICAgIGNvbnN0IG1lc3NhZ2UgPSBKU09OLnBhcnNlKGV2ZW50LmRhdGEudG9TdHJpbmcoKSkKICAgICAgICB0aGlzLmhhbmRsZU1lc3NhZ2UobWVzc2FnZSkKICAgICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgICB0aGlzLmxvZ2dlci5lcnJvcignRmFpbGVkIHRvIHBhcnNlIG1lc3NhZ2UnLCBlcnJvcikKICAgICAgfQogICAgfQoKICAgIHRoaXMud3Mub25jbG9zZSA9IChldmVudCkgPT4gewogICAgICB0aGlzLmxvZ2dlci5pbmZvKGBXZWJTb2NrZXQgY2xvc2VkOiAke2V2ZW50LmNvZGV9IC0gJHtldmVudC5yZWFzb259YCkKICAgICAgdGhpcy5zZXNzaW9uQ3JlYXRlZCA9IGZhbHNlCiAgICB9CgogICAgdGhpcy53cy5vbmVycm9yID0gKGVycm9yOiB1bmtub3duKSA9PiB7CiAgICAgIHRoaXMubG9nZ2VyLmVycm9yKCdXZWJTb2NrZXQgZXJyb3InLCBlcnJvcikKICAgICAgZm9yIChjb25zdCBjYWxsYmFjayBvZiB0aGlzLmVycm9yQ2FsbGJhY2tzKSB7CiAgICAgICAgY2FsbGJhY2soZXJyb3IgaW5zdGFuY2VvZiBFcnJvciA/IGVycm9yIDogbmV3IEVycm9yKFN0cmluZyhlcnJvcikpKQogICAgICB9CiAgICB9CiAgfQoKICAvKioKICAgKiBIYW5kbGUgaW5jb21pbmcgbWVzc2FnZXMgZnJvbSBPcGVuQUkKICAgKi8KICBwcml2YXRlIGhhbmRsZU1lc3NhZ2UobWVzc2FnZTogUmVjb3JkPHN0cmluZywgdW5rbm93bj4pOiB2b2lkIHsKICAgIGNvbnN0IG1lc3NhZ2VUeXBlID0gbWVzc2FnZS50eXBlIGFzIHN0cmluZwoKICAgIHN3aXRjaCAobWVzc2FnZVR5cGUpIHsKICAgICAgY2FzZSAnc2Vzc2lvbi5jcmVhdGVkJzoKICAgICAgICB0aGlzLnNlc3Npb25DcmVhdGVkID0gdHJ1ZQogICAgICAgIHRoaXMubG9nZ2VyLmluZm8oJ1Nlc3Npb24gY3JlYXRlZCcpCiAgICAgICAgYnJlYWsKCiAgICAgIGNhc2UgJ3Nlc3Npb24udXBkYXRlZCc6CiAgICAgICAgdGhpcy5sb2dnZXIuZGVidWcoJ1Nlc3Npb24gdXBkYXRlZCcpCiAgICAgICAgYnJlYWsKCiAgICAgIGNhc2UgJ2NvbnZlcnNhdGlvbi5pdGVtLmlucHV0X2F1ZGlvX3RyYW5zY3JpcHRpb24uY29tcGxldGVkJzoKICAgICAgICAvLyBVc2VyIHNwZWVjaCB0cmFuc2NyaWJlZAogICAgICAgIGlmIChtZXNzYWdlLnRyYW5zY3JpcHQpIHsKICAgICAgICAgIGNvbnN0IHNlZ21lbnQ6IFRyYW5zY3JpcHRTZWdtZW50ID0gewogICAgICAgICAgICBpZDogYHVzZXItJHtEYXRlLm5vdygpfWAsCiAgICAgICAgICAgIHRleHQ6IG1lc3NhZ2UudHJhbnNjcmlwdCBhcyBzdHJpbmcsCiAgICAgICAgICAgIGlzRmluYWw6IHRydWUsCiAgICAgICAgICAgIHRpbWVzdGFtcDogRGF0ZS5ub3coKQogICAgICAgICAgfQogICAgICAgICAgZm9yIChjb25zdCBjYWxsYmFjayBvZiB0aGlzLnRyYW5zY3JpcHRDYWxsYmFja3MpIHsKICAgICAgICAgICAgY2FsbGJhY2soc2VnbWVudCkKICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgYnJlYWsKCiAgICAgIGNhc2UgJ3Jlc3BvbnNlLmF1ZGlvX3RyYW5zY3JpcHQuZGVsdGEnOgogICAgICAgIC8vIEFzc2lzdGFudCByZXNwb25zZSBkZWx0YQogICAgICAgIGlmIChtZXNzYWdlLmRlbHRhKSB7CiAgICAgICAgICBjb25zdCByZXNwb25zZTogUHJvdmlkZXJSZXNwb25zZSA9IHsKICAgICAgICAgICAgdGV4dDogbWVzc2FnZS5kZWx0YSBhcyBzdHJpbmcsCiAgICAgICAgICAgIGRvbmU6IGZhbHNlCiAgICAgICAgICB9CiAgICAgICAgICBmb3IgKGNvbnN0IGNhbGxiYWNrIG9mIHRoaXMubWVzc2FnZUNhbGxiYWNrcykgewogICAgICAgICAgICBjYWxsYmFjayhyZXNwb25zZSkKICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgYnJlYWsKCiAgICAgIGNhc2UgJ3Jlc3BvbnNlLmF1ZGlvX3RyYW5zY3JpcHQuZG9uZSc6CiAgICAgICAgLy8gQXNzaXN0YW50IHJlc3BvbnNlIGNvbXBsZXRlCiAgICAgICAgaWYgKG1lc3NhZ2UudHJhbnNjcmlwdCkgewogICAgICAgICAgY29uc3QgcmVzcG9uc2U6IFByb3ZpZGVyUmVzcG9uc2UgPSB7CiAgICAgICAgICAgIHRleHQ6IG1lc3NhZ2UudHJhbnNjcmlwdCBhcyBzdHJpbmcsCiAgICAgICAgICAgIGRvbmU6IHRydWUKICAgICAgICAgIH0KICAgICAgICAgIGZvciAoY29uc3QgY2FsbGJhY2sgb2YgdGhpcy5tZXNzYWdlQ2FsbGJhY2tzKSB7CiAgICAgICAgICAgIGNhbGxiYWNrKHJlc3BvbnNlKQogICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBicmVhawoKICAgICAgY2FzZSAncmVzcG9uc2UuY29udGVudF9wYXJ0LmFkZGVkJzoKICAgICAgY2FzZSAncmVzcG9uc2UuY29udGVudF9wYXJ0LmRvbmUnOgogICAgICAgIHRoaXMubG9nZ2VyLmRlYnVnKGBSZXNwb25zZSBjb250ZW50OiAke21lc3NhZ2VUeXBlfWApCiAgICAgICAgYnJlYWsKCiAgICAgIGNhc2UgJ3Jlc3BvbnNlLmRvbmUnOgogICAgICAgIHRoaXMubG9nZ2VyLmRlYnVnKCdSZXNwb25zZSBkb25lJykKICAgICAgICBicmVhawoKICAgICAgY2FzZSAnaW5wdXRfYXVkaW9fYnVmZmVyLnNwZWVjaF9zdGFydGVkJzoKICAgICAgICB0aGlzLmxvZ2dlci5kZWJ1ZygnVXNlciBzdGFydGVkIHNwZWFraW5nJykKICAgICAgICBicmVhawoKICAgICAgY2FzZSAnaW5wdXRfYXVkaW9fYnVmZmVyLnNwZWVjaF9zdG9wcGVkJzoKICAgICAgICB0aGlzLmxvZ2dlci5kZWJ1ZygnVXNlciBzdG9wcGVkIHNwZWFraW5nJykKICAgICAgICBicmVhawoKICAgICAgY2FzZSAnZXJyb3InOgogICAgICAgIHRoaXMubG9nZ2VyLmVycm9yKCdPcGVuQUkgZXJyb3InLCBtZXNzYWdlKQogICAgICAgIGZvciAoY29uc3QgY2FsbGJhY2sgb2YgdGhpcy5lcnJvckNhbGxiYWNrcykgewogICAgICAgICAgY29uc3QgZXJyT2JqID0gbWVzc2FnZS5lcnJvciBhcyBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPiB8IHVuZGVmaW5lZAogICAgICAgICAgY2FsbGJhY2sobmV3IEVycm9yKFN0cmluZyhlcnJPYmo/Lm1lc3NhZ2UgPz8gJ1Vua25vd24gZXJyb3InKSkpCiAgICAgICAgfQogICAgICAgIGJyZWFrCgogICAgICBkZWZhdWx0OgogICAgICAgIHRoaXMubG9nZ2VyLmRlYnVnKGBVbmhhbmRsZWQgbWVzc2FnZSB0eXBlOiAke21lc3NhZ2VUeXBlfWApCiAgICB9CiAgfQp9Cg==
+/**
+ * OpenAI Realtime API Provider for VoxKit
+ * Implements the AIProvider interface for OpenAI's Realtime API
+ */
+
+import type { WebSocket as WsWebSocket } from 'ws'
+import type { 
+  AIProvider, 
+  Voice, 
+  TranscriptSegment, 
+  ProviderResponse 
+} from '../types.js'
+import { logger } from '../logger.js'
+
+export interface OpenAIProviderConfig {
+  apiKey?: string
+  model?: string
+  voice?: Voice
+  temperature?: number
+  maxResponseOutputTokens?: number | 'inf'
+}
+
+export class OpenAIProvider implements AIProvider {
+  name = 'openai'
+  
+  private config: Required<OpenAIProviderConfig>
+  private ws: WsWebSocket | null = null
+  private messageCallbacks: Array<(response: ProviderResponse) => void> = []
+  private transcriptCallbacks: Array<(segment: TranscriptSegment) => void> = []
+  private errorCallbacks: Array<(error: Error) => void> = []
+  private logger = logger.child('openai-provider')
+  private currentVoice: Voice
+  private sessionCreated = false
+
+  private readonly supportedVoices: Voice[] = [
+    'alloy', 'echo', 'fable', 'onyx', 'nova', 'shimmer', 'ash', 'ballad', 'coral', 'sage', 'verse'
+  ]
+
+  constructor(config: OpenAIProviderConfig = {}) {
+    this.config = {
+      apiKey: config.apiKey ?? process.env.OPENAI_API_KEY ?? '',
+      model: config.model ?? 'gpt-4o-realtime-preview-2024-12-17',
+      voice: config.voice ?? 'alloy',
+      temperature: config.temperature ?? 0.8,
+      maxResponseOutputTokens: config.maxResponseOutputTokens ?? 4096
+    }
+    this.currentVoice = this.config.voice
+  }
+
+  /**
+   * Initialize the provider
+   */
+  async initialize(): Promise<void> {
+    if (!this.config.apiKey) {
+      throw new Error('OpenAI API key is required. Set OPENAI_API_KEY environment variable or pass it in config.')
+    }
+    this.logger.info('OpenAI provider initialized')
+  }
+
+  /**
+   * Connect to OpenAI Realtime API
+   */
+  async connect(): Promise<void> {
+    const url = `wss://api.openai.com/v1/realtime?model=${this.config.model}`
+    
+    this.logger.info(`Connecting to OpenAI Realtime API: ${this.config.model}`)
+
+    try {
+      const wsModule = await import('ws')
+      this.ws = new wsModule.WebSocket(url, {
+        headers: {
+          'Authorization': `Bearer ${this.config.apiKey}`,
+          'OpenAI-Beta': 'realtime=v1'
+        }
+      })
+
+      return new Promise((resolve, reject) => {
+        const connectionTimeout = setTimeout(() => {
+          reject(new Error('Connection timeout'))
+        }, 30000)
+
+        this.ws!.onopen = () => {
+          clearTimeout(connectionTimeout)
+          this.logger.info('Connected to OpenAI Realtime API')
+          this.setupEventHandlers()
+          this.createSession().then(() => {
+            resolve()
+          }).catch(reject)
+        }
+
+        this.ws!.onerror = (error: unknown) => {
+          clearTimeout(connectionTimeout)
+          reject(error)
+        }
+      })
+    } catch (error) {
+      this.logger.error('Failed to connect to OpenAI', error)
+      throw error
+    }
+  }
+
+  /**
+   * Disconnect from OpenAI
+   */
+  async disconnect(): Promise<void> {
+    if (this.ws) {
+      this.ws.close()
+      this.ws = null
+      this.sessionCreated = false
+    }
+    this.logger.info('Disconnected from OpenAI')
+  }
+
+  /**
+   * Send audio data to OpenAI
+   */
+  async sendAudio(audioData: Uint8Array): Promise<void> {
+    if (!this.ws || this.ws.readyState !== 1) {
+      throw new Error('WebSocket not connected')
+    }
+
+    const base64Audio = Buffer.from(audioData).toString('base64')
+    
+    this.ws.send(JSON.stringify({
+      type: 'input_audio_buffer.append',
+      audio: base64Audio
+    }))
+  }
+
+  /**
+   * Send text to OpenAI
+   */
+  async sendText(text: string): Promise<void> {
+    if (!this.ws || this.ws.readyState !== 1) {
+      throw new Error('WebSocket not connected')
+    }
+
+    this.ws.send(JSON.stringify({
+      type: 'conversation.item.create',
+      item: {
+        type: 'message',
+        role: 'user',
+        content: [
+          {
+            type: 'input_text',
+            text: text
+          }
+        ]
+      }
+    }))
+
+    // Request a response
+    this.ws.send(JSON.stringify({
+      type: 'response.create'
+    }))
+  }
+
+  /**
+   * Register response callback
+   */
+  onResponse(callback: (response: ProviderResponse) => void): void {
+    this.messageCallbacks.push(callback)
+  }
+
+  /**
+   * Register transcript callback
+   */
+  onTranscript(callback: (segment: TranscriptSegment) => void): void {
+    this.transcriptCallbacks.push(callback)
+  }
+
+  /**
+   * Register error callback
+   */
+  onError(callback: (error: Error) => void): void {
+    this.errorCallbacks.push(callback)
+  }
+
+  /**
+   * Get supported voices
+   */
+  getSupportedVoices(): Voice[] {
+    return [...this.supportedVoices]
+  }
+
+  /**
+   * Set voice
+   */
+  setVoice(voice: Voice): void {
+    if (!this.supportedVoices.includes(voice)) {
+      throw new Error(`Voice '${voice}' is not supported by OpenAI`)
+    }
+    this.currentVoice = voice
+    this.updateSession({ voice })
+  }
+
+  /**
+   * Create a session with OpenAI
+   */
+  private async createSession(): Promise<void> {
+    if (!this.ws) return
+
+    this.ws.send(JSON.stringify({
+      type: 'session.update',
+      session: {
+        modalities: ['text', 'audio'],
+        instructions: '',
+        voice: this.currentVoice,
+        input_audio_format: 'pcm16',
+        output_audio_format: 'pcm16',
+        input_audio_transcription: {
+          model: 'whisper-1'
+        },
+        turn_detection: {
+          type: 'server_vad',
+          threshold: 0.5,
+          prefix_padding_ms: 300,
+          silence_duration_ms: 500
+        },
+        temperature: this.config.temperature,
+        max_response_output_tokens: this.config.maxResponseOutputTokens
+      }
+    }))
+  }
+
+  /**
+   * Update session configuration
+   */
+  private updateSession(updates: Record<string, unknown>): void {
+    if (!this.ws) return
+
+    this.ws.send(JSON.stringify({
+      type: 'session.update',
+      session: updates
+    }))
+  }
+
+  /**
+   * Set up WebSocket event handlers
+   */
+  private setupEventHandlers(): void {
+    if (!this.ws) return
+
+    this.ws.onmessage = (event) => {
+      try {
+        const message = JSON.parse(event.data.toString())
+        this.handleMessage(message)
+      } catch (error) {
+        this.logger.error('Failed to parse message', error)
+      }
+    }
+
+    this.ws.onclose = (event) => {
+      this.logger.info(`WebSocket closed: ${event.code} - ${event.reason}`)
+      this.sessionCreated = false
+    }
+
+    this.ws.onerror = (error: unknown) => {
+      this.logger.error('WebSocket error', error)
+      for (const callback of this.errorCallbacks) {
+        callback(error instanceof Error ? error : new Error(String(error)))
+      }
+    }
+  }
+
+  /**
+   * Handle incoming messages from OpenAI
+   */
+  private handleMessage(message: Record<string, unknown>): void {
+    const messageType = message.type as string
+
+    switch (messageType) {
+      case 'session.created':
+        this.sessionCreated = true
+        this.logger.info('Session created')
+        break
+
+      case 'session.updated':
+        this.logger.debug('Session updated')
+        break
+
+      case 'conversation.item.input_audio_transcription.completed':
+        // User speech transcribed
+        if (message.transcript) {
+          const segment: TranscriptSegment = {
+            id: `user-${Date.now()}`,
+            text: message.transcript as string,
+            isFinal: true,
+            timestamp: Date.now()
+          }
+          for (const callback of this.transcriptCallbacks) {
+            callback(segment)
+          }
+        }
+        break
+
+      case 'response.audio_transcript.delta':
+        // Assistant response delta
+        if (message.delta) {
+          const response: ProviderResponse = {
+            text: message.delta as string,
+            done: false
+          }
+          for (const callback of this.messageCallbacks) {
+            callback(response)
+          }
+        }
+        break
+
+      case 'response.audio_transcript.done':
+        // Assistant response complete
+        if (message.transcript) {
+          const response: ProviderResponse = {
+            text: message.transcript as string,
+            done: true
+          }
+          for (const callback of this.messageCallbacks) {
+            callback(response)
+          }
+        }
+        break
+
+      case 'response.content_part.added':
+      case 'response.content_part.done':
+        this.logger.debug(`Response content: ${messageType}`)
+        break
+
+      case 'response.done':
+        this.logger.debug('Response done')
+        break
+
+      case 'input_audio_buffer.speech_started':
+        this.logger.debug('User started speaking')
+        break
+
+      case 'input_audio_buffer.speech_stopped':
+        this.logger.debug('User stopped speaking')
+        break
+
+      case 'error':
+        this.logger.error('OpenAI error', message)
+        for (const callback of this.errorCallbacks) {
+          const errObj = message.error as Record<string, unknown> | undefined
+          callback(new Error(String(errObj?.message ?? 'Unknown error')))
+        }
+        break
+
+      default:
+        this.logger.debug(`Unhandled message type: ${messageType}`)
+    }
+  }
+}

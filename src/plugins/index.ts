@@ -1,1 +1,12 @@
-LyoqCiAqIFZveEtpdCBQbHVnaW4gU3lzdGVtCiAqCiAqIFBsdWdpbnMgZXh0ZW5kIFZveEFnZW50IHdpdGggYWRkaXRpb25hbCBjYXBhYmlsaXRpZXMuCiAqIEJ1aWx0LWluIHBsdWdpbnMgYXJlIGV4cG9ydGVkIGhlcmU7IGNvbW11bml0eSBwbHVnaW5zCiAqIGNhbiBpbXBsZW1lbnQgdGhlIFZveEtpdFBsdWdpbiBpbnRlcmZhY2UgZnJvbSAndm94a2l0Jy4KICovCgpleHBvcnQgeyBUcmFuc2NyaXB0TG9nZ2VyUGx1Z2luIH0gZnJvbSAnLi90cmFuc2NyaXB0LWxvZ2dlci5qcycKZXhwb3J0IHsgTGVhZFdlYmhvb2tQbHVnaW4sIHR5cGUgTGVhZFdlYmhvb2tDb25maWcgfSBmcm9tICcuL2xlYWQtd2ViaG9vay5qcycKZXhwb3J0IHsgU2xhY2tOb3RpZmllclBsdWdpbiwgdHlwZSBTbGFja05vdGlmaWVyQ29uZmlnIH0gZnJvbSAnLi9zbGFjay1ub3RpZmllci5qcycKZXhwb3J0IHsgTWV0cmljc1BsdWdpbiwgdHlwZSBNZXRyaWNzUGx1Z2luQ29uZmlnLCB0eXBlIFNlc3Npb25NZXRyaWNzIH0gZnJvbSAnLi9tZXRyaWNzLmpzJwo=
+/**
+ * VoxKit Plugin System
+ *
+ * Plugins extend VoxAgent with additional capabilities.
+ * Built-in plugins are exported here; community plugins
+ * can implement the VoxKitPlugin interface from 'voxkit'.
+ */
+
+export { TranscriptLoggerPlugin } from './transcript-logger.js'
+export { LeadWebhookPlugin, type LeadWebhookConfig } from './lead-webhook.js'
+export { SlackNotifierPlugin, type SlackNotifierConfig } from './slack-notifier.js'
+export { MetricsPlugin, type MetricsPluginConfig, type SessionMetrics } from './metrics.js'

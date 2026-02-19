@@ -1,1 +1,79 @@
-LyoqCiAqIEVkZ2UtY2FzZSB0ZXN0cyBmb3IgdGhlIExlYWRFeHRyYWN0b3IKICogZm9jdXNlZCBvbiByZWFsLXdvcmxkIHBhdHRlcm5zIGZyb20gYWN0dWFsIHZvaWNlIGNvbnZlcnNhdGlvbnMuCiAqLwoKaW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QsIGJlZm9yZUVhY2ggfSBmcm9tICd2aXRlc3QnCmltcG9ydCB7IExlYWRFeHRyYWN0b3IgfSBmcm9tICcuLi8uLi9zcmMvY29yZS9sZWFkLWV4dHJhY3Rvci5qcycKCmNvbnN0IHUgPSAodGV4dDogc3RyaW5nKSA9PiAoeyByb2xlOiAndXNlcicgYXMgY29uc3QsIGNvbnRlbnQ6IHRleHQsIHRpbWVzdGFtcDogRGF0ZS5ub3coKSB9KQoKZGVzY3JpYmUoJ0xlYWRFeHRyYWN0b3Ig4oCUIGVkZ2UgY2FzZXMnLCAoKSA9PiB7CiAgbGV0IGV4OiBMZWFkRXh0cmFjdG9yCgogIGJlZm9yZUVhY2goKCkgPT4geyBleCA9IG5ldyBMZWFkRXh0cmFjdG9yKCkgfSkKCiAgaXQoJ2hhbmRsZXMgc3Bva2VuLW91dCBwaG9uZSBsaWtlICJmaXZlIGZpdmUgZml2ZSwgb25lIHR3byB0aHJlZSBmb3VyIicsICgpID0+IHsKICAgIC8vIFRoaXMgd29uJ3QgZXh0cmFjdCAoaXQncyB0cnVseSBzcG9rZW4pIOKAlCBqdXN0IGNvbmZpcm0gbm8gY3Jhc2gKICAgIGV4cGVjdCgoKSA9PiBleC5wcm9jZXNzTWVzc2FnZSh1KCdmaXZlIGZpdmUgZml2ZSBvbmUgdHdvIHRocmVlIGZvdXInKSkpLm5vdC50b1Rocm93KCkKICB9KQoKICBpdCgnZG9lcyBub3QgY29uZnVzZSBhIHppcCBjb2RlIHdpdGggYSBwaG9uZScsICgpID0+IHsKICAgIGV4LnByb2Nlc3NNZXNzYWdlKHUoJ0kgbGl2ZSBpbiB6aXAgY29kZSA5NDA0MycpKQogICAgLy8gU2hvdWxkIE5PVCBleHRyYWN0IGEgZnVsbCBwaG9uZQogICAgY29uc3QgbGVhZCA9IGV4LmdldEN1cnJlbnRMZWFkKCkKICAgIGNvbnN0IHBob25lID0gbGVhZD8ucGhvbmUKICAgIGlmIChwaG9uZSkgewogICAgICAvLyBJZiBzb21ldGhpbmcgaXMgZXh0cmFjdGVkLCBpdCBzaG91bGRuJ3QgYmUganVzdCA1IGRpZ2l0cwogICAgICBleHBlY3QocGhvbmUucmVwbGFjZSgvXEQvZywgJycpLmxlbmd0aCkubm90LnRvQmUoNSkKICAgIH0KICB9KQoKICBpdCgnZXh0cmFjdHMgZnJvbSBhIHJlYWxpc3RpYyBjb252ZXJzYXRpb25hbCBleGNoYW5nZScsICgpID0+IHsKICAgIGNvbnN0IG1lc3NhZ2VzID0gWwogICAgICB1KCdZZWFoIHNvIEkgd2FudGVkIHRvIGlucXVpcmUgYWJvdXQgdGhlIDMtYmVkcm9vbSBsaXN0aW5nJyksCiAgICAgIHUoIk15IG5hbWUncyBEYXZpZCBOZ3V5ZW4iKSwKICAgICAgdSgnSSBjYW4gYmUgcmVhY2hlZCBhdCBkYXZpZC5uQG91dGxvb2suY29tJyksCiAgICAgIHUoJ09yIGp1c3QgY2FsbCBtZSwgbXkgbnVtYmVyIGlzICg0MDgpIDU1NS03ODkwJyksCiAgICBdCiAgICBmb3IgKGNvbnN0IG0gb2YgbWVzc2FnZXMpIGV4LnByb2Nlc3NNZXNzYWdlKG0pCiAgICBjb25zdCBsZWFkID0gZXguZ2V0Q3VycmVudExlYWQoKQogICAgZXhwZWN0KGxlYWQ/Lm5hbWUpLnRvQmVUcnV0aHkoKQogICAgZXhwZWN0KGxlYWQ/LmVtYWlsKS50b0JlKCdkYXZpZC5uQG91dGxvb2suY29tJykKICAgIGV4cGVjdChsZWFkPy5waG9uZSkudG9CZVRydXRoeSgpCiAgfSkKCiAgaXQoJ2hhbmRsZXMgbXVsdGlwbGUgZW1haWwgYWRkcmVzc2VzIGFuZCBrZWVwcyB0aGUgZmlyc3QnLCAoKSA9PiB7CiAgICBleC5wcm9jZXNzTWVzc2FnZSh1KCdNeSB3b3JrIGVtYWlsIGlzIHdvcmtAY29ycC5jb20gYW5kIHBlcnNvbmFsIGlzIG1lQGdtYWlsLmNvbScpKQogICAgZXhwZWN0KGV4LmdldEN1cnJlbnRMZWFkKCk/LmVtYWlsKS50b0JlKCd3b3JrQGNvcnAuY29tJykKICB9KQoKICBpdCgnZG9lcyBub3QgZXh0cmFjdCBlbWFpbCBmcm9tIGEgbm9uLXVzZXIgbWVzc2FnZScsICgpID0+IHsKICAgIGV4LnByb2Nlc3NNZXNzYWdlKHsgcm9sZTogJ3N5c3RlbScsIGNvbnRlbnQ6ICdhZG1pbkBpbnRlcm5hbC5jb20nLCB0aW1lc3RhbXA6IERhdGUubm93KCkgfSkKICAgIGV4cGVjdChleC5nZXRDdXJyZW50TGVhZCgpPy5lbWFpbCkudG9CZVVuZGVmaW5lZCgpCiAgfSkKCiAgaXQoJ2VtaXRzIGEgbGVhZCBldmVudCB3aGVuIG1pbmltdW0gaW5mbyBpcyBhdmFpbGFibGUnLCAoKSA9PiB7CiAgICBjb25zdCBldmVudHM6IHVua25vd25bXSA9IFtdCiAgICBleC5vbignbGVhZCcsIChsZWFkKSA9PiBldmVudHMucHVzaChsZWFkKSkKICAgIGV4LnByb2Nlc3NNZXNzYWdlKHUoJ015IGVtYWlsIGlzIGV2ZW50QGxlYWQuY29tJykpCiAgICBleHBlY3QoZXZlbnRzLmxlbmd0aCkudG9CZUdyZWF0ZXJUaGFuKDApCiAgfSkKCiAgaXQoJ3Byb2Nlc3NDb252ZXJzYXRpb24gcmVzZXRzIHByaW9yIHN0YXRlJywgKCkgPT4gewogICAgZXgucHJvY2Vzc01lc3NhZ2UodSgnTXkgbmFtZSBpcyBPbGROYW1lJykpCiAgICBjb25zdCBzdGF0ZSA9IHsKICAgICAgaWQ6ICdjMScsCiAgICAgIG1lc3NhZ2VzOiBbCiAgICAgICAgeyByb2xlOiAndXNlcicgYXMgY29uc3QsIGNvbnRlbnQ6ICdJIGFtIE5ld05hbWUgZnJvbSBhIGZyZXNoIGNvbnYnLCB0aW1lc3RhbXA6IERhdGUubm93KCkgfQogICAgICBdLAogICAgICBpc0FjdGl2ZTogZmFsc2UsCiAgICAgIHN0YXJ0ZWRBdDogRGF0ZS5ub3coKSwKICAgICAgbGFzdEFjdGl2aXR5QXQ6IERhdGUubm93KCkKICAgIH0KICAgIGV4LnByb2Nlc3NDb252ZXJzYXRpb24oc3RhdGUpCiAgICAvLyBPbGROYW1lIHNob3VsZCBiZSBnb25lCiAgICBjb25zdCBsZWFkID0gZXguZ2V0Q3VycmVudExlYWQoKQogICAgZXhwZWN0KGxlYWQ/Lm5hbWUpLnRvTWF0Y2goL05ld05hbWUvKQogIH0pCn0pCg==
+/**
+ * Edge-case tests for the LeadExtractor
+ * focused on real-world patterns from actual voice conversations.
+ */
+
+import { describe, it, expect, beforeEach } from 'vitest'
+import { LeadExtractor } from '../../src/core/lead-extractor.js'
+
+const u = (text: string) => ({ role: 'user' as const, content: text, timestamp: Date.now() })
+
+describe('LeadExtractor — edge cases', () => {
+  let ex: LeadExtractor
+
+  beforeEach(() => { ex = new LeadExtractor() })
+
+  it('handles spoken-out phone like "five five five, one two three four"', () => {
+    // This won't extract (it's truly spoken) — just confirm no crash
+    expect(() => ex.processMessage(u('five five five one two three four'))).not.toThrow()
+  })
+
+  it('does not confuse a zip code with a phone', () => {
+    ex.processMessage(u('I live in zip code 94043'))
+    // Should NOT extract a full phone
+    const lead = ex.getCurrentLead()
+    const phone = lead?.phone
+    if (phone) {
+      // If something is extracted, it shouldn't be just 5 digits
+      expect(phone.replace(/\D/g, '').length).not.toBe(5)
+    }
+  })
+
+  it('extracts from a realistic conversational exchange', () => {
+    const messages = [
+      u('Yeah so I wanted to inquire about the 3-bedroom listing'),
+      u("My name's David Nguyen"),
+      u('I can be reached at david.n@outlook.com'),
+      u('Or just call me, my number is (408) 555-7890'),
+    ]
+    for (const m of messages) ex.processMessage(m)
+    const lead = ex.getCurrentLead()
+    expect(lead?.name).toBeTruthy()
+    expect(lead?.email).toBe('david.n@outlook.com')
+    expect(lead?.phone).toBeTruthy()
+  })
+
+  it('handles multiple email addresses and keeps the first', () => {
+    ex.processMessage(u('My work email is work@corp.com and personal is me@gmail.com'))
+    expect(ex.getCurrentLead()?.email).toBe('work@corp.com')
+  })
+
+  it('does not extract email from a non-user message', () => {
+    ex.processMessage({ role: 'system', content: 'admin@internal.com', timestamp: Date.now() })
+    expect(ex.getCurrentLead()?.email).toBeUndefined()
+  })
+
+  it('emits a lead event when minimum info is available', () => {
+    const events: unknown[] = []
+    ex.on('lead', (lead) => events.push(lead))
+    ex.processMessage(u('My email is event@lead.com'))
+    expect(events.length).toBeGreaterThan(0)
+  })
+
+  it('processConversation resets prior state', () => {
+    ex.processMessage(u('My name is OldName'))
+    const state = {
+      id: 'c1',
+      messages: [
+        { role: 'user' as const, content: 'I am NewName from a fresh conv', timestamp: Date.now() }
+      ],
+      isActive: false,
+      startedAt: Date.now(),
+      lastActivityAt: Date.now()
+    }
+    ex.processConversation(state)
+    // OldName should be gone
+    const lead = ex.getCurrentLead()
+    expect(lead?.name).toMatch(/NewName/)
+  })
+})

@@ -1,1 +1,64 @@
-LyoqCiAqIFZveEtpdCAtIE9wZW4gU291cmNlIFZvaWNlIEFnZW50IEZyYW1ld29yawogKiAKICogQnVpbGQgQUkgdm9pY2UgYWdlbnRzIHdpdGggbWluaW1hbCBjb2RlCiAqIAogKiBAZXhhbXBsZQogKiBgYGB0eXBlc2NyaXB0CiAqIGltcG9ydCB7IFZveEFnZW50LCBPcGVuQUlQcm92aWRlciB9IGZyb20gJ3ZveGtpdCcKICogCiAqIGNvbnN0IGFnZW50ID0gbmV3IFZveEFnZW50KHsKICogICBwcm92aWRlcjogbmV3IE9wZW5BSVByb3ZpZGVyKHsgbW9kZWw6ICdncHQtNG8nIH0pLAogKiAgIHZvaWNlOiAnYWxsb3knLAogKiAgIHN5c3RlbVByb21wdDogJ1lvdSBhcmUgYSBoZWxwZnVsIGFzc2lzdGFudC4nCiAqIH0pCiAqIAogKiBhZ2VudC5saXN0ZW4oMzAwMCkKICogYGBgCiAqLwoKLy8gQ29yZSBleHBvcnRzCmV4cG9ydCB7IFZveEFnZW50IH0gZnJvbSAnLi92b3hhZ2VudC5qcycKCi8vIENvcmUgY29tcG9uZW50cwpleHBvcnQgeyBBdWRpb1BpcGVsaW5lLCB0eXBlIEF1ZGlvUGlwZWxpbmVDb25maWcgfSBmcm9tICcuL2NvcmUvYXVkaW8tcGlwZWxpbmUuanMnCmV4cG9ydCB7IENvbnZlcnNhdGlvbk1hbmFnZXIsIHR5cGUgQ29udmVyc2F0aW9uTWFuYWdlckNvbmZpZyB9IGZyb20gJy4vY29yZS9jb252ZXJzYXRpb24tbWFuYWdlci5qcycKZXhwb3J0IHsgTGVhZEV4dHJhY3RvciwgdHlwZSBMZWFkRXh0cmFjdG9yQ29uZmlnIH0gZnJvbSAnLi9jb3JlL2xlYWQtZXh0cmFjdG9yLmpzJwpleHBvcnQgeyBWb3hLaXRXU1NlcnZlciwgdHlwZSBXU0NsaWVudCwgdHlwZSBWb3hLaXRXU1NlcnZlck9wdGlvbnMgfSBmcm9tICcuL2NvcmUvd2Vic29ja2V0LXNlcnZlci5qcycKCi8vIFR5cGVzCmV4cG9ydCB0eXBlIHsKICBWb2ljZSwKICBBdWRpb0Zvcm1hdCwKICBUcmFuc2NyaXB0U2VnbWVudCwKICBDb252ZXJzYXRpb25NZXNzYWdlLAogIExlYWRJbmZvLAogIENvbnZlcnNhdGlvblN0YXRlLAogIEF1ZGlvQ29uZmlnLAogIFByb3ZpZGVyUmVzcG9uc2UsCiAgVHJhbnNjcmlwdENhbGxiYWNrLAogIFJlc3BvbnNlQ2FsbGJhY2ssCiAgTGVhZENhbGxiYWNrLAogIEVycm9yQ2FsbGJhY2ssCiAgQ29ubmVjdGlvbkNhbGxiYWNrLAogIFZveEFnZW50Q29uZmlnLAogIEFJUHJvdmlkZXIsCiAgVm94S2l0UGx1Z2luLAogIFdTTWVzc2FnZSwKICBTZXJ2ZXJDb25maWcsCiAgTG9nZ2VyCn0gZnJvbSAnLi90eXBlcy5qcycKCi8vIFBsdWdpbnMKZXhwb3J0IHsKICBUcmFuc2NyaXB0TG9nZ2VyUGx1Z2luLAogIExlYWRXZWJob29rUGx1Z2luLCB0eXBlIExlYWRXZWJob29rQ29uZmlnLAogIFNsYWNrTm90aWZpZXJQbHVnaW4sIHR5cGUgU2xhY2tOb3RpZmllckNvbmZpZywKICBNZXRyaWNzUGx1Z2luLCB0eXBlIE1ldHJpY3NQbHVnaW5Db25maWcsIHR5cGUgU2Vzc2lvbk1ldHJpY3MKfSBmcm9tICcuL3BsdWdpbnMvaW5kZXguanMnCgovLyBMb2dnZXIKZXhwb3J0IHsgVm94S2l0TG9nZ2VyLCBsb2dnZXIgfSBmcm9tICcuL2xvZ2dlci5qcycKCi8vIFZlcnNpb24KZXhwb3J0IGNvbnN0IFZFUlNJT04gPSAnMS4wLjAnCg==
+/**
+ * VoxKit - Open Source Voice Agent Framework
+ * 
+ * Build AI voice agents with minimal code
+ * 
+ * @example
+ * ```typescript
+ * import { VoxAgent, OpenAIProvider } from 'voxkit'
+ * 
+ * const agent = new VoxAgent({
+ *   provider: new OpenAIProvider({ model: 'gpt-4o' }),
+ *   voice: 'alloy',
+ *   systemPrompt: 'You are a helpful assistant.'
+ * })
+ * 
+ * agent.listen(3000)
+ * ```
+ */
+
+// Core exports
+export { VoxAgent } from './voxagent.js'
+
+// Core components
+export { AudioPipeline, type AudioPipelineConfig } from './core/audio-pipeline.js'
+export { ConversationManager, type ConversationManagerConfig } from './core/conversation-manager.js'
+export { LeadExtractor, type LeadExtractorConfig } from './core/lead-extractor.js'
+export { VoxKitWSServer, type WSClient, type VoxKitWSServerOptions } from './core/websocket-server.js'
+
+// Types
+export type {
+  Voice,
+  AudioFormat,
+  TranscriptSegment,
+  ConversationMessage,
+  LeadInfo,
+  ConversationState,
+  AudioConfig,
+  ProviderResponse,
+  TranscriptCallback,
+  ResponseCallback,
+  LeadCallback,
+  ErrorCallback,
+  ConnectionCallback,
+  VoxAgentConfig,
+  AIProvider,
+  VoxKitPlugin,
+  WSMessage,
+  ServerConfig,
+  Logger
+} from './types.js'
+
+// Plugins
+export {
+  TranscriptLoggerPlugin,
+  LeadWebhookPlugin, type LeadWebhookConfig,
+  SlackNotifierPlugin, type SlackNotifierConfig,
+  MetricsPlugin, type MetricsPluginConfig, type SessionMetrics
+} from './plugins/index.js'
+
+// Logger
+export { VoxKitLogger, logger } from './logger.js'
+
+// Version
+export const VERSION = '1.0.0'

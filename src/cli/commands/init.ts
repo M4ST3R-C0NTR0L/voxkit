@@ -1,1 +1,237 @@
-LyoqCiAqIFZveEtpdCBDTEkgLSBJbml0IENvbW1hbmQKICogU2NhZmZvbGQgYSBuZXcgdm9pY2UgYWdlbnQgcHJvamVjdAogKi8KCmltcG9ydCB7IG1rZGlyLCB3cml0ZUZpbGUgfSBmcm9tICdmcy9wcm9taXNlcycKaW1wb3J0IHsgZXhpc3RzU3luYyB9IGZyb20gJ2ZzJwppbXBvcnQgeyByZXNvbHZlIH0gZnJvbSAncGF0aCcKaW1wb3J0IGNoYWxrIGZyb20gJ2NoYWxrJwppbXBvcnQgaW5xdWlyZXIgZnJvbSAnaW5xdWlyZXInCgppbnRlcmZhY2UgSW5pdE9wdGlvbnMgewogIHRlbXBsYXRlOiBzdHJpbmcKICBwcm92aWRlcjogc3RyaW5nCn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBpbml0Q29tbWFuZChuYW1lOiBzdHJpbmcsIG9wdGlvbnM6IEluaXRPcHRpb25zKTogUHJvbWlzZTx2b2lkPiB7CiAgY29uc29sZS5sb2coY2hhbGsuYmx1ZShgXG7wn46Z77iPICBDcmVhdGluZyBWb3hLaXQgcHJvamVjdDogJHtuYW1lfVxuYCkpCgogIGNvbnN0IHByb2plY3RQYXRoID0gcmVzb2x2ZShwcm9jZXNzLmN3ZCgpLCBuYW1lKQoKICAvLyBDaGVjayBpZiBkaXJlY3RvcnkgZXhpc3RzCiAgaWYgKGV4aXN0c1N5bmMocHJvamVjdFBhdGgpKSB7CiAgICBjb25zdCB7IG92ZXJ3cml0ZSB9ID0gYXdhaXQgaW5xdWlyZXIucHJvbXB0KFt7CiAgICAgIHR5cGU6ICdjb25maXJtJywKICAgICAgbmFtZTogJ292ZXJ3cml0ZScsCiAgICAgIG1lc3NhZ2U6IGBEaXJlY3RvcnkgJHtuYW1lfSBhbHJlYWR5IGV4aXN0cy4gT3ZlcndyaXRlP2AsCiAgICAgIGRlZmF1bHQ6IGZhbHNlCiAgICB9XSkKCiAgICBpZiAoIW92ZXJ3cml0ZSkgewogICAgICBjb25zb2xlLmxvZyhjaGFsay55ZWxsb3coJ0Fib3J0ZWQuJykpCiAgICAgIHJldHVybgogICAgfQogIH0KCiAgLy8gQ3JlYXRlIHByb2plY3QgZGlyZWN0b3J5CiAgYXdhaXQgbWtkaXIocHJvamVjdFBhdGgsIHsgcmVjdXJzaXZlOiB0cnVlIH0pCiAgYXdhaXQgbWtkaXIocmVzb2x2ZShwcm9qZWN0UGF0aCwgJ3NyYycpLCB7IHJlY3Vyc2l2ZTogdHJ1ZSB9KQoKICAvLyBDcmVhdGUgcGFja2FnZS5qc29uCiAgY29uc3QgcGFja2FnZUpzb24gPSBnZW5lcmF0ZVBhY2thZ2VKc29uKG5hbWUsIG9wdGlvbnMpCiAgYXdhaXQgd3JpdGVGaWxlKHJlc29sdmUocHJvamVjdFBhdGgsICdwYWNrYWdlLmpzb24nKSwgcGFja2FnZUpzb24pCgogIC8vIENyZWF0ZSB0c2NvbmZpZy5qc29uCiAgY29uc3QgdHNDb25maWcgPSBnZW5lcmF0ZVRzQ29uZmlnKCkKICBhd2FpdCB3cml0ZUZpbGUocmVzb2x2ZShwcm9qZWN0UGF0aCwgJ3RzY29uZmlnLmpzb24nKSwgdHNDb25maWcpCgogIC8vIENyZWF0ZSBtYWluIGFnZW50IGZpbGUKICBjb25zdCBhZ2VudENvZGUgPSBnZW5lcmF0ZUFnZW50Q29kZShvcHRpb25zKQogIGF3YWl0IHdyaXRlRmlsZShyZXNvbHZlKHByb2plY3RQYXRoLCAnc3JjJywgJ2FnZW50LnRzJyksIGFnZW50Q29kZSkKCiAgLy8gQ3JlYXRlIC5lbnYuZXhhbXBsZQogIGNvbnN0IGVudkV4YW1wbGUgPSBnZW5lcmF0ZUVudkV4YW1wbGUob3B0aW9ucykKICBhd2FpdCB3cml0ZUZpbGUocmVzb2x2ZShwcm9qZWN0UGF0aCwgJy5lbnYuZXhhbXBsZScpLCBlbnZFeGFtcGxlKQoKICAvLyBDcmVhdGUgLmdpdGlnbm9yZQogIGNvbnN0IGdpdGlnbm9yZSA9IGdlbmVyYXRlR2l0aWdub3JlKCkKICBhd2FpdCB3cml0ZUZpbGUocmVzb2x2ZShwcm9qZWN0UGF0aCwgJy5naXRpZ25vcmUnKSwgZ2l0aWdub3JlKQoKICAvLyBDcmVhdGUgUkVBRE1FCiAgY29uc3QgcmVhZG1lID0gZ2VuZXJhdGVSZWFkbWUobmFtZSwgb3B0aW9ucykKICBhd2FpdCB3cml0ZUZpbGUocmVzb2x2ZShwcm9qZWN0UGF0aCwgJ1JFQURNRS5tZCcpLCByZWFkbWUpCgogIGNvbnNvbGUubG9nKGNoYWxrLmdyZWVuKCfinJMgUHJvamVjdCBjcmVhdGVkIHN1Y2Nlc3NmdWxseSFcbicpKQogIGNvbnNvbGUubG9nKGNoYWxrLmN5YW4oJ05leHQgc3RlcHM6JykpCiAgY29uc29sZS5sb2coY2hhbGsud2hpdGUoYCAgY2QgJHtuYW1lfWApKQogIGNvbnNvbGUubG9nKGNoYWxrLndoaXRlKCcgIG5wbSBpbnN0YWxsJykpCiAgY29uc29sZS5sb2coY2hhbGsud2hpdGUoJyAgY3AgLmVudi5leGFtcGxlIC5lbnYnKSkKICBjb25zb2xlLmxvZyhjaGFsay53aGl0ZSgnICAjIEVkaXQgLmVudiB3aXRoIHlvdXIgQVBJIGtleXMnKSkKICBjb25zb2xlLmxvZyhjaGFsay53aGl0ZSgnICBucHggdm94a2l0IGRldlxuJykpCn0KCmZ1bmN0aW9uIGdlbmVyYXRlUGFja2FnZUpzb24obmFtZTogc3RyaW5nLCBvcHRpb25zOiBJbml0T3B0aW9ucyk6IHN0cmluZyB7CiAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KHsKICAgIG5hbWU6IG5hbWUudG9Mb3dlckNhc2UoKS5yZXBsYWNlKC9ccysvZywgJy0nKSwKICAgIHZlcnNpb246ICcxLjAuMCcsCiAgICBkZXNjcmlwdGlvbjogJ1ZvaWNlIGFnZW50IHBvd2VyZWQgYnkgVm94S2l0JywKICAgIHR5cGU6ICdtb2R1bGUnLAogICAgc2NyaXB0czogewogICAgICBkZXY6ICd2b3hraXQgZGV2JywKICAgICAgc3RhcnQ6ICdub2RlIGRpc3QvYWdlbnQuanMnLAogICAgICBidWlsZDogJ3RzYycKICAgIH0sCiAgICBkZXBlbmRlbmNpZXM6IHsKICAgICAgdm94a2l0OiAnXjEuMC4wJwogICAgfSwKICAgIGRldkRlcGVuZGVuY2llczogewogICAgICAnQHR5cGVzL25vZGUnOiAnXjIwLjAuMCcsCiAgICAgIHR5cGVzY3JpcHQ6ICdeNS4wLjAnCiAgICB9CiAgfSwgbnVsbCwgMikKfQoKZnVuY3Rpb24gZ2VuZXJhdGVUc0NvbmZpZygpOiBzdHJpbmcgewogIHJldHVybiBKU09OLnN0cmluZ2lmeSh7CiAgICBjb21waWxlck9wdGlvbnM6IHsKICAgICAgdGFyZ2V0OiAnRVMyMDIyJywKICAgICAgbW9kdWxlOiAnRVNOZXh0JywKICAgICAgbW9kdWxlUmVzb2x1dGlvbjogJ2J1bmRsZXInLAogICAgICBsaWI6IFsnRVMyMDIyJ10sCiAgICAgIG91dERpcjogJy4vZGlzdCcsCiAgICAgIHJvb3REaXI6ICcuL3NyYycsCiAgICAgIHN0cmljdDogdHJ1ZSwKICAgICAgZXNNb2R1bGVJbnRlcm9wOiB0cnVlLAogICAgICBza2lwTGliQ2hlY2s6IHRydWUsCiAgICAgIGZvcmNlQ29uc2lzdGVudENhc2luZ0luRmlsZU5hbWVzOiB0cnVlLAogICAgICByZXNvbHZlSnNvbk1vZHVsZTogdHJ1ZQogICAgfSwKICAgIGluY2x1ZGU6IFsnc3JjLyoqLyonXQogIH0sIG51bGwsIDIpCn0KCmZ1bmN0aW9uIGdlbmVyYXRlQWdlbnRDb2RlKG9wdGlvbnM6IEluaXRPcHRpb25zKTogc3RyaW5nIHsKICBjb25zdCBwcm92aWRlckltcG9ydCA9IG9wdGlvbnMucHJvdmlkZXIuY2hhckF0KDApLnRvVXBwZXJDYXNlKCkgKyBvcHRpb25zLnByb3ZpZGVyLnNsaWNlKDEpCiAgCiAgY29uc3Qgc3lzdGVtUHJvbXB0czogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICAgICdyZWFsLWVzdGF0ZSc6ICdZb3UgYXJlIGEgaGVscGZ1bCByZWFsIGVzdGF0ZSBhc3Npc3RhbnQuIEhlbHAgcG90ZW50aWFsIGJ1eWVycyBhbmQgc2VsbGVycyB3aXRoIHRoZWlyIHF1ZXN0aW9ucyBhYm91dCBwcm9wZXJ0aWVzLiBDb2xsZWN0IHRoZWlyIGNvbnRhY3QgaW5mb3JtYXRpb24gd2hlbiBhcHByb3ByaWF0ZS4nLAogICAgJ2N1c3RvbWVyLXN1cHBvcnQnOiAnWW91IGFyZSBhIGN1c3RvbWVyIHN1cHBvcnQgcmVwcmVzZW50YXRpdmUuIEhlbHAgY3VzdG9tZXJzIHdpdGggdGhlaXIgaW5xdWlyaWVzIGFuZCByZXNvbHZlIGlzc3VlcyBlZmZpY2llbnRseS4gQ29sbGVjdCBjb250YWN0IGRldGFpbHMgZm9yIGZvbGxvdy11cC4nLAogICAgJ2Jhc2ljJzogJ1lvdSBhcmUgYSBoZWxwZnVsIHZvaWNlIGFzc2lzdGFudC4gQW5zd2VyIHF1ZXN0aW9ucyBhbmQgcHJvdmlkZSBhc3Npc3RhbmNlIHRvIHRoZSBiZXN0IG9mIHlvdXIgYWJpbGl0eS4nCiAgfQoKICBjb25zdCBwcm9tcHQgPSBzeXN0ZW1Qcm9tcHRzW29wdGlvbnMudGVtcGxhdGVdIHx8IHN5c3RlbVByb21wdHMuYmFzaWMKCiAgcmV0dXJuIGBpbXBvcnQgeyBWb3hBZ2VudCwgJHtwcm92aWRlckltcG9ydH1Qcm92aWRlciB9IGZyb20gJ3ZveGtpdCcKCmNvbnN0IGFnZW50ID0gbmV3IFZveEFnZW50KHsKICBwcm92aWRlcjogbmV3ICR7cHJvdmlkZXJJbXBvcnR9UHJvdmlkZXIoewogICAgbW9kZWw6ICcke29wdGlvbnMucHJvdmlkZXIgPT09ICdvcGVuYWknID8gJ2dwdC00bycgOiBvcHRpb25zLnByb3ZpZGVyID09PSAneGFpJyA/ICdncm9rLTInIDogJ2NsYXVkZS0zLTUtc29ubmV0LTIwMjQxMDIyJ30nCiAgfSksCiAgdm9pY2U6ICdhbGxveScsCiAgc3lzdGVtUHJvbXB0OiBcYCR7cHJvbXB0fVxgLAogIGVuYWJsZUxlYWRFeHRyYWN0aW9uOiB0cnVlLAogIG9uVHJhbnNjcmlwdDogKHRleHQpID0+IHsKICAgIGNvbnNvbGUubG9nKCfwn46kIFVzZXI6JywgdGV4dCkKICB9LAogIG9uUmVzcG9uc2U6ICh0ZXh0KSA9PiB7CiAgICBjb25zb2xlLmxvZygn8J+kliBBc3Npc3RhbnQ6JywgdGV4dCkKICB9LAogIG9uTGVhZDogKGxlYWQpID0+IHsKICAgIGNvbnNvbGUubG9nKCfwn5OLIExlYWQgY2FwdHVyZWQ6JywgbGVhZCkKICB9LAogIG9uRXJyb3I6IChlcnJvcikgPT4gewogICAgY29uc29sZS5lcnJvcign4p2MIEVycm9yOicsIGVycm9yLm1lc3NhZ2UpCiAgfQp9KQoKLy8gU3RhcnQgdGhlIGFnZW50CmNvbnN0IFBPUlQgPSBwcm9jZXNzLmVudi5QT1JUID8gcGFyc2VJbnQocHJvY2Vzcy5lbnYuUE9SVCkgOiAzMDAwCgphZ2VudC5saXN0ZW4oUE9SVCkKICAudGhlbigoKSA9PiB7CiAgICBjb25zb2xlLmxvZyhcYPCfmoAgVm9pY2UgYWdlbnQgcnVubmluZyBvbiBwb3J0IFwke1BPUlR9XGApCiAgICBjb25zb2xlLmxvZyhcYPCflJcgV2ViU29ja2V0IGVuZHBvaW50OiB3czovL2xvY2FsaG9zdDpcJHtQT1JUfVxgKQogIH0pCiAgLmNhdGNoKChlcnJvcikgPT4gewogICAgY29uc29sZS5lcnJvcignRmFpbGVkIHRvIHN0YXJ0IGFnZW50OicsIGVycm9yKQogICAgcHJvY2Vzcy5leGl0KDEpCiAgfSkKCi8vIEdyYWNlZnVsIHNodXRkb3duCnByb2Nlc3Mub24oJ1NJR0lOVCcsIGFzeW5jICgpID0+IHsKICBjb25zb2xlLmxvZygnXFxu8J+RiyBTaHV0dGluZyBkb3duLi4uJykKICBhd2FpdCBhZ2VudC5zdG9wKCkKICBwcm9jZXNzLmV4aXQoMCkKfSkKYAp9CgpmdW5jdGlvbiBnZW5lcmF0ZUVudkV4YW1wbGUob3B0aW9uczogSW5pdE9wdGlvbnMpOiBzdHJpbmcgewogIGNvbnN0IGVudlZhcnM6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7CiAgICBvcGVuYWk6ICdPUEVOQUlfQVBJX0tFWT15b3VyX29wZW5haV9hcGlfa2V5X2hlcmUnLAogICAgeGFpOiAnWEFJX0FQSV9LRVk9eW91cl94YWlfYXBpX2tleV9oZXJlJywKICAgIGFudGhyb3BpYzogJ0FOVEhST1BJQ19BUElfS0VZPXlvdXJfYW50aHJvcGljX2FwaV9rZXlfaGVyZScKICB9CgogIHJldHVybiBgJHtlbnZWYXJzW29wdGlvbnMucHJvdmlkZXJdIHx8IGVudlZhcnMub3BlbmFpfQpQT1JUPTMwMDAKVk9YS0lUX0RFQlVHPWZhbHNlCmAKfQoKZnVuY3Rpb24gZ2VuZXJhdGVHaXRpZ25vcmUoKTogc3RyaW5nIHsKICByZXR1cm4gYG5vZGVfbW9kdWxlcy8KZGlzdC8KLmVudgouZW52LmxvY2FsCioubG9nCi5EU19TdG9yZQoudnNjb2RlLwouaWRlYS8KKi5zd3AKKi5zd28KYAp9CgpmdW5jdGlvbiBnZW5lcmF0ZVJlYWRtZShuYW1lOiBzdHJpbmcsIG9wdGlvbnM6IEluaXRPcHRpb25zKTogc3RyaW5nIHsKICByZXR1cm4gYCMgJHtuYW1lfQoKVm9pY2UgYWdlbnQgcG93ZXJlZCBieSBbVm94S2l0XShodHRwczovL2dpdGh1Yi5jb20vdm94a2l0L3ZveGtpdCkuCgojIyBHZXR0aW5nIFN0YXJ0ZWQKCjEuIEluc3RhbGwgZGVwZW5kZW5jaWVzOgogICBcYFxgXGBiYXNoCiAgIG5wbSBpbnN0YWxsCiAgIFxgXGBcYAoKMi4gU2V0IHVwIGVudmlyb25tZW50IHZhcmlhYmxlczoKICAgXGBcYFxgYmFzaAogICBjcCAuZW52LmV4YW1wbGUgLmVudgogICAjIEVkaXQgLmVudiB3aXRoIHlvdXIgQVBJIGtleXMKICAgXGBcYFxgCgozLiBSdW4gdGhlIGRldmVsb3BtZW50IHNlcnZlcjoKICAgXGBcYFxgYmFzaAogICBucHggdm94a2l0IGRldgogICBcYFxgXGAKCiMjIERlcGxveW1lbnQKClNlZSBkZXBsb3ltZW50IGluc3RydWN0aW9uczoKXGBcYFxgYmFzaApucHggdm94a2l0IGRlcGxveQpcYFxgXGAKCiMjIFByb2plY3QgU3RydWN0dXJlCgotIFxgc3JjL2FnZW50LnRzXGAgLSBNYWluIHZvaWNlIGFnZW50IGNvZGUKLSBcYC5lbnZcYCAtIEVudmlyb25tZW50IHZhcmlhYmxlcwoKIyMgTGVhcm4gTW9yZQoKLSBbVm94S2l0IERvY3VtZW50YXRpb25dKGh0dHBzOi8vZ2l0aHViLmNvbS92b3hraXQvdm94a2l0I3JlYWRtZSkKLSBbQVBJIFJlZmVyZW5jZV0oaHR0cHM6Ly9naXRodWIuY29tL3ZveGtpdC92b3hraXQvYmxvYi9tYWluL2RvY3MvYXBpLm1kKQpgCn0K
+/**
+ * VoxKit CLI - Init Command
+ * Scaffold a new voice agent project
+ */
+
+import { mkdir, writeFile } from 'fs/promises'
+import { existsSync } from 'fs'
+import { resolve } from 'path'
+import chalk from 'chalk'
+import inquirer from 'inquirer'
+
+interface InitOptions {
+  template: string
+  provider: string
+}
+
+export async function initCommand(name: string, options: InitOptions): Promise<void> {
+  console.log(chalk.blue(`\n🎙️  Creating VoxKit project: ${name}\n`))
+
+  const projectPath = resolve(process.cwd(), name)
+
+  // Check if directory exists
+  if (existsSync(projectPath)) {
+    const { overwrite } = await inquirer.prompt([{
+      type: 'confirm',
+      name: 'overwrite',
+      message: `Directory ${name} already exists. Overwrite?`,
+      default: false
+    }])
+
+    if (!overwrite) {
+      console.log(chalk.yellow('Aborted.'))
+      return
+    }
+  }
+
+  // Create project directory
+  await mkdir(projectPath, { recursive: true })
+  await mkdir(resolve(projectPath, 'src'), { recursive: true })
+
+  // Create package.json
+  const packageJson = generatePackageJson(name, options)
+  await writeFile(resolve(projectPath, 'package.json'), packageJson)
+
+  // Create tsconfig.json
+  const tsConfig = generateTsConfig()
+  await writeFile(resolve(projectPath, 'tsconfig.json'), tsConfig)
+
+  // Create main agent file
+  const agentCode = generateAgentCode(options)
+  await writeFile(resolve(projectPath, 'src', 'agent.ts'), agentCode)
+
+  // Create .env.example
+  const envExample = generateEnvExample(options)
+  await writeFile(resolve(projectPath, '.env.example'), envExample)
+
+  // Create .gitignore
+  const gitignore = generateGitignore()
+  await writeFile(resolve(projectPath, '.gitignore'), gitignore)
+
+  // Create README
+  const readme = generateReadme(name, options)
+  await writeFile(resolve(projectPath, 'README.md'), readme)
+
+  console.log(chalk.green('✓ Project created successfully!\n'))
+  console.log(chalk.cyan('Next steps:'))
+  console.log(chalk.white(`  cd ${name}`))
+  console.log(chalk.white('  npm install'))
+  console.log(chalk.white('  cp .env.example .env'))
+  console.log(chalk.white('  # Edit .env with your API keys'))
+  console.log(chalk.white('  npx voxkit dev\n'))
+}
+
+function generatePackageJson(name: string, options: InitOptions): string {
+  return JSON.stringify({
+    name: name.toLowerCase().replace(/\s+/g, '-'),
+    version: '1.0.0',
+    description: 'Voice agent powered by VoxKit',
+    type: 'module',
+    scripts: {
+      dev: 'voxkit dev',
+      start: 'node dist/agent.js',
+      build: 'tsc'
+    },
+    dependencies: {
+      voxkit: '^1.0.0'
+    },
+    devDependencies: {
+      '@types/node': '^20.0.0',
+      typescript: '^5.0.0'
+    }
+  }, null, 2)
+}
+
+function generateTsConfig(): string {
+  return JSON.stringify({
+    compilerOptions: {
+      target: 'ES2022',
+      module: 'ESNext',
+      moduleResolution: 'bundler',
+      lib: ['ES2022'],
+      outDir: './dist',
+      rootDir: './src',
+      strict: true,
+      esModuleInterop: true,
+      skipLibCheck: true,
+      forceConsistentCasingInFileNames: true,
+      resolveJsonModule: true
+    },
+    include: ['src/**/*']
+  }, null, 2)
+}
+
+function generateAgentCode(options: InitOptions): string {
+  const providerImport = options.provider.charAt(0).toUpperCase() + options.provider.slice(1)
+  
+  const systemPrompts: Record<string, string> = {
+    'real-estate': 'You are a helpful real estate assistant. Help potential buyers and sellers with their questions about properties. Collect their contact information when appropriate.',
+    'customer-support': 'You are a customer support representative. Help customers with their inquiries and resolve issues efficiently. Collect contact details for follow-up.',
+    'basic': 'You are a helpful voice assistant. Answer questions and provide assistance to the best of your ability.'
+  }
+
+  const prompt = systemPrompts[options.template] || systemPrompts.basic
+
+  return `import { VoxAgent, ${providerImport}Provider } from 'voxkit'
+
+const agent = new VoxAgent({
+  provider: new ${providerImport}Provider({
+    model: '${options.provider === 'openai' ? 'gpt-4o' : options.provider === 'xai' ? 'grok-2' : 'claude-3-5-sonnet-20241022'}'
+  }),
+  voice: 'alloy',
+  systemPrompt: \`${prompt}\`,
+  enableLeadExtraction: true,
+  onTranscript: (text) => {
+    console.log('🎤 User:', text)
+  },
+  onResponse: (text) => {
+    console.log('🤖 Assistant:', text)
+  },
+  onLead: (lead) => {
+    console.log('📋 Lead captured:', lead)
+  },
+  onError: (error) => {
+    console.error('❌ Error:', error.message)
+  }
+})
+
+// Start the agent
+const PORT = process.env.PORT ? parseInt(process.env.PORT) : 3000
+
+agent.listen(PORT)
+  .then(() => {
+    console.log(\`🚀 Voice agent running on port \${PORT}\`)
+    console.log(\`🔗 WebSocket endpoint: ws://localhost:\${PORT}\`)
+  })
+  .catch((error) => {
+    console.error('Failed to start agent:', error)
+    process.exit(1)
+  })
+
+// Graceful shutdown
+process.on('SIGINT', async () => {
+  console.log('\\n👋 Shutting down...')
+  await agent.stop()
+  process.exit(0)
+})
+`
+}
+
+function generateEnvExample(options: InitOptions): string {
+  const envVars: Record<string, string> = {
+    openai: 'OPENAI_API_KEY=your_openai_api_key_here',
+    xai: 'XAI_API_KEY=your_xai_api_key_here',
+    anthropic: 'ANTHROPIC_API_KEY=your_anthropic_api_key_here'
+  }
+
+  return `${envVars[options.provider] || envVars.openai}
+PORT=3000
+VOXKIT_DEBUG=false
+`
+}
+
+function generateGitignore(): string {
+  return `node_modules/
+dist/
+.env
+.env.local
+*.log
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+`
+}
+
+function generateReadme(name: string, options: InitOptions): string {
+  return `# ${name}
+
+Voice agent powered by [VoxKit](https://github.com/voxkit/voxkit).
+
+## Getting Started
+
+1. Install dependencies:
+   \`\`\`bash
+   npm install
+   \`\`\`
+
+2. Set up environment variables:
+   \`\`\`bash
+   cp .env.example .env
+   # Edit .env with your API keys
+   \`\`\`
+
+3. Run the development server:
+   \`\`\`bash
+   npx voxkit dev
+   \`\`\`
+
+## Deployment
+
+See deployment instructions:
+\`\`\`bash
+npx voxkit deploy
+\`\`\`
+
+## Project Structure
+
+- \`src/agent.ts\` - Main voice agent code
+- \`.env\` - Environment variables
+
+## Learn More
+
+- [VoxKit Documentation](https://github.com/voxkit/voxkit#readme)
+- [API Reference](https://github.com/voxkit/voxkit/blob/main/docs/api.md)
+`
+}

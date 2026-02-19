@@ -1,1 +1,38 @@
-aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAndHN1cCcKCmV4cG9ydCBkZWZhdWx0IGRlZmluZUNvbmZpZyhbCiAgLy8gTGlicmFyeSBlbnRyeSBwb2ludHMKICB7CiAgICBlbnRyeTogewogICAgICBpbmRleDogJ3NyYy9pbmRleC50cycsCiAgICAgICdwcm92aWRlcnMvaW5kZXgnOiAnc3JjL3Byb3ZpZGVycy9pbmRleC50cycsCiAgICB9LAogICAgZm9ybWF0OiBbJ2VzbSddLAogICAgZHRzOiB0cnVlLAogICAgc3BsaXR0aW5nOiBmYWxzZSwKICAgIHNvdXJjZW1hcDogdHJ1ZSwKICAgIGNsZWFuOiBmYWxzZSwKICAgIHRhcmdldDogJ2VzMjAyMicsCiAgICBwbGF0Zm9ybTogJ25vZGUnLAogICAgbWluaWZ5OiBmYWxzZSwKICAgIG91dERpcjogJ2Rpc3QnLAogIH0sCiAgLy8gQ0xJIOKAlCBzZXBhcmF0ZSBjb25maWcgc28gd2UgY2FuIGluamVjdCBzaGViYW5nIG9ubHkgb24gdGhlIENMSSBmaWxlCiAgewogICAgZW50cnk6IHsKICAgICAgJ2NsaS9pbmRleCc6ICdzcmMvY2xpL2luZGV4LnRzJywKICAgIH0sCiAgICBmb3JtYXQ6IFsnZXNtJ10sCiAgICBkdHM6IGZhbHNlLAogICAgc3BsaXR0aW5nOiBmYWxzZSwKICAgIHNvdXJjZW1hcDogdHJ1ZSwKICAgIGNsZWFuOiBmYWxzZSwKICAgIHRhcmdldDogJ2VzMjAyMicsCiAgICBwbGF0Zm9ybTogJ25vZGUnLAogICAgbWluaWZ5OiBmYWxzZSwKICAgIG91dERpcjogJ2Rpc3QnLAogICAgYmFubmVyOiB7CiAgICAgIGpzOiAnIyEvdXNyL2Jpbi9lbnYgbm9kZScKICAgIH0sCiAgfQpdKQo=
+import { defineConfig } from 'tsup'
+
+export default defineConfig([
+  // Library entry points
+  {
+    entry: {
+      index: 'src/index.ts',
+      'providers/index': 'src/providers/index.ts',
+    },
+    format: ['esm'],
+    dts: true,
+    splitting: false,
+    sourcemap: true,
+    clean: false,
+    target: 'es2022',
+    platform: 'node',
+    minify: false,
+    outDir: 'dist',
+  },
+  // CLI — separate config so we can inject shebang only on the CLI file
+  {
+    entry: {
+      'cli/index': 'src/cli/index.ts',
+    },
+    format: ['esm'],
+    dts: false,
+    splitting: false,
+    sourcemap: true,
+    clean: false,
+    target: 'es2022',
+    platform: 'node',
+    minify: false,
+    outDir: 'dist',
+    banner: {
+      js: '#!/usr/bin/env node'
+    },
+  }
+])

@@ -1,1 +1,79 @@
-LyoqCiAqIExlYWRXZWJob29rUGx1Z2luCiAqCiAqIFBPU1RzIGNhcHR1cmVkIGxlYWQgZGF0YSB0byBhbnkgSFRUUCBlbmRwb2ludCB3aGVuZXZlcgogKiBhIG5ldyBsZWFkIGlzIGV4dHJhY3RlZCBmcm9tIHRoZSBjb252ZXJzYXRpb24uCiAqLwoKaW1wb3J0IHR5cGUgeyBWb3hLaXRQbHVnaW4sIFZveEFnZW50LCBMZWFkSW5mbyB9IGZyb20gJy4uL3R5cGVzLmpzJwppbXBvcnQgeyBsb2dnZXIgfSBmcm9tICcuLi9sb2dnZXIuanMnCgpleHBvcnQgaW50ZXJmYWNlIExlYWRXZWJob29rQ29uZmlnIHsKICAvKiogVVJMIHRvIFBPU1QgbGVhZCBkYXRhIHRvICovCiAgdXJsOiBzdHJpbmcKICAvKiogT3B0aW9uYWwgYmVhcmVyIHRva2VuIGZvciBBdXRob3JpemF0aW9uIGhlYWRlciAqLwogIHNlY3JldD86IHN0cmluZwogIC8qKiBFeHRyYSBoZWFkZXJzIHRvIGluY2x1ZGUgKi8KICBoZWFkZXJzPzogUmVjb3JkPHN0cmluZywgc3RyaW5nPgogIC8qKiBSZXRyeSBjb3VudCBvbiBmYWlsdXJlIChkZWZhdWx0OiAzKSAqLwogIHJldHJpZXM/OiBudW1iZXIKfQoKZXhwb3J0IGNsYXNzIExlYWRXZWJob29rUGx1Z2luIGltcGxlbWVudHMgVm94S2l0UGx1Z2luIHsKICBuYW1lID0gJ2xlYWQtd2ViaG9vaycKCiAgcHJpdmF0ZSBjb25maWc6IFJlcXVpcmVkPExlYWRXZWJob29rQ29uZmlnPgogIHByaXZhdGUgbG9nID0gbG9nZ2VyLmNoaWxkKCdsZWFkLXdlYmhvb2snKQogIHByaXZhdGUgc2VlbiA9IG5ldyBTZXQ8c3RyaW5nPigpCgogIGNvbnN0cnVjdG9yKGNvbmZpZzogTGVhZFdlYmhvb2tDb25maWcpIHsKICAgIHRoaXMuY29uZmlnID0gewogICAgICB1cmw6IGNvbmZpZy51cmwsCiAgICAgIHNlY3JldDogY29uZmlnLnNlY3JldCA/PyAnJywKICAgICAgaGVhZGVyczogY29uZmlnLmhlYWRlcnMgPz8ge30sCiAgICAgIHJldHJpZXM6IGNvbmZpZy5yZXRyaWVzID8/IDMKICAgIH0KICB9CgogIGluaXRpYWxpemUoX2FnZW50OiBWb3hBZ2VudCk6IHZvaWQgewogICAgdGhpcy5sb2cuaW5mbyhgTGVhZFdlYmhvb2tQbHVnaW4g4oaSICR7dGhpcy5jb25maWcudXJsfWApCiAgfQoKICBvbkxlYWQobGVhZDogTGVhZEluZm8pOiB2b2lkIHsKICAgIC8vIERlZHVwbGljYXRlIGJ5IGVtYWlsK3Bob25lIGNvbWJvCiAgICBjb25zdCBrZXkgPSBgJHtsZWFkLmVtYWlsID8/ICcnfToke2xlYWQucGhvbmUgPz8gJyd9YAogICAgaWYgKHRoaXMuc2Vlbi5oYXMoa2V5KSkgcmV0dXJuCiAgICB0aGlzLnNlZW4uYWRkKGtleSkKCiAgICB0aGlzLnNlbmRXZWJob29rKGxlYWQpCiAgfQoKICBwcml2YXRlIGFzeW5jIHNlbmRXZWJob29rKGxlYWQ6IExlYWRJbmZvLCBhdHRlbXB0ID0gMSk6IFByb21pc2U8dm9pZD4gewogICAgdHJ5IHsKICAgICAgY29uc3QgaGVhZGVyczogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICAgICAgICAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nLAogICAgICAgIC4uLnRoaXMuY29uZmlnLmhlYWRlcnMKICAgICAgfQogICAgICBpZiAodGhpcy5jb25maWcuc2VjcmV0KSB7CiAgICAgICAgaGVhZGVyc1snQXV0aG9yaXphdGlvbiddID0gYEJlYXJlciAke3RoaXMuY29uZmlnLnNlY3JldH1gCiAgICAgIH0KCiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKHRoaXMuY29uZmlnLnVybCwgewogICAgICAgIG1ldGhvZDogJ1BPU1QnLAogICAgICAgIGhlYWRlcnMsCiAgICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkoeyBsZWFkLCB0aW1lc3RhbXA6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSB9KQogICAgICB9KQoKICAgICAgaWYgKCFyZXMub2spIHsKICAgICAgICB0aHJvdyBuZXcgRXJyb3IoYEhUVFAgJHtyZXMuc3RhdHVzfWApCiAgICAgIH0KICAgICAgdGhpcy5sb2cuaW5mbyhgTGVhZCBwb3N0ZWQgKGF0dGVtcHQgJHthdHRlbXB0fSlgKQogICAgfSBjYXRjaCAoZXJyKSB7CiAgICAgIHRoaXMubG9nLmVycm9yKGBXZWJob29rIGZhaWxlZCAoYXR0ZW1wdCAke2F0dGVtcHR9KTpgLCBlcnIpCiAgICAgIGlmIChhdHRlbXB0IDwgdGhpcy5jb25maWcucmV0cmllcykgewogICAgICAgIGNvbnN0IGRlbGF5ID0gMTAwMCAqIDIgKiogKGF0dGVtcHQgLSAxKQogICAgICAgIHNldFRpbWVvdXQoKCkgPT4gdGhpcy5zZW5kV2ViaG9vayhsZWFkLCBhdHRlbXB0ICsgMSksIGRlbGF5KQogICAgICB9CiAgICB9CiAgfQp9Cg==
+/**
+ * LeadWebhookPlugin
+ *
+ * POSTs captured lead data to any HTTP endpoint whenever
+ * a new lead is extracted from the conversation.
+ */
+
+import type { VoxKitPlugin, VoxAgent, LeadInfo } from '../types.js'
+import { logger } from '../logger.js'
+
+export interface LeadWebhookConfig {
+  /** URL to POST lead data to */
+  url: string
+  /** Optional bearer token for Authorization header */
+  secret?: string
+  /** Extra headers to include */
+  headers?: Record<string, string>
+  /** Retry count on failure (default: 3) */
+  retries?: number
+}
+
+export class LeadWebhookPlugin implements VoxKitPlugin {
+  name = 'lead-webhook'
+
+  private config: Required<LeadWebhookConfig>
+  private log = logger.child('lead-webhook')
+  private seen = new Set<string>()
+
+  constructor(config: LeadWebhookConfig) {
+    this.config = {
+      url: config.url,
+      secret: config.secret ?? '',
+      headers: config.headers ?? {},
+      retries: config.retries ?? 3
+    }
+  }
+
+  initialize(_agent: VoxAgent): void {
+    this.log.info(`LeadWebhookPlugin → ${this.config.url}`)
+  }
+
+  onLead(lead: LeadInfo): void {
+    // Deduplicate by email+phone combo
+    const key = `${lead.email ?? ''}:${lead.phone ?? ''}`
+    if (this.seen.has(key)) return
+    this.seen.add(key)
+
+    this.sendWebhook(lead)
+  }
+
+  private async sendWebhook(lead: LeadInfo, attempt = 1): Promise<void> {
+    try {
+      const headers: Record<string, string> = {
+        'Content-Type': 'application/json',
+        ...this.config.headers
+      }
+      if (this.config.secret) {
+        headers['Authorization'] = `Bearer ${this.config.secret}`
+      }
+
+      const res = await fetch(this.config.url, {
+        method: 'POST',
+        headers,
+        body: JSON.stringify({ lead, timestamp: new Date().toISOString() })
+      })
+
+      if (!res.ok) {
+        throw new Error(`HTTP ${res.status}`)
+      }
+      this.log.info(`Lead posted (attempt ${attempt})`)
+    } catch (err) {
+      this.log.error(`Webhook failed (attempt ${attempt}):`, err)
+      if (attempt < this.config.retries) {
+        const delay = 1000 * 2 ** (attempt - 1)
+        setTimeout(() => this.sendWebhook(lead, attempt + 1), delay)
+      }
+    }
+  }
+}

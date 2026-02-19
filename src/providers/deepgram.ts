@@ -1,1 +1,287 @@
-LyoqCiAqIERlZXBncmFtIFByb3ZpZGVyIGZvciBWb3hLaXQKICogSW1wbGVtZW50cyBTVFQgdXNpbmcgRGVlcGdyYW0ncyBOb3ZhLTIgbW9kZWwKICovCgppbXBvcnQgdHlwZSB7IFdlYlNvY2tldCBhcyBXc1dlYlNvY2tldCB9IGZyb20gJ3dzJwppbXBvcnQgdHlwZSB7IAogIEFJUHJvdmlkZXIsIAogIFZvaWNlLCAKICBUcmFuc2NyaXB0U2VnbWVudCwgCiAgUHJvdmlkZXJSZXNwb25zZSAKfSBmcm9tICcuLi90eXBlcy5qcycKaW1wb3J0IHsgbG9nZ2VyIH0gZnJvbSAnLi4vbG9nZ2VyLmpzJwoKZXhwb3J0IGludGVyZmFjZSBEZWVwZ3JhbVByb3ZpZGVyQ29uZmlnIHsKICBhcGlLZXk/OiBzdHJpbmcKICBtb2RlbD86IHN0cmluZwogIGxhbmd1YWdlPzogc3RyaW5nCiAgaW50ZXJpbVJlc3VsdHM/OiBib29sZWFuCiAgcHVuY3R1YXRlPzogYm9vbGVhbgogIHNtYXJ0Rm9ybWF0PzogYm9vbGVhbgogIGVuZHBvaW50aW5nPzogbnVtYmVyCn0KCi8qKgogKiBEZWVwZ3JhbSBQcm92aWRlciBmb3IgU3BlZWNoLXRvLVRleHQKICogVXNlcyBEZWVwZ3JhbSdzIFdlYlNvY2tldCBBUEkgZm9yIHJlYWx0aW1lIHRyYW5zY3JpcHRpb24KICovCmV4cG9ydCBjbGFzcyBEZWVwZ3JhbVByb3ZpZGVyIGltcGxlbWVudHMgQUlQcm92aWRlciB7CiAgbmFtZSA9ICdkZWVwZ3JhbScKICAKICBwcml2YXRlIGNvbmZpZzogUmVxdWlyZWQ8RGVlcGdyYW1Qcm92aWRlckNvbmZpZz4KICBwcml2YXRlIHdzOiBXc1dlYlNvY2tldCB8IG51bGwgPSBudWxsCiAgcHJpdmF0ZSBtZXNzYWdlQ2FsbGJhY2tzOiBBcnJheTwocmVzcG9uc2U6IFByb3ZpZGVyUmVzcG9uc2UpID0+IHZvaWQ+ID0gW10KICBwcml2YXRlIHRyYW5zY3JpcHRDYWxsYmFja3M6IEFycmF5PChzZWdtZW50OiBUcmFuc2NyaXB0U2VnbWVudCkgPT4gdm9pZD4gPSBbXQogIHByaXZhdGUgZXJyb3JDYWxsYmFja3M6IEFycmF5PChlcnJvcjogRXJyb3IpID0+IHZvaWQ+ID0gW10KICBwcml2YXRlIGxvZ2dlciA9IGxvZ2dlci5jaGlsZCgnZGVlcGdyYW0tcHJvdmlkZXInKQogIHByaXZhdGUgaXNDb25uZWN0ZWQgPSBmYWxzZQogIHByaXZhdGUgY3VycmVudFZvaWNlOiBWb2ljZSA9ICdhbGxveScKICBwcml2YXRlIGtlZXBBbGl2ZUludGVydmFsOiBOb2RlSlMuVGltZW91dCB8IG51bGwgPSBudWxsCgogIHByaXZhdGUgcmVhZG9ubHkgc3VwcG9ydGVkVm9pY2VzOiBWb2ljZVtdID0gWydub3ZhLTInLCAnbm92YScsICdlbmhhbmNlZCcsICdiYXNlJ10KCiAgY29uc3RydWN0b3IoY29uZmlnOiBEZWVwZ3JhbVByb3ZpZGVyQ29uZmlnID0ge30pIHsKICAgIHRoaXMuY29uZmlnID0gewogICAgICBhcGlLZXk6IGNvbmZpZy5hcGlLZXkgPz8gcHJvY2Vzcy5lbnYuREVFUEdSQU1fQVBJX0tFWSA/PyAnJywKICAgICAgbW9kZWw6IGNvbmZpZy5tb2RlbCA/PyAnbm92YS0yJywKICAgICAgbGFuZ3VhZ2U6IGNvbmZpZy5sYW5ndWFnZSA/PyAnZW4tVVMnLAogICAgICBpbnRlcmltUmVzdWx0czogY29uZmlnLmludGVyaW1SZXN1bHRzID8/IHRydWUsCiAgICAgIHB1bmN0dWF0ZTogY29uZmlnLnB1bmN0dWF0ZSA/PyB0cnVlLAogICAgICBzbWFydEZvcm1hdDogY29uZmlnLnNtYXJ0Rm9ybWF0ID8/IHRydWUsCiAgICAgIGVuZHBvaW50aW5nOiBjb25maWcuZW5kcG9pbnRpbmcgPz8gMzAwCiAgICB9CiAgfQoKICAvKioKICAgKiBJbml0aWFsaXplIHRoZSBwcm92aWRlcgogICAqLwogIGFzeW5jIGluaXRpYWxpemUoKTogUHJvbWlzZTx2b2lkPiB7CiAgICBpZiAoIXRoaXMuY29uZmlnLmFwaUtleSkgewogICAgICB0aHJvdyBuZXcgRXJyb3IoJ0RlZXBncmFtIEFQSSBrZXkgaXMgcmVxdWlyZWQuIFNldCBERUVQR1JBTV9BUElfS0VZIGVudmlyb25tZW50IHZhcmlhYmxlIG9yIHBhc3MgaXQgaW4gY29uZmlnLicpCiAgICB9CiAgICB0aGlzLmxvZ2dlci5pbmZvKCdEZWVwZ3JhbSBwcm92aWRlciBpbml0aWFsaXplZCcpCiAgfQoKICAvKioKICAgKiBDb25uZWN0IHRvIERlZXBncmFtIFdlYlNvY2tldCBBUEkKICAgKi8KICBhc3luYyBjb25uZWN0KCk6IFByb21pc2U8dm9pZD4gewogICAgY29uc3QgcGFyYW1zID0gbmV3IFVSTFNlYXJjaFBhcmFtcyh7CiAgICAgIG1vZGVsOiB0aGlzLmNvbmZpZy5tb2RlbCwKICAgICAgbGFuZ3VhZ2U6IHRoaXMuY29uZmlnLmxhbmd1YWdlLAogICAgICBpbnRlcmltX3Jlc3VsdHM6IFN0cmluZyh0aGlzLmNvbmZpZy5pbnRlcmltUmVzdWx0cyksCiAgICAgIHB1bmN0dWF0ZTogU3RyaW5nKHRoaXMuY29uZmlnLnB1bmN0dWF0ZSksCiAgICAgIHNtYXJ0X2Zvcm1hdDogU3RyaW5nKHRoaXMuY29uZmlnLnNtYXJ0Rm9ybWF0KSwKICAgICAgZW5kcG9pbnRpbmc6IFN0cmluZyh0aGlzLmNvbmZpZy5lbmRwb2ludGluZyksCiAgICAgIGVuY29kaW5nOiAnbGluZWFyMTYnLAogICAgICBzYW1wbGVfcmF0ZTogJzI0MDAwJywKICAgICAgY2hhbm5lbHM6ICcxJwogICAgfSkKCiAgICBjb25zdCB1cmwgPSBgd3NzOi8vYXBpLmRlZXBncmFtLmNvbS92MS9saXN0ZW4/JHtwYXJhbXMudG9TdHJpbmcoKX1gCiAgICAKICAgIHRoaXMubG9nZ2VyLmluZm8oYENvbm5lY3RpbmcgdG8gRGVlcGdyYW06ICR7dGhpcy5jb25maWcubW9kZWx9YCkKCiAgICB0cnkgewogICAgICBjb25zdCB3c01vZHVsZSA9IGF3YWl0IGltcG9ydCgnd3MnKQogICAgICB0aGlzLndzID0gbmV3IHdzTW9kdWxlLldlYlNvY2tldCh1cmwsIHsKICAgICAgICBoZWFkZXJzOiB7CiAgICAgICAgICAnQXV0aG9yaXphdGlvbic6IGBUb2tlbiAke3RoaXMuY29uZmlnLmFwaUtleX1gCiAgICAgICAgfQogICAgICB9KQoKICAgICAgcmV0dXJuIG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHsKICAgICAgICBjb25zdCBjb25uZWN0aW9uVGltZW91dCA9IHNldFRpbWVvdXQoKCkgPT4gewogICAgICAgICAgcmVqZWN0KG5ldyBFcnJvcignQ29ubmVjdGlvbiB0aW1lb3V0JykpCiAgICAgICAgfSwgMzAwMDApCgogICAgICAgIHRoaXMud3MhLm9ub3BlbiA9ICgpID0+IHsKICAgICAgICAgIGNsZWFyVGltZW91dChjb25uZWN0aW9uVGltZW91dCkKICAgICAgICAgIHRoaXMuaXNDb25uZWN0ZWQgPSB0cnVlCiAgICAgICAgICB0aGlzLmxvZ2dlci5pbmZvKCdDb25uZWN0ZWQgdG8gRGVlcGdyYW0nKQogICAgICAgICAgdGhpcy5zZXR1cEV2ZW50SGFuZGxlcnMoKQogICAgICAgICAgdGhpcy5zdGFydEtlZXBBbGl2ZSgpCiAgICAgICAgICByZXNvbHZlKCkKICAgICAgICB9CgogICAgICAgIHRoaXMud3MhLm9uZXJyb3IgPSAoZXJyb3I6IHVua25vd24pID0+IHsKICAgICAgICAgIGNsZWFyVGltZW91dChjb25uZWN0aW9uVGltZW91dCkKICAgICAgICAgIHJlamVjdChlcnJvcikKICAgICAgICB9CiAgICAgIH0pCiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICB0aGlzLmxvZ2dlci5lcnJvcignRmFpbGVkIHRvIGNvbm5lY3QgdG8gRGVlcGdyYW0nLCBlcnJvcikKICAgICAgdGhyb3cgZXJyb3IKICAgIH0KICB9CgogIC8qKgogICAqIERpc2Nvbm5lY3QgZnJvbSBEZWVwZ3JhbQogICAqLwogIGFzeW5jIGRpc2Nvbm5lY3QoKTogUHJvbWlzZTx2b2lkPiB7CiAgICB0aGlzLnN0b3BLZWVwQWxpdmUoKQogICAgaWYgKHRoaXMud3MpIHsKICAgICAgLy8gU2VuZCBjbG9zZSBzaWduYWwgdG8gRGVlcGdyYW0KICAgICAgdGhpcy53cy5zZW5kKEpTT04uc3RyaW5naWZ5KHsgdHlwZTogJ0Nsb3NlU3RyZWFtJyB9KSkKICAgICAgdGhpcy53cy5jbG9zZSgpCiAgICAgIHRoaXMud3MgPSBudWxsCiAgICB9CiAgICB0aGlzLmlzQ29ubmVjdGVkID0gZmFsc2UKICAgIHRoaXMubG9nZ2VyLmluZm8oJ0Rpc2Nvbm5lY3RlZCBmcm9tIERlZXBncmFtJykKICB9CgogIC8qKgogICAqIFNlbmQgYXVkaW8gZGF0YSB0byBEZWVwZ3JhbQogICAqLwogIGFzeW5jIHNlbmRBdWRpbyhhdWRpb0RhdGE6IFVpbnQ4QXJyYXkpOiBQcm9taXNlPHZvaWQ+IHsKICAgIGlmICghdGhpcy53cyB8fCB0aGlzLndzLnJlYWR5U3RhdGUgIT09IDEpIHsKICAgICAgdGhyb3cgbmV3IEVycm9yKCdXZWJTb2NrZXQgbm90IGNvbm5lY3RlZCcpCiAgICB9CgogICAgdGhpcy53cy5zZW5kKGF1ZGlvRGF0YSkKICB9CgogIC8qKgogICAqIFNlbmQgdGV4dCAobm90IHN1cHBvcnRlZCBieSBEZWVwZ3JhbSBTVFQpCiAgICovCiAgYXN5bmMgc2VuZFRleHQodGV4dDogc3RyaW5nKTogUHJvbWlzZTx2b2lkPiB7CiAgICAvLyBEZWVwZ3JhbSBpcyBTVFQgb25seSwgZG9lc24ndCBhY2NlcHQgdGV4dCBpbnB1dAogICAgdGhpcy5sb2dnZXIud2FybignRGVlcGdyYW0gcHJvdmlkZXIgaXMgU1RUIG9ubHkgYW5kIGRvZXMgbm90IHN1cHBvcnQgdGV4dCBpbnB1dCcpCiAgICB0aHJvdyBuZXcgRXJyb3IoJ0RlZXBncmFtIHByb3ZpZGVyIGlzIFNUVCBvbmx5LiBVc2Ugc2VuZEF1ZGlvKCkgZm9yIHNwZWVjaCBpbnB1dC4nKQogIH0KCiAgLyoqCiAgICogUmVnaXN0ZXIgcmVzcG9uc2UgY2FsbGJhY2sgKHVzZWQgZm9yIGZpbmFsIHRyYW5zY3JpcHRzKQogICAqLwogIG9uUmVzcG9uc2UoY2FsbGJhY2s6IChyZXNwb25zZTogUHJvdmlkZXJSZXNwb25zZSkgPT4gdm9pZCk6IHZvaWQgewogICAgdGhpcy5tZXNzYWdlQ2FsbGJhY2tzLnB1c2goY2FsbGJhY2spCiAgfQoKICAvKioKICAgKiBSZWdpc3RlciB0cmFuc2NyaXB0IGNhbGxiYWNrCiAgICovCiAgb25UcmFuc2NyaXB0KGNhbGxiYWNrOiAoc2VnbWVudDogVHJhbnNjcmlwdFNlZ21lbnQpID0+IHZvaWQpOiB2b2lkIHsKICAgIHRoaXMudHJhbnNjcmlwdENhbGxiYWNrcy5wdXNoKGNhbGxiYWNrKQogIH0KCiAgLyoqCiAgICogUmVnaXN0ZXIgZXJyb3IgY2FsbGJhY2sKICAgKi8KICBvbkVycm9yKGNhbGxiYWNrOiAoZXJyb3I6IEVycm9yKSA9PiB2b2lkKTogdm9pZCB7CiAgICB0aGlzLmVycm9yQ2FsbGJhY2tzLnB1c2goY2FsbGJhY2spCiAgfQoKICAvKioKICAgKiBHZXQgc3VwcG9ydGVkIG1vZGVscwogICAqLwogIGdldFN1cHBvcnRlZFZvaWNlcygpOiBWb2ljZVtdIHsKICAgIHJldHVybiBbLi4udGhpcy5zdXBwb3J0ZWRWb2ljZXNdCiAgfQoKICAvKioKICAgKiBTZXQgbW9kZWwKICAgKi8KICBzZXRWb2ljZSh2b2ljZTogVm9pY2UpOiB2b2lkIHsKICAgIGlmICghdGhpcy5zdXBwb3J0ZWRWb2ljZXMuaW5jbHVkZXModm9pY2UpKSB7CiAgICAgIHRoaXMubG9nZ2VyLndhcm4oYE1vZGVsICcke3ZvaWNlfScgbWF5IG5vdCBiZSBzdXBwb3J0ZWQgYnkgRGVlcGdyYW1gKQogICAgfQogICAgdGhpcy5jdXJyZW50Vm9pY2UgPSB2b2ljZQogICAgdGhpcy5jb25maWcubW9kZWwgPSB2b2ljZQogIH0KCiAgLyoqCiAgICogU2V0IHVwIFdlYlNvY2tldCBldmVudCBoYW5kbGVycwogICAqLwogIHByaXZhdGUgc2V0dXBFdmVudEhhbmRsZXJzKCk6IHZvaWQgewogICAgaWYgKCF0aGlzLndzKSByZXR1cm4KCiAgICB0aGlzLndzLm9ubWVzc2FnZSA9IChldmVudCkgPT4gewogICAgICB0cnkgewogICAgICAgIGNvbnN0IG1lc3NhZ2UgPSBKU09OLnBhcnNlKGV2ZW50LmRhdGEudG9TdHJpbmcoKSkKICAgICAgICB0aGlzLmhhbmRsZU1lc3NhZ2UobWVzc2FnZSkKICAgICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgICB0aGlzLmxvZ2dlci5lcnJvcignRmFpbGVkIHRvIHBhcnNlIG1lc3NhZ2UnLCBlcnJvcikKICAgICAgfQogICAgfQoKICAgIHRoaXMud3Mub25jbG9zZSA9IChldmVudCkgPT4gewogICAgICB0aGlzLmlzQ29ubmVjdGVkID0gZmFsc2UKICAgICAgdGhpcy5sb2dnZXIuaW5mbyhgV2ViU29ja2V0IGNsb3NlZDogJHtldmVudC5jb2RlfSAtICR7ZXZlbnQucmVhc29ufWApCiAgICB9CgogICAgdGhpcy53cy5vbmVycm9yID0gKGVycm9yOiB1bmtub3duKSA9PiB7CiAgICAgIHRoaXMubG9nZ2VyLmVycm9yKCdXZWJTb2NrZXQgZXJyb3InLCBlcnJvcikKICAgICAgZm9yIChjb25zdCBjYWxsYmFjayBvZiB0aGlzLmVycm9yQ2FsbGJhY2tzKSB7CiAgICAgICAgY2FsbGJhY2soZXJyb3IgaW5zdGFuY2VvZiBFcnJvciA/IGVycm9yIDogbmV3IEVycm9yKFN0cmluZyhlcnJvcikpKQogICAgICB9CiAgICB9CiAgfQoKICAvKioKICAgKiBIYW5kbGUgaW5jb21pbmcgbWVzc2FnZXMgZnJvbSBEZWVwZ3JhbQogICAqLwogIHByaXZhdGUgaGFuZGxlTWVzc2FnZShtZXNzYWdlOiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPik6IHZvaWQgewogICAgLy8gSGFuZGxlIHRyYW5zY3JpcHQgbWVzc2FnZXMKICAgIGNvbnN0IGNoYW5uZWwgPSAobWVzc2FnZS5jaGFubmVsIGFzIFJlY29yZDxzdHJpbmcsIHVua25vd24+KSB8fCB7fQogICAgY29uc3QgYWx0ZXJuYXRpdmVzID0gKGNoYW5uZWwuYWx0ZXJuYXRpdmVzIGFzIEFycmF5PFJlY29yZDxzdHJpbmcsIHVua25vd24+PikgfHwgW10KICAgIGNvbnN0IGFsdGVybmF0aXZlID0gYWx0ZXJuYXRpdmVzWzBdIHx8IHt9CiAgICAKICAgIGNvbnN0IHRyYW5zY3JpcHQgPSBhbHRlcm5hdGl2ZS50cmFuc2NyaXB0IGFzIHN0cmluZwogICAgY29uc3QgaXNGaW5hbCA9IG1lc3NhZ2UuaXNfZmluYWwgYXMgYm9vbGVhbgogICAgY29uc3Qgc3BlZWNoRmluYWwgPSBtZXNzYWdlLnNwZWVjaF9maW5hbCBhcyBib29sZWFuCiAgICBjb25zdCBjb25maWRlbmNlID0gYWx0ZXJuYXRpdmUuY29uZmlkZW5jZSBhcyBudW1iZXIKCiAgICBpZiAoIXRyYW5zY3JpcHQpIHJldHVybgoKICAgIGNvbnN0IHNlZ21lbnQ6IFRyYW5zY3JpcHRTZWdtZW50ID0gewogICAgICBpZDogKG1lc3NhZ2UuY2hhbm5lbF9pbmRleCBhcyBzdHJpbmcpIHx8IGBkZy0ke0RhdGUubm93KCl9YCwKICAgICAgdGV4dDogdHJhbnNjcmlwdCwKICAgICAgaXNGaW5hbDogaXNGaW5hbCB8fCBzcGVlY2hGaW5hbCwKICAgICAgdGltZXN0YW1wOiBEYXRlLm5vdygpLAogICAgICBjb25maWRlbmNlCiAgICB9CgogICAgLy8gRW1pdCB0cmFuc2NyaXB0CiAgICBmb3IgKGNvbnN0IGNhbGxiYWNrIG9mIHRoaXMudHJhbnNjcmlwdENhbGxiYWNrcykgewogICAgICBjYWxsYmFjayhzZWdtZW50KQogICAgfQoKICAgIC8vIElmIGZpbmFsIHRyYW5zY3JpcHQsIGFsc28gZW1pdCBhcyByZXNwb25zZSBmb3IgY29tcGF0aWJpbGl0eQogICAgaWYgKGlzRmluYWwgfHwgc3BlZWNoRmluYWwpIHsKICAgICAgY29uc3QgcmVzcG9uc2U6IFByb3ZpZGVyUmVzcG9uc2UgPSB7CiAgICAgICAgdGV4dDogdHJhbnNjcmlwdCwKICAgICAgICBkb25lOiB0cnVlCiAgICAgIH0KICAgICAgZm9yIChjb25zdCBjYWxsYmFjayBvZiB0aGlzLm1lc3NhZ2VDYWxsYmFja3MpIHsKICAgICAgICBjYWxsYmFjayhyZXNwb25zZSkKICAgICAgfQogICAgfQoKICAgIC8vIExvZyBtZXRhZGF0YSBpZiBhdmFpbGFibGUKICAgIGlmIChtZXNzYWdlLnR5cGUgPT09ICdNZXRhZGF0YScpIHsKICAgICAgdGhpcy5sb2dnZXIuZGVidWcoJ1JlY2VpdmVkIG1ldGFkYXRhOicsIG1lc3NhZ2UpCiAgICB9CiAgfQoKICAvKioKICAgKiBTdGFydCBrZWVwYWxpdmUgcGluZwogICAqLwogIHByaXZhdGUgc3RhcnRLZWVwQWxpdmUoKTogdm9pZCB7CiAgICB0aGlzLmtlZXBBbGl2ZUludGVydmFsID0gc2V0SW50ZXJ2YWwoKCkgPT4gewogICAgICBpZiAodGhpcy53cyAmJiB0aGlzLndzLnJlYWR5U3RhdGUgPT09IDEpIHsKICAgICAgICB0aGlzLndzLnNlbmQoSlNPTi5zdHJpbmdpZnkoeyB0eXBlOiAnS2VlcEFsaXZlJyB9KSkKICAgICAgfQogICAgfSwgODAwMCkgLy8gRGVlcGdyYW0gcmVjb21tZW5kcyA4LTEwIHNlY29uZHMKICB9CgogIC8qKgogICAqIFN0b3Aga2VlcGFsaXZlIHBpbmcKICAgKi8KICBwcml2YXRlIHN0b3BLZWVwQWxpdmUoKTogdm9pZCB7CiAgICBpZiAodGhpcy5rZWVwQWxpdmVJbnRlcnZhbCkgewogICAgICBjbGVhckludGVydmFsKHRoaXMua2VlcEFsaXZlSW50ZXJ2YWwpCiAgICAgIHRoaXMua2VlcEFsaXZlSW50ZXJ2YWwgPSBudWxsCiAgICB9CiAgfQp9Cg==
+/**
+ * Deepgram Provider for VoxKit
+ * Implements STT using Deepgram's Nova-2 model
+ */
+
+import type { WebSocket as WsWebSocket } from 'ws'
+import type { 
+  AIProvider, 
+  Voice, 
+  TranscriptSegment, 
+  ProviderResponse 
+} from '../types.js'
+import { logger } from '../logger.js'
+
+export interface DeepgramProviderConfig {
+  apiKey?: string
+  model?: string
+  language?: string
+  interimResults?: boolean
+  punctuate?: boolean
+  smartFormat?: boolean
+  endpointing?: number
+}
+
+/**
+ * Deepgram Provider for Speech-to-Text
+ * Uses Deepgram's WebSocket API for realtime transcription
+ */
+export class DeepgramProvider implements AIProvider {
+  name = 'deepgram'
+  
+  private config: Required<DeepgramProviderConfig>
+  private ws: WsWebSocket | null = null
+  private messageCallbacks: Array<(response: ProviderResponse) => void> = []
+  private transcriptCallbacks: Array<(segment: TranscriptSegment) => void> = []
+  private errorCallbacks: Array<(error: Error) => void> = []
+  private logger = logger.child('deepgram-provider')
+  private isConnected = false
+  private currentVoice: Voice = 'alloy'
+  private keepAliveInterval: NodeJS.Timeout | null = null
+
+  private readonly supportedVoices: Voice[] = ['nova-2', 'nova', 'enhanced', 'base']
+
+  constructor(config: DeepgramProviderConfig = {}) {
+    this.config = {
+      apiKey: config.apiKey ?? process.env.DEEPGRAM_API_KEY ?? '',
+      model: config.model ?? 'nova-2',
+      language: config.language ?? 'en-US',
+      interimResults: config.interimResults ?? true,
+      punctuate: config.punctuate ?? true,
+      smartFormat: config.smartFormat ?? true,
+      endpointing: config.endpointing ?? 300
+    }
+  }
+
+  /**
+   * Initialize the provider
+   */
+  async initialize(): Promise<void> {
+    if (!this.config.apiKey) {
+      throw new Error('Deepgram API key is required. Set DEEPGRAM_API_KEY environment variable or pass it in config.')
+    }
+    this.logger.info('Deepgram provider initialized')
+  }
+
+  /**
+   * Connect to Deepgram WebSocket API
+   */
+  async connect(): Promise<void> {
+    const params = new URLSearchParams({
+      model: this.config.model,
+      language: this.config.language,
+      interim_results: String(this.config.interimResults),
+      punctuate: String(this.config.punctuate),
+      smart_format: String(this.config.smartFormat),
+      endpointing: String(this.config.endpointing),
+      encoding: 'linear16',
+      sample_rate: '24000',
+      channels: '1'
+    })
+
+    const url = `wss://api.deepgram.com/v1/listen?${params.toString()}`
+    
+    this.logger.info(`Connecting to Deepgram: ${this.config.model}`)
+
+    try {
+      const wsModule = await import('ws')
+      this.ws = new wsModule.WebSocket(url, {
+        headers: {
+          'Authorization': `Token ${this.config.apiKey}`
+        }
+      })
+
+      return new Promise((resolve, reject) => {
+        const connectionTimeout = setTimeout(() => {
+          reject(new Error('Connection timeout'))
+        }, 30000)
+
+        this.ws!.onopen = () => {
+          clearTimeout(connectionTimeout)
+          this.isConnected = true
+          this.logger.info('Connected to Deepgram')
+          this.setupEventHandlers()
+          this.startKeepAlive()
+          resolve()
+        }
+
+        this.ws!.onerror = (error: unknown) => {
+          clearTimeout(connectionTimeout)
+          reject(error)
+        }
+      })
+    } catch (error) {
+      this.logger.error('Failed to connect to Deepgram', error)
+      throw error
+    }
+  }
+
+  /**
+   * Disconnect from Deepgram
+   */
+  async disconnect(): Promise<void> {
+    this.stopKeepAlive()
+    if (this.ws) {
+      // Send close signal to Deepgram
+      this.ws.send(JSON.stringify({ type: 'CloseStream' }))
+      this.ws.close()
+      this.ws = null
+    }
+    this.isConnected = false
+    this.logger.info('Disconnected from Deepgram')
+  }
+
+  /**
+   * Send audio data to Deepgram
+   */
+  async sendAudio(audioData: Uint8Array): Promise<void> {
+    if (!this.ws || this.ws.readyState !== 1) {
+      throw new Error('WebSocket not connected')
+    }
+
+    this.ws.send(audioData)
+  }
+
+  /**
+   * Send text (not supported by Deepgram STT)
+   */
+  async sendText(text: string): Promise<void> {
+    // Deepgram is STT only, doesn't accept text input
+    this.logger.warn('Deepgram provider is STT only and does not support text input')
+    throw new Error('Deepgram provider is STT only. Use sendAudio() for speech input.')
+  }
+
+  /**
+   * Register response callback (used for final transcripts)
+   */
+  onResponse(callback: (response: ProviderResponse) => void): void {
+    this.messageCallbacks.push(callback)
+  }
+
+  /**
+   * Register transcript callback
+   */
+  onTranscript(callback: (segment: TranscriptSegment) => void): void {
+    this.transcriptCallbacks.push(callback)
+  }
+
+  /**
+   * Register error callback
+   */
+  onError(callback: (error: Error) => void): void {
+    this.errorCallbacks.push(callback)
+  }
+
+  /**
+   * Get supported models
+   */
+  getSupportedVoices(): Voice[] {
+    return [...this.supportedVoices]
+  }
+
+  /**
+   * Set model
+   */
+  setVoice(voice: Voice): void {
+    if (!this.supportedVoices.includes(voice)) {
+      this.logger.warn(`Model '${voice}' may not be supported by Deepgram`)
+    }
+    this.currentVoice = voice
+    this.config.model = voice
+  }
+
+  /**
+   * Set up WebSocket event handlers
+   */
+  private setupEventHandlers(): void {
+    if (!this.ws) return
+
+    this.ws.onmessage = (event) => {
+      try {
+        const message = JSON.parse(event.data.toString())
+        this.handleMessage(message)
+      } catch (error) {
+        this.logger.error('Failed to parse message', error)
+      }
+    }
+
+    this.ws.onclose = (event) => {
+      this.isConnected = false
+      this.logger.info(`WebSocket closed: ${event.code} - ${event.reason}`)
+    }
+
+    this.ws.onerror = (error: unknown) => {
+      this.logger.error('WebSocket error', error)
+      for (const callback of this.errorCallbacks) {
+        callback(error instanceof Error ? error : new Error(String(error)))
+      }
+    }
+  }
+
+  /**
+   * Handle incoming messages from Deepgram
+   */
+  private handleMessage(message: Record<string, unknown>): void {
+    // Handle transcript messages
+    const channel = (message.channel as Record<string, unknown>) || {}
+    const alternatives = (channel.alternatives as Array<Record<string, unknown>>) || []
+    const alternative = alternatives[0] || {}
+    
+    const transcript = alternative.transcript as string
+    const isFinal = message.is_final as boolean
+    const speechFinal = message.speech_final as boolean
+    const confidence = alternative.confidence as number
+
+    if (!transcript) return
+
+    const segment: TranscriptSegment = {
+      id: (message.channel_index as string) || `dg-${Date.now()}`,
+      text: transcript,
+      isFinal: isFinal || speechFinal,
+      timestamp: Date.now(),
+      confidence
+    }
+
+    // Emit transcript
+    for (const callback of this.transcriptCallbacks) {
+      callback(segment)
+    }
+
+    // If final transcript, also emit as response for compatibility
+    if (isFinal || speechFinal) {
+      const response: ProviderResponse = {
+        text: transcript,
+        done: true
+      }
+      for (const callback of this.messageCallbacks) {
+        callback(response)
+      }
+    }
+
+    // Log metadata if available
+    if (message.type === 'Metadata') {
+      this.logger.debug('Received metadata:', message)
+    }
+  }
+
+  /**
+   * Start keepalive ping
+   */
+  private startKeepAlive(): void {
+    this.keepAliveInterval = setInterval(() => {
+      if (this.ws && this.ws.readyState === 1) {
+        this.ws.send(JSON.stringify({ type: 'KeepAlive' }))
+      }
+    }, 8000) // Deepgram recommends 8-10 seconds
+  }
+
+  /**
+   * Stop keepalive ping
+   */
+  private stopKeepAlive(): void {
+    if (this.keepAliveInterval) {
+      clearInterval(this.keepAliveInterval)
+      this.keepAliveInterval = null
+    }
+  }
+}

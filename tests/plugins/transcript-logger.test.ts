@@ -1,1 +1,41 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QsIHZpLCBiZWZvcmVFYWNoLCBhZnRlckVhY2ggfSBmcm9tICd2aXRlc3QnCmltcG9ydCB7IFRyYW5zY3JpcHRMb2dnZXJQbHVnaW4gfSBmcm9tICcuLi8uLi9zcmMvcGx1Z2lucy90cmFuc2NyaXB0LWxvZ2dlci5qcycKaW1wb3J0IEV2ZW50RW1pdHRlciBmcm9tICdldmVudHMnCgpjb25zdCBhZ2VudFN0dWIgPSBuZXcgRXZlbnRFbWl0dGVyKCkgYXMgdW5rbm93biBhcyBpbXBvcnQoJy4uLy4uL3NyYy90eXBlcy5qcycpLlZveEFnZW50CgpkZXNjcmliZSgnVHJhbnNjcmlwdExvZ2dlclBsdWdpbicsICgpID0+IHsKICBsZXQgcGx1Z2luOiBUcmFuc2NyaXB0TG9nZ2VyUGx1Z2luCiAgbGV0IGNvbnNvbGVTcHk6IFJldHVyblR5cGU8dHlwZW9mIHZpLnNweU9uPgoKICBiZWZvcmVFYWNoKCgpID0+IHsKICAgIHBsdWdpbiA9IG5ldyBUcmFuc2NyaXB0TG9nZ2VyUGx1Z2luKHsgdGltZXN0YW1wczogZmFsc2UsIHRhZzogJ1t0ZXN0XScgfSkKICAgIHBsdWdpbi5pbml0aWFsaXplKGFnZW50U3R1YikKICAgIGNvbnNvbGVTcHkgPSB2aS5zcHlPbihjb25zb2xlLCAnbG9nJykubW9ja0ltcGxlbWVudGF0aW9uKCgpID0+IHt9KQogIH0pCgogIGFmdGVyRWFjaCgoKSA9PiB7CiAgICBjb25zb2xlU3B5Lm1vY2tSZXN0b3JlKCkKICB9KQoKICBpdCgnbG9ncyB1c2VyIG1lc3NhZ2VzIHRvIGNvbnNvbGUnLCAoKSA9PiB7CiAgICBwbHVnaW4ub25NZXNzYWdlISh7IHJvbGU6ICd1c2VyJywgY29udGVudDogJ0hlbGxvIHBsdWdpbicsIHRpbWVzdGFtcDogRGF0ZS5ub3coKSB9KQogICAgZXhwZWN0KGNvbnNvbGVTcHkpLnRvSGF2ZUJlZW5DYWxsZWQoKQogICAgY29uc3QgY2FsbEFyZzogc3RyaW5nID0gY29uc29sZVNweS5tb2NrLmNhbGxzWzBdWzBdCiAgICBleHBlY3QoY2FsbEFyZykudG9Db250YWluKCdbdGVzdF0nKQogICAgZXhwZWN0KGNhbGxBcmcpLnRvQ29udGFpbignSGVsbG8gcGx1Z2luJykKICB9KQoKICBpdCgnbG9ncyBhc3Npc3RhbnQgbWVzc2FnZXMgd2l0aCByb2xlIGxhYmVsJywgKCkgPT4gewogICAgcGx1Z2luLm9uTWVzc2FnZSEoeyByb2xlOiAnYXNzaXN0YW50JywgY29udGVudDogJ1Jlc3BvbnNlJywgdGltZXN0YW1wOiBEYXRlLm5vdygpIH0pCiAgICBjb25zdCBjYWxsQXJnOiBzdHJpbmcgPSBjb25zb2xlU3B5Lm1vY2suY2FsbHNbMF1bMF0KICAgIGV4cGVjdChjYWxsQXJnKS50b0NvbnRhaW4oJ2Fzc2lzdGFudCcpCiAgfSkKCiAgaXQoJ3dyaXRlcyBpbnRlcmltIHRyYW5zY3JpcHQgdG8gc3Rkb3V0JywgKCkgPT4gewogICAgY29uc3Qgc3Rkb3V0U3B5ID0gdmkuc3B5T24ocHJvY2Vzcy5zdGRvdXQsICd3cml0ZScpLm1vY2tJbXBsZW1lbnRhdGlvbigoKSA9PiB0cnVlKQogICAgcGx1Z2luLm9uVHJhbnNjcmlwdCEoeyBpZDogJzEnLCB0ZXh0OiAnaW50ZXJpbSB0ZXh0JywgaXNGaW5hbDogZmFsc2UsIHRpbWVzdGFtcDogRGF0ZS5ub3coKSB9KQogICAgZXhwZWN0KHN0ZG91dFNweSkudG9IYXZlQmVlbkNhbGxlZCgpCiAgICBzdGRvdXRTcHkubW9ja1Jlc3RvcmUoKQogIH0pCn0pCg==
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
+import { TranscriptLoggerPlugin } from '../../src/plugins/transcript-logger.js'
+import EventEmitter from 'events'
+
+const agentStub = new EventEmitter() as unknown as import('../../src/types.js').VoxAgent
+
+describe('TranscriptLoggerPlugin', () => {
+  let plugin: TranscriptLoggerPlugin
+  let consoleSpy: ReturnType<typeof vi.spyOn>
+
+  beforeEach(() => {
+    plugin = new TranscriptLoggerPlugin({ timestamps: false, tag: '[test]' })
+    plugin.initialize(agentStub)
+    consoleSpy = vi.spyOn(console, 'log').mockImplementation(() => {})
+  })
+
+  afterEach(() => {
+    consoleSpy.mockRestore()
+  })
+
+  it('logs user messages to console', () => {
+    plugin.onMessage!({ role: 'user', content: 'Hello plugin', timestamp: Date.now() })
+    expect(consoleSpy).toHaveBeenCalled()
+    const callArg: string = consoleSpy.mock.calls[0][0]
+    expect(callArg).toContain('[test]')
+    expect(callArg).toContain('Hello plugin')
+  })
+
+  it('logs assistant messages with role label', () => {
+    plugin.onMessage!({ role: 'assistant', content: 'Response', timestamp: Date.now() })
+    const callArg: string = consoleSpy.mock.calls[0][0]
+    expect(callArg).toContain('assistant')
+  })
+
+  it('writes interim transcript to stdout', () => {
+    const stdoutSpy = vi.spyOn(process.stdout, 'write').mockImplementation(() => true)
+    plugin.onTranscript!({ id: '1', text: 'interim text', isFinal: false, timestamp: Date.now() })
+    expect(stdoutSpy).toHaveBeenCalled()
+    stdoutSpy.mockRestore()
+  })
+})

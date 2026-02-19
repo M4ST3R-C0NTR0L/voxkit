@@ -1,1 +1,45 @@
-IyBSZWFsIEVzdGF0ZSBWb2ljZSBBZ2VudAoKQSBwcm9kdWN0aW9uLXJlYWR5IHZvaWNlIGFnZW50IGZvciByZWFsIGVzdGF0ZSBjb21wYW5pZXMgYnVpbHQgd2l0aCBWb3hLaXQuCgojIyBGZWF0dXJlcwoKLSDwn4+hICoqTGVhZCBxdWFsaWZpY2F0aW9uKiog4oCUIGFza3MgYWJvdXQgYnVkZ2V0LCBsb2NhdGlvbiwgdGltZWxpbmUKLSDwn5OLICoqTGVhZCBjYXB0dXJlKiog4oCUIGV4dHJhY3RzIG5hbWUsIGVtYWlsLCBwaG9uZSBhdXRvbWF0aWNhbGx5Ci0g8J+UlCAqKlNsYWNrIG5vdGlmaWNhdGlvbnMqKiDigJQgcGluZ3MgeW91ciB0ZWFtIG9uIGV2ZXJ5IG5ldyBsZWFkCi0g8J+UlyAqKkNSTSB3ZWJob29rKiog4oCUIFBPU1RzIGxlYWRzIHRvIHlvdXIgQ1JNCi0g8J+TnSAqKlRyYW5zY3JpcHQgbG9nZ2luZyoqIOKAlCBzYXZlcyBldmVyeSBjb252ZXJzYXRpb24gdG8gZGlzawotIPCfk4ogKipTZXNzaW9uIG1ldHJpY3MqKiDigJQgdHJhY2tzIHR1cm5zLCB0b2tlbnMsIGNvbnZlcnNpb24gcmF0ZQoKIyMgU2V0dXAKCmBgYGJhc2gKbnBtIGluc3RhbGwKY3AgLmVudi5leGFtcGxlIC5lbnYKIyBGaWxsIGluIHlvdXIgQVBJIGtleXMKbnBtIHJ1biBkZXYKYGBgCgojIyBFbnZpcm9ubWVudCBWYXJpYWJsZXMKCmBgYApPUEVOQUlfQVBJX0tFWT1zay0uLi4KUE9SVD0zMDAwCgojIE9wdGlvbmFsIGludGVncmF0aW9ucwpDUk1fV0VCSE9PS19VUkw9aHR0cHM6Ly95b3VyLWNybS5jb20vd2ViaG9vay9sZWFkcwpDUk1fV0VCSE9PS19TRUNSRVQ9eW91ci13ZWJob29rLXNlY3JldApTTEFDS19XRUJIT09LX1VSTD1odHRwczovL2hvb2tzLnNsYWNrLmNvbS9zZXJ2aWNlcy8uLi4KYGBgCgojIyBBcmNoaXRlY3R1cmUKCmBgYApDYWxsZXIgKFdlYlNvY2tldCkg4oaSIFZveEFnZW50IOKGkiBPcGVuQUkgUmVhbHRpbWUgQVBJCiAgICAgICAgICAgICAgICAgICAgICAgICDihpMKICAgICAgICAgICAgICAgICAgIExlYWRFeHRyYWN0b3Ig4oaSIENSTSBXZWJob29rCiAgICAgICAgICAgICAgICAgICAgICAgICDihpMKICAgICAgICAgICAgICAgICAgIFNsYWNrTm90aWZpZXIg4oaSICNsZWFkcyBjaGFubmVsCiAgICAgICAgICAgICAgICAgICAgICAgICDihpMKICAgICAgICAgICAgICAgICAgIFRyYW5zY3JpcHRMb2dnZXIg4oaSIC4vdHJhbnNjcmlwdHMuanNvbmwKYGBgCg==
+# Real Estate Voice Agent
+
+A production-ready voice agent for real estate companies built with VoxKit.
+
+## Features
+
+- 🏡 **Lead qualification** — asks about budget, location, timeline
+- 📋 **Lead capture** — extracts name, email, phone automatically
+- 🔔 **Slack notifications** — pings your team on every new lead
+- 🔗 **CRM webhook** — POSTs leads to your CRM
+- 📝 **Transcript logging** — saves every conversation to disk
+- 📊 **Session metrics** — tracks turns, tokens, conversion rate
+
+## Setup
+
+```bash
+npm install
+cp .env.example .env
+# Fill in your API keys
+npm run dev
+```
+
+## Environment Variables
+
+```
+OPENAI_API_KEY=sk-...
+PORT=3000
+
+# Optional integrations
+CRM_WEBHOOK_URL=https://your-crm.com/webhook/leads
+CRM_WEBHOOK_SECRET=your-webhook-secret
+SLACK_WEBHOOK_URL=https://hooks.slack.com/services/...
+```
+
+## Architecture
+
+```
+Caller (WebSocket) → VoxAgent → OpenAI Realtime API
+                         ↓
+                   LeadExtractor → CRM Webhook
+                         ↓
+                   SlackNotifier → #leads channel
+                         ↓
+                   TranscriptLogger → ./transcripts.jsonl
+```

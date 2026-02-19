@@ -1,1 +1,162 @@
-LyoqCiAqIFJlYWwgRXN0YXRlIFZvaWNlIEFnZW50IEV4YW1wbGUKICoKICogQSBwcm9kdWN0aW9uLXJlYWR5IHZvaWNlIGFnZW50IGZvciByZWFsIGVzdGF0ZSBjb21wYW5pZXMuCiAqIFF1YWxpZmllcyBsZWFkcywgYW5zd2VycyBwcm9wZXJ0eSBxdWVzdGlvbnMsIGFuZCBjYXB0dXJlcwogKiBjb250YWN0IGRldGFpbHMg4oCUIGF1dG9tYXRpY2FsbHkuCiAqLwoKaW1wb3J0IHsgVm94QWdlbnQsIE9wZW5BSVByb3ZpZGVyIH0gZnJvbSAndm94a2l0JwppbXBvcnQgewogIFRyYW5zY3JpcHRMb2dnZXJQbHVnaW4sCiAgTGVhZFdlYmhvb2tQbHVnaW4sCiAgU2xhY2tOb3RpZmllclBsdWdpbiwKICBNZXRyaWNzUGx1Z2luLAogIHR5cGUgU2Vzc2lvbk1ldHJpY3MKfSBmcm9tICd2b3hraXQnCmltcG9ydCB0eXBlIHsgTGVhZEluZm8sIENvbnZlcnNhdGlvblN0YXRlIH0gZnJvbSAndm94a2l0JwoKLy8g4pSA4pSA4pSAIENvbmZpZ3VyYXRpb24g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpjb25zdCBTWVNURU1fUFJPTVBUID0gYApZb3UgYXJlIEFsZXgsIGEgZnJpZW5kbHkgYW5kIGtub3dsZWRnZWFibGUgcmVhbCBlc3RhdGUgYXNzaXN0YW50IGZvciBQcmVzdGlnZSBSZWFsdHkuCgpZb3VyIGdvYWxzOgoxLiBXYXJtbHkgZ3JlZXQgY2FsbGVycyBhbmQgdW5kZXJzdGFuZCB3aGF0IHRoZXkncmUgbG9va2luZyBmb3IgKGJ1eWluZywgc2VsbGluZywgb3IgcmVudGluZykKMi4gQXNrIGFib3V0IHRoZWlyIGJ1ZGdldCwgcHJlZmVycmVkIGxvY2F0aW9uLCBhbmQgdGltZWxpbmUKMy4gQ29sbGVjdCB0aGVpciBuYW1lLCBlbWFpbCwgYW5kIHBob25lIG51bWJlciBuYXR1cmFsbHkgZHVyaW5nIHRoZSBjb252ZXJzYXRpb24KNC4gQW5zd2VyIGNvbW1vbiByZWFsIGVzdGF0ZSBxdWVzdGlvbnMgKG1hcmtldCBjb25kaXRpb25zLCBwcm9jZXNzLCBmaW5hbmNpbmcgYmFzaWNzKQo1LiBTY2hlZHVsZSBjYWxsYmFja3Mgd2l0aCBvdXIgaHVtYW4gYWdlbnRzIGZvciBzZXJpb3VzIGJ1eWVycy9zZWxsZXJzCgpQZXJzb25hbGl0eTogUHJvZmVzc2lvbmFsLCB3YXJtLCBjb25jaXNlLiBOZXZlciBwdXNoeS4KQWx3YXlzIGVuZCBieSBjb25maXJtaW5nIGNvbnRhY3QgZGV0YWlscyBhbmQgbmV4dCBzdGVwcy4KYC50cmltKCkKCi8vIOKUgOKUgOKUgCBMZWFkIFN0b3JhZ2UgKHJlcGxhY2Ugd2l0aCB5b3VyIENSTS9kYXRhYmFzZSkg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgppbnRlcmZhY2UgU3RvcmVkTGVhZCBleHRlbmRzIExlYWRJbmZvIHsKICBjb252ZXJzYXRpb25JZDogc3RyaW5nCiAgY2FwdHVyZWRBdDogc3RyaW5nCiAgc291cmNlOiBzdHJpbmcKfQoKY29uc3QgbGVhZHM6IFN0b3JlZExlYWRbXSA9IFtdCgphc3luYyBmdW5jdGlvbiBzYXZlTGVhZChsZWFkOiBMZWFkSW5mbywgY29udmVyc2F0aW9uOiBDb252ZXJzYXRpb25TdGF0ZSk6IFByb21pc2U8dm9pZD4gewogIGNvbnN0IHN0b3JlZDogU3RvcmVkTGVhZCA9IHsKICAgIC4uLmxlYWQsCiAgICBjb252ZXJzYXRpb25JZDogY29udmVyc2F0aW9uLmlkLAogICAgY2FwdHVyZWRBdDogbmV3IERhdGUoKS50b0lTT1N0cmluZygpLAogICAgc291cmNlOiAndm9pY2UtYWdlbnQnCiAgfQogIGxlYWRzLnB1c2goc3RvcmVkKQoKICBjb25zb2xlLmxvZygnXG7ilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIHilIEnKQogIGNvbnNvbGUubG9nKCfwn5OLIE5FVyBMRUFEIENBUFRVUkVEJykKICBjb25zb2xlLmxvZygn4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSBJykKICBpZiAobGVhZC5uYW1lKSAgICBjb25zb2xlLmxvZyhgICBOYW1lOiAgICAke2xlYWQubmFtZX1gKQogIGlmIChsZWFkLmVtYWlsKSAgIGNvbnNvbGUubG9nKGAgIEVtYWlsOiAgICR7bGVhZC5lbWFpbH1gKQogIGlmIChsZWFkLnBob25lKSAgIGNvbnNvbGUubG9nKGAgIFBob25lOiAgICR7bGVhZC5waG9uZX1gKQogIGlmIChsZWFkLmNvbXBhbnkpIGNvbnNvbGUubG9nKGAgIENvbXBhbnk6ICR7bGVhZC5jb21wYW55fWApCiAgY29uc29sZS5sb2coYCAgQ29udiBJRDogJHtjb252ZXJzYXRpb24uaWR9YCkKICBjb25zb2xlLmxvZygn4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSB4pSBXG4nKQoKICAvLyBUT0RPOiBSZXBsYWNlIHdpdGggeW91ciBDUk0gaW50ZWdyYXRpb246CiAgLy8gYXdhaXQgY3JtQ2xpZW50LmNyZWF0ZUNvbnRhY3Qoc3RvcmVkKQogIC8vIGF3YWl0IHNlbmRDb25maXJtYXRpb25FbWFpbChzdG9yZWQpCn0KCi8vIOKUgOKUgOKUgCBCdWlsZCB0aGUgQWdlbnQg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpjb25zdCBhZ2VudCA9IG5ldyBWb3hBZ2VudCh7CiAgcHJvdmlkZXI6IG5ldyBPcGVuQUlQcm92aWRlcih7CiAgICBtb2RlbDogJ2dwdC00by1yZWFsdGltZS1wcmV2aWV3LTIwMjQtMTItMTcnLAogICAgdGVtcGVyYXR1cmU6IDAuNwogIH0pLAogIHZvaWNlOiAnbm92YScsICAgICAgICAgICAgIC8vIFdhcm0sIHByb2Zlc3Npb25hbCB2b2ljZQogIHN5c3RlbVByb21wdDogU1lTVEVNX1BST01QVCwKICBlbmFibGVMZWFkRXh0cmFjdGlvbjogdHJ1ZSwKICBzaWxlbmNlVGltZW91dE1zOiA0NV8wMDAsICAvLyA0NXMg4oCUIGNhbGxlcnMgc29tZXRpbWVzIHBhdXNlIHRvIHRoaW5rCgogIG9uVHJhbnNjcmlwdDogKHRleHQpID0+IHsKICAgIHByb2Nlc3Muc3Rkb3V0LndyaXRlKGBcciAg8J+OpCAgJHt0ZXh0LnNsaWNlKDAsIDgwKX0ke3RleHQubGVuZ3RoID4gODAgPyAn4oCmJyA6ICcnfWApCiAgfSwKCiAgb25SZXNwb25zZTogKHRleHQpID0+IHsKICAgIGNvbnNvbGUubG9nKGBcbiAg8J+PoCAgJHt0ZXh0fWApCiAgfSwKCiAgb25MZWFkOiBzYXZlTGVhZCwKCiAgb25Db25uZWN0OiAoY29ubmVjdGVkKSA9PiB7CiAgICBpZiAoY29ubmVjdGVkKSB7CiAgICAgIGNvbnNvbGUubG9nKCdcbuKchSBSZWFsIEVzdGF0ZSBBZ2VudCBvbmxpbmUg4oCUIHJlYWR5IGZvciBjYWxsc1xuJykKICAgIH0KICB9LAoKICBvbkVycm9yOiAoZXJyb3IsIGNvbnRleHQpID0+IHsKICAgIGNvbnNvbGUuZXJyb3IoYFxu4p2MIFske2NvbnRleHR9XSAke2Vycm9yLm1lc3NhZ2V9YCkKICB9Cn0pCgovLyDilIDilIDilIAgUGx1Z2lucyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCi8vIExvZyBmdWxsIHRyYW5zY3JpcHRzIHRvIGZpbGUgZm9yIGNvbXBsaWFuY2UvcmV2aWV3CmFnZW50LnVzZShuZXcgVHJhbnNjcmlwdExvZ2dlclBsdWdpbih7CiAgZmlsZVBhdGg6ICcuL3RyYW5zY3JpcHRzLmpzb25sJywKICB0aW1lc3RhbXBzOiB0cnVlCn0pKQoKLy8gUHVzaCBsZWFkcyB0byB5b3VyIENSTSB3ZWJob29rCmlmIChwcm9jZXNzLmVudi5DUk1fV0VCSE9PS19VUkwpIHsKICBhZ2VudC51c2UobmV3IExlYWRXZWJob29rUGx1Z2luKHsKICAgIHVybDogcHJvY2Vzcy5lbnYuQ1JNX1dFQkhPT0tfVVJMLAogICAgc2VjcmV0OiBwcm9jZXNzLmVudi5DUk1fV0VCSE9PS19TRUNSRVQsCiAgICByZXRyaWVzOiAzCiAgfSkpCn0KCi8vIFBpbmcgU2xhY2sgb24gZXZlcnkgbmV3IGxlYWQKaWYgKHByb2Nlc3MuZW52LlNMQUNLX1dFQkhPT0tfVVJMKSB7CiAgYWdlbnQudXNlKG5ldyBTbGFja05vdGlmaWVyUGx1Z2luKHsKICAgIHdlYmhvb2tVcmw6IHByb2Nlc3MuZW52LlNMQUNLX1dFQkhPT0tfVVJMLAogICAgZW1vamk6ICc6aG91c2U6JwogIH0pKQp9CgovLyBTZXNzaW9uIG1ldHJpY3MKY29uc3QgbWV0cmljcyA9IG5ldyBNZXRyaWNzUGx1Z2luKHsgcHJpbnRTdW1tYXJ5OiB0cnVlIH0pCmFnZW50LnVzZShtZXRyaWNzKQoKLy8g4pSA4pSA4pSAIFN0YXJ0IOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKY29uc3QgUE9SVCA9IHByb2Nlc3MuZW52LlBPUlQgPyBwYXJzZUludChwcm9jZXNzLmVudi5QT1JUKSA6IDMwMDAKCmNvbnNvbGUubG9nKCdcbvCfj6EgUHJlc3RpZ2UgUmVhbHR5IOKAlCBWb2ljZSBBZ2VudCcpCmNvbnNvbGUubG9nKCfilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZAnKQoKYWdlbnQubGlzdGVuKFBPUlQpCiAgLnRoZW4oKCkgPT4gewogICAgY29uc29sZS5sb2coYPCflJcgV2ViU29ja2V0OiB3czovL2xvY2FsaG9zdDoke1BPUlR9YCkKICAgIGNvbnNvbGUubG9nKCdcbkluc3RydWN0aW9uczonKQogICAgY29uc29sZS5sb2coJyAg4oCiIENvbm5lY3QgYSBXZWJSVEMvV2ViU29ja2V0IGNsaWVudCBmb3IgbGl2ZSBjYWxscycpCiAgICBjb25zb2xlLmxvZygnICDigKIgT3IgdXNlIHRoZSB0ZXN0IHNjcmlwdDogbnBtIHJ1biB0ZXN0OmNhbGxcbicpCiAgfSkKICAuY2F0Y2goKGVycikgPT4gewogICAgY29uc29sZS5lcnJvcignRmFpbGVkIHRvIHN0YXJ0IGFnZW50OicsIGVycikKICAgIHByb2Nlc3MuZXhpdCgxKQogIH0pCgovLyDilIDilIDilIAgR3JhY2VmdWwgU2h1dGRvd24g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpjb25zdCBzaHV0ZG93biA9IGFzeW5jIChzaWduYWw6IHN0cmluZykgPT4gewogIGNvbnNvbGUubG9nKGBcblske3NpZ25hbH1dIFNodXR0aW5nIGRvd24gZ3JhY2VmdWxseS4uLmApCiAgYXdhaXQgYWdlbnQuc3RvcCgpCgogIGNvbnN0IG06IFNlc3Npb25NZXRyaWNzID0gbWV0cmljcy5nZXRNZXRyaWNzKCkgYXMgU2Vzc2lvbk1ldHJpY3MKICBjb25zb2xlLmxvZyhgXG7wn5OKIEZpbmFsIHN0YXRzOiAke2xlYWRzLmxlbmd0aH0gbGVhZHMgY2FwdHVyZWQgYWNyb3NzICR7bS50dXJuQ291bnR9IHR1cm5zYCkKICBwcm9jZXNzLmV4aXQoMCkKfQoKcHJvY2Vzcy5vbignU0lHSU5UJywgICgpID0+IHNodXRkb3duKCdTSUdJTlQnKSkKcHJvY2Vzcy5vbignU0lHVEVSTScsICgpID0+IHNodXRkb3duKCdTSUdURVJNJykpCg==
+/**
+ * Real Estate Voice Agent Example
+ *
+ * A production-ready voice agent for real estate companies.
+ * Qualifies leads, answers property questions, and captures
+ * contact details — automatically.
+ */
+
+import { VoxAgent, OpenAIProvider } from 'voxkit'
+import {
+  TranscriptLoggerPlugin,
+  LeadWebhookPlugin,
+  SlackNotifierPlugin,
+  MetricsPlugin,
+  type SessionMetrics
+} from 'voxkit'
+import type { LeadInfo, ConversationState } from 'voxkit'
+
+// ─── Configuration ───────────────────────────────────────────────────────────
+
+const SYSTEM_PROMPT = `
+You are Alex, a friendly and knowledgeable real estate assistant for Prestige Realty.
+
+Your goals:
+1. Warmly greet callers and understand what they're looking for (buying, selling, or renting)
+2. Ask about their budget, preferred location, and timeline
+3. Collect their name, email, and phone number naturally during the conversation
+4. Answer common real estate questions (market conditions, process, financing basics)
+5. Schedule callbacks with our human agents for serious buyers/sellers
+
+Personality: Professional, warm, concise. Never pushy.
+Always end by confirming contact details and next steps.
+`.trim()
+
+// ─── Lead Storage (replace with your CRM/database) ────────────────────────
+
+interface StoredLead extends LeadInfo {
+  conversationId: string
+  capturedAt: string
+  source: string
+}
+
+const leads: StoredLead[] = []
+
+async function saveLead(lead: LeadInfo, conversation: ConversationState): Promise<void> {
+  const stored: StoredLead = {
+    ...lead,
+    conversationId: conversation.id,
+    capturedAt: new Date().toISOString(),
+    source: 'voice-agent'
+  }
+  leads.push(stored)
+
+  console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+  console.log('📋 NEW LEAD CAPTURED')
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+  if (lead.name)    console.log(`  Name:    ${lead.name}`)
+  if (lead.email)   console.log(`  Email:   ${lead.email}`)
+  if (lead.phone)   console.log(`  Phone:   ${lead.phone}`)
+  if (lead.company) console.log(`  Company: ${lead.company}`)
+  console.log(`  Conv ID: ${conversation.id}`)
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n')
+
+  // TODO: Replace with your CRM integration:
+  // await crmClient.createContact(stored)
+  // await sendConfirmationEmail(stored)
+}
+
+// ─── Build the Agent ──────────────────────────────────────────────────────────
+
+const agent = new VoxAgent({
+  provider: new OpenAIProvider({
+    model: 'gpt-4o-realtime-preview-2024-12-17',
+    temperature: 0.7
+  }),
+  voice: 'nova',             // Warm, professional voice
+  systemPrompt: SYSTEM_PROMPT,
+  enableLeadExtraction: true,
+  silenceTimeoutMs: 45_000,  // 45s — callers sometimes pause to think
+
+  onTranscript: (text) => {
+    process.stdout.write(`\r  🎤  ${text.slice(0, 80)}${text.length > 80 ? '…' : ''}`)
+  },
+
+  onResponse: (text) => {
+    console.log(`\n  🏠  ${text}`)
+  },
+
+  onLead: saveLead,
+
+  onConnect: (connected) => {
+    if (connected) {
+      console.log('\n✅ Real Estate Agent online — ready for calls\n')
+    }
+  },
+
+  onError: (error, context) => {
+    console.error(`\n❌ [${context}] ${error.message}`)
+  }
+})
+
+// ─── Plugins ─────────────────────────────────────────────────────────────────
+
+// Log full transcripts to file for compliance/review
+agent.use(new TranscriptLoggerPlugin({
+  filePath: './transcripts.jsonl',
+  timestamps: true
+}))
+
+// Push leads to your CRM webhook
+if (process.env.CRM_WEBHOOK_URL) {
+  agent.use(new LeadWebhookPlugin({
+    url: process.env.CRM_WEBHOOK_URL,
+    secret: process.env.CRM_WEBHOOK_SECRET,
+    retries: 3
+  }))
+}
+
+// Ping Slack on every new lead
+if (process.env.SLACK_WEBHOOK_URL) {
+  agent.use(new SlackNotifierPlugin({
+    webhookUrl: process.env.SLACK_WEBHOOK_URL,
+    emoji: ':house:'
+  }))
+}
+
+// Session metrics
+const metrics = new MetricsPlugin({ printSummary: true })
+agent.use(metrics)
+
+// ─── Start ───────────────────────────────────────────────────────────────────
+
+const PORT = process.env.PORT ? parseInt(process.env.PORT) : 3000
+
+console.log('\n🏡 Prestige Realty — Voice Agent')
+console.log('═══════════════════════════════════')
+
+agent.listen(PORT)
+  .then(() => {
+    console.log(`🔗 WebSocket: ws://localhost:${PORT}`)
+    console.log('\nInstructions:')
+    console.log('  • Connect a WebRTC/WebSocket client for live calls')
+    console.log('  • Or use the test script: npm run test:call\n')
+  })
+  .catch((err) => {
+    console.error('Failed to start agent:', err)
+    process.exit(1)
+  })
+
+// ─── Graceful Shutdown ────────────────────────────────────────────────────────
+
+const shutdown = async (signal: string) => {
+  console.log(`\n[${signal}] Shutting down gracefully...`)
+  await agent.stop()
+
+  const m: SessionMetrics = metrics.getMetrics() as SessionMetrics
+  console.log(`\n📊 Final stats: ${leads.length} leads captured across ${m.turnCount} turns`)
+  process.exit(0)
+}
+
+process.on('SIGINT',  () => shutdown('SIGINT'))
+process.on('SIGTERM', () => shutdown('SIGTERM'))
