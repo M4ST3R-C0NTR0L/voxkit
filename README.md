@@ -1,11 +1,11 @@
 <div align="center">
 
-# 🎙️ VoxKit
+# 🎙️ CybrVox
 
 **The open-source voice agent framework.**  
 Build AI-powered voice agents in ~20 lines of TypeScript.
 
-[![npm version](https://img.shields.io/npm/v/voxkit.svg?style=flat-square)](https://www.npmjs.com/package/voxkit)
+[![npm version](https://img.shields.io/npm/v/CybrVox.svg?style=flat-square)](https://www.npmjs.com/package/CybrVox)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![Tests](https://img.shields.io/badge/tests-passing-brightgreen?style=flat-square)](#tests)
@@ -18,13 +18,13 @@ Build AI-powered voice agents in ~20 lines of TypeScript.
 
 ---
 
-## What is VoxKit?
+## What is CybrVox?
 
-VoxKit is a TypeScript-first framework for building production-ready AI voice agents. It handles all the hard parts — WebSocket audio streaming, speech-to-text, text-to-speech, conversation state, lead extraction, and reconnection — so you can focus on what your agent *does*.
+CybrVox is a TypeScript-first framework for building production-ready AI voice agents. It handles all the hard parts — WebSocket audio streaming, speech-to-text, text-to-speech, conversation state, lead extraction, and reconnection — so you can focus on what your agent *does*.
 
-### Why VoxKit?
+### Why CybrVox?
 
-| Without VoxKit | With VoxKit |
+| Without CybrVox | With CybrVox |
 |---|---|
 | ❌ Wire up WebSocket servers manually | ✅ `agent.listen(3000)` |
 | ❌ Handle audio buffering & VAD yourself | ✅ AudioPipeline handles it |
@@ -39,7 +39,7 @@ VoxKit is a TypeScript-first framework for building production-ready AI voice ag
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                         VoxKit Framework                        │
+│                         CybrVox Framework                        │
 │                                                                 │
 │  ┌──────────────────────────────────────────────────────────┐   │
 │  │                       VoxAgent                          │   │
@@ -73,7 +73,7 @@ Client (Browser / Twilio / SIP)
     │  WebSocket (ws://)
     │  Binary audio frames (PCM16)
     ▼
-VoxKit Server
+CybrVox Server
 ```
 
 ---
@@ -83,17 +83,17 @@ VoxKit Server
 ### Installation
 
 ```bash
-npm install voxkit
+npm install CybrVox
 # or
-yarn add voxkit
+yarn add CybrVox
 # or
-pnpm add voxkit
+pnpm add CybrVox
 ```
 
 ### Your first voice agent (20 lines)
 
 ```typescript
-import { VoxAgent, OpenAIProvider } from 'voxkit'
+import { VoxAgent, OpenAIProvider } from 'CybrVox'
 
 const agent = new VoxAgent({
   provider: new OpenAIProvider({ model: 'gpt-4o' }),
@@ -117,24 +117,24 @@ That's it. Your agent is now:
 
 ## CLI
 
-Scaffold, develop, and deploy with the `voxkit` CLI.
+Scaffold, develop, and deploy with the `CybrVox` CLI.
 
 ```bash
 # Create a new agent from a template
-npx voxkit init my-agent
-npx voxkit init my-agent --template real-estate --provider openai
-npx voxkit init my-agent --template customer-support --provider anthropic
+npx CybrVox init my-agent
+npx CybrVox init my-agent --template real-estate --provider openai
+npx CybrVox init my-agent --template customer-support --provider anthropic
 
 # Run with hot reload (watches src/ for changes)
-npx voxkit dev
-npx voxkit dev --port 8080
+npx CybrVox dev
+npx CybrVox dev --port 8080
 
 # Deployment guide
-npx voxkit deploy
-npx voxkit deploy --platform railway
-npx voxkit deploy --platform render
-npx voxkit deploy --platform fly
-npx voxkit deploy --platform docker
+npx CybrVox deploy
+npx CybrVox deploy --platform railway
+npx CybrVox deploy --platform render
+npx CybrVox deploy --platform fly
+npx CybrVox deploy --platform docker
 ```
 
 Available templates: `basic` · `real-estate` · `customer-support`
@@ -245,7 +245,7 @@ All providers implement the `AIProvider` interface. Swap them with zero changes 
 ### OpenAI (Realtime API) — best for voice
 
 ```typescript
-import { OpenAIProvider } from 'voxkit'
+import { OpenAIProvider } from 'CybrVox'
 
 new OpenAIProvider({
   apiKey: process.env.OPENAI_API_KEY,   // or set OPENAI_API_KEY env var
@@ -261,7 +261,7 @@ Supported voices: `alloy` `echo` `fable` `onyx` `nova` `shimmer` `ash` `ballad` 
 ### xAI / Grok
 
 ```typescript
-import { XAIProvider } from 'voxkit/providers'
+import { XAIProvider } from 'CybrVox/providers'
 
 new XAIProvider({
   apiKey: process.env.XAI_API_KEY,
@@ -273,7 +273,7 @@ new XAIProvider({
 ### Anthropic / Claude
 
 ```typescript
-import { AnthropicProvider } from 'voxkit/providers'
+import { AnthropicProvider } from 'CybrVox/providers'
 
 new AnthropicProvider({
   apiKey: process.env.ANTHROPIC_API_KEY,
@@ -286,7 +286,7 @@ new AnthropicProvider({
 ### Deepgram (STT-only)
 
 ```typescript
-import { DeepgramProvider } from 'voxkit/providers'
+import { DeepgramProvider } from 'CybrVox/providers'
 
 new DeepgramProvider({
   apiKey: process.env.DEEPGRAM_API_KEY,
@@ -300,7 +300,7 @@ new DeepgramProvider({
 ### Build your own provider
 
 ```typescript
-import type { AIProvider, Voice, TranscriptSegment, ProviderResponse } from 'voxkit'
+import type { AIProvider, Voice, TranscriptSegment, ProviderResponse } from 'CybrVox'
 
 class MyCustomProvider implements AIProvider {
   name = 'my-provider'
@@ -338,7 +338,7 @@ import {
   LeadWebhookPlugin,
   SlackNotifierPlugin,
   MetricsPlugin
-} from 'voxkit'
+} from 'CybrVox'
 
 // Save full transcripts to disk (JSONL)
 agent.use(new TranscriptLoggerPlugin({
@@ -369,9 +369,9 @@ agent.use(metrics)
 ### Write your own plugin
 
 ```typescript
-import type { VoxKitPlugin, VoxAgent, ConversationMessage, LeadInfo } from 'voxkit'
+import type { CybrVoxPlugin, VoxAgent, ConversationMessage, LeadInfo } from 'CybrVox'
 
-class MyCRMPlugin implements VoxKitPlugin {
+class MyCRMPlugin implements CybrVoxPlugin {
   name = 'my-crm'
 
   initialize(agent: VoxAgent): void {
@@ -399,7 +399,7 @@ agent.use(new MyCRMPlugin())
 
 ## Lead Extraction
 
-VoxKit automatically extracts contact information from natural speech — no regex work required.
+CybrVox automatically extracts contact information from natural speech — no regex work required.
 
 ```typescript
 // Automatically detected patterns:
@@ -426,7 +426,7 @@ Lead extraction is additive — it builds up across multiple turns and fires `on
 
 ## Types
 
-VoxKit is fully typed. Key interfaces:
+CybrVox is fully typed. Key interfaces:
 
 ```typescript
 interface LeadInfo {
@@ -492,7 +492,7 @@ npm test -- --watch
 npm run test:coverage
 ```
 
-VoxKit uses [Vitest](https://vitest.dev/) and targets >90% coverage of core modules.
+CybrVox uses [Vitest](https://vitest.dev/) and targets >90% coverage of core modules.
 
 ---
 
@@ -529,8 +529,8 @@ docker run -p 3000:3000 -e OPENAI_API_KEY=sk-... my-voice-agent
 ### Render / Fly.io
 
 ```bash
-npx voxkit deploy --platform render
-npx voxkit deploy --platform fly
+npx CybrVox deploy --platform render
+npx CybrVox deploy --platform fly
 ```
 
 ---
@@ -538,7 +538,7 @@ npx voxkit deploy --platform fly
 ## Project Structure
 
 ```
-voxkit/
+CybrVox/
 ├── src/
 │   ├── index.ts                  # Main exports
 │   ├── voxagent.ts               # VoxAgent class
@@ -564,10 +564,10 @@ voxkit/
 │   └── cli/
 │       ├── index.ts              # CLI entry point
 │       └── commands/
-│           ├── init.ts           # voxkit init
-│           ├── dev.ts            # voxkit dev
-│           ├── deploy.ts         # voxkit deploy
-│           └── version.ts        # voxkit version
+│           ├── init.ts           # CybrVox init
+│           ├── dev.ts            # CybrVox dev
+│           ├── deploy.ts         # CybrVox deploy
+│           └── version.ts        # CybrVox version
 ├── tests/
 │   ├── core/
 │   │   ├── audio-pipeline.test.ts
@@ -596,8 +596,8 @@ voxkit/
 Contributions are welcome! Here's how to get started:
 
 ```bash
-git clone https://github.com/voxkit/voxkit.git
-cd voxkit
+git clone https://github.com/CybrVox/CybrVox.git
+cd CybrVox
 npm install
 npm run dev          # watch mode build
 npm test             # run tests
@@ -629,11 +629,11 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a PR.
 
 ## License
 
-MIT © [VoxKit](https://github.com/voxkit/voxkit)
+MIT © [CybrVox](https://github.com/CybrVox/CybrVox)
 
 ---
 
 <div align="center">
   <strong>Built with ❤️ for the open-source community.</strong><br/>
-  <sub>Star ⭐ this repo if VoxKit saved you time!</sub>
+  <sub>Star ⭐ this repo if CybrVox saved you time!</sub>
 </div>
